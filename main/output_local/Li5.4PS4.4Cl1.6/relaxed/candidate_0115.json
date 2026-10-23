@@ -1,0 +1,11 @@
+{
+  "candidate_id": 115,
+  "converged": true,
+  "energy": -256.55462646484375,
+  "energy_per_atom": -4.137977846207157,
+  "steps": 205,
+  "seconds": 90.48234153602971,
+  "error": "",
+  "relaxed_file": "/home/ziyiguo/project/mattersim/main/output/Li5.4PS4.4Cl1.6/relaxed/candidate_0115.cif",
+  "fingerprint": "a38f9beea2bae8ba"
+}

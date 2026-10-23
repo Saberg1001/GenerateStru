@@ -1,0 +1,6467 @@
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "output/Li5.45P0.95S4.4ClBr0.6Si0.05/best_structure.cif",
+  "base_formula": "Li5.45P0.95S4.4ClBr0.6Si0.05",
+  "target_formula": "Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1",
+  "host": "S",
+  "dopant": "Se",
+  "compensating_element": "Li",
+  "scaling": [
+    1,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "aa964812a6220d6d",
+  "ml_fingerprint": "c49452e0a576c171",
+  "composition_calculation": {
+    "formula_units": 20,
+    "dopant_count": 2,
+    "host_remove_count": 2,
+    "extra_compensating_atoms": 0,
+    "base_counts": {
+      "Li": 5.45,
+      "P": 0.95,
+      "S": 4.4,
+      "Cl": 1.0,
+      "Br": 0.6,
+      "Si": 0.05
+    },
+    "target_counts": {
+      "Li": 5.45,
+      "P": 0.95,
+      "S": 4.3,
+      "Cl": 1.0,
+      "Br": 0.6,
+      "Si": 0.05,
+      "Se": 0.1
+    },
+    "achieved_counts": {
+      "Br": 12.0,
+      "Cl": 20.0,
+      "Li": 109.0,
+      "P": 19.0,
+      "S": 86.0,
+      "Se": 2.0,
+      "Si": 1.0
+    },
+    "deviation": {
+      "rows": [
+        {
+          "element": "Br",
+          "target_per_fu": 0.6,
+          "actual_per_fu": 0.6,
+          "target_fraction": 0.04819277108433735,
+          "actual_fraction": 0.048192771084337345,
+          "deviation": -6.938893903907228e-18
+        },
+        {
+          "element": "Cl",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08032128514056225,
+          "actual_fraction": 0.08032128514056225,
+          "deviation": 0.0
+        },
+        {
+          "element": "Li",
+          "target_per_fu": 5.45,
+          "actual_per_fu": 5.45,
+          "target_fraction": 0.4377510040160643,
+          "actual_fraction": 0.43775100401606426,
+          "deviation": -5.551115123125783e-17
+        },
+        {
+          "element": "P",
+          "target_per_fu": 0.95,
+          "actual_per_fu": 0.95,
+          "target_fraction": 0.07630522088353414,
+          "actual_fraction": 0.07630522088353413,
+          "deviation": -1.3877787807814457e-17
+        },
+        {
+          "element": "S",
+          "target_per_fu": 4.3,
+          "actual_per_fu": 4.3,
+          "target_fraction": 0.3453815261044177,
+          "actual_fraction": 0.34538152610441764,
+          "deviation": -5.551115123125783e-17
+        },
+        {
+          "element": "Se",
+          "target_per_fu": 0.1,
+          "actual_per_fu": 0.1,
+          "target_fraction": 0.008032128514056226,
+          "actual_fraction": 0.008032128514056224,
+          "deviation": -1.734723475976807e-18
+        },
+        {
+          "element": "Si",
+          "target_per_fu": 0.05,
+          "actual_per_fu": 0.05,
+          "target_fraction": 0.004016064257028113,
+          "actual_fraction": 0.004016064257028112,
+          "deviation": -8.673617379884035e-19
+        }
+      ],
+      "max_deviation": 5.551115123125783e-17,
+      "max_deviation_percent": 5.551115123125783e-15,
+      "target_per_fu": {
+        "Li": 5.45,
+        "P": 0.95,
+        "S": 4.3,
+        "Cl": 1.0,
+        "Br": 0.6,
+        "Si": 0.05,
+        "Se": 0.1
+      },
+      "actual_per_fu": {
+        "Br": 0.6,
+        "Cl": 1.0,
+        "Li": 5.45,
+        "P": 0.95,
+        "S": 4.3,
+        "Se": 0.1,
+        "Si": 0.05
+      }
+    },
+    "doping_ratio": {
+      "requested": 0.022727272727272728,
+      "actual": 0.022727272727272728,
+      "deviation": 0.0,
+      "deviation_percent": 0.0
+    },
+    "max_deviation": 5.551115123125783e-17,
+    "max_deviation_percent": 5.551115123125783e-15,
+    "approx_volume_multiplier": 1
+  },
+  "wyckoff_report": {
+    "spacegroup": "P1",
+    "spacegroup_number": 1,
+    "sites": [
+      {
+        "index": 0,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.463111,
+          0.209947,
+          0.301264
+        ]
+      },
+      {
+        "index": 1,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.459105,
+          0.210095,
+          0.803146
+        ]
+      },
+      {
+        "index": 2,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.958662,
+          0.209949,
+          0.303491
+        ]
+      },
+      {
+        "index": 3,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.958967,
+          0.210081,
+          0.803437
+        ]
+      },
+      {
+        "index": 4,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.476742,
+          0.400738,
+          0.306374
+        ]
+      },
+      {
+        "index": 5,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.476641,
+          0.400775,
+          0.806444
+        ]
+      },
+      {
+        "index": 6,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.976776,
+          0.40076,
+          0.306339
+        ]
+      },
+      {
+        "index": 7,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.976612,
+          0.400792,
+          0.806429
+        ]
+      },
+      {
+        "index": 8,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.000311,
+          0.596787,
+          0.215535
+        ]
+      },
+      {
+        "index": 9,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.000312,
+          0.596791,
+          0.715526
+        ]
+      },
+      {
+        "index": 10,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.500303,
+          0.59679,
+          0.215529
+        ]
+      },
+      {
+        "index": 11,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.500305,
+          0.596788,
+          0.715527
+        ]
+      },
+      {
+        "index": 12,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.500153,
+          0.791889,
+          0.207938
+        ]
+      },
+      {
+        "index": 13,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.500045,
+          0.791927,
+          0.708001
+        ]
+      },
+      {
+        "index": 14,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.000336,
+          0.791734,
+          0.207973
+        ]
+      },
+      {
+        "index": 15,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.000221,
+          0.791847,
+          0.708201
+        ]
+      },
+      {
+        "index": 16,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.477964,
+          0.995813,
+          0.316631
+        ]
+      },
+      {
+        "index": 17,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.478465,
+          0.995707,
+          0.816922
+        ]
+      },
+      {
+        "index": 18,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.986642,
+          0.99448,
+          0.327181
+        ]
+      },
+      {
+        "index": 19,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.9782,
+          0.995738,
+          0.81321
+        ]
+      },
+      {
+        "index": 20,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.206908,
+          0.20991,
+          0.304233
+        ]
+      },
+      {
+        "index": 21,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.206346,
+          0.210049,
+          0.803827
+        ]
+      },
+      {
+        "index": 22,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.704535,
+          0.209883,
+          0.301874
+        ]
+      },
+      {
+        "index": 23,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.706316,
+          0.210084,
+          0.804143
+        ]
+      },
+      {
+        "index": 24,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.213129,
+          0.400263,
+          0.305585
+        ]
+      },
+      {
+        "index": 25,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.213067,
+          0.400318,
+          0.805634
+        ]
+      },
+      {
+        "index": 26,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.713071,
+          0.400285,
+          0.305545
+        ]
+      },
+      {
+        "index": 27,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.713069,
+          0.400298,
+          0.805653
+        ]
+      },
+      {
+        "index": 28,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.292547,
+          0.595687,
+          0.219154
+        ]
+      },
+      {
+        "index": 29,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.292546,
+          0.59569,
+          0.719151
+        ]
+      },
+      {
+        "index": 30,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.792543,
+          0.595683,
+          0.219164
+        ]
+      },
+      {
+        "index": 31,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.792546,
+          0.595683,
+          0.71916
+        ]
+      },
+      {
+        "index": 32,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.269473,
+          0.80043,
+          0.241498
+        ]
+      },
+      {
+        "index": 33,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.269124,
+          0.800618,
+          0.741545
+        ]
+      },
+      {
+        "index": 34,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.769169,
+          0.800544,
+          0.241521
+        ]
+      },
+      {
+        "index": 35,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.768806,
+          0.800556,
+          0.741947
+        ]
+      },
+      {
+        "index": 36,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.192675,
+          0.9961,
+          0.351915
+        ]
+      },
+      {
+        "index": 37,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.194933,
+          0.996114,
+          0.849678
+        ]
+      },
+      {
+        "index": 38,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.680683,
+          0.995598,
+          0.359614
+        ]
+      },
+      {
+        "index": 39,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.691595,
+          0.995942,
+          0.852261
+        ]
+      },
+      {
+        "index": 40,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.185223,
+          0.128587,
+          0.044781
+        ]
+      },
+      {
+        "index": 41,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.185938,
+          0.128674,
+          0.544256
+        ]
+      },
+      {
+        "index": 42,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.683007,
+          0.129249,
+          0.045884
+        ]
+      },
+      {
+        "index": 43,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.684327,
+          0.127895,
+          0.543817
+        ]
+      },
+      {
+        "index": 44,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.312842,
+          0.280921,
+          0.459396
+        ]
+      },
+      {
+        "index": 45,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.312173,
+          0.281289,
+          0.959493
+        ]
+      },
+      {
+        "index": 46,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.812335,
+          0.281248,
+          0.459346
+        ]
+      },
+      {
+        "index": 47,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.811857,
+          0.28101,
+          0.96006
+        ]
+      },
+      {
+        "index": 48,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.331322,
+          0.478335,
+          0.442637
+        ]
+      },
+      {
+        "index": 49,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.331318,
+          0.478333,
+          0.942655
+        ]
+      },
+      {
+        "index": 50,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.831317,
+          0.478334,
+          0.442643
+        ]
+      },
+      {
+        "index": 51,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.831307,
+          0.478335,
+          0.942656
+        ]
+      },
+      {
+        "index": 52,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.299903,
+          0.680743,
+          0.496837
+        ]
+      },
+      {
+        "index": 53,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.299898,
+          0.680749,
+          0.996845
+        ]
+      },
+      {
+        "index": 54,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.799903,
+          0.680728,
+          0.496852
+        ]
+      },
+      {
+        "index": 55,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.799898,
+          0.68072,
+          0.996889
+        ]
+      },
+      {
+        "index": 56,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.270582,
+          0.893574,
+          0.019692
+        ]
+      },
+      {
+        "index": 57,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.269685,
+          0.893901,
+          0.519958
+        ]
+      },
+      {
+        "index": 58,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.769591,
+          0.893878,
+          0.019753
+        ]
+      },
+      {
+        "index": 59,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.769867,
+          0.894069,
+          0.519216
+        ]
+      },
+      {
+        "index": 60,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.454382,
+          0.128019,
+          0.037328
+        ]
+      },
+      {
+        "index": 61,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.458179,
+          0.127282,
+          0.53649
+        ]
+      },
+      {
+        "index": 62,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.954614,
+          0.128214,
+          0.038291
+        ]
+      },
+      {
+        "index": 63,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.95413,
+          0.128084,
+          0.536834
+        ]
+      },
+      {
+        "index": 64,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.019779,
+          0.281318,
+          0.460068
+        ]
+      },
+      {
+        "index": 65,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.019698,
+          0.281347,
+          0.960205
+        ]
+      },
+      {
+        "index": 66,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.520038,
+          0.281002,
+          0.460087
+        ]
+      },
+      {
+        "index": 67,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.520133,
+          0.281093,
+          0.960778
+        ]
+      },
+      {
+        "index": 68,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.031285,
+          0.477895,
+          0.44238
+        ]
+      },
+      {
+        "index": 69,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.031281,
+          0.477895,
+          0.942399
+        ]
+      },
+      {
+        "index": 70,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.531286,
+          0.477894,
+          0.442386
+        ]
+      },
+      {
+        "index": 71,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.531277,
+          0.477893,
+          0.942398
+        ]
+      },
+      {
+        "index": 72,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.013407,
+          0.677762,
+          0.487112
+        ]
+      },
+      {
+        "index": 73,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.013388,
+          0.677759,
+          0.987157
+        ]
+      },
+      {
+        "index": 74,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.513355,
+          0.677781,
+          0.487123
+        ]
+      },
+      {
+        "index": 75,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.51333,
+          0.677786,
+          0.98714
+        ]
+      },
+      {
+        "index": 76,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.477035,
+          0.88833,
+          0.010534
+        ]
+      },
+      {
+        "index": 77,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.476711,
+          0.888279,
+          0.510753
+        ]
+      },
+      {
+        "index": 78,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.977379,
+          0.887796,
+          0.010205
+        ]
+      },
+      {
+        "index": 79,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.977166,
+          0.888543,
+          0.509772
+        ]
+      },
+      {
+        "index": 80,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.462563,
+          0.082903,
+          0.355405
+        ]
+      },
+      {
+        "index": 81,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.459854,
+          0.082956,
+          0.857487
+        ]
+      },
+      {
+        "index": 82,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.959257,
+          0.082932,
+          0.355404
+        ]
+      },
+      {
+        "index": 83,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.959798,
+          0.084186,
+          0.855272
+        ]
+      },
+      {
+        "index": 84,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.001805,
+          0.341702,
+          0.139945
+        ]
+      },
+      {
+        "index": 85,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.001801,
+          0.341735,
+          0.639873
+        ]
+      },
+      {
+        "index": 86,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.501767,
+          0.341693,
+          0.140061
+        ]
+      },
+      {
+        "index": 87,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.501807,
+          0.341737,
+          0.639866
+        ]
+      },
+      {
+        "index": 88,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.012326,
+          0.524163,
+          0.166193
+        ]
+      },
+      {
+        "index": 89,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.012318,
+          0.524171,
+          0.666182
+        ]
+      },
+      {
+        "index": 90,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.512318,
+          0.524166,
+          0.166188
+        ]
+      },
+      {
+        "index": 91,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.512316,
+          0.524171,
+          0.666184
+        ]
+      },
+      {
+        "index": 92,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.45452,
+          0.929886,
+          0.238423
+        ]
+      },
+      {
+        "index": 93,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.454834,
+          0.929726,
+          0.738802
+        ]
+      },
+      {
+        "index": 94,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.960462,
+          0.923735,
+          0.243382
+        ]
+      },
+      {
+        "index": 95,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.954721,
+          0.929734,
+          0.738651
+        ]
+      },
+      {
+        "index": 96,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.2959,
+          0.584456,
+          0.460239
+        ]
+      },
+      {
+        "index": 97,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.2959,
+          0.584451,
+          0.960252
+        ]
+      },
+      {
+        "index": 98,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.795893,
+          0.584454,
+          0.460244
+        ]
+      },
+      {
+        "index": 99,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.795891,
+          0.584448,
+          0.96026
+        ]
+      },
+      {
+        "index": 100,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.321037,
+          0.796084,
+          0.009442
+        ]
+      },
+      {
+        "index": 101,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.321205,
+          0.796031,
+          0.509555
+        ]
+      },
+      {
+        "index": 102,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.821116,
+          0.796009,
+          0.009582
+        ]
+      },
+      {
+        "index": 103,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.820994,
+          0.79593,
+          0.509563
+        ]
+      },
+      {
+        "index": 104,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.285498,
+          0.998934,
+          0.019768
+        ]
+      },
+      {
+        "index": 105,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.284648,
+          0.998789,
+          0.520105
+        ]
+      },
+      {
+        "index": 106,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.782097,
+          0.998995,
+          0.019198
+        ]
+      },
+      {
+        "index": 107,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.781616,
+          0.00097,
+          0.520272
+        ]
+      },
+      {
+        "index": 108,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.865778,
+          0.023642,
+          0.192145
+        ]
+      },
+      {
+        "index": 109,
+        "element": "Si",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.718024,
+          0.106939,
+          0.291844
+        ]
+      },
+      {
+        "index": 110,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.218276,
+          0.106859,
+          0.291203
+        ]
+      },
+      {
+        "index": 111,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.218255,
+          0.106853,
+          0.791222
+        ]
+      },
+      {
+        "index": 112,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.718394,
+          0.106789,
+          0.791224
+        ]
+      },
+      {
+        "index": 113,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.258594,
+          0.305711,
+          0.213447
+        ]
+      },
+      {
+        "index": 114,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.259098,
+          0.305555,
+          0.713405
+        ]
+      },
+      {
+        "index": 115,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.759162,
+          0.305704,
+          0.213457
+        ]
+      },
+      {
+        "index": 116,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.759155,
+          0.305597,
+          0.713177
+        ]
+      },
+      {
+        "index": 117,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.280006,
+          0.4944,
+          0.203931
+        ]
+      },
+      {
+        "index": 118,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.280019,
+          0.494394,
+          0.703918
+        ]
+      },
+      {
+        "index": 119,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.780004,
+          0.494403,
+          0.203929
+        ]
+      },
+      {
+        "index": 120,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.780022,
+          0.494394,
+          0.703918
+        ]
+      },
+      {
+        "index": 121,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.259853,
+          0.697675,
+          0.241088
+        ]
+      },
+      {
+        "index": 122,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.25984,
+          0.697675,
+          0.741088
+        ]
+      },
+      {
+        "index": 123,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.759854,
+          0.697675,
+          0.24109
+        ]
+      },
+      {
+        "index": 124,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.759867,
+          0.697681,
+          0.741076
+        ]
+      },
+      {
+        "index": 125,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.236918,
+          0.899689,
+          0.277074
+        ]
+      },
+      {
+        "index": 126,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.236392,
+          0.899861,
+          0.777178
+        ]
+      },
+      {
+        "index": 127,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.736551,
+          0.899792,
+          0.276952
+        ]
+      },
+      {
+        "index": 128,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.736733,
+          0.899811,
+          0.776751
+        ]
+      },
+      {
+        "index": 129,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.158456,
+          0.079847,
+          0.241678
+        ]
+      },
+      {
+        "index": 130,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.157682,
+          0.079832,
+          0.741928
+        ]
+      },
+      {
+        "index": 131,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.663016,
+          0.076562,
+          0.237772
+        ]
+      },
+      {
+        "index": 132,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.658257,
+          0.079809,
+          0.742322
+        ]
+      },
+      {
+        "index": 133,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.197495,
+          0.285196,
+          0.148227
+        ]
+      },
+      {
+        "index": 134,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.197659,
+          0.285198,
+          0.648225
+        ]
+      },
+      {
+        "index": 135,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.697636,
+          0.285842,
+          0.147782
+        ]
+      },
+      {
+        "index": 136,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.697715,
+          0.285181,
+          0.648095
+        ]
+      },
+      {
+        "index": 137,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.216824,
+          0.474755,
+          0.140624
+        ]
+      },
+      {
+        "index": 138,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.216817,
+          0.474742,
+          0.640632
+        ]
+      },
+      {
+        "index": 139,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.716816,
+          0.474768,
+          0.140612
+        ]
+      },
+      {
+        "index": 140,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.71682,
+          0.474741,
+          0.640638
+        ]
+      },
+      {
+        "index": 141,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.185427,
+          0.678474,
+          0.189671
+        ]
+      },
+      {
+        "index": 142,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.185392,
+          0.678488,
+          0.689662
+        ]
+      },
+      {
+        "index": 143,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.685446,
+          0.678473,
+          0.18966
+        ]
+      },
+      {
+        "index": 144,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.685446,
+          0.678485,
+          0.689655
+        ]
+      },
+      {
+        "index": 145,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.16314,
+          0.881458,
+          0.220873
+        ]
+      },
+      {
+        "index": 146,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.161656,
+          0.881988,
+          0.721393
+        ]
+      },
+      {
+        "index": 147,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.661848,
+          0.882025,
+          0.221204
+        ]
+      },
+      {
+        "index": 148,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.662222,
+          0.882035,
+          0.720378
+        ]
+      },
+      {
+        "index": 149,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.16343,
+          0.084823,
+          0.465956
+        ]
+      },
+      {
+        "index": 150,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.163735,
+          0.08477,
+          0.965688
+        ]
+      },
+      {
+        "index": 151,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.662311,
+          0.083864,
+          0.47146
+        ]
+      },
+      {
+        "index": 152,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.663796,
+          0.084721,
+          0.96583
+        ]
+      },
+      {
+        "index": 153,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.224432,
+          0.264642,
+          0.38314
+        ]
+      },
+      {
+        "index": 154,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.224975,
+          0.264442,
+          0.883194
+        ]
+      },
+      {
+        "index": 155,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.725039,
+          0.264646,
+          0.383148
+        ]
+      },
+      {
+        "index": 156,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.725186,
+          0.26448,
+          0.882637
+        ]
+      },
+      {
+        "index": 157,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.240814,
+          0.457848,
+          0.37404
+        ]
+      },
+      {
+        "index": 158,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.240851,
+          0.457823,
+          0.874026
+        ]
+      },
+      {
+        "index": 159,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.740832,
+          0.457838,
+          0.374032
+        ]
+      },
+      {
+        "index": 160,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.740854,
+          0.457824,
+          0.874026
+        ]
+      },
+      {
+        "index": 161,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.210718,
+          0.668555,
+          0.416552
+        ]
+      },
+      {
+        "index": 162,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.210706,
+          0.668563,
+          0.916542
+        ]
+      },
+      {
+        "index": 163,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.710716,
+          0.668558,
+          0.416546
+        ]
+      },
+      {
+        "index": 164,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.710711,
+          0.668577,
+          0.91652
+        ]
+      },
+      {
+        "index": 165,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.180132,
+          0.873741,
+          0.451142
+        ]
+      },
+      {
+        "index": 166,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.18038,
+          0.873812,
+          0.951357
+        ]
+      },
+      {
+        "index": 167,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.680946,
+          0.873851,
+          0.451007
+        ]
+      },
+      {
+        "index": 168,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.681027,
+          0.873546,
+          0.950776
+        ]
+      },
+      {
+        "index": 169,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.39524,
+          0.081143,
+          0.232867
+        ]
+      },
+      {
+        "index": 170,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.39488,
+          0.081173,
+          0.73347
+        ]
+      },
+      {
+        "index": 171,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.90263,
+          0.077285,
+          0.228487
+        ]
+      },
+      {
+        "index": 172,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.895885,
+          0.081009,
+          0.733425
+        ]
+      },
+      {
+        "index": 173,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.434969,
+          0.286094,
+          0.148187
+        ]
+      },
+      {
+        "index": 174,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.43614,
+          0.285432,
+          0.648626
+        ]
+      },
+      {
+        "index": 175,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.936285,
+          0.285442,
+          0.148624
+        ]
+      },
+      {
+        "index": 176,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.936219,
+          0.285428,
+          0.648498
+        ]
+      },
+      {
+        "index": 177,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.455061,
+          0.475134,
+          0.140002
+        ]
+      },
+      {
+        "index": 178,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.455089,
+          0.475119,
+          0.640017
+        ]
+      },
+      {
+        "index": 179,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.955054,
+          0.475146,
+          0.13999
+        ]
+      },
+      {
+        "index": 180,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.955096,
+          0.47512,
+          0.64001
+        ]
+      },
+      {
+        "index": 181,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.432973,
+          0.68034,
+          0.179775
+        ]
+      },
+      {
+        "index": 182,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.432955,
+          0.680345,
+          0.679773
+        ]
+      },
+      {
+        "index": 183,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.932977,
+          0.680352,
+          0.179754
+        ]
+      },
+      {
+        "index": 184,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.932981,
+          0.680391,
+          0.679711
+        ]
+      },
+      {
+        "index": 185,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.412104,
+          0.873848,
+          0.21947
+        ]
+      },
+      {
+        "index": 186,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.411823,
+          0.874067,
+          0.71939
+        ]
+      },
+      {
+        "index": 187,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.912216,
+          0.873423,
+          0.218929
+        ]
+      },
+      {
+        "index": 188,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.912292,
+          0.874079,
+          0.718344
+        ]
+      },
+      {
+        "index": 189,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.169066,
+          0.177099,
+          0.211981
+        ]
+      },
+      {
+        "index": 190,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.16861,
+          0.177094,
+          0.712084
+        ]
+      },
+      {
+        "index": 191,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.668138,
+          0.178837,
+          0.209429
+        ]
+      },
+      {
+        "index": 192,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.669455,
+          0.177026,
+          0.712197
+        ]
+      },
+      {
+        "index": 193,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.18681,
+          0.374531,
+          0.185425
+        ]
+      },
+      {
+        "index": 194,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.187416,
+          0.374365,
+          0.68534
+        ]
+      },
+      {
+        "index": 195,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.687508,
+          0.374528,
+          0.185421
+        ]
+      },
+      {
+        "index": 196,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.687432,
+          0.374395,
+          0.685216
+        ]
+      },
+      {
+        "index": 197,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.210936,
+          0.565596,
+          0.164781
+        ]
+      },
+      {
+        "index": 198,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.210943,
+          0.565588,
+          0.664787
+        ]
+      },
+      {
+        "index": 199,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.710936,
+          0.565599,
+          0.164782
+        ]
+      },
+      {
+        "index": 200,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.710949,
+          0.565588,
+          0.664785
+        ]
+      },
+      {
+        "index": 201,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.189512,
+          0.76962,
+          0.196958
+        ]
+      },
+      {
+        "index": 202,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.189487,
+          0.769639,
+          0.696921
+        ]
+      },
+      {
+        "index": 203,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.689522,
+          0.769627,
+          0.196939
+        ]
+      },
+      {
+        "index": 204,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.689574,
+          0.769672,
+          0.696845
+        ]
+      },
+      {
+        "index": 205,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.186801,
+          0.970997,
+          0.222267
+        ]
+      },
+      {
+        "index": 206,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.184768,
+          0.971388,
+          0.723333
+        ]
+      },
+      {
+        "index": 207,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.686656,
+          0.971176,
+          0.222631
+        ]
+      },
+      {
+        "index": 208,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.685568,
+          0.971066,
+          0.723036
+        ]
+      },
+      {
+        "index": 209,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.4048,
+          0.541413,
+          0.339689
+        ]
+      },
+      {
+        "index": 210,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.4048,
+          0.541415,
+          0.839679
+        ]
+      },
+      {
+        "index": 211,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.904798,
+          0.541415,
+          0.339685
+        ]
+      },
+      {
+        "index": 212,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.904803,
+          0.541417,
+          0.839676
+        ]
+      },
+      {
+        "index": 213,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.357487,
+          0.951918,
+          0.404183
+        ]
+      },
+      {
+        "index": 214,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.357131,
+          0.951915,
+          0.904562
+        ]
+      },
+      {
+        "index": 215,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.859555,
+          0.955181,
+          0.391049
+        ]
+      },
+      {
+        "index": 216,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.857378,
+          0.952059,
+          0.904744
+        ]
+      },
+      {
+        "index": 217,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.479499,
+          0.999765,
+          0.50127
+        ]
+      },
+      {
+        "index": 218,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.480419,
+          0.000121,
+          0.000152
+        ]
+      },
+      {
+        "index": 219,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.981075,
+          0.999409,
+          0.501234
+        ]
+      },
+      {
+        "index": 220,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.976642,
+          0.000692,
+          0.008554
+        ]
+      },
+      {
+        "index": 221,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.001411,
+          0.206208,
+          0.47618
+        ]
+      },
+      {
+        "index": 222,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.001859,
+          0.20623,
+          0.975891
+        ]
+      },
+      {
+        "index": 223,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.500167,
+          0.206799,
+          0.477211
+        ]
+      },
+      {
+        "index": 224,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.50128,
+          0.206187,
+          0.975919
+        ]
+      },
+      {
+        "index": 225,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371103,
+          0.750627,
+          0.389855
+        ]
+      },
+      {
+        "index": 226,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371104,
+          0.750628,
+          0.889831
+        ]
+      },
+      {
+        "index": 227,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.871069,
+          0.750641,
+          0.389841
+        ]
+      },
+      {
+        "index": 228,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.871114,
+          0.75066,
+          0.889672
+        ]
+      },
+      {
+        "index": 229,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.016099,
+          0.406002,
+          0.451432
+        ]
+      },
+      {
+        "index": 230,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.016157,
+          0.406007,
+          0.951311
+        ]
+      },
+      {
+        "index": 231,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.516105,
+          0.406001,
+          0.451434
+        ]
+      },
+      {
+        "index": 232,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.51613,
+          0.406047,
+          0.951263
+        ]
+      },
+      {
+        "index": 233,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.465549,
+          0.611651,
+          0.037682
+        ]
+      },
+      {
+        "index": 234,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.465546,
+          0.611648,
+          0.53769
+        ]
+      },
+      {
+        "index": 235,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.965538,
+          0.611662,
+          0.037664
+        ]
+      },
+      {
+        "index": 236,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.96554,
+          0.611657,
+          0.537682
+        ]
+      },
+      {
+        "index": 237,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.426715,
+          0.816745,
+          0.060513
+        ]
+      },
+      {
+        "index": 238,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.426676,
+          0.816759,
+          0.560563
+        ]
+      },
+      {
+        "index": 239,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.92677,
+          0.816829,
+          0.060426
+        ]
+      },
+      {
+        "index": 240,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.926682,
+          0.817655,
+          0.559138
+        ]
+      },
+      {
+        "index": 241,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.357055,
+          0.147929,
+          0.412574
+        ]
+      },
+      {
+        "index": 242,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.357333,
+          0.148057,
+          0.912797
+        ]
+      },
+      {
+        "index": 243,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.858175,
+          0.14795,
+          0.412545
+        ]
+      },
+      {
+        "index": 244,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.857104,
+          0.148127,
+          0.912765
+        ]
+      },
+      {
+        "index": 245,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.401702,
+          0.341909,
+          0.338334
+        ]
+      },
+      {
+        "index": 246,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.401805,
+          0.341778,
+          0.838338
+        ]
+      },
+      {
+        "index": 247,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.901806,
+          0.34179,
+          0.338428
+        ]
+      },
+      {
+        "index": 248,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.90192,
+          0.341786,
+          0.838328
+        ]
+      }
+    ]
+  },
+  "run_config": {
+    "base_formula": "Li5.45P0.95S4.4ClBr0.6Si0.05",
+    "target_formula": "Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1",
+    "host": "S",
+    "dopant": "Se",
+    "compensating_element": "Li",
+    "host_wyckoff": null,
+    "base_structure": "output/Li5.45P0.95S4.4ClBr0.6Si0.05/best_structure.cif",
+    "basestru_dir": "/home/ziyiguo/project/mattersim/main/basestru",
+    "use_basestru": true,
+    "scaling": [
+      1,
+      1,
+      1
+    ],
+    "max_supercell_atoms": 500,
+    "allow_stoichiometry_approximation": true,
+    "stoichiometry_tolerance": 0.03,
+    "n_candidates": 200,
+    "n_samples": 30000,
+    "min_distance": 1.8,
+    "min_site_site_distance": 2.0,
+    "candidate_pool_size": 200,
+    "seed": 1234,
+    "output": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1",
+    "relax": true,
+    "relax_cell": true,
+    "fmax": 0.05,
+    "relax_steps": 300,
+    "relax_optimizer": "FIRE",
+    "n_relax": 50,
+    "screen_batch_size": 8,
+    "relax_natoms_per_batch": 128,
+    "relax_chunk_size": 4,
+    "relax_timeout": 0.0,
+    "model": null,
+    "device": "cpu",
+    "MP_API": "DUMMY"
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        154,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        147,
+        195
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        211,
+        152
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        132,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        202,
+        174
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 5,
+      "file": "candidate_0005.cif",
+      "substitution_indices": [
+        146,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 6,
+      "file": "candidate_0006.cif",
+      "substitution_indices": [
+        141,
+        189
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 7,
+      "file": "candidate_0007.cif",
+      "substitution_indices": [
+        207,
+        139
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 8,
+      "file": "candidate_0008.cif",
+      "substitution_indices": [
+        211,
+        152
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 9,
+      "file": "candidate_0009.cif",
+      "substitution_indices": [
+        185,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 10,
+      "file": "candidate_0010.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 11,
+      "file": "candidate_0011.cif",
+      "substitution_indices": [
+        213,
+        157
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 12,
+      "file": "candidate_0012.cif",
+      "substitution_indices": [
+        151,
+        199
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 13,
+      "file": "candidate_0013.cif",
+      "substitution_indices": [
+        132,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 14,
+      "file": "candidate_0014.cif",
+      "substitution_indices": [
+        157,
+        213
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 15,
+      "file": "candidate_0015.cif",
+      "substitution_indices": [
+        190,
+        142
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 16,
+      "file": "candidate_0016.cif",
+      "substitution_indices": [
+        161,
+        190
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 17,
+      "file": "candidate_0017.cif",
+      "substitution_indices": [
+        190,
+        142
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 18,
+      "file": "candidate_0018.cif",
+      "substitution_indices": [
+        182,
+        192
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 19,
+      "file": "candidate_0019.cif",
+      "substitution_indices": [
+        130,
+        198
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 20,
+      "file": "candidate_0020.cif",
+      "substitution_indices": [
+        207,
+        139
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 21,
+      "file": "candidate_0021.cif",
+      "substitution_indices": [
+        134,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 22,
+      "file": "candidate_0022.cif",
+      "substitution_indices": [
+        133,
+        201
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 23,
+      "file": "candidate_0023.cif",
+      "substitution_indices": [
+        135,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 24,
+      "file": "candidate_0024.cif",
+      "substitution_indices": [
+        200,
+        132
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 25,
+      "file": "candidate_0025.cif",
+      "substitution_indices": [
+        198,
+        130
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 26,
+      "file": "candidate_0026.cif",
+      "substitution_indices": [
+        162,
+        189
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 27,
+      "file": "candidate_0027.cif",
+      "substitution_indices": [
+        155,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 28,
+      "file": "candidate_0028.cif",
+      "substitution_indices": [
+        134,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 29,
+      "file": "candidate_0029.cif",
+      "substitution_indices": [
+        201,
+        133
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 30,
+      "file": "candidate_0030.cif",
+      "substitution_indices": [
+        150,
+        198
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 31,
+      "file": "candidate_0031.cif",
+      "substitution_indices": [
+        188,
+        196
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 32,
+      "file": "candidate_0032.cif",
+      "substitution_indices": [
+        158,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 33,
+      "file": "candidate_0033.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 34,
+      "file": "candidate_0034.cif",
+      "substitution_indices": [
+        160,
+        216
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 35,
+      "file": "candidate_0035.cif",
+      "substitution_indices": [
+        206,
+        138
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 36,
+      "file": "candidate_0036.cif",
+      "substitution_indices": [
+        203,
+        175
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 37,
+      "file": "candidate_0037.cif",
+      "substitution_indices": [
+        137,
+        205
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 38,
+      "file": "candidate_0038.cif",
+      "substitution_indices": [
+        194,
+        146
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 39,
+      "file": "candidate_0039.cif",
+      "substitution_indices": [
+        173,
+        201
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 40,
+      "file": "candidate_0040.cif",
+      "substitution_indices": [
+        191,
+        143
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 41,
+      "file": "candidate_0041.cif",
+      "substitution_indices": [
+        185,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 42,
+      "file": "candidate_0042.cif",
+      "substitution_indices": [
+        149,
+        197
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 43,
+      "file": "candidate_0043.cif",
+      "substitution_indices": [
+        206,
+        138
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 44,
+      "file": "candidate_0044.cif",
+      "substitution_indices": [
+        155,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 45,
+      "file": "candidate_0045.cif",
+      "substitution_indices": [
+        151,
+        199
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 46,
+      "file": "candidate_0046.cif",
+      "substitution_indices": [
+        214,
+        158
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 47,
+      "file": "candidate_0047.cif",
+      "substitution_indices": [
+        180,
+        206
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 48,
+      "file": "candidate_0048.cif",
+      "substitution_indices": [
+        210,
+        149
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 49,
+      "file": "candidate_0049.cif",
+      "substitution_indices": [
+        205,
+        137
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 50,
+      "file": "candidate_0050.cif",
+      "substitution_indices": [
+        132,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 51,
+      "file": "candidate_0051.cif",
+      "substitution_indices": [
+        203,
+        175
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 52,
+      "file": "candidate_0052.cif",
+      "substitution_indices": [
+        216,
+        160
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 53,
+      "file": "candidate_0053.cif",
+      "substitution_indices": [
+        160,
+        216
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 54,
+      "file": "candidate_0054.cif",
+      "substitution_indices": [
+        206,
+        138
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 55,
+      "file": "candidate_0055.cif",
+      "substitution_indices": [
+        167,
+        196
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 56,
+      "file": "candidate_0056.cif",
+      "substitution_indices": [
+        146,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 57,
+      "file": "candidate_0057.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 58,
+      "file": "candidate_0058.cif",
+      "substitution_indices": [
+        209,
+        150
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 59,
+      "file": "candidate_0059.cif",
+      "substitution_indices": [
+        165,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 60,
+      "file": "candidate_0060.cif",
+      "substitution_indices": [
+        172,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 61,
+      "file": "candidate_0061.cif",
+      "substitution_indices": [
+        132,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 62,
+      "file": "candidate_0062.cif",
+      "substitution_indices": [
+        183,
+        189
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 63,
+      "file": "candidate_0063.cif",
+      "substitution_indices": [
+        197,
+        129
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 64,
+      "file": "candidate_0064.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 65,
+      "file": "candidate_0065.cif",
+      "substitution_indices": [
+        161,
+        190
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 66,
+      "file": "candidate_0066.cif",
+      "substitution_indices": [
+        147,
+        195
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 67,
+      "file": "candidate_0067.cif",
+      "substitution_indices": [
+        150,
+        198
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 68,
+      "file": "candidate_0068.cif",
+      "substitution_indices": [
+        176,
+        204
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 69,
+      "file": "candidate_0069.cif",
+      "substitution_indices": [
+        143,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 70,
+      "file": "candidate_0070.cif",
+      "substitution_indices": [
+        213,
+        157
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 71,
+      "file": "candidate_0071.cif",
+      "substitution_indices": [
+        193,
+        145
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 72,
+      "file": "candidate_0072.cif",
+      "substitution_indices": [
+        214,
+        158
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 73,
+      "file": "candidate_0073.cif",
+      "substitution_indices": [
+        155,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 74,
+      "file": "candidate_0074.cif",
+      "substitution_indices": [
+        188,
+        196
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 75,
+      "file": "candidate_0075.cif",
+      "substitution_indices": [
+        164,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 76,
+      "file": "candidate_0076.cif",
+      "substitution_indices": [
+        174,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 77,
+      "file": "candidate_0077.cif",
+      "substitution_indices": [
+        150,
+        198
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 78,
+      "file": "candidate_0078.cif",
+      "substitution_indices": [
+        202,
+        174
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 79,
+      "file": "candidate_0079.cif",
+      "substitution_indices": [
+        131,
+        199
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 80,
+      "file": "candidate_0080.cif",
+      "substitution_indices": [
+        197,
+        129
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 81,
+      "file": "candidate_0081.cif",
+      "substitution_indices": [
+        204,
+        176
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 82,
+      "file": "candidate_0082.cif",
+      "substitution_indices": [
+        165,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 83,
+      "file": "candidate_0083.cif",
+      "substitution_indices": [
+        204,
+        176
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 84,
+      "file": "candidate_0084.cif",
+      "substitution_indices": [
+        215,
+        159
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 85,
+      "file": "candidate_0085.cif",
+      "substitution_indices": [
+        174,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 86,
+      "file": "candidate_0086.cif",
+      "substitution_indices": [
+        150,
+        198
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 87,
+      "file": "candidate_0087.cif",
+      "substitution_indices": [
+        201,
+        133
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 88,
+      "file": "candidate_0088.cif",
+      "substitution_indices": [
+        196,
+        148
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 89,
+      "file": "candidate_0089.cif",
+      "substitution_indices": [
+        132,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 90,
+      "file": "candidate_0090.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 91,
+      "file": "candidate_0091.cif",
+      "substitution_indices": [
+        207,
+        139
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 92,
+      "file": "candidate_0092.cif",
+      "substitution_indices": [
+        174,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 93,
+      "file": "candidate_0093.cif",
+      "substitution_indices": [
+        179,
+        205
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 94,
+      "file": "candidate_0094.cif",
+      "substitution_indices": [
+        129,
+        197
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 95,
+      "file": "candidate_0095.cif",
+      "substitution_indices": [
+        202,
+        174
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 96,
+      "file": "candidate_0096.cif",
+      "substitution_indices": [
+        190,
+        142
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 97,
+      "file": "candidate_0097.cif",
+      "substitution_indices": [
+        192,
+        144
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 98,
+      "file": "candidate_0098.cif",
+      "substitution_indices": [
+        139,
+        207
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 99,
+      "file": "candidate_0099.cif",
+      "substitution_indices": [
+        157,
+        213
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 100,
+      "file": "candidate_0100.cif",
+      "substitution_indices": [
+        155,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 101,
+      "file": "candidate_0101.cif",
+      "substitution_indices": [
+        155,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 102,
+      "file": "candidate_0102.cif",
+      "substitution_indices": [
+        164,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 103,
+      "file": "candidate_0103.cif",
+      "substitution_indices": [
+        200,
+        132
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 104,
+      "file": "candidate_0104.cif",
+      "substitution_indices": [
+        172,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 105,
+      "file": "candidate_0105.cif",
+      "substitution_indices": [
+        189,
+        141
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 106,
+      "file": "candidate_0106.cif",
+      "substitution_indices": [
+        186,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 107,
+      "file": "candidate_0107.cif",
+      "substitution_indices": [
+        204,
+        176
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 108,
+      "file": "candidate_0108.cif",
+      "substitution_indices": [
+        197,
+        129
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 109,
+      "file": "candidate_0109.cif",
+      "substitution_indices": [
+        176,
+        204
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 110,
+      "file": "candidate_0110.cif",
+      "substitution_indices": [
+        205,
+        137
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 111,
+      "file": "candidate_0111.cif",
+      "substitution_indices": [
+        179,
+        205
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 112,
+      "file": "candidate_0112.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 113,
+      "file": "candidate_0113.cif",
+      "substitution_indices": [
+        139,
+        207
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 114,
+      "file": "candidate_0114.cif",
+      "substitution_indices": [
+        164,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 115,
+      "file": "candidate_0115.cif",
+      "substitution_indices": [
+        211,
+        152
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 116,
+      "file": "candidate_0116.cif",
+      "substitution_indices": [
+        140,
+        208
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 117,
+      "file": "candidate_0117.cif",
+      "substitution_indices": [
+        181,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 118,
+      "file": "candidate_0118.cif",
+      "substitution_indices": [
+        172,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 119,
+      "file": "candidate_0119.cif",
+      "substitution_indices": [
+        165,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 120,
+      "file": "candidate_0120.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 121,
+      "file": "candidate_0121.cif",
+      "substitution_indices": [
+        171,
+        199
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 122,
+      "file": "candidate_0122.cif",
+      "substitution_indices": [
+        163,
+        192
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 123,
+      "file": "candidate_0123.cif",
+      "substitution_indices": [
+        145,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 124,
+      "file": "candidate_0124.cif",
+      "substitution_indices": [
+        206,
+        138
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 125,
+      "file": "candidate_0125.cif",
+      "substitution_indices": [
+        175,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 126,
+      "file": "candidate_0126.cif",
+      "substitution_indices": [
+        146,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 127,
+      "file": "candidate_0127.cif",
+      "substitution_indices": [
+        141,
+        189
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 128,
+      "file": "candidate_0128.cif",
+      "substitution_indices": [
+        165,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 129,
+      "file": "candidate_0129.cif",
+      "substitution_indices": [
+        176,
+        204
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 130,
+      "file": "candidate_0130.cif",
+      "substitution_indices": [
+        157,
+        213
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 131,
+      "file": "candidate_0131.cif",
+      "substitution_indices": [
+        191,
+        143
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 132,
+      "file": "candidate_0132.cif",
+      "substitution_indices": [
+        167,
+        196
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 133,
+      "file": "candidate_0133.cif",
+      "substitution_indices": [
+        149,
+        197
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 134,
+      "file": "candidate_0134.cif",
+      "substitution_indices": [
+        169,
+        197
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 135,
+      "file": "candidate_0135.cif",
+      "substitution_indices": [
+        206,
+        138
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 136,
+      "file": "candidate_0136.cif",
+      "substitution_indices": [
+        182,
+        192
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 137,
+      "file": "candidate_0137.cif",
+      "substitution_indices": [
+        191,
+        143
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 138,
+      "file": "candidate_0138.cif",
+      "substitution_indices": [
+        179,
+        205
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 139,
+      "file": "candidate_0139.cif",
+      "substitution_indices": [
+        191,
+        143
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 140,
+      "file": "candidate_0140.cif",
+      "substitution_indices": [
+        201,
+        133
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 141,
+      "file": "candidate_0141.cif",
+      "substitution_indices": [
+        196,
+        148
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 142,
+      "file": "candidate_0142.cif",
+      "substitution_indices": [
+        164,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 143,
+      "file": "candidate_0143.cif",
+      "substitution_indices": [
+        172,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 144,
+      "file": "candidate_0144.cif",
+      "substitution_indices": [
+        164,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 145,
+      "file": "candidate_0145.cif",
+      "substitution_indices": [
+        148,
+        196
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 146,
+      "file": "candidate_0146.cif",
+      "substitution_indices": [
+        192,
+        144
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 147,
+      "file": "candidate_0147.cif",
+      "substitution_indices": [
+        195,
+        147
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 148,
+      "file": "candidate_0148.cif",
+      "substitution_indices": [
+        147,
+        195
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 149,
+      "file": "candidate_0149.cif",
+      "substitution_indices": [
+        186,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 150,
+      "file": "candidate_0150.cif",
+      "substitution_indices": [
+        215,
+        159
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 151,
+      "file": "candidate_0151.cif",
+      "substitution_indices": [
+        153,
+        201
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 152,
+      "file": "candidate_0152.cif",
+      "substitution_indices": [
+        146,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 153,
+      "file": "candidate_0153.cif",
+      "substitution_indices": [
+        131,
+        199
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 154,
+      "file": "candidate_0154.cif",
+      "substitution_indices": [
+        177,
+        207
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 155,
+      "file": "candidate_0155.cif",
+      "substitution_indices": [
+        209,
+        150
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 156,
+      "file": "candidate_0156.cif",
+      "substitution_indices": [
+        201,
+        133
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 157,
+      "file": "candidate_0157.cif",
+      "substitution_indices": [
+        182,
+        192
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 158,
+      "file": "candidate_0158.cif",
+      "substitution_indices": [
+        179,
+        205
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 159,
+      "file": "candidate_0159.cif",
+      "substitution_indices": [
+        130,
+        198
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 160,
+      "file": "candidate_0160.cif",
+      "substitution_indices": [
+        164,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 161,
+      "file": "candidate_0161.cif",
+      "substitution_indices": [
+        205,
+        137
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 162,
+      "file": "candidate_0162.cif",
+      "substitution_indices": [
+        199,
+        131
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 163,
+      "file": "candidate_0163.cif",
+      "substitution_indices": [
+        180,
+        206
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 164,
+      "file": "candidate_0164.cif",
+      "substitution_indices": [
+        158,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 165,
+      "file": "candidate_0165.cif",
+      "substitution_indices": [
+        131,
+        199
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 166,
+      "file": "candidate_0166.cif",
+      "substitution_indices": [
+        201,
+        133
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 167,
+      "file": "candidate_0167.cif",
+      "substitution_indices": [
+        161,
+        190
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 168,
+      "file": "candidate_0168.cif",
+      "substitution_indices": [
+        189,
+        141
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 169,
+      "file": "candidate_0169.cif",
+      "substitution_indices": [
+        203,
+        175
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 170,
+      "file": "candidate_0170.cif",
+      "substitution_indices": [
+        178,
+        208
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 171,
+      "file": "candidate_0171.cif",
+      "substitution_indices": [
+        166,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 172,
+      "file": "candidate_0172.cif",
+      "substitution_indices": [
+        206,
+        138
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 173,
+      "file": "candidate_0173.cif",
+      "substitution_indices": [
+        158,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 174,
+      "file": "candidate_0174.cif",
+      "substitution_indices": [
+        212,
+        151
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 175,
+      "file": "candidate_0175.cif",
+      "substitution_indices": [
+        163,
+        192
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 176,
+      "file": "candidate_0176.cif",
+      "substitution_indices": [
+        186,
+        194
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 177,
+      "file": "candidate_0177.cif",
+      "substitution_indices": [
+        157,
+        213
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 178,
+      "file": "candidate_0178.cif",
+      "substitution_indices": [
+        199,
+        131
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 179,
+      "file": "candidate_0179.cif",
+      "substitution_indices": [
+        206,
+        138
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 180,
+      "file": "candidate_0180.cif",
+      "substitution_indices": [
+        156,
+        204
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 181,
+      "file": "candidate_0181.cif",
+      "substitution_indices": [
+        132,
+        200
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 182,
+      "file": "candidate_0182.cif",
+      "substitution_indices": [
+        161,
+        190
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 183,
+      "file": "candidate_0183.cif",
+      "substitution_indices": [
+        134,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 184,
+      "file": "candidate_0184.cif",
+      "substitution_indices": [
+        164,
+        191
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 185,
+      "file": "candidate_0185.cif",
+      "substitution_indices": [
+        168,
+        195
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 186,
+      "file": "candidate_0186.cif",
+      "substitution_indices": [
+        191,
+        143
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 187,
+      "file": "candidate_0187.cif",
+      "substitution_indices": [
+        134,
+        202
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 188,
+      "file": "candidate_0188.cif",
+      "substitution_indices": [
+        193,
+        145
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 189,
+      "file": "candidate_0189.cif",
+      "substitution_indices": [
+        209,
+        150
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 190,
+      "file": "candidate_0190.cif",
+      "substitution_indices": [
+        153,
+        201
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 191,
+      "file": "candidate_0191.cif",
+      "substitution_indices": [
+        211,
+        152
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 192,
+      "file": "candidate_0192.cif",
+      "substitution_indices": [
+        138,
+        206
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 193,
+      "file": "candidate_0193.cif",
+      "substitution_indices": [
+        216,
+        160
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 194,
+      "file": "candidate_0194.cif",
+      "substitution_indices": [
+        138,
+        206
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 195,
+      "file": "candidate_0195.cif",
+      "substitution_indices": [
+        185,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 196,
+      "file": "candidate_0196.cif",
+      "substitution_indices": [
+        156,
+        204
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 197,
+      "file": "candidate_0197.cif",
+      "substitution_indices": [
+        175,
+        203
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 198,
+      "file": "candidate_0198.cif",
+      "substitution_indices": [
+        185,
+        193
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    },
+    {
+      "candidate_id": 199,
+      "file": "candidate_0199.cif",
+      "substitution_indices": [
+        178,
+        208
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20"
+    }
+  ],
+  "screening": [
+    {
+      "candidate_id": 0,
+      "energy": -1022.008544921875,
+      "energy_per_atom": -4.104451987638052
+    },
+    {
+      "candidate_id": 1,
+      "energy": -1022.03076171875,
+      "energy_per_atom": -4.104541211721887
+    },
+    {
+      "candidate_id": 2,
+      "energy": -1022.2705078125,
+      "energy_per_atom": -4.105504047439759
+    },
+    {
+      "candidate_id": 3,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 4,
+      "energy": -1022.0003051757812,
+      "energy_per_atom": -4.104418896288278
+    },
+    {
+      "candidate_id": 5,
+      "energy": -1022.0404663085938,
+      "energy_per_atom": -4.104580185978288
+    },
+    {
+      "candidate_id": 6,
+      "energy": -1022.1279907226562,
+      "energy_per_atom": -4.104931689649222
+    },
+    {
+      "candidate_id": 7,
+      "energy": -1022.0126342773438,
+      "energy_per_atom": -4.104468410752385
+    },
+    {
+      "candidate_id": 8,
+      "energy": -1022.2705078125,
+      "energy_per_atom": -4.105504047439759
+    },
+    {
+      "candidate_id": 9,
+      "energy": -1022.0892333984375,
+      "energy_per_atom": -4.104776037744729
+    },
+    {
+      "candidate_id": 10,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 11,
+      "energy": -1022.2269287109375,
+      "energy_per_atom": -4.105329030967621
+    },
+    {
+      "candidate_id": 12,
+      "energy": -1022.087158203125,
+      "energy_per_atom": -4.104767703627008
+    },
+    {
+      "candidate_id": 13,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 14,
+      "energy": -1022.2269287109375,
+      "energy_per_atom": -4.105329030967621
+    },
+    {
+      "candidate_id": 15,
+      "energy": -1022.1233520507812,
+      "energy_per_atom": -4.104913060444905
+    },
+    {
+      "candidate_id": 16,
+      "energy": -1022.0525512695312,
+      "energy_per_atom": -4.104628719957957
+    },
+    {
+      "candidate_id": 17,
+      "energy": -1022.1233520507812,
+      "energy_per_atom": -4.104913060444905
+    },
+    {
+      "candidate_id": 18,
+      "energy": -1022.1380004882812,
+      "energy_per_atom": -4.1049718895111695
+    },
+    {
+      "candidate_id": 19,
+      "energy": -1022.04150390625,
+      "energy_per_atom": -4.104584353037149
+    },
+    {
+      "candidate_id": 20,
+      "energy": -1022.0126342773438,
+      "energy_per_atom": -4.104468410752385
+    },
+    {
+      "candidate_id": 21,
+      "energy": -1021.9981689453125,
+      "energy_per_atom": -4.104410317049448
+    },
+    {
+      "candidate_id": 22,
+      "energy": -1021.995849609375,
+      "energy_per_atom": -4.104401002447289
+    },
+    {
+      "candidate_id": 23,
+      "energy": -1021.9790649414062,
+      "energy_per_atom": -4.104333594142194
+    },
+    {
+      "candidate_id": 24,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 25,
+      "energy": -1022.04150390625,
+      "energy_per_atom": -4.104584353037149
+    },
+    {
+      "candidate_id": 26,
+      "energy": -1022.0565795898438,
+      "energy_per_atom": -4.10464489795118
+    },
+    {
+      "candidate_id": 27,
+      "energy": -1022.0055541992188,
+      "energy_per_atom": -4.10443997670369
+    },
+    {
+      "candidate_id": 28,
+      "energy": -1021.9981689453125,
+      "energy_per_atom": -4.104410317049448
+    },
+    {
+      "candidate_id": 29,
+      "energy": -1021.995849609375,
+      "energy_per_atom": -4.104401002447289
+    },
+    {
+      "candidate_id": 30,
+      "energy": -1022.0991821289062,
+      "energy_per_atom": -4.104815992485567
+    },
+    {
+      "candidate_id": 31,
+      "energy": -1022.1043090820312,
+      "energy_per_atom": -4.10483658265876
+    },
+    {
+      "candidate_id": 32,
+      "energy": -1022.2247314453125,
+      "energy_per_atom": -4.105320206607681
+    },
+    {
+      "candidate_id": 33,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 34,
+      "energy": -1022.22607421875,
+      "energy_per_atom": -4.1053255992720885
+    },
+    {
+      "candidate_id": 35,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 36,
+      "energy": -1021.9982299804688,
+      "energy_per_atom": -4.104410562170557
+    },
+    {
+      "candidate_id": 37,
+      "energy": -1021.9909057617188,
+      "energy_per_atom": -4.104381147637425
+    },
+    {
+      "candidate_id": 38,
+      "energy": -1022.0404663085938,
+      "energy_per_atom": -4.104580185978288
+    },
+    {
+      "candidate_id": 39,
+      "energy": -1021.9797973632812,
+      "energy_per_atom": -4.104336535595507
+    },
+    {
+      "candidate_id": 40,
+      "energy": -1022.1207275390625,
+      "energy_per_atom": -4.104902520237199
+    },
+    {
+      "candidate_id": 41,
+      "energy": -1022.0892333984375,
+      "energy_per_atom": -4.104776037744729
+    },
+    {
+      "candidate_id": 42,
+      "energy": -1022.1078491210938,
+      "energy_per_atom": -4.104850799683107
+    },
+    {
+      "candidate_id": 43,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 44,
+      "energy": -1022.0055541992188,
+      "energy_per_atom": -4.10443997670369
+    },
+    {
+      "candidate_id": 45,
+      "energy": -1022.087158203125,
+      "energy_per_atom": -4.104767703627008
+    },
+    {
+      "candidate_id": 46,
+      "energy": -1022.2247314453125,
+      "energy_per_atom": -4.105320206607681
+    },
+    {
+      "candidate_id": 47,
+      "energy": -1022.0115966796875,
+      "energy_per_atom": -4.104464243693524
+    },
+    {
+      "candidate_id": 48,
+      "energy": -1022.275634765625,
+      "energy_per_atom": -4.105524637612952
+    },
+    {
+      "candidate_id": 49,
+      "energy": -1021.9909057617188,
+      "energy_per_atom": -4.104381147637425
+    },
+    {
+      "candidate_id": 50,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 51,
+      "energy": -1021.9982299804688,
+      "energy_per_atom": -4.104410562170557
+    },
+    {
+      "candidate_id": 52,
+      "energy": -1022.22607421875,
+      "energy_per_atom": -4.1053255992720885
+    },
+    {
+      "candidate_id": 53,
+      "energy": -1022.22607421875,
+      "energy_per_atom": -4.1053255992720885
+    },
+    {
+      "candidate_id": 54,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 55,
+      "energy": -1022.0237426757812,
+      "energy_per_atom": -4.104513022794302
+    },
+    {
+      "candidate_id": 56,
+      "energy": -1022.0404663085938,
+      "energy_per_atom": -4.104580185978288
+    },
+    {
+      "candidate_id": 57,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 58,
+      "energy": -1022.2670288085938,
+      "energy_per_atom": -4.105490075536521
+    },
+    {
+      "candidate_id": 59,
+      "energy": -1022.0242919921875,
+      "energy_per_atom": -4.104515228884287
+    },
+    {
+      "candidate_id": 60,
+      "energy": -1022.0439453125,
+      "energy_per_atom": -4.104594157881526
+    },
+    {
+      "candidate_id": 61,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 62,
+      "energy": -1022.1412353515625,
+      "energy_per_atom": -4.10498488092997
+    },
+    {
+      "candidate_id": 63,
+      "energy": -1022.0339965820312,
+      "energy_per_atom": -4.104554203140688
+    },
+    {
+      "candidate_id": 64,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 65,
+      "energy": -1022.0525512695312,
+      "energy_per_atom": -4.104628719957957
+    },
+    {
+      "candidate_id": 66,
+      "energy": -1022.03076171875,
+      "energy_per_atom": -4.104541211721887
+    },
+    {
+      "candidate_id": 67,
+      "energy": -1022.0991821289062,
+      "energy_per_atom": -4.104815992485567
+    },
+    {
+      "candidate_id": 68,
+      "energy": -1022.0009765625,
+      "energy_per_atom": -4.104421592620482
+    },
+    {
+      "candidate_id": 69,
+      "energy": -1022.1207275390625,
+      "energy_per_atom": -4.104902520237199
+    },
+    {
+      "candidate_id": 70,
+      "energy": -1022.2269287109375,
+      "energy_per_atom": -4.105329030967621
+    },
+    {
+      "candidate_id": 71,
+      "energy": -1022.015380859375,
+      "energy_per_atom": -4.104479441202309
+    },
+    {
+      "candidate_id": 72,
+      "energy": -1022.2247314453125,
+      "energy_per_atom": -4.105320206607681
+    },
+    {
+      "candidate_id": 73,
+      "energy": -1022.0055541992188,
+      "energy_per_atom": -4.10443997670369
+    },
+    {
+      "candidate_id": 74,
+      "energy": -1022.1043090820312,
+      "energy_per_atom": -4.10483658265876
+    },
+    {
+      "candidate_id": 75,
+      "energy": -1022.0496215820312,
+      "energy_per_atom": -4.104616954144704
+    },
+    {
+      "candidate_id": 76,
+      "energy": -1022.0003051757812,
+      "energy_per_atom": -4.104418896288278
+    },
+    {
+      "candidate_id": 77,
+      "energy": -1022.0991821289062,
+      "energy_per_atom": -4.104815992485567
+    },
+    {
+      "candidate_id": 78,
+      "energy": -1022.0003051757812,
+      "energy_per_atom": -4.104418896288278
+    },
+    {
+      "candidate_id": 79,
+      "energy": -1022.0435791015625,
+      "energy_per_atom": -4.104592687154869
+    },
+    {
+      "candidate_id": 80,
+      "energy": -1022.0339965820312,
+      "energy_per_atom": -4.104554203140688
+    },
+    {
+      "candidate_id": 81,
+      "energy": -1022.0009765625,
+      "energy_per_atom": -4.104421592620482
+    },
+    {
+      "candidate_id": 82,
+      "energy": -1022.0242919921875,
+      "energy_per_atom": -4.104515228884287
+    },
+    {
+      "candidate_id": 83,
+      "energy": -1022.0009765625,
+      "energy_per_atom": -4.104421592620482
+    },
+    {
+      "candidate_id": 84,
+      "energy": -1022.3187255859375,
+      "energy_per_atom": -4.105697693116215
+    },
+    {
+      "candidate_id": 85,
+      "energy": -1022.0003051757812,
+      "energy_per_atom": -4.104418896288278
+    },
+    {
+      "candidate_id": 86,
+      "energy": -1022.0991821289062,
+      "energy_per_atom": -4.104815992485567
+    },
+    {
+      "candidate_id": 87,
+      "energy": -1021.995849609375,
+      "energy_per_atom": -4.104401002447289
+    },
+    {
+      "candidate_id": 88,
+      "energy": -1022.0430908203125,
+      "energy_per_atom": -4.104590726185994
+    },
+    {
+      "candidate_id": 89,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 90,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 91,
+      "energy": -1022.0126342773438,
+      "energy_per_atom": -4.104468410752385
+    },
+    {
+      "candidate_id": 92,
+      "energy": -1022.0003051757812,
+      "energy_per_atom": -4.104418896288278
+    },
+    {
+      "candidate_id": 93,
+      "energy": -1021.9923706054688,
+      "energy_per_atom": -4.104387030544051
+    },
+    {
+      "candidate_id": 94,
+      "energy": -1022.0339965820312,
+      "energy_per_atom": -4.104554203140688
+    },
+    {
+      "candidate_id": 95,
+      "energy": -1022.0003051757812,
+      "energy_per_atom": -4.104418896288278
+    },
+    {
+      "candidate_id": 96,
+      "energy": -1022.1233520507812,
+      "energy_per_atom": -4.104913060444905
+    },
+    {
+      "candidate_id": 97,
+      "energy": -1022.1244506835938,
+      "energy_per_atom": -4.104917472624875
+    },
+    {
+      "candidate_id": 98,
+      "energy": -1022.0126342773438,
+      "energy_per_atom": -4.104468410752385
+    },
+    {
+      "candidate_id": 99,
+      "energy": -1022.2269287109375,
+      "energy_per_atom": -4.105329030967621
+    },
+    {
+      "candidate_id": 100,
+      "energy": -1022.0055541992188,
+      "energy_per_atom": -4.10443997670369
+    },
+    {
+      "candidate_id": 101,
+      "energy": -1022.0055541992188,
+      "energy_per_atom": -4.10443997670369
+    },
+    {
+      "candidate_id": 102,
+      "energy": -1022.0496215820312,
+      "energy_per_atom": -4.104616954144704
+    },
+    {
+      "candidate_id": 103,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 104,
+      "energy": -1022.0439453125,
+      "energy_per_atom": -4.104594157881526
+    },
+    {
+      "candidate_id": 105,
+      "energy": -1022.1279907226562,
+      "energy_per_atom": -4.104931689649222
+    },
+    {
+      "candidate_id": 106,
+      "energy": -1022.0997314453125,
+      "energy_per_atom": -4.104818198575552
+    },
+    {
+      "candidate_id": 107,
+      "energy": -1022.0009765625,
+      "energy_per_atom": -4.104421592620482
+    },
+    {
+      "candidate_id": 108,
+      "energy": -1022.0339965820312,
+      "energy_per_atom": -4.104554203140688
+    },
+    {
+      "candidate_id": 109,
+      "energy": -1022.0009765625,
+      "energy_per_atom": -4.104421592620482
+    },
+    {
+      "candidate_id": 110,
+      "energy": -1021.9909057617188,
+      "energy_per_atom": -4.104381147637425
+    },
+    {
+      "candidate_id": 111,
+      "energy": -1021.9923706054688,
+      "energy_per_atom": -4.104387030544051
+    },
+    {
+      "candidate_id": 112,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 113,
+      "energy": -1022.0126342773438,
+      "energy_per_atom": -4.104468410752385
+    },
+    {
+      "candidate_id": 114,
+      "energy": -1022.0496215820312,
+      "energy_per_atom": -4.104616954144704
+    },
+    {
+      "candidate_id": 115,
+      "energy": -1022.2705078125,
+      "energy_per_atom": -4.105504047439759
+    },
+    {
+      "candidate_id": 116,
+      "energy": -1021.9951782226562,
+      "energy_per_atom": -4.104398306115085
+    },
+    {
+      "candidate_id": 117,
+      "energy": -1022.1337890625,
+      "energy_per_atom": -4.104954976154619
+    },
+    {
+      "candidate_id": 118,
+      "energy": -1022.0439453125,
+      "energy_per_atom": -4.104594157881526
+    },
+    {
+      "candidate_id": 119,
+      "energy": -1022.0242919921875,
+      "energy_per_atom": -4.104515228884287
+    },
+    {
+      "candidate_id": 120,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 121,
+      "energy": -1022.0592041015625,
+      "energy_per_atom": -4.104655438158885
+    },
+    {
+      "candidate_id": 122,
+      "energy": -1022.0538940429688,
+      "energy_per_atom": -4.104634112622365
+    },
+    {
+      "candidate_id": 123,
+      "energy": -1022.015380859375,
+      "energy_per_atom": -4.104479441202309
+    },
+    {
+      "candidate_id": 124,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 125,
+      "energy": -1021.9982299804688,
+      "energy_per_atom": -4.104410562170557
+    },
+    {
+      "candidate_id": 126,
+      "energy": -1022.0404663085938,
+      "energy_per_atom": -4.104580185978288
+    },
+    {
+      "candidate_id": 127,
+      "energy": -1022.1279907226562,
+      "energy_per_atom": -4.104931689649222
+    },
+    {
+      "candidate_id": 128,
+      "energy": -1022.0242919921875,
+      "energy_per_atom": -4.104515228884287
+    },
+    {
+      "candidate_id": 129,
+      "energy": -1022.0009765625,
+      "energy_per_atom": -4.104421592620482
+    },
+    {
+      "candidate_id": 130,
+      "energy": -1022.2269287109375,
+      "energy_per_atom": -4.105329030967621
+    },
+    {
+      "candidate_id": 131,
+      "energy": -1022.1207275390625,
+      "energy_per_atom": -4.104902520237199
+    },
+    {
+      "candidate_id": 132,
+      "energy": -1022.0237426757812,
+      "energy_per_atom": -4.104513022794302
+    },
+    {
+      "candidate_id": 133,
+      "energy": -1022.1078491210938,
+      "energy_per_atom": -4.104850799683107
+    },
+    {
+      "candidate_id": 134,
+      "energy": -1022.0324096679688,
+      "energy_per_atom": -4.1045478299918425
+    },
+    {
+      "candidate_id": 135,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 136,
+      "energy": -1022.1380004882812,
+      "energy_per_atom": -4.1049718895111695
+    },
+    {
+      "candidate_id": 137,
+      "energy": -1022.1207275390625,
+      "energy_per_atom": -4.104902520237199
+    },
+    {
+      "candidate_id": 138,
+      "energy": -1021.9923706054688,
+      "energy_per_atom": -4.104387030544051
+    },
+    {
+      "candidate_id": 139,
+      "energy": -1022.1207275390625,
+      "energy_per_atom": -4.104902520237199
+    },
+    {
+      "candidate_id": 140,
+      "energy": -1021.995849609375,
+      "energy_per_atom": -4.104401002447289
+    },
+    {
+      "candidate_id": 141,
+      "energy": -1022.0430908203125,
+      "energy_per_atom": -4.104590726185994
+    },
+    {
+      "candidate_id": 142,
+      "energy": -1022.0496215820312,
+      "energy_per_atom": -4.104616954144704
+    },
+    {
+      "candidate_id": 143,
+      "energy": -1022.0439453125,
+      "energy_per_atom": -4.104594157881526
+    },
+    {
+      "candidate_id": 144,
+      "energy": -1022.0496215820312,
+      "energy_per_atom": -4.104616954144704
+    },
+    {
+      "candidate_id": 145,
+      "energy": -1022.0430908203125,
+      "energy_per_atom": -4.104590726185994
+    },
+    {
+      "candidate_id": 146,
+      "energy": -1022.1244506835938,
+      "energy_per_atom": -4.104917472624875
+    },
+    {
+      "candidate_id": 147,
+      "energy": -1022.03076171875,
+      "energy_per_atom": -4.104541211721887
+    },
+    {
+      "candidate_id": 148,
+      "energy": -1022.03076171875,
+      "energy_per_atom": -4.104541211721887
+    },
+    {
+      "candidate_id": 149,
+      "energy": -1022.0997314453125,
+      "energy_per_atom": -4.104818198575552
+    },
+    {
+      "candidate_id": 150,
+      "energy": -1022.3187255859375,
+      "energy_per_atom": -4.105697693116215
+    },
+    {
+      "candidate_id": 151,
+      "energy": -1022.0046997070312,
+      "energy_per_atom": -4.1044365450081575
+    },
+    {
+      "candidate_id": 152,
+      "energy": -1022.0404663085938,
+      "energy_per_atom": -4.104580185978288
+    },
+    {
+      "candidate_id": 153,
+      "energy": -1022.0435791015625,
+      "energy_per_atom": -4.104592687154869
+    },
+    {
+      "candidate_id": 154,
+      "energy": -1022.0155639648438,
+      "energy_per_atom": -4.104480176565637
+    },
+    {
+      "candidate_id": 155,
+      "energy": -1022.2670288085938,
+      "energy_per_atom": -4.105490075536521
+    },
+    {
+      "candidate_id": 156,
+      "energy": -1021.995849609375,
+      "energy_per_atom": -4.104401002447289
+    },
+    {
+      "candidate_id": 157,
+      "energy": -1022.1380004882812,
+      "energy_per_atom": -4.1049718895111695
+    },
+    {
+      "candidate_id": 158,
+      "energy": -1021.9923706054688,
+      "energy_per_atom": -4.104387030544051
+    },
+    {
+      "candidate_id": 159,
+      "energy": -1022.04150390625,
+      "energy_per_atom": -4.104584353037149
+    },
+    {
+      "candidate_id": 160,
+      "energy": -1022.0496215820312,
+      "energy_per_atom": -4.104616954144704
+    },
+    {
+      "candidate_id": 161,
+      "energy": -1021.9909057617188,
+      "energy_per_atom": -4.104381147637425
+    },
+    {
+      "candidate_id": 162,
+      "energy": -1022.0435791015625,
+      "energy_per_atom": -4.104592687154869
+    },
+    {
+      "candidate_id": 163,
+      "energy": -1022.0115966796875,
+      "energy_per_atom": -4.104464243693524
+    },
+    {
+      "candidate_id": 164,
+      "energy": -1022.2247314453125,
+      "energy_per_atom": -4.105320206607681
+    },
+    {
+      "candidate_id": 165,
+      "energy": -1022.0435791015625,
+      "energy_per_atom": -4.104592687154869
+    },
+    {
+      "candidate_id": 166,
+      "energy": -1021.995849609375,
+      "energy_per_atom": -4.104401002447289
+    },
+    {
+      "candidate_id": 167,
+      "energy": -1022.0525512695312,
+      "energy_per_atom": -4.104628719957957
+    },
+    {
+      "candidate_id": 168,
+      "energy": -1022.1279907226562,
+      "energy_per_atom": -4.104931689649222
+    },
+    {
+      "candidate_id": 169,
+      "energy": -1021.9982299804688,
+      "energy_per_atom": -4.104410562170557
+    },
+    {
+      "candidate_id": 170,
+      "energy": -1021.997802734375,
+      "energy_per_atom": -4.104408846322791
+    },
+    {
+      "candidate_id": 171,
+      "energy": -1022.0198364257812,
+      "energy_per_atom": -4.104497335043298
+    },
+    {
+      "candidate_id": 172,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 173,
+      "energy": -1022.2247314453125,
+      "energy_per_atom": -4.105320206607681
+    },
+    {
+      "candidate_id": 174,
+      "energy": -1022.2554931640625,
+      "energy_per_atom": -4.105443747646837
+    },
+    {
+      "candidate_id": 175,
+      "energy": -1022.0538940429688,
+      "energy_per_atom": -4.104634112622365
+    },
+    {
+      "candidate_id": 176,
+      "energy": -1022.0997314453125,
+      "energy_per_atom": -4.104818198575552
+    },
+    {
+      "candidate_id": 177,
+      "energy": -1022.2269287109375,
+      "energy_per_atom": -4.105329030967621
+    },
+    {
+      "candidate_id": 178,
+      "energy": -1022.0435791015625,
+      "energy_per_atom": -4.104592687154869
+    },
+    {
+      "candidate_id": 179,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 180,
+      "energy": -1022.0001831054688,
+      "energy_per_atom": -4.104418406046059
+    },
+    {
+      "candidate_id": 181,
+      "energy": -1022.0280151367188,
+      "energy_per_atom": -4.104530181271963
+    },
+    {
+      "candidate_id": 182,
+      "energy": -1022.0525512695312,
+      "energy_per_atom": -4.104628719957957
+    },
+    {
+      "candidate_id": 183,
+      "energy": -1021.9981689453125,
+      "energy_per_atom": -4.104410317049448
+    },
+    {
+      "candidate_id": 184,
+      "energy": -1022.0496215820312,
+      "energy_per_atom": -4.104616954144704
+    },
+    {
+      "candidate_id": 185,
+      "energy": -1022.0177001953125,
+      "energy_per_atom": -4.104488755804468
+    },
+    {
+      "candidate_id": 186,
+      "energy": -1022.1207275390625,
+      "energy_per_atom": -4.104902520237199
+    },
+    {
+      "candidate_id": 187,
+      "energy": -1021.9981689453125,
+      "energy_per_atom": -4.104410317049448
+    },
+    {
+      "candidate_id": 188,
+      "energy": -1022.015380859375,
+      "energy_per_atom": -4.104479441202309
+    },
+    {
+      "candidate_id": 189,
+      "energy": -1022.2670288085938,
+      "energy_per_atom": -4.105490075536521
+    },
+    {
+      "candidate_id": 190,
+      "energy": -1022.0046997070312,
+      "energy_per_atom": -4.1044365450081575
+    },
+    {
+      "candidate_id": 191,
+      "energy": -1022.2705078125,
+      "energy_per_atom": -4.105504047439759
+    },
+    {
+      "candidate_id": 192,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 193,
+      "energy": -1022.22607421875,
+      "energy_per_atom": -4.1053255992720885
+    },
+    {
+      "candidate_id": 194,
+      "energy": -1022.009521484375,
+      "energy_per_atom": -4.104455909575803
+    },
+    {
+      "candidate_id": 195,
+      "energy": -1022.0892333984375,
+      "energy_per_atom": -4.104776037744729
+    },
+    {
+      "candidate_id": 196,
+      "energy": -1022.0001831054688,
+      "energy_per_atom": -4.104418406046059
+    },
+    {
+      "candidate_id": 197,
+      "energy": -1021.9982299804688,
+      "energy_per_atom": -4.104410562170557
+    },
+    {
+      "candidate_id": 198,
+      "energy": -1022.0892333984375,
+      "energy_per_atom": -4.104776037744729
+    },
+    {
+      "candidate_id": 199,
+      "energy": -1021.997802734375,
+      "energy_per_atom": -4.104408846322791
+    }
+  ],
+  "relaxation": [
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6741333007812,
+      "energy_per_atom": -4.107125033336471,
+      "steps": 300,
+      "seconds": 150.20946510898648,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0002.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.743408203125,
+      "energy_per_atom": -4.107403245795683,
+      "steps": 300,
+      "seconds": 147.9412087549572,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0006.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.674072265625,
+      "energy_per_atom": -4.107124788215361,
+      "steps": 300,
+      "seconds": 146.89254236401757,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0008.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6376342773438,
+      "energy_per_atom": -4.106978450913027,
+      "steps": 300,
+      "seconds": 148.2818693210138,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0011.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6332397460938,
+      "energy_per_atom": -4.106960802193147,
+      "steps": 300,
+      "seconds": 149.28178350499365,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0014.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7379150390625,
+      "energy_per_atom": -4.107381184895833,
+      "steps": 300,
+      "seconds": 144.5662369520287,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0015.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7379760742188,
+      "energy_per_atom": -4.107381430016943,
+      "steps": 300,
+      "seconds": 146.36905376805225,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0017.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.751953125,
+      "energy_per_atom": -4.107437562751004,
+      "steps": 300,
+      "seconds": 150.39733500103466,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0018.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6967163085938,
+      "energy_per_atom": -4.107215728146963,
+      "steps": 300,
+      "seconds": 148.31816223700298,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0031.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6401977539062,
+      "energy_per_atom": -4.106988745999623,
+      "steps": 300,
+      "seconds": 151.02046688104747,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0032.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6431884765625,
+      "energy_per_atom": -4.107000756933986,
+      "steps": 300,
+      "seconds": 147.76524239801802,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0034.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6657104492188,
+      "energy_per_atom": -4.107091206623369,
+      "steps": 300,
+      "seconds": 146.07192364596995,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0040.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6304931640625,
+      "energy_per_atom": -4.106949771743223,
+      "steps": 300,
+      "seconds": 147.83068725297926,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0042.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.64306640625,
+      "energy_per_atom": -4.107000266691767,
+      "steps": 300,
+      "seconds": 148.5380453679827,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0046.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.67822265625,
+      "energy_per_atom": -4.107141456450803,
+      "steps": 300,
+      "seconds": 147.65937343303813,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0048.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6419067382812,
+      "energy_per_atom": -4.106995609390688,
+      "steps": 300,
+      "seconds": 149.48362612200435,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0052.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.63916015625,
+      "energy_per_atom": -4.106984578940763,
+      "steps": 300,
+      "seconds": 148.3890591019881,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0053.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6717529296875,
+      "energy_per_atom": -4.107115473613203,
+      "steps": 300,
+      "seconds": 157.1345206919941,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0058.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7557373046875,
+      "energy_per_atom": -4.107452760259789,
+      "steps": 300,
+      "seconds": 148.15181076800218,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0062.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6658935546875,
+      "energy_per_atom": -4.107091941986697,
+      "steps": 300,
+      "seconds": 148.45845880697016,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0069.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6346435546875,
+      "energy_per_atom": -4.106966439978665,
+      "steps": 300,
+      "seconds": 148.44729758199537,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0070.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6430053710938,
+      "energy_per_atom": -4.1070000215706575,
+      "steps": 300,
+      "seconds": 146.93959288304904,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0072.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.696533203125,
+      "energy_per_atom": -4.107214992783635,
+      "steps": 300,
+      "seconds": 144.82529488101136,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0074.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7124633789062,
+      "energy_per_atom": -4.107278969393198,
+      "steps": 300,
+      "seconds": 146.1970986809465,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0084.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7373657226562,
+      "energy_per_atom": -4.107378978805849,
+      "steps": 300,
+      "seconds": 144.6196350909886,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0096.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7401123046875,
+      "energy_per_atom": -4.107390009255773,
+      "steps": 300,
+      "seconds": 147.67759662301978,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0097.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.634521484375,
+      "energy_per_atom": -4.106965949736446,
+      "steps": 300,
+      "seconds": 144.80978581501404,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0099.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.743408203125,
+      "energy_per_atom": -4.107403245795683,
+      "steps": 300,
+      "seconds": 150.1362938840175,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0105.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6741333007812,
+      "energy_per_atom": -4.107125033336471,
+      "steps": 300,
+      "seconds": 146.0862575750216,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0115.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6780395507812,
+      "energy_per_atom": -4.107140721087475,
+      "steps": 300,
+      "seconds": 144.0592938179616,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0117.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.743408203125,
+      "energy_per_atom": -4.107403245795683,
+      "steps": 300,
+      "seconds": 146.42681788804475,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0127.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6347045898438,
+      "energy_per_atom": -4.106966685099774,
+      "steps": 300,
+      "seconds": 146.20881312101847,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0130.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6657104492188,
+      "energy_per_atom": -4.107091206623369,
+      "steps": 300,
+      "seconds": 149.00609162601177,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0131.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.631591796875,
+      "energy_per_atom": -4.106954183923193,
+      "steps": 300,
+      "seconds": 149.05339928995818,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0133.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7520141601562,
+      "energy_per_atom": -4.107437807872113,
+      "steps": 300,
+      "seconds": 148.0922284569824,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0136.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6656494140625,
+      "energy_per_atom": -4.107090961502259,
+      "steps": 300,
+      "seconds": 146.53475394198904,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0137.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6656494140625,
+      "energy_per_atom": -4.107090961502259,
+      "steps": 300,
+      "seconds": 146.8593201659969,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0139.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7402954101562,
+      "energy_per_atom": -4.107390744619101,
+      "steps": 300,
+      "seconds": 144.3963545950246,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0146.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.71337890625,
+      "energy_per_atom": -4.107282646209839,
+      "steps": 300,
+      "seconds": 148.06962102698162,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0150.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6716918945312,
+      "energy_per_atom": -4.107115228492093,
+      "steps": 300,
+      "seconds": 146.80420653201872,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0155.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.7520141601562,
+      "energy_per_atom": -4.107437807872113,
+      "steps": 300,
+      "seconds": 146.18432536604814,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0157.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.641357421875,
+      "energy_per_atom": -4.106993403300703,
+      "steps": 300,
+      "seconds": 147.36156675301027,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0164.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.743408203125,
+      "energy_per_atom": -4.107403245795683,
+      "steps": 300,
+      "seconds": 146.42958159098634,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0168.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6420288085938,
+      "energy_per_atom": -4.106996099632907,
+      "steps": 300,
+      "seconds": 146.57268759194994,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0173.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.5972290039062,
+      "energy_per_atom": -4.106816180738579,
+      "steps": 300,
+      "seconds": 149.31947895896155,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0174.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6338500976562,
+      "energy_per_atom": -4.106963253404242,
+      "steps": 300,
+      "seconds": 150.912226704997,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0177.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6657104492188,
+      "energy_per_atom": -4.107091206623369,
+      "steps": 300,
+      "seconds": 148.1303879879997,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0186.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.6717529296875,
+      "energy_per_atom": -4.107115473613203,
+      "steps": 300,
+      "seconds": 145.44434939400526,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0189.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.674072265625,
+      "energy_per_atom": -4.107124788215361,
+      "steps": 300,
+      "seconds": 148.29301791300531,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0191.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1022.643310546875,
+      "energy_per_atom": -4.107001247176205,
+      "steps": 300,
+      "seconds": 148.6547531040269,
+      "error": "未在 300 步内收敛",
+      "relaxed_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0193.cif"
+    }
+  ],
+  "ranking": [
+    62,
+    136,
+    157,
+    18,
+    6,
+    105,
+    127,
+    168,
+    146,
+    97,
+    17,
+    15,
+    96,
+    150,
+    84,
+    31,
+    74,
+    48,
+    117,
+    2,
+    115,
+    8,
+    191,
+    58,
+    189,
+    155,
+    69,
+    40,
+    131,
+    186,
+    137,
+    139,
+    193,
+    34,
+    46,
+    72,
+    173,
+    52,
+    164,
+    32,
+    53,
+    11,
+    130,
+    70,
+    99,
+    177,
+    14,
+    133,
+    42,
+    174
+  ],
+  "best_candidate": {
+    "base_source": "file",
+    "base_material_id": null,
+    "base_structure_file": "output/Li5.45P0.95S4.4ClBr0.6Si0.05/best_structure.cif",
+    "base_formula": "Li5.45P0.95S4.4ClBr0.6Si0.05",
+    "target_formula": "Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1",
+    "scaling": [
+      1,
+      1,
+      1
+    ],
+    "candidate_fingerprint": "aa964812a6220d6d",
+    "ml_fingerprint": "c49452e0a576c171",
+    "candidate_count": 200,
+    "screened_count": 200,
+    "mattersim_enabled": true,
+    "selected_for_relaxation": 50,
+    "relaxed_count": 50,
+    "converged_count": 0,
+    "fmax_ev_per_angstrom": 0.05,
+    "max_steps": 300,
+    "relax_cell": true,
+    "relax_optimizer": "FIRE",
+    "screen_batch_size": 8,
+    "relax_chunk_size": 4,
+    "relax_natoms_per_batch": 128,
+    "best_candidate_id": 62,
+    "best_initial_rank": 27,
+    "best_relaxed_rank": 1,
+    "best_energy_ev": -1022.7557373046875,
+    "best_energy_per_atom_ev": -4.107452760259789,
+    "best_converged": false,
+    "formula": "Li109 Si1 P19 Se2 S86 Br12 Cl20",
+    "num_atoms": 249,
+    "best_structure_file": "output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/best_structure.cif"
+  }
+}

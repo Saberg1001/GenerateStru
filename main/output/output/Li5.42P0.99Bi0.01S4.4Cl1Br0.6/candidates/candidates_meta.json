@@ -1,0 +1,5205 @@
+{
+  "fingerprint": "75c9b66244d49e40",
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        611
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.13004258874811592,
+            0.018941608357243456,
+            0.331763578392556
+          ],
+          "clearance": 2.4386365291691185
+        },
+        {
+          "frac_coords": [
+            0.8309860451311243,
+            0.7454594277729865,
+            0.25977480553550913
+          ],
+          "clearance": 2.4740510905423143
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        558
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.057624675043724594,
+            0.5593483890999396,
+            0.20929537670725618
+          ],
+          "clearance": 2.6587364351994482
+        },
+        {
+          "frac_coords": [
+            0.45537789667995954,
+            0.7991239751694794,
+            0.22147935531988605
+          ],
+          "clearance": 2.5573761199240765
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        549
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4205004716701557,
+            0.5530733823542687,
+            0.9591053032636033
+          ],
+          "clearance": 2.638166897791991
+        },
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        612
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.031162117800530797,
+            0.5841318165463226,
+            0.928150194697226
+          ],
+          "clearance": 2.5299956097911176
+        },
+        {
+          "frac_coords": [
+            0.9462613051362945,
+            0.3737963030614775,
+            0.5048866830829374
+          ],
+          "clearance": 2.4758274063064474
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        551
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.42362384552119925,
+            0.5607618340009759,
+            0.212570044790241
+          ],
+          "clearance": 2.468844843441655
+        },
+        {
+          "frac_coords": [
+            0.6323384697712799,
+            0.618999532558188,
+            0.6557189422454058
+          ],
+          "clearance": 2.49764924822352
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 5,
+      "file": "candidate_0005.cif",
+      "substitution_indices": [
+        618
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        },
+        {
+          "frac_coords": [
+            0.8368031682837191,
+            0.5431894407497092,
+            0.7133182874906047
+          ],
+          "clearance": 2.7169354348487977
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 6,
+      "file": "candidate_0006.cif",
+      "substitution_indices": [
+        597
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8566205534735095,
+            0.7551131025733467,
+            0.7460470341118106
+          ],
+          "clearance": 2.4468240606647074
+        },
+        {
+          "frac_coords": [
+            0.5446208033032599,
+            0.06493835057568031,
+            0.5431812862650266
+          ],
+          "clearance": 2.4874477940193094
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 7,
+      "file": "candidate_0007.cif",
+      "substitution_indices": [
+        608
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4001902257694627,
+            0.15654157013417092,
+            0.589281715865529
+          ],
+          "clearance": 2.4419403394933132
+        },
+        {
+          "frac_coords": [
+            9.938545393106679e-05,
+            0.04331770432574833,
+            0.7890964071757316
+          ],
+          "clearance": 2.4985509601990246
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 8,
+      "file": "candidate_0008.cif",
+      "substitution_indices": [
+        562
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6268915756838978,
+            0.8146669990073783,
+            0.6792812600131761
+          ],
+          "clearance": 2.451988259876697
+        },
+        {
+          "frac_coords": [
+            0.9435258629467272,
+            0.3612147016395373,
+            0.999145854672319
+          ],
+          "clearance": 2.445440827590431
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 9,
+      "file": "candidate_0009.cif",
+      "substitution_indices": [
+        547
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6171915194904424,
+            0.556957304801458,
+            0.45753003440272055
+          ],
+          "clearance": 2.6930750472478895
+        },
+        {
+          "frac_coords": [
+            0.4247380165897079,
+            0.7895142322042925,
+            0.1967260388875337
+          ],
+          "clearance": 2.5280636654605444
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 10,
+      "file": "candidate_0010.cif",
+      "substitution_indices": [
+        629
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.43553238760747903,
+            0.7567420127952682,
+            0.2131344222097189
+          ],
+          "clearance": 2.7405563748619794
+        },
+        {
+          "frac_coords": [
+            0.8637155396707997,
+            0.5813195200019173,
+            0.20530282912913422
+          ],
+          "clearance": 2.4341455243408676
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 11,
+      "file": "candidate_0011.cif",
+      "substitution_indices": [
+        587
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4507005652234004,
+            0.7654419187717634,
+            0.21423227050323113
+          ],
+          "clearance": 2.5849121841833713
+        },
+        {
+          "frac_coords": [
+            0.6157849275643029,
+            0.7489890557246505,
+            0.4724769881006299
+          ],
+          "clearance": 2.441068258429092
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 12,
+      "file": "candidate_0012.cif",
+      "substitution_indices": [
+        571
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6179713721157124,
+            0.5603434980902379,
+            0.7065796188629044
+          ],
+          "clearance": 2.6574230365605045
+        },
+        {
+          "frac_coords": [
+            0.6455954697077277,
+            0.7438275510754494,
+            0.766510601840171
+          ],
+          "clearance": 2.470553127977982
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 13,
+      "file": "candidate_0013.cif",
+      "substitution_indices": [
+        600
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8162098353181365,
+            0.6262250940790699,
+            0.6560575584157707
+          ],
+          "clearance": 2.441071043641748
+        },
+        {
+          "frac_coords": [
+            0.6203210486678712,
+            0.6175418335518956,
+            0.9150621527172225
+          ],
+          "clearance": 2.5564271657762627
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 14,
+      "file": "candidate_0014.cif",
+      "substitution_indices": [
+        633
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5467623281887767,
+            0.3726168826540974,
+            0.2587740140036089
+          ],
+          "clearance": 2.4905574499238354
+        },
+        {
+          "frac_coords": [
+            0.017214867049439198,
+            0.6260398679551674,
+            0.9129989126997872
+          ],
+          "clearance": 2.545661239412302
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 15,
+      "file": "candidate_0015.cif",
+      "substitution_indices": [
+        623
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4166019183521411,
+            0.7492948957906893,
+            0.7277507437870807
+          ],
+          "clearance": 2.525143891044459
+        },
+        {
+          "frac_coords": [
+            0.8309860451311243,
+            0.7454594277729865,
+            0.25977480553550913
+          ],
+          "clearance": 2.4740510905423143
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 16,
+      "file": "candidate_0016.cif",
+      "substitution_indices": [
+        553
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        },
+        {
+          "frac_coords": [
+            0.8309860451311243,
+            0.7454594277729865,
+            0.25977480553550913
+          ],
+          "clearance": 2.4740510905423143
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 17,
+      "file": "candidate_0017.cif",
+      "substitution_indices": [
+        608
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8396369126321988,
+            0.7558814065547487,
+            0.4833843858139445
+          ],
+          "clearance": 2.6193679371016065
+        },
+        {
+          "frac_coords": [
+            0.8213358824104624,
+            0.7445802073754374,
+            0.7436890003762169
+          ],
+          "clearance": 2.6621617370278576
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 18,
+      "file": "candidate_0018.cif",
+      "substitution_indices": [
+        626
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.44058654433047506,
+            0.7338394607726592,
+            0.24823697149168245
+          ],
+          "clearance": 2.486444590289926
+        },
+        {
+          "frac_coords": [
+            0.4001902257694627,
+            0.15654157013417092,
+            0.589281715865529
+          ],
+          "clearance": 2.4419403394933132
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 19,
+      "file": "candidate_0019.cif",
+      "substitution_indices": [
+        576
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.23882478286284903,
+            0.5390724183949823,
+            0.4473609922286337
+          ],
+          "clearance": 2.4286030661403424
+        },
+        {
+          "frac_coords": [
+            0.21194061348846105,
+            0.742643902445457,
+            0.7569486661383494
+          ],
+          "clearance": 2.5279879634309292
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 20,
+      "file": "candidate_0020.cif",
+      "substitution_indices": [
+        563
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.43553238760747903,
+            0.7567420127952682,
+            0.2131344222097189
+          ],
+          "clearance": 2.7405563748619794
+        },
+        {
+          "frac_coords": [
+            0.6569683848624716,
+            0.768055748327676,
+            0.21786165600196095
+          ],
+          "clearance": 2.5050100668453164
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 21,
+      "file": "candidate_0021.cif",
+      "substitution_indices": [
+        608
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.23325793863680733,
+            0.8023383741044883,
+            0.4466763288395401
+          ],
+          "clearance": 2.42703312703718
+        },
+        {
+          "frac_coords": [
+            0.8199660000559444,
+            0.7609380750918029,
+            0.9709187141698017
+          ],
+          "clearance": 2.6244621940896735
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 22,
+      "file": "candidate_0022.cif",
+      "substitution_indices": [
+        563
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.031162117800530797,
+            0.5841318165463226,
+            0.928150194697226
+          ],
+          "clearance": 2.5299956097911176
+        },
+        {
+          "frac_coords": [
+            0.3598989995251243,
+            0.1703859258826501,
+            0.10159756709102852
+          ],
+          "clearance": 2.4381766044191595
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 23,
+      "file": "candidate_0023.cif",
+      "substitution_indices": [
+        561
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9397068760286316,
+            0.041144866836657634,
+            0.31728323161530936
+          ],
+          "clearance": 2.4460044771737963
+        },
+        {
+          "frac_coords": [
+            0.45513895584912023,
+            0.7767695009846932,
+            0.7668123398037697
+          ],
+          "clearance": 2.4388371546291685
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 24,
+      "file": "candidate_0024.cif",
+      "substitution_indices": [
+        607
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.057624675043724594,
+            0.5593483890999396,
+            0.20929537670725618
+          ],
+          "clearance": 2.6587364351994482
+        },
+        {
+          "frac_coords": [
+            0.4205004716701557,
+            0.5530733823542687,
+            0.9591053032636033
+          ],
+          "clearance": 2.638166897791991
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 25,
+      "file": "candidate_0025.cif",
+      "substitution_indices": [
+        615
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4541548205063012,
+            0.7861801635990513,
+            0.9760193549940845
+          ],
+          "clearance": 2.5270180765758976
+        },
+        {
+          "frac_coords": [
+            0.8506615034592692,
+            0.5501225756353693,
+            0.19534822727591883
+          ],
+          "clearance": 2.7206238498727404
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 26,
+      "file": "candidate_0026.cif",
+      "substitution_indices": [
+        549
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.964311848538795,
+            0.16234768130501265,
+            0.3555299937432539
+          ],
+          "clearance": 2.4647977835310457
+        },
+        {
+          "frac_coords": [
+            0.45409789168815873,
+            0.8032365849832798,
+            0.47181681266155073
+          ],
+          "clearance": 2.5274450523622347
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 27,
+      "file": "candidate_0027.cif",
+      "substitution_indices": [
+        555
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.0437976432713979,
+            0.5479176586594867,
+            0.697560243530312
+          ],
+          "clearance": 2.7627387425656096
+        },
+        {
+          "frac_coords": [
+            0.846387588063555,
+            0.7575790193731645,
+            0.9545471074731335
+          ],
+          "clearance": 2.5776511120547285
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 28,
+      "file": "candidate_0028.cif",
+      "substitution_indices": [
+        550
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.22447629143307957,
+            0.7342544809738232,
+            0.7560632973050084
+          ],
+          "clearance": 2.6224498628279003
+        },
+        {
+          "frac_coords": [
+            0.4221508412181677,
+            0.7940508511778045,
+            0.9300686132109667
+          ],
+          "clearance": 2.432929257541422
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 29,
+      "file": "candidate_0029.cif",
+      "substitution_indices": [
+        630
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.031162117800530797,
+            0.5841318165463226,
+            0.928150194697226
+          ],
+          "clearance": 2.5299956097911176
+        },
+        {
+          "frac_coords": [
+            0.6441699395023209,
+            0.5464829077540613,
+            0.7245996453180793
+          ],
+          "clearance": 2.5871437222519797
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 30,
+      "file": "candidate_0030.cif",
+      "substitution_indices": [
+        580
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8162098353181365,
+            0.6262250940790699,
+            0.6560575584157707
+          ],
+          "clearance": 2.441071043641748
+        },
+        {
+          "frac_coords": [
+            0.8196490886502128,
+            0.8258084318686685,
+            0.677375975144859
+          ],
+          "clearance": 2.546001896573344
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 31,
+      "file": "candidate_0031.cif",
+      "substitution_indices": [
+        639
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9980220915859523,
+            0.16366842115764224,
+            0.5978269930313204
+          ],
+          "clearance": 2.5169040020840634
+        },
+        {
+          "frac_coords": [
+            9.938545393106679e-05,
+            0.04331770432574833,
+            0.7890964071757316
+          ],
+          "clearance": 2.4985509601990246
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 32,
+      "file": "candidate_0032.cif",
+      "substitution_indices": [
+        609
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.031162117800530797,
+            0.5841318165463226,
+            0.928150194697226
+          ],
+          "clearance": 2.5299956097911176
+        },
+        {
+          "frac_coords": [
+            0.8309860451311243,
+            0.7454594277729865,
+            0.25977480553550913
+          ],
+          "clearance": 2.4740510905423143
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 33,
+      "file": "candidate_0033.cif",
+      "substitution_indices": [
+        550
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2412824601790372,
+            0.5561712187956139,
+            0.9533194328308632
+          ],
+          "clearance": 2.746272861536488
+        },
+        {
+          "frac_coords": [
+            0.04225150772271147,
+            0.7595508403198302,
+            0.7014332736929607
+          ],
+          "clearance": 2.50279129728553
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 34,
+      "file": "candidate_0034.cif",
+      "substitution_indices": [
+        609
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.26569005740602625,
+            0.7906381403944841,
+            0.48946149063125355
+          ],
+          "clearance": 2.5071139511306595
+        },
+        {
+          "frac_coords": [
+            0.6594539070049263,
+            0.5422740600574898,
+            0.9619500481970225
+          ],
+          "clearance": 2.4784643889217253
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 35,
+      "file": "candidate_0035.cif",
+      "substitution_indices": [
+        632
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.22447629143307957,
+            0.7342544809738232,
+            0.7560632973050084
+          ],
+          "clearance": 2.6224498628279003
+        },
+        {
+          "frac_coords": [
+            0.26686465544099025,
+            0.7636006174673879,
+            0.5132010013913553
+          ],
+          "clearance": 2.547711310895339
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 36,
+      "file": "candidate_0036.cif",
+      "substitution_indices": [
+        580
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.964311848538795,
+            0.16234768130501265,
+            0.3555299937432539
+          ],
+          "clearance": 2.4647977835310457
+        },
+        {
+          "frac_coords": [
+            0.2412824601790372,
+            0.5561712187956139,
+            0.9533194328308632
+          ],
+          "clearance": 2.746272861536488
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 37,
+      "file": "candidate_0037.cif",
+      "substitution_indices": [
+        620
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.23382205081057206,
+            0.7840669088495074,
+            0.445155601826966
+          ],
+          "clearance": 2.5647873011482463
+        },
+        {
+          "frac_coords": [
+            0.45513895584912023,
+            0.7767695009846932,
+            0.7668123398037697
+          ],
+          "clearance": 2.4388371546291685
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 38,
+      "file": "candidate_0038.cif",
+      "substitution_indices": [
+        564
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        },
+        {
+          "frac_coords": [
+            0.5471509961848392,
+            0.36626152728349515,
+            0.0128903655636462
+          ],
+          "clearance": 2.461970357109276
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 39,
+      "file": "candidate_0039.cif",
+      "substitution_indices": [
+        617
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.049494117499742085,
+            0.7605367889123253,
+            0.25877400313416987
+          ],
+          "clearance": 2.4802962817617304
+        },
+        {
+          "frac_coords": [
+            0.194266824810296,
+            0.16064559579160886,
+            0.3477803433470581
+          ],
+          "clearance": 2.610304811360161
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 40,
+      "file": "candidate_0040.cif",
+      "substitution_indices": [
+        594
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.45409789168815873,
+            0.8032365849832798,
+            0.47181681266155073
+          ],
+          "clearance": 2.5274450523622347
+        },
+        {
+          "frac_coords": [
+            0.41648072284164706,
+            0.7466293595784804,
+            0.7517810368122971
+          ],
+          "clearance": 2.477938159041057
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 41,
+      "file": "candidate_0041.cif",
+      "substitution_indices": [
+        615
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9462613051362945,
+            0.3737963030614775,
+            0.5048866830829374
+          ],
+          "clearance": 2.4758274063064474
+        },
+        {
+          "frac_coords": [
+            0.22447629143307957,
+            0.7342544809738232,
+            0.7560632973050084
+          ],
+          "clearance": 2.6224498628279003
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 42,
+      "file": "candidate_0042.cif",
+      "substitution_indices": [
+        617
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.862337708374541,
+            0.7886450086318788,
+            0.49095605536276143
+          ],
+          "clearance": 2.5800294025244574
+        },
+        {
+          "frac_coords": [
+            0.019728530706698,
+            0.5569243453203798,
+            0.46869849707297984
+          ],
+          "clearance": 2.4704374512344316
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 43,
+      "file": "candidate_0043.cif",
+      "substitution_indices": [
+        571
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4551533738749486,
+            0.5454405386528971,
+            0.957604029975605
+          ],
+          "clearance": 2.6386776381732924
+        },
+        {
+          "frac_coords": [
+            0.8577163410754605,
+            0.7906903240340889,
+            0.7565937027023727
+          ],
+          "clearance": 2.5510124300779036
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 44,
+      "file": "candidate_0044.cif",
+      "substitution_indices": [
+        637
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.25283020690790714,
+            0.5484509570960673,
+            0.725401016841478
+          ],
+          "clearance": 2.6114702819149143
+        },
+        {
+          "frac_coords": [
+            0.019728530706698,
+            0.5569243453203798,
+            0.46869849707297984
+          ],
+          "clearance": 2.4704374512344316
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 45,
+      "file": "candidate_0045.cif",
+      "substitution_indices": [
+        615
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8506615034592692,
+            0.5501225756353693,
+            0.19534822727591883
+          ],
+          "clearance": 2.7206238498727404
+        },
+        {
+          "frac_coords": [
+            0.8578478003023179,
+            0.7909010061350679,
+            0.743390565480835
+          ],
+          "clearance": 2.552384899941905
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 46,
+      "file": "candidate_0046.cif",
+      "substitution_indices": [
+        552
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.44058654433047506,
+            0.7338394607726592,
+            0.24823697149168245
+          ],
+          "clearance": 2.486444590289926
+        },
+        {
+          "frac_coords": [
+            0.23498062408959586,
+            0.7509315320805904,
+            0.4935368711570659
+          ],
+          "clearance": 2.555376361902362
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 47,
+      "file": "candidate_0047.cif",
+      "substitution_indices": [
+        632
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.45766315592353946,
+            0.7512343126216966,
+            0.7182695517360081
+          ],
+          "clearance": 2.454470167362291
+        },
+        {
+          "frac_coords": [
+            0.46023909015507225,
+            0.7761256762301167,
+            0.4723249213343038
+          ],
+          "clearance": 2.494266862361565
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 48,
+      "file": "candidate_0048.cif",
+      "substitution_indices": [
+        604
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.42934149958379275,
+            0.8134714831458293,
+            0.18637788550364442
+          ],
+          "clearance": 2.444661211973777
+        },
+        {
+          "frac_coords": [
+            0.26569005740602625,
+            0.7906381403944841,
+            0.48946149063125355
+          ],
+          "clearance": 2.5071139511306595
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 49,
+      "file": "candidate_0049.cif",
+      "substitution_indices": [
+        603
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6569683848624716,
+            0.768055748327676,
+            0.21786165600196095
+          ],
+          "clearance": 2.5050100668453164
+        },
+        {
+          "frac_coords": [
+            0.862337708374541,
+            0.7886450086318788,
+            0.49095605536276143
+          ],
+          "clearance": 2.5800294025244574
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 50,
+      "file": "candidate_0050.cif",
+      "substitution_indices": [
+        543
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8070205445518986,
+            0.04107261183221289,
+            0.29159914982486257
+          ],
+          "clearance": 2.5483535008873472
+        },
+        {
+          "frac_coords": [
+            0.025557939728286128,
+            0.5407771402457008,
+            0.7238177559339726
+          ],
+          "clearance": 2.526305329021446
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 51,
+      "file": "candidate_0051.cif",
+      "substitution_indices": [
+        604
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.057624675043724594,
+            0.5593483890999396,
+            0.20929537670725618
+          ],
+          "clearance": 2.6587364351994482
+        },
+        {
+          "frac_coords": [
+            0.4659261628858319,
+            0.8023458753596998,
+            0.22984364069013352
+          ],
+          "clearance": 2.539992080657639
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 52,
+      "file": "candidate_0052.cif",
+      "substitution_indices": [
+        603
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8199660000559444,
+            0.7609380750918029,
+            0.9709187141698017
+          ],
+          "clearance": 2.6244621940896735
+        },
+        {
+          "frac_coords": [
+            0.02080943792428014,
+            0.6068488376066016,
+            0.6691264585306879
+          ],
+          "clearance": 2.4543373946517066
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 53,
+      "file": "candidate_0053.cif",
+      "substitution_indices": [
+        609
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            9.938545393106679e-05,
+            0.04331770432574833,
+            0.7890964071757316
+          ],
+          "clearance": 2.4985509601990246
+        },
+        {
+          "frac_coords": [
+            0.4541548205063012,
+            0.7861801635990513,
+            0.9760193549940845
+          ],
+          "clearance": 2.5270180765758976
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 54,
+      "file": "candidate_0054.cif",
+      "substitution_indices": [
+        620
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8162098353181365,
+            0.6262250940790699,
+            0.6560575584157707
+          ],
+          "clearance": 2.441071043641748
+        },
+        {
+          "frac_coords": [
+            0.8506615034592692,
+            0.5501225756353693,
+            0.19534822727591883
+          ],
+          "clearance": 2.7206238498727404
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 55,
+      "file": "candidate_0055.cif",
+      "substitution_indices": [
+        598
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.008249487886889617,
+            0.6225096830923836,
+            0.6692406406364614
+          ],
+          "clearance": 2.4484059045548174
+        },
+        {
+          "frac_coords": [
+            0.4524995493256354,
+            0.8107539953976256,
+            0.7189984970502086
+          ],
+          "clearance": 2.526415648519612
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 56,
+      "file": "candidate_0056.cif",
+      "substitution_indices": [
+        581
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.23498062408959586,
+            0.7509315320805904,
+            0.4935368711570659
+          ],
+          "clearance": 2.555376361902362
+        },
+        {
+          "frac_coords": [
+            0.06514754469968498,
+            0.5491997156356353,
+            0.9808807100504096
+          ],
+          "clearance": 2.47573877793329
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 57,
+      "file": "candidate_0057.cif",
+      "substitution_indices": [
+        631
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.23627945596621125,
+            0.5472043042004048,
+            0.9505836840056185
+          ],
+          "clearance": 2.675052629213332
+        },
+        {
+          "frac_coords": [
+            0.0437976432713979,
+            0.5479176586594867,
+            0.697560243530312
+          ],
+          "clearance": 2.7627387425656096
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 58,
+      "file": "candidate_0058.cif",
+      "substitution_indices": [
+        617
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.42934149958379275,
+            0.8134714831458293,
+            0.18637788550364442
+          ],
+          "clearance": 2.444661211973777
+        },
+        {
+          "frac_coords": [
+            0.45409789168815873,
+            0.8032365849832798,
+            0.47181681266155073
+          ],
+          "clearance": 2.5274450523622347
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 59,
+      "file": "candidate_0059.cif",
+      "substitution_indices": [
+        593
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.20959164361773208,
+            0.8034113469543601,
+            0.9357052414092724
+          ],
+          "clearance": 2.5598160343495873
+        },
+        {
+          "frac_coords": [
+            0.5674596918700836,
+            0.1807231546486604,
+            0.5944558927684417
+          ],
+          "clearance": 2.535046663867629
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 60,
+      "file": "candidate_0060.cif",
+      "substitution_indices": [
+        555
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.26576655697697826,
+            0.5543607851128519,
+            0.2362417409346812
+          ],
+          "clearance": 2.4823836547994236
+        },
+        {
+          "frac_coords": [
+            0.8223291600023787,
+            0.7351164941528573,
+            0.25056344858132684
+          ],
+          "clearance": 2.4979266853322057
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 61,
+      "file": "candidate_0061.cif",
+      "substitution_indices": [
+        600
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.3611327197970102,
+            0.18025060004923255,
+            0.5903575306135096
+          ],
+          "clearance": 2.4668442522853797
+        },
+        {
+          "frac_coords": [
+            0.44434753032895813,
+            0.7584800916613018,
+            0.9826675060661298
+          ],
+          "clearance": 2.6281556798598915
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 62,
+      "file": "candidate_0062.cif",
+      "substitution_indices": [
+        548
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.049494117499742085,
+            0.7605367889123253,
+            0.25877400313416987
+          ],
+          "clearance": 2.4802962817617304
+        },
+        {
+          "frac_coords": [
+            0.8545410862007619,
+            0.7623466079142344,
+            0.22538085471125868
+          ],
+          "clearance": 2.6454636315379063
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 63,
+      "file": "candidate_0063.cif",
+      "substitution_indices": [
+        548
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.443896112319502,
+            0.5446902292107363,
+            0.22654087949169255
+          ],
+          "clearance": 2.5445831280522695
+        },
+        {
+          "frac_coords": [
+            0.8189476870878835,
+            0.7360746131709192,
+            0.5334764989245491
+          ],
+          "clearance": 2.4559780316660844
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 64,
+      "file": "candidate_0064.cif",
+      "substitution_indices": [
+        595
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6157849275643029,
+            0.7489890557246505,
+            0.4724769881006299
+          ],
+          "clearance": 2.441068258429092
+        },
+        {
+          "frac_coords": [
+            0.44483903154247606,
+            0.5740584803615986,
+            0.9395894012443109
+          ],
+          "clearance": 2.628091417479985
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 65,
+      "file": "candidate_0065.cif",
+      "substitution_indices": [
+        609
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8553763033985106,
+            0.5604806190593338,
+            0.4492829798000135
+          ],
+          "clearance": 2.6461161151458796
+        },
+        {
+          "frac_coords": [
+            0.8189476870878835,
+            0.7360746131709192,
+            0.5334764989245491
+          ],
+          "clearance": 2.4559780316660844
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 66,
+      "file": "candidate_0066.cif",
+      "substitution_indices": [
+        558
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4079166464890115,
+            0.7917042158218214,
+            0.18303546533909476
+          ],
+          "clearance": 2.430970873991776
+        },
+        {
+          "frac_coords": [
+            0.753099446413617,
+            0.021014038472675134,
+            0.586147512344275
+          ],
+          "clearance": 2.4861845752078473
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 67,
+      "file": "candidate_0067.cif",
+      "substitution_indices": [
+        577
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.29861356865352606,
+            0.3745068830140148,
+            0.2408926564759144
+          ],
+          "clearance": 2.4267246874254575
+        },
+        {
+          "frac_coords": [
+            0.6477093359800462,
+            0.7621956399726926,
+            0.24579025045539826
+          ],
+          "clearance": 2.486853206567469
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 68,
+      "file": "candidate_0068.cif",
+      "substitution_indices": [
+        603
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.008249487886889617,
+            0.6225096830923836,
+            0.6692406406364614
+          ],
+          "clearance": 2.4484059045548174
+        },
+        {
+          "frac_coords": [
+            0.5467623281887767,
+            0.3726168826540974,
+            0.2587740140036089
+          ],
+          "clearance": 2.4905574499238354
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 69,
+      "file": "candidate_0069.cif",
+      "substitution_indices": [
+        618
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4617943383217016,
+            0.7890943159871456,
+            0.9816999392542571
+          ],
+          "clearance": 2.5586610091016406
+        },
+        {
+          "frac_coords": [
+            0.2452204282226622,
+            0.7512886632528255,
+            0.20758636683853016
+          ],
+          "clearance": 2.5215911323772136
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 70,
+      "file": "candidate_0070.cif",
+      "substitution_indices": [
+        541
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.45513895584912023,
+            0.7767695009846932,
+            0.7668123398037697
+          ],
+          "clearance": 2.4388371546291685
+        },
+        {
+          "frac_coords": [
+            0.2412824601790372,
+            0.5561712187956139,
+            0.9533194328308632
+          ],
+          "clearance": 2.746272861536488
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 71,
+      "file": "candidate_0071.cif",
+      "substitution_indices": [
+        589
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6553969547745094,
+            0.5505300834216758,
+            0.9479462992465626
+          ],
+          "clearance": 2.7542104962019707
+        },
+        {
+          "frac_coords": [
+            0.24786813803836394,
+            0.7752952043633652,
+            0.7222925164000619
+          ],
+          "clearance": 2.5356687469512047
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 72,
+      "file": "candidate_0072.cif",
+      "substitution_indices": [
+        574
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.45549043959855573,
+            0.7538829073822569,
+            0.1990450841080741
+          ],
+          "clearance": 2.446163804725824
+        },
+        {
+          "frac_coords": [
+            0.29861356865352606,
+            0.3745068830140148,
+            0.2408926564759144
+          ],
+          "clearance": 2.4267246874254575
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 73,
+      "file": "candidate_0073.cif",
+      "substitution_indices": [
+        598
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.45409789168815873,
+            0.8032365849832798,
+            0.47181681266155073
+          ],
+          "clearance": 2.5274450523622347
+        },
+        {
+          "frac_coords": [
+            0.6262331457957133,
+            0.5787336785104561,
+            0.6879088792051629
+          ],
+          "clearance": 2.58266476328116
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 74,
+      "file": "candidate_0074.cif",
+      "substitution_indices": [
+        585
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4524995493256354,
+            0.8107539953976256,
+            0.7189984970502086
+          ],
+          "clearance": 2.526415648519612
+        },
+        {
+          "frac_coords": [
+            0.8506615034592692,
+            0.5501225756353693,
+            0.19534822727591883
+          ],
+          "clearance": 2.7206238498727404
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 75,
+      "file": "candidate_0075.cif",
+      "substitution_indices": [
+        588
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.019728530706698,
+            0.5569243453203798,
+            0.46869849707297984
+          ],
+          "clearance": 2.4704374512344316
+        },
+        {
+          "frac_coords": [
+            0.41494498728374063,
+            0.7382398190533268,
+            0.2588586639968242
+          ],
+          "clearance": 2.5733534091266312
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 76,
+      "file": "candidate_0076.cif",
+      "substitution_indices": [
+        632
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5446208033032599,
+            0.06493835057568031,
+            0.5431812862650266
+          ],
+          "clearance": 2.4874477940193094
+        },
+        {
+          "frac_coords": [
+            0.031162117800530797,
+            0.5841318165463226,
+            0.928150194697226
+          ],
+          "clearance": 2.5299956097911176
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 77,
+      "file": "candidate_0077.cif",
+      "substitution_indices": [
+        628
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4617943383217016,
+            0.7890943159871456,
+            0.9816999392542571
+          ],
+          "clearance": 2.5586610091016406
+        },
+        {
+          "frac_coords": [
+            0.412016107150197,
+            0.8270521374502056,
+            0.43049098122000484
+          ],
+          "clearance": 2.4388333938599787
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 78,
+      "file": "candidate_0078.cif",
+      "substitution_indices": [
+        618
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4414653585987053,
+            0.7690628643193607,
+            0.7163724449567619
+          ],
+          "clearance": 2.6291762608085385
+        },
+        {
+          "frac_coords": [
+            0.6631275991817058,
+            0.5445522876126786,
+            0.4471151909536667
+          ],
+          "clearance": 2.5170059999556975
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 79,
+      "file": "candidate_0079.cif",
+      "substitution_indices": [
+        548
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4197826384948182,
+            0.5502416300555875,
+            0.47863367350472386
+          ],
+          "clearance": 2.4690286332234908
+        },
+        {
+          "frac_coords": [
+            0.8620479872471171,
+            0.7809111545829253,
+            0.005892711268381423
+          ],
+          "clearance": 2.6456893955708423
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 80,
+      "file": "candidate_0080.cif",
+      "substitution_indices": [
+        554
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.41972039794428984,
+            0.5741695376045695,
+            0.6898737453658124
+          ],
+          "clearance": 2.4406097741802135
+        },
+        {
+          "frac_coords": [
+            0.6631128011430393,
+            0.7494949313052941,
+            0.9519210664209318
+          ],
+          "clearance": 2.4884899213228544
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 81,
+      "file": "candidate_0081.cif",
+      "substitution_indices": [
+        625
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.443896112319502,
+            0.5446902292107363,
+            0.22654087949169255
+          ],
+          "clearance": 2.5445831280522695
+        },
+        {
+          "frac_coords": [
+            0.4585908012101142,
+            0.7719183679889124,
+            0.5087919527373901
+          ],
+          "clearance": 2.611369254632516
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 82,
+      "file": "candidate_0082.cif",
+      "substitution_indices": [
+        627
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8162098353181365,
+            0.6262250940790699,
+            0.6560575584157707
+          ],
+          "clearance": 2.441071043641748
+        },
+        {
+          "frac_coords": [
+            0.443896112319502,
+            0.5446902292107363,
+            0.22654087949169255
+          ],
+          "clearance": 2.5445831280522695
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 83,
+      "file": "candidate_0083.cif",
+      "substitution_indices": [
+        571
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5944367491767962,
+            0.037630869811528855,
+            0.050244890353869365
+          ],
+          "clearance": 2.4726143776176674
+        },
+        {
+          "frac_coords": [
+            0.6339814167016684,
+            0.6040818922797405,
+            0.4258090235187342
+          ],
+          "clearance": 2.440431547924598
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 84,
+      "file": "candidate_0084.cif",
+      "substitution_indices": [
+        579
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8070205445518986,
+            0.04107261183221289,
+            0.29159914982486257
+          ],
+          "clearance": 2.5483535008873472
+        },
+        {
+          "frac_coords": [
+            0.24309128867896546,
+            0.7876846872691945,
+            0.7130105175963317
+          ],
+          "clearance": 2.434552468617232
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 85,
+      "file": "candidate_0085.cif",
+      "substitution_indices": [
+        617
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.24309128867896546,
+            0.7876846872691945,
+            0.7130105175963317
+          ],
+          "clearance": 2.434552468617232
+        },
+        {
+          "frac_coords": [
+            0.7976816734190688,
+            0.5553898355279696,
+            0.23137527610306785
+          ],
+          "clearance": 2.495927664413532
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 86,
+      "file": "candidate_0086.cif",
+      "substitution_indices": [
+        630
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.02080943792428014,
+            0.6068488376066016,
+            0.6691264585306879
+          ],
+          "clearance": 2.4543373946517066
+        },
+        {
+          "frac_coords": [
+            0.42934149958379275,
+            0.8134714831458293,
+            0.18637788550364442
+          ],
+          "clearance": 2.444661211973777
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 87,
+      "file": "candidate_0087.cif",
+      "substitution_indices": [
+        602
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4079166464890115,
+            0.7917042158218214,
+            0.18303546533909476
+          ],
+          "clearance": 2.430970873991776
+        },
+        {
+          "frac_coords": [
+            0.8262300655886797,
+            0.628862012673693,
+            0.9176459059839311
+          ],
+          "clearance": 2.428824930366571
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 88,
+      "file": "candidate_0088.cif",
+      "substitution_indices": [
+        544
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6477093359800462,
+            0.7621956399726926,
+            0.24579025045539826
+          ],
+          "clearance": 2.486853206567469
+        },
+        {
+          "frac_coords": [
+            0.45201295232917593,
+            0.7632131430079367,
+            0.22276312508565366
+          ],
+          "clearance": 2.699073423804083
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 89,
+      "file": "candidate_0089.cif",
+      "substitution_indices": [
+        589
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5944367491767962,
+            0.037630869811528855,
+            0.050244890353869365
+          ],
+          "clearance": 2.4726143776176674
+        },
+        {
+          "frac_coords": [
+            0.8189476870878835,
+            0.7360746131709192,
+            0.5334764989245491
+          ],
+          "clearance": 2.4559780316660844
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 90,
+      "file": "candidate_0090.cif",
+      "substitution_indices": [
+        576
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.018177812322150766,
+            0.8062364517777012,
+            0.9209963209740908
+          ],
+          "clearance": 2.4731100921425155
+        },
+        {
+          "frac_coords": [
+            0.6193434950567344,
+            0.7363065790461129,
+            0.021308304567321024
+          ],
+          "clearance": 2.545614813280075
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 91,
+      "file": "candidate_0091.cif",
+      "substitution_indices": [
+        588
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.40552941318037194,
+            0.02767604399319179,
+            0.3033785032122944
+          ],
+          "clearance": 2.517856861912705
+        },
+        {
+          "frac_coords": [
+            0.6111771390240707,
+            0.6404879053798445,
+            0.41439649295169845
+          ],
+          "clearance": 2.463599466158751
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 92,
+      "file": "candidate_0092.cif",
+      "substitution_indices": [
+        629
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.85107087440808,
+            0.557247259149816,
+            0.22196616549189363
+          ],
+          "clearance": 2.4490797159470423
+        },
+        {
+          "frac_coords": [
+            0.8190093445088542,
+            0.5558236059533864,
+            0.698746313681232
+          ],
+          "clearance": 2.5366333245993453
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 93,
+      "file": "candidate_0093.cif",
+      "substitution_indices": [
+        634
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2119751267175909,
+            0.5735516311975409,
+            0.20248893405902368
+          ],
+          "clearance": 2.446065639535524
+        },
+        {
+          "frac_coords": [
+            0.0437976432713979,
+            0.5479176586594867,
+            0.697560243530312
+          ],
+          "clearance": 2.7627387425656096
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 94,
+      "file": "candidate_0094.cif",
+      "substitution_indices": [
+        617
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.7341964142661542,
+            0.02180781496446693,
+            0.8376457187583696
+          ],
+          "clearance": 2.441054702729989
+        },
+        {
+          "frac_coords": [
+            0.22610467008892232,
+            0.7587100034729495,
+            0.734462992992111
+          ],
+          "clearance": 2.4406984343943385
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 95,
+      "file": "candidate_0095.cif",
+      "substitution_indices": [
+        558
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8221413202446946,
+            0.7962955780448951,
+            0.43710640056230865
+          ],
+          "clearance": 2.6288930761875045
+        },
+        {
+          "frac_coords": [
+            0.4205004716701557,
+            0.5530733823542687,
+            0.9591053032636033
+          ],
+          "clearance": 2.638166897791991
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 96,
+      "file": "candidate_0096.cif",
+      "substitution_indices": [
+        548
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.45513895584912023,
+            0.7767695009846932,
+            0.7668123398037697
+          ],
+          "clearance": 2.4388371546291685
+        },
+        {
+          "frac_coords": [
+            0.6553969547745094,
+            0.5505300834216758,
+            0.9479462992465626
+          ],
+          "clearance": 2.7542104962019707
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 97,
+      "file": "candidate_0097.cif",
+      "substitution_indices": [
+        618
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.24786813803836394,
+            0.7752952043633652,
+            0.7222925164000619
+          ],
+          "clearance": 2.5356687469512047
+        },
+        {
+          "frac_coords": [
+            0.8533087752836266,
+            0.7509692059060067,
+            0.45307818089578245
+          ],
+          "clearance": 2.490354768350306
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 98,
+      "file": "candidate_0098.cif",
+      "substitution_indices": [
+        616
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.017214867049439198,
+            0.6260398679551674,
+            0.9129989126997872
+          ],
+          "clearance": 2.545661239412302
+        },
+        {
+          "frac_coords": [
+            0.024538872425989622,
+            0.8131863778765412,
+            0.418751396665072
+          ],
+          "clearance": 2.4807268369370163
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 99,
+      "file": "candidate_0099.cif",
+      "substitution_indices": [
+        603
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.194266824810296,
+            0.16064559579160886,
+            0.3477803433470581
+          ],
+          "clearance": 2.610304811360161
+        },
+        {
+          "frac_coords": [
+            0.24786813803836394,
+            0.7752952043633652,
+            0.7222925164000619
+          ],
+          "clearance": 2.5356687469512047
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 100,
+      "file": "candidate_0100.cif",
+      "substitution_indices": [
+        638
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.23382205081057206,
+            0.7840669088495074,
+            0.445155601826966
+          ],
+          "clearance": 2.5647873011482463
+        },
+        {
+          "frac_coords": [
+            0.22137938576358718,
+            0.826942878980023,
+            0.6610715122039499
+          ],
+          "clearance": 2.4738773389411772
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 101,
+      "file": "candidate_0101.cif",
+      "substitution_indices": [
+        599
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.008249487886889617,
+            0.6225096830923836,
+            0.6692406406364614
+          ],
+          "clearance": 2.4484059045548174
+        },
+        {
+          "frac_coords": [
+            0.2517650734524737,
+            0.5844421131142016,
+            0.44435274572096517
+          ],
+          "clearance": 2.4317574046490864
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 102,
+      "file": "candidate_0102.cif",
+      "substitution_indices": [
+        607
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4540659932473362,
+            0.7560257973314736,
+            0.7536858029306692
+          ],
+          "clearance": 2.523030162888364
+        },
+        {
+          "frac_coords": [
+            0.8643944545395824,
+            0.7937727135606149,
+            0.22034091750932394
+          ],
+          "clearance": 2.4514525699305123
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 103,
+      "file": "candidate_0103.cif",
+      "substitution_indices": [
+        623
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4079166464890115,
+            0.7917042158218214,
+            0.18303546533909476
+          ],
+          "clearance": 2.430970873991776
+        },
+        {
+          "frac_coords": [
+            0.412016107150197,
+            0.8270521374502056,
+            0.43049098122000484
+          ],
+          "clearance": 2.4388333938599787
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 104,
+      "file": "candidate_0104.cif",
+      "substitution_indices": [
+        567
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6203210486678712,
+            0.6175418335518956,
+            0.9150621527172225
+          ],
+          "clearance": 2.5564271657762627
+        },
+        {
+          "frac_coords": [
+            0.8223291600023787,
+            0.7351164941528573,
+            0.25056344858132684
+          ],
+          "clearance": 2.4979266853322057
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 105,
+      "file": "candidate_0105.cif",
+      "substitution_indices": [
+        552
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.42934149958379275,
+            0.8134714831458293,
+            0.18637788550364442
+          ],
+          "clearance": 2.444661211973777
+        },
+        {
+          "frac_coords": [
+            0.8587919748756817,
+            0.7802796154296009,
+            0.23272125401508859
+          ],
+          "clearance": 2.622328953037185
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 106,
+      "file": "candidate_0106.cif",
+      "substitution_indices": [
+        602
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.42934149958379275,
+            0.8134714831458293,
+            0.18637788550364442
+          ],
+          "clearance": 2.444661211973777
+        },
+        {
+          "frac_coords": [
+            0.2517650734524737,
+            0.5844421131142016,
+            0.44435274572096517
+          ],
+          "clearance": 2.4317574046490864
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 107,
+      "file": "candidate_0107.cif",
+      "substitution_indices": [
+        609
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5944367491767962,
+            0.037630869811528855,
+            0.050244890353869365
+          ],
+          "clearance": 2.4726143776176674
+        },
+        {
+          "frac_coords": [
+            0.4524995493256354,
+            0.8107539953976256,
+            0.7189984970502086
+          ],
+          "clearance": 2.526415648519612
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 108,
+      "file": "candidate_0108.cif",
+      "substitution_indices": [
+        542
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8612621653290569,
+            0.5430892323056145,
+            0.19366141952775462
+          ],
+          "clearance": 2.5802722552225745
+        },
+        {
+          "frac_coords": [
+            0.6108903631544412,
+            0.8033104786391393,
+            0.43483474958114643
+          ],
+          "clearance": 2.5806661893900635
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 109,
+      "file": "candidate_0109.cif",
+      "substitution_indices": [
+        581
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.41494498728374063,
+            0.7382398190533268,
+            0.2588586639968242
+          ],
+          "clearance": 2.5733534091266312
+        },
+        {
+          "frac_coords": [
+            0.6455954697077277,
+            0.7438275510754494,
+            0.766510601840171
+          ],
+          "clearance": 2.470553127977982
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 110,
+      "file": "candidate_0110.cif",
+      "substitution_indices": [
+        613
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6185131572593778,
+            0.5591928142971133,
+            0.7079038748179995
+          ],
+          "clearance": 2.654979295389324
+        },
+        {
+          "frac_coords": [
+            0.8533087752836266,
+            0.7509692059060067,
+            0.45307818089578245
+          ],
+          "clearance": 2.490354768350306
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 111,
+      "file": "candidate_0111.cif",
+      "substitution_indices": [
+        603
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8577163410754605,
+            0.7906903240340889,
+            0.7565937027023727
+          ],
+          "clearance": 2.5510124300779036
+        },
+        {
+          "frac_coords": [
+            0.4617943383217016,
+            0.7890943159871456,
+            0.9816999392542571
+          ],
+          "clearance": 2.5586610091016406
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 112,
+      "file": "candidate_0112.cif",
+      "substitution_indices": [
+        631
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.22137938576358718,
+            0.826942878980023,
+            0.6610715122039499
+          ],
+          "clearance": 2.4738773389411772
+        },
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 113,
+      "file": "candidate_0113.cif",
+      "substitution_indices": [
+        604
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5471509961848392,
+            0.36626152728349515,
+            0.0128903655636462
+          ],
+          "clearance": 2.461970357109276
+        },
+        {
+          "frac_coords": [
+            0.06514754469968498,
+            0.5491997156356353,
+            0.9808807100504096
+          ],
+          "clearance": 2.47573877793329
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 114,
+      "file": "candidate_0114.cif",
+      "substitution_indices": [
+        572
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6297368302693248,
+            0.7402443138079584,
+            0.24836748517786889
+          ],
+          "clearance": 2.7106882827443557
+        },
+        {
+          "frac_coords": [
+            0.2412824601790372,
+            0.5561712187956139,
+            0.9533194328308632
+          ],
+          "clearance": 2.746272861536488
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 115,
+      "file": "candidate_0115.cif",
+      "substitution_indices": [
+        582
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4505020510828116,
+            0.763739202690379,
+            0.2504430733524061
+          ],
+          "clearance": 2.4935498987269087
+        },
+        {
+          "frac_coords": [
+            0.040729501424819126,
+            0.7811300373772058,
+            0.9567337987806878
+          ],
+          "clearance": 2.5307768710337317
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 116,
+      "file": "candidate_0116.cif",
+      "substitution_indices": [
+        628
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2248360371282866,
+            0.6241706836763752,
+            0.39874270669703404
+          ],
+          "clearance": 2.4819324389645185
+        },
+        {
+          "frac_coords": [
+            0.6193434950567344,
+            0.7363065790461129,
+            0.021308304567321024
+          ],
+          "clearance": 2.545614813280075
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 117,
+      "file": "candidate_0117.cif",
+      "substitution_indices": [
+        577
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.44058654433047506,
+            0.7338394607726592,
+            0.24823697149168245
+          ],
+          "clearance": 2.486444590289926
+        },
+        {
+          "frac_coords": [
+            0.04920132345366235,
+            0.7851769055468485,
+            0.46344590140071507
+          ],
+          "clearance": 2.442853081877889
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 118,
+      "file": "candidate_0118.cif",
+      "substitution_indices": [
+        562
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        },
+        {
+          "frac_coords": [
+            0.5446208033032599,
+            0.06493835057568031,
+            0.5431812862650266
+          ],
+          "clearance": 2.4874477940193094
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 119,
+      "file": "candidate_0119.cif",
+      "substitution_indices": [
+        565
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        },
+        {
+          "frac_coords": [
+            0.8545410862007619,
+            0.7623466079142344,
+            0.22538085471125868
+          ],
+          "clearance": 2.6454636315379063
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 120,
+      "file": "candidate_0120.cif",
+      "substitution_indices": [
+        603
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2517650734524737,
+            0.5844421131142016,
+            0.44435274572096517
+          ],
+          "clearance": 2.4317574046490864
+        },
+        {
+          "frac_coords": [
+            0.2119751267175909,
+            0.5735516311975409,
+            0.20248893405902368
+          ],
+          "clearance": 2.446065639535524
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 121,
+      "file": "candidate_0121.cif",
+      "substitution_indices": [
+        598
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6441699395023209,
+            0.5464829077540613,
+            0.7245996453180793
+          ],
+          "clearance": 2.5871437222519797
+        },
+        {
+          "frac_coords": [
+            0.05197522029392421,
+            0.8116519905418116,
+            0.965937371840436
+          ],
+          "clearance": 2.5336109820817336
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 122,
+      "file": "candidate_0122.cif",
+      "substitution_indices": [
+        577
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4247380165897079,
+            0.7895142322042925,
+            0.1967260388875337
+          ],
+          "clearance": 2.5280636654605444
+        },
+        {
+          "frac_coords": [
+            0.6586141705649774,
+            0.7572445851041998,
+            0.5045901719228564
+          ],
+          "clearance": 2.500375908837042
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 123,
+      "file": "candidate_0123.cif",
+      "substitution_indices": [
+        597
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6203210486678712,
+            0.6175418335518956,
+            0.9150621527172225
+          ],
+          "clearance": 2.5564271657762627
+        },
+        {
+          "frac_coords": [
+            0.02080943792428014,
+            0.6068488376066016,
+            0.6691264585306879
+          ],
+          "clearance": 2.4543373946517066
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 124,
+      "file": "candidate_0124.cif",
+      "substitution_indices": [
+        593
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8587919748756817,
+            0.7802796154296009,
+            0.23272125401508859
+          ],
+          "clearance": 2.622328953037185
+        },
+        {
+          "frac_coords": [
+            0.017214867049439198,
+            0.6260398679551674,
+            0.9129989126997872
+          ],
+          "clearance": 2.545661239412302
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 125,
+      "file": "candidate_0125.cif",
+      "substitution_indices": [
+        635
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.42934149958379275,
+            0.8134714831458293,
+            0.18637788550364442
+          ],
+          "clearance": 2.444661211973777
+        },
+        {
+          "frac_coords": [
+            0.41972039794428984,
+            0.5741695376045695,
+            0.6898737453658124
+          ],
+          "clearance": 2.4406097741802135
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 126,
+      "file": "candidate_0126.cif",
+      "substitution_indices": [
+        540
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8587919748756817,
+            0.7802796154296009,
+            0.23272125401508859
+          ],
+          "clearance": 2.622328953037185
+        },
+        {
+          "frac_coords": [
+            0.818567708489888,
+            0.7994735696463451,
+            0.6916735147994644
+          ],
+          "clearance": 2.468565582782639
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 127,
+      "file": "candidate_0127.cif",
+      "substitution_indices": [
+        552
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6466675690361917,
+            0.544961753795655,
+            0.19646278053769883
+          ],
+          "clearance": 2.721062311518407
+        },
+        {
+          "frac_coords": [
+            0.6586141705649774,
+            0.7572445851041998,
+            0.5045901719228564
+          ],
+          "clearance": 2.500375908837042
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 128,
+      "file": "candidate_0128.cif",
+      "substitution_indices": [
+        588
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6203210486678712,
+            0.6175418335518956,
+            0.9150621527172225
+          ],
+          "clearance": 2.5564271657762627
+        },
+        {
+          "frac_coords": [
+            0.021703761997066917,
+            0.8146440516215055,
+            0.17244092041599712
+          ],
+          "clearance": 2.5653830095272414
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 129,
+      "file": "candidate_0129.cif",
+      "substitution_indices": [
+        608
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2248360371282866,
+            0.6241706836763752,
+            0.39874270669703404
+          ],
+          "clearance": 2.4819324389645185
+        },
+        {
+          "frac_coords": [
+            0.013662442871953506,
+            0.7887043833000276,
+            0.6853656970467857
+          ],
+          "clearance": 2.5294183355305924
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 130,
+      "file": "candidate_0130.cif",
+      "substitution_indices": [
+        612
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.29861356865352606,
+            0.3745068830140148,
+            0.2408926564759144
+          ],
+          "clearance": 2.4267246874254575
+        },
+        {
+          "frac_coords": [
+            0.8474228953212848,
+            0.573265234861878,
+            0.6873520096193008
+          ],
+          "clearance": 2.557884880327842
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 131,
+      "file": "candidate_0131.cif",
+      "substitution_indices": [
+        585
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.846387588063555,
+            0.7575790193731645,
+            0.9545471074731335
+          ],
+          "clearance": 2.5776511120547285
+        },
+        {
+          "frac_coords": [
+            0.13004258874811592,
+            0.018941608357243456,
+            0.331763578392556
+          ],
+          "clearance": 2.4386365291691185
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 132,
+      "file": "candidate_0132.cif",
+      "substitution_indices": [
+        623
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6171915194904424,
+            0.556957304801458,
+            0.45753003440272055
+          ],
+          "clearance": 2.6930750472478895
+        },
+        {
+          "frac_coords": [
+            0.591876181751379,
+            0.15689124747383887,
+            0.08779316622265243
+          ],
+          "clearance": 2.4697301877267654
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 133,
+      "file": "candidate_0133.cif",
+      "substitution_indices": [
+        570
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4461360354691032,
+            0.5464258309002615,
+            0.19228938326668799
+          ],
+          "clearance": 2.6267441023824043
+        },
+        {
+          "frac_coords": [
+            0.21194061348846105,
+            0.742643902445457,
+            0.7569486661383494
+          ],
+          "clearance": 2.5279879634309292
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 134,
+      "file": "candidate_0134.cif",
+      "substitution_indices": [
+        561
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4226685388375786,
+            0.7600780169327513,
+            0.6965446152279197
+          ],
+          "clearance": 2.4734604118729764
+        },
+        {
+          "frac_coords": [
+            0.24409016442607445,
+            0.7570874696475568,
+            0.7329736022877119
+          ],
+          "clearance": 2.6483376766985427
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 135,
+      "file": "candidate_0135.cif",
+      "substitution_indices": [
+        611
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.25283020690790714,
+            0.5484509570960673,
+            0.725401016841478
+          ],
+          "clearance": 2.6114702819149143
+        },
+        {
+          "frac_coords": [
+            0.15688835719399308,
+            0.17633838744459418,
+            0.3380087977736631
+          ],
+          "clearance": 2.466273447075417
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 136,
+      "file": "candidate_0136.cif",
+      "substitution_indices": [
+        602
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2628250223472588,
+            0.7760718400607891,
+            0.008754348501858522
+          ],
+          "clearance": 2.6293356856573165
+        },
+        {
+          "frac_coords": [
+            0.6171915194904424,
+            0.556957304801458,
+            0.45753003440272055
+          ],
+          "clearance": 2.6930750472478895
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 137,
+      "file": "candidate_0137.cif",
+      "substitution_indices": [
+        596
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.04390030990688876,
+            0.5809683088823814,
+            0.9301135769503192
+          ],
+          "clearance": 2.5101513672878704
+        },
+        {
+          "frac_coords": [
+            0.4166019183521411,
+            0.7492948957906893,
+            0.7277507437870807
+          ],
+          "clearance": 2.525143891044459
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 138,
+      "file": "candidate_0138.cif",
+      "substitution_indices": [
+        556
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6594539070049263,
+            0.5422740600574898,
+            0.9619500481970225
+          ],
+          "clearance": 2.4784643889217253
+        },
+        {
+          "frac_coords": [
+            0.22143902849371233,
+            0.7509733108583869,
+            0.9842939691835628
+          ],
+          "clearance": 2.6386189563199927
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 139,
+      "file": "candidate_0139.cif",
+      "substitution_indices": [
+        638
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8162098353181365,
+            0.6262250940790699,
+            0.6560575584157707
+          ],
+          "clearance": 2.441071043641748
+        },
+        {
+          "frac_coords": [
+            0.0663920252552509,
+            0.5643165751727075,
+            0.21206295944589548
+          ],
+          "clearance": 2.5922542253625394
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 140,
+      "file": "candidate_0140.cif",
+      "substitution_indices": [
+        605
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.7341964142661542,
+            0.02180781496446693,
+            0.8376457187583696
+          ],
+          "clearance": 2.441054702729989
+        },
+        {
+          "frac_coords": [
+            0.6179713721157124,
+            0.5603434980902379,
+            0.7065796188629044
+          ],
+          "clearance": 2.6574230365605045
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 141,
+      "file": "candidate_0141.cif",
+      "substitution_indices": [
+        591
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2315346947721244,
+            0.5916933021524036,
+            0.9294251775465404
+          ],
+          "clearance": 2.52510724947622
+        },
+        {
+          "frac_coords": [
+            0.4221508412181677,
+            0.7940508511778045,
+            0.9300686132109667
+          ],
+          "clearance": 2.432929257541422
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 142,
+      "file": "candidate_0142.cif",
+      "substitution_indices": [
+        583
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.45409789168815873,
+            0.8032365849832798,
+            0.47181681266155073
+          ],
+          "clearance": 2.5274450523622347
+        },
+        {
+          "frac_coords": [
+            0.821611818960376,
+            0.7359278496524656,
+            0.27478573450379407
+          ],
+          "clearance": 2.533646265113995
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 143,
+      "file": "candidate_0143.cif",
+      "substitution_indices": [
+        628
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        },
+        {
+          "frac_coords": [
+            0.41648072284164706,
+            0.7466293595784804,
+            0.7517810368122971
+          ],
+          "clearance": 2.477938159041057
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 144,
+      "file": "candidate_0144.cif",
+      "substitution_indices": [
+        599
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8307643356678829,
+            0.5629286601193128,
+            0.4541406125071932
+          ],
+          "clearance": 2.56753324692039
+        },
+        {
+          "frac_coords": [
+            0.6297368302693248,
+            0.7402443138079584,
+            0.24836748517786889
+          ],
+          "clearance": 2.7106882827443557
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 145,
+      "file": "candidate_0145.cif",
+      "substitution_indices": [
+        624
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.7341964142661542,
+            0.02180781496446693,
+            0.8376457187583696
+          ],
+          "clearance": 2.441054702729989
+        },
+        {
+          "frac_coords": [
+            0.4197826384948182,
+            0.5502416300555875,
+            0.47863367350472386
+          ],
+          "clearance": 2.4690286332234908
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 146,
+      "file": "candidate_0146.cif",
+      "substitution_indices": [
+        569
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.42934149958379275,
+            0.8134714831458293,
+            0.18637788550364442
+          ],
+          "clearance": 2.444661211973777
+        },
+        {
+          "frac_coords": [
+            0.46023909015507225,
+            0.7761256762301167,
+            0.4723249213343038
+          ],
+          "clearance": 2.494266862361565
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 147,
+      "file": "candidate_0147.cif",
+      "substitution_indices": [
+        556
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4574179407556621,
+            0.7531365167521291,
+            0.21908114197792206
+          ],
+          "clearance": 2.4791933310554426
+        },
+        {
+          "frac_coords": [
+            0.9397068760286316,
+            0.041144866836657634,
+            0.31728323161530936
+          ],
+          "clearance": 2.4460044771737963
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 148,
+      "file": "candidate_0148.cif",
+      "substitution_indices": [
+        631
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2517650734524737,
+            0.5844421131142016,
+            0.44435274572096517
+          ],
+          "clearance": 2.4317574046490864
+        },
+        {
+          "frac_coords": [
+            0.45513895584912023,
+            0.7767695009846932,
+            0.7668123398037697
+          ],
+          "clearance": 2.4388371546291685
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 149,
+      "file": "candidate_0149.cif",
+      "substitution_indices": [
+        610
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8262300655886797,
+            0.628862012673693,
+            0.9176459059839311
+          ],
+          "clearance": 2.428824930366571
+        },
+        {
+          "frac_coords": [
+            0.661250289006354,
+            0.7703781376590887,
+            0.004306875429105794
+          ],
+          "clearance": 2.623335874195624
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 150,
+      "file": "candidate_0150.cif",
+      "substitution_indices": [
+        585
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2119751267175909,
+            0.5735516311975409,
+            0.20248893405902368
+          ],
+          "clearance": 2.446065639535524
+        },
+        {
+          "frac_coords": [
+            0.7341964142661542,
+            0.02180781496446693,
+            0.8376457187583696
+          ],
+          "clearance": 2.441054702729989
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 151,
+      "file": "candidate_0151.cif",
+      "substitution_indices": [
+        592
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6339814167016684,
+            0.6040818922797405,
+            0.4258090235187342
+          ],
+          "clearance": 2.440431547924598
+        },
+        {
+          "frac_coords": [
+            0.45766315592353946,
+            0.7512343126216966,
+            0.7182695517360081
+          ],
+          "clearance": 2.454470167362291
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 152,
+      "file": "candidate_0152.cif",
+      "substitution_indices": [
+        567
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.671365231624303,
+            0.7663638545037097,
+            0.5187248766999476
+          ],
+          "clearance": 2.450844148594293
+        },
+        {
+          "frac_coords": [
+            0.013662442871953506,
+            0.7887043833000276,
+            0.6853656970467857
+          ],
+          "clearance": 2.5294183355305924
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 153,
+      "file": "candidate_0153.cif",
+      "substitution_indices": [
+        638
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4247380165897079,
+            0.7895142322042925,
+            0.1967260388875337
+          ],
+          "clearance": 2.5280636654605444
+        },
+        {
+          "frac_coords": [
+            0.8223291600023787,
+            0.7351164941528573,
+            0.25056344858132684
+          ],
+          "clearance": 2.4979266853322057
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 154,
+      "file": "candidate_0154.cif",
+      "substitution_indices": [
+        634
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.821611818960376,
+            0.7359278496524656,
+            0.27478573450379407
+          ],
+          "clearance": 2.533646265113995
+        },
+        {
+          "frac_coords": [
+            0.6108903631544412,
+            0.8033104786391393,
+            0.43483474958114643
+          ],
+          "clearance": 2.5806661893900635
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 155,
+      "file": "candidate_0155.cif",
+      "substitution_indices": [
+        547
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4079166464890115,
+            0.7917042158218214,
+            0.18303546533909476
+          ],
+          "clearance": 2.430970873991776
+        },
+        {
+          "frac_coords": [
+            0.8262300655886797,
+            0.628862012673693,
+            0.9176459059839311
+          ],
+          "clearance": 2.428824930366571
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 156,
+      "file": "candidate_0156.cif",
+      "substitution_indices": [
+        586
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.44434753032895813,
+            0.7584800916613018,
+            0.9826675060661298
+          ],
+          "clearance": 2.6281556798598915
+        },
+        {
+          "frac_coords": [
+            0.6586141705649774,
+            0.7572445851041998,
+            0.5045901719228564
+          ],
+          "clearance": 2.500375908837042
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 157,
+      "file": "candidate_0157.cif",
+      "substitution_indices": [
+        621
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9980220915859523,
+            0.16366842115764224,
+            0.5978269930313204
+          ],
+          "clearance": 2.5169040020840634
+        },
+        {
+          "frac_coords": [
+            0.231222497789777,
+            0.5462213137992491,
+            0.7203931702964108
+          ],
+          "clearance": 2.6931271323268193
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 158,
+      "file": "candidate_0158.cif",
+      "substitution_indices": [
+        617
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8092178946827743,
+            0.04258433354385249,
+            0.031312796115831265
+          ],
+          "clearance": 2.515733639320509
+        },
+        {
+          "frac_coords": [
+            0.2412824601790372,
+            0.5561712187956139,
+            0.9533194328308632
+          ],
+          "clearance": 2.746272861536488
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 159,
+      "file": "candidate_0159.cif",
+      "substitution_indices": [
+        587
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.13004258874811592,
+            0.018941608357243456,
+            0.331763578392556
+          ],
+          "clearance": 2.4386365291691185
+        },
+        {
+          "frac_coords": [
+            0.2412824601790372,
+            0.5561712187956139,
+            0.9533194328308632
+          ],
+          "clearance": 2.746272861536488
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 160,
+      "file": "candidate_0160.cif",
+      "substitution_indices": [
+        600
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.2315346947721244,
+            0.5916933021524036,
+            0.9294251775465404
+          ],
+          "clearance": 2.52510724947622
+        },
+        {
+          "frac_coords": [
+            0.29861356865352606,
+            0.3745068830140148,
+            0.2408926564759144
+          ],
+          "clearance": 2.4267246874254575
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 161,
+      "file": "candidate_0161.cif",
+      "substitution_indices": [
+        554
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.17875773297451625,
+            0.1657586945559132,
+            0.09992756036773742
+          ],
+          "clearance": 2.550541932141159
+        },
+        {
+          "frac_coords": [
+            0.8396369126321988,
+            0.7558814065547487,
+            0.4833843858139445
+          ],
+          "clearance": 2.6193679371016065
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 162,
+      "file": "candidate_0162.cif",
+      "substitution_indices": [
+        553
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4001902257694627,
+            0.15654157013417092,
+            0.589281715865529
+          ],
+          "clearance": 2.4419403394933132
+        },
+        {
+          "frac_coords": [
+            0.02080943792428014,
+            0.6068488376066016,
+            0.6691264585306879
+          ],
+          "clearance": 2.4543373946517066
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 163,
+      "file": "candidate_0163.cif",
+      "substitution_indices": [
+        634
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9435258629467272,
+            0.3612147016395373,
+            0.999145854672319
+          ],
+          "clearance": 2.445440827590431
+        },
+        {
+          "frac_coords": [
+            0.021703761997066917,
+            0.8146440516215055,
+            0.17244092041599712
+          ],
+          "clearance": 2.5653830095272414
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 164,
+      "file": "candidate_0164.cif",
+      "substitution_indices": [
+        548
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6455954697077277,
+            0.7438275510754494,
+            0.766510601840171
+          ],
+          "clearance": 2.470553127977982
+        },
+        {
+          "frac_coords": [
+            0.6157849275643029,
+            0.7489890557246505,
+            0.4724769881006299
+          ],
+          "clearance": 2.441068258429092
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 165,
+      "file": "candidate_0165.cif",
+      "substitution_indices": [
+        567
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8219885536524008,
+            0.7656111750225536,
+            0.9467594210808872
+          ],
+          "clearance": 2.5028067851999265
+        },
+        {
+          "frac_coords": [
+            0.2628250223472588,
+            0.7760718400607891,
+            0.008754348501858522
+          ],
+          "clearance": 2.6293356856573165
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 166,
+      "file": "candidate_0166.cif",
+      "substitution_indices": [
+        553
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6311418573805724,
+            0.6231207796619163,
+            0.6494304674990276
+          ],
+          "clearance": 2.4858832012235923
+        },
+        {
+          "frac_coords": [
+            0.2129404142544169,
+            0.7750055261200097,
+            0.1901323624636545
+          ],
+          "clearance": 2.4730546128297695
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 167,
+      "file": "candidate_0167.cif",
+      "substitution_indices": [
+        636
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.13004258874811592,
+            0.018941608357243456,
+            0.331763578392556
+          ],
+          "clearance": 2.4386365291691185
+        },
+        {
+          "frac_coords": [
+            0.22951594507809736,
+            0.7651083062314472,
+            0.9606942051624581
+          ],
+          "clearance": 2.736693210498882
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 168,
+      "file": "candidate_0168.cif",
+      "substitution_indices": [
+        581
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8620479872471171,
+            0.7809111545829253,
+            0.005892711268381423
+          ],
+          "clearance": 2.6456893955708423
+        },
+        {
+          "frac_coords": [
+            0.8533087752836266,
+            0.7509692059060067,
+            0.45307818089578245
+          ],
+          "clearance": 2.490354768350306
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 169,
+      "file": "candidate_0169.cif",
+      "substitution_indices": [
+        576
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4205004716701557,
+            0.5530733823542687,
+            0.9591053032636033
+          ],
+          "clearance": 2.638166897791991
+        },
+        {
+          "frac_coords": [
+            0.8309860451311243,
+            0.7454594277729865,
+            0.25977480553550913
+          ],
+          "clearance": 2.4740510905423143
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 170,
+      "file": "candidate_0170.cif",
+      "substitution_indices": [
+        542
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8162098353181365,
+            0.6262250940790699,
+            0.6560575584157707
+          ],
+          "clearance": 2.441071043641748
+        },
+        {
+          "frac_coords": [
+            0.6185131572593778,
+            0.5591928142971133,
+            0.7079038748179995
+          ],
+          "clearance": 2.654979295389324
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 171,
+      "file": "candidate_0171.cif",
+      "substitution_indices": [
+        559
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6384648372776557,
+            0.559254554170983,
+            0.2129860193479891
+          ],
+          "clearance": 2.476033059814807
+        },
+        {
+          "frac_coords": [
+            0.9980220915859523,
+            0.16366842115764224,
+            0.5978269930313204
+          ],
+          "clearance": 2.5169040020840634
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 172,
+      "file": "candidate_0172.cif",
+      "substitution_indices": [
+        573
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.365540453437067,
+            0.15322526112994017,
+            0.09780583983428459
+          ],
+          "clearance": 2.439072359585431
+        },
+        {
+          "frac_coords": [
+            0.671365231624303,
+            0.7663638545037097,
+            0.5187248766999476
+          ],
+          "clearance": 2.450844148594293
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 173,
+      "file": "candidate_0173.cif",
+      "substitution_indices": [
+        576
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.29861356865352606,
+            0.3745068830140148,
+            0.2408926564759144
+          ],
+          "clearance": 2.4267246874254575
+        },
+        {
+          "frac_coords": [
+            0.03286681231012778,
+            0.7527302456941161,
+            0.4583238447950223
+          ],
+          "clearance": 2.594674328072896
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 174,
+      "file": "candidate_0174.cif",
+      "substitution_indices": [
+        596
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5944367491767962,
+            0.037630869811528855,
+            0.050244890353869365
+          ],
+          "clearance": 2.4726143776176674
+        },
+        {
+          "frac_coords": [
+            0.017214867049439198,
+            0.6260398679551674,
+            0.9129989126997872
+          ],
+          "clearance": 2.545661239412302
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 175,
+      "file": "candidate_0175.cif",
+      "substitution_indices": [
+        585
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8474228953212848,
+            0.573265234861878,
+            0.6873520096193008
+          ],
+          "clearance": 2.557884880327842
+        },
+        {
+          "frac_coords": [
+            0.8500584539104479,
+            0.5488217640522596,
+            0.21822934822700912
+          ],
+          "clearance": 2.687078700840554
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 176,
+      "file": "candidate_0176.cif",
+      "substitution_indices": [
+        600
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6108903631544412,
+            0.8033104786391393,
+            0.43483474958114643
+          ],
+          "clearance": 2.5806661893900635
+        },
+        {
+          "frac_coords": [
+            0.6193434950567344,
+            0.7363065790461129,
+            0.021308304567321024
+          ],
+          "clearance": 2.545614813280075
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 177,
+      "file": "candidate_0177.cif",
+      "substitution_indices": [
+        569
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6171915194904424,
+            0.556957304801458,
+            0.45753003440272055
+          ],
+          "clearance": 2.6930750472478895
+        },
+        {
+          "frac_coords": [
+            0.412016107150197,
+            0.8270521374502056,
+            0.43049098122000484
+          ],
+          "clearance": 2.4388333938599787
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 178,
+      "file": "candidate_0178.cif",
+      "substitution_indices": [
+        568
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.21965451318269902,
+            0.02971066125872901,
+            0.8058751697305226
+          ],
+          "clearance": 2.435544820543416
+        },
+        {
+          "frac_coords": [
+            0.021703761997066917,
+            0.8146440516215055,
+            0.17244092041599712
+          ],
+          "clearance": 2.5653830095272414
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 179,
+      "file": "candidate_0179.cif",
+      "substitution_indices": [
+        628
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.040729501424819126,
+            0.7811300373772058,
+            0.9567337987806878
+          ],
+          "clearance": 2.5307768710337317
+        },
+        {
+          "frac_coords": [
+            0.5944367491767962,
+            0.037630869811528855,
+            0.050244890353869365
+          ],
+          "clearance": 2.4726143776176674
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 180,
+      "file": "candidate_0180.cif",
+      "substitution_indices": [
+        593
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6268915756838978,
+            0.8146669990073783,
+            0.6792812600131761
+          ],
+          "clearance": 2.451988259876697
+        },
+        {
+          "frac_coords": [
+            9.938545393106679e-05,
+            0.04331770432574833,
+            0.7890964071757316
+          ],
+          "clearance": 2.4985509601990246
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 181,
+      "file": "candidate_0181.cif",
+      "substitution_indices": [
+        633
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8578478003023179,
+            0.7909010061350679,
+            0.743390565480835
+          ],
+          "clearance": 2.552384899941905
+        },
+        {
+          "frac_coords": [
+            0.02080943792428014,
+            0.6068488376066016,
+            0.6691264585306879
+          ],
+          "clearance": 2.4543373946517066
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 182,
+      "file": "candidate_0182.cif",
+      "substitution_indices": [
+        576
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8162098353181365,
+            0.6262250940790699,
+            0.6560575584157707
+          ],
+          "clearance": 2.441071043641748
+        },
+        {
+          "frac_coords": [
+            0.6586141705649774,
+            0.7572445851041998,
+            0.5045901719228564
+          ],
+          "clearance": 2.500375908837042
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 183,
+      "file": "candidate_0183.cif",
+      "substitution_indices": [
+        587
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.46023909015507225,
+            0.7761256762301167,
+            0.4723249213343038
+          ],
+          "clearance": 2.494266862361565
+        },
+        {
+          "frac_coords": [
+            0.0663920252552509,
+            0.5643165751727075,
+            0.21206295944589548
+          ],
+          "clearance": 2.5922542253625394
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 184,
+      "file": "candidate_0184.cif",
+      "substitution_indices": [
+        561
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4617943383217016,
+            0.7890943159871456,
+            0.9816999392542571
+          ],
+          "clearance": 2.5586610091016406
+        },
+        {
+          "frac_coords": [
+            0.4414653585987053,
+            0.7690628643193607,
+            0.7163724449567619
+          ],
+          "clearance": 2.6291762608085385
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 185,
+      "file": "candidate_0185.cif",
+      "substitution_indices": [
+        584
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6566253408650093,
+            0.8071568159570573,
+            0.22985673775771842
+          ],
+          "clearance": 2.5895765682680287
+        },
+        {
+          "frac_coords": [
+            0.821611818960376,
+            0.7359278496524656,
+            0.27478573450379407
+          ],
+          "clearance": 2.533646265113995
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 186,
+      "file": "candidate_0186.cif",
+      "substitution_indices": [
+        635
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.231222497789777,
+            0.5462213137992491,
+            0.7203931702964108
+          ],
+          "clearance": 2.6931271323268193
+        },
+        {
+          "frac_coords": [
+            0.8553763033985106,
+            0.5604806190593338,
+            0.4492829798000135
+          ],
+          "clearance": 2.6461161151458796
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 187,
+      "file": "candidate_0187.cif",
+      "substitution_indices": [
+        550
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8587919748756817,
+            0.7802796154296009,
+            0.23272125401508859
+          ],
+          "clearance": 2.622328953037185
+        },
+        {
+          "frac_coords": [
+            0.8506615034592692,
+            0.5501225756353693,
+            0.19534822727591883
+          ],
+          "clearance": 2.7206238498727404
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 188,
+      "file": "candidate_0188.cif",
+      "substitution_indices": [
+        616
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4414653585987053,
+            0.7690628643193607,
+            0.7163724449567619
+          ],
+          "clearance": 2.6291762608085385
+        },
+        {
+          "frac_coords": [
+            0.8368031682837191,
+            0.5431894407497092,
+            0.7133182874906047
+          ],
+          "clearance": 2.7169354348487977
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 189,
+      "file": "candidate_0189.cif",
+      "substitution_indices": [
+        570
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8389082523607515,
+            0.5894402998244523,
+            0.41986896520755645
+          ],
+          "clearance": 2.5120930138374633
+        },
+        {
+          "frac_coords": [
+            0.8620479872471171,
+            0.7809111545829253,
+            0.005892711268381423
+          ],
+          "clearance": 2.6456893955708423
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 190,
+      "file": "candidate_0190.cif",
+      "substitution_indices": [
+        544
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8262300655886797,
+            0.628862012673693,
+            0.9176459059839311
+          ],
+          "clearance": 2.428824930366571
+        },
+        {
+          "frac_coords": [
+            0.8190093445088542,
+            0.5558236059533864,
+            0.698746313681232
+          ],
+          "clearance": 2.5366333245993453
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 191,
+      "file": "candidate_0191.cif",
+      "substitution_indices": [
+        634
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.818567708489888,
+            0.7994735696463451,
+            0.6916735147994644
+          ],
+          "clearance": 2.468565582782639
+        },
+        {
+          "frac_coords": [
+            0.4551533738749486,
+            0.5454405386528971,
+            0.957604029975605
+          ],
+          "clearance": 2.6386776381732924
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 192,
+      "file": "candidate_0192.cif",
+      "substitution_indices": [
+        585
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.040729501424819126,
+            0.7811300373772058,
+            0.9567337987806878
+          ],
+          "clearance": 2.5307768710337317
+        },
+        {
+          "frac_coords": [
+            0.671365231624303,
+            0.7663638545037097,
+            0.5187248766999476
+          ],
+          "clearance": 2.450844148594293
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 193,
+      "file": "candidate_0193.cif",
+      "substitution_indices": [
+        565
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.0437976432713979,
+            0.5479176586594867,
+            0.697560243530312
+          ],
+          "clearance": 2.7627387425656096
+        },
+        {
+          "frac_coords": [
+            0.8578478003023179,
+            0.7909010061350679,
+            0.743390565480835
+          ],
+          "clearance": 2.552384899941905
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 194,
+      "file": "candidate_0194.cif",
+      "substitution_indices": [
+        600
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.017214867049439198,
+            0.6260398679551674,
+            0.9129989126997872
+          ],
+          "clearance": 2.545661239412302
+        },
+        {
+          "frac_coords": [
+            0.5446208033032599,
+            0.06493835057568031,
+            0.5431812862650266
+          ],
+          "clearance": 2.4874477940193094
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 195,
+      "file": "candidate_0195.cif",
+      "substitution_indices": [
+        589
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.04225150772271147,
+            0.7595508403198302,
+            0.7014332736929607
+          ],
+          "clearance": 2.50279129728553
+        },
+        {
+          "frac_coords": [
+            0.43553238760747903,
+            0.7567420127952682,
+            0.2131344222097189
+          ],
+          "clearance": 2.7405563748619794
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 196,
+      "file": "candidate_0196.cif",
+      "substitution_indices": [
+        594
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4197826384948182,
+            0.5502416300555875,
+            0.47863367350472386
+          ],
+          "clearance": 2.4690286332234908
+        },
+        {
+          "frac_coords": [
+            0.24409016442607445,
+            0.7570874696475568,
+            0.7329736022877119
+          ],
+          "clearance": 2.6483376766985427
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 197,
+      "file": "candidate_0197.cif",
+      "substitution_indices": [
+        614
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8506615034592692,
+            0.5501225756353693,
+            0.19534822727591883
+          ],
+          "clearance": 2.7206238498727404
+        },
+        {
+          "frac_coords": [
+            0.4524995493256354,
+            0.8107539953976256,
+            0.7189984970502086
+          ],
+          "clearance": 2.526415648519612
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 198,
+      "file": "candidate_0198.cif",
+      "substitution_indices": [
+        638
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8533087752836266,
+            0.7509692059060067,
+            0.45307818089578245
+          ],
+          "clearance": 2.490354768350306
+        },
+        {
+          "frac_coords": [
+            0.4303363879050276,
+            0.618065870012,
+            0.418977775428227
+          ],
+          "clearance": 2.4627850029468554
+        }
+      ],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 199,
+      "file": "candidate_0199.cif",
+      "substitution_indices": [
+        564
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.15688835719399308,
+            0.17633838744459418,
+            0.3380087977736631
+          ],
+          "clearance": 2.466273447075417
+        },
+        {
+          "frac_coords": [
+            0.8307259081548171,
+            0.5599260327348646,
+            0.4464994050493891
+          ],
+          "clearance": 2.7337501015953216
+        }
+      ],
+      "removed_indices": []
+    }
+  ]
+}

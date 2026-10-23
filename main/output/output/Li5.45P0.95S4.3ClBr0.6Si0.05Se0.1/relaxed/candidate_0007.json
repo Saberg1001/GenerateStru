@@ -1,0 +1,11 @@
+{
+  "candidate_id": 7,
+  "converged": true,
+  "energy": -1022.7688598632812,
+  "energy_per_atom": -4.107505461298318,
+  "steps": 416,
+  "seconds": 65.4321849400003,
+  "error": "",
+  "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.45P0.95S4.3ClBr0.6Si0.05Se0.1/relaxed/candidate_0007.cif",
+  "fingerprint": "3d16a10f7d2cdda6"
+}

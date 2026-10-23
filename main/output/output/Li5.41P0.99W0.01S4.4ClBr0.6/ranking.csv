@@ -1,0 +1,201 @@
+candidate_id,candidate_file,initial_energy_ev,initial_energy_per_atom_ev,initial_rank,selected_for_relaxation,converged,relaxation_steps,relaxation_seconds,relaxed_energy_ev,relaxed_energy_per_atom_ev,relaxed_rank,relaxed_file,error
+23,candidates/candidate_0023.cif,-5106.6337890625,-4.114934560082594,1,True,False,1000,210.19611344900005,-5108.80712890625,-4.116685841181507,2,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0023.cif,未在 1000 步内收敛
+190,candidates/candidate_0190.cif,-5106.56982421875,-4.114883017098107,2,True,False,1000,208.05264151100005,-5108.72314453125,-4.1166181664232475,14,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0190.cif,未在 1000 步内收敛
+194,candidates/candidate_0194.cif,-5106.53662109375,-4.11485626196112,3,True,False,1000,208.94832333199997,-5108.75439453125,-4.116643347728647,8,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0194.cif,未在 1000 步内收敛
+149,candidates/candidate_0149.cif,-5106.53271484375,-4.114853114297945,4,True,False,1000,209.03040907299987,-5108.75439453125,-4.116643347728647,9,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0149.cif,未在 1000 步内收敛
+173,candidates/candidate_0173.cif,-5106.5244140625,-4.114846425513699,5,True,False,1000,207.68919432099983,-5108.7744140625,-4.116659479502418,6,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0173.cif,未在 1000 步内收敛
+67,candidates/candidate_0067.cif,-5106.5205078125,-4.1148432778505235,6,True,False,1000,209.4013200889999,-5108.77978515625,-4.1166638075392825,5,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0067.cif,未在 1000 步内收敛
+182,candidates/candidate_0182.cif,-5106.5185546875,-4.114841704018937,7,True,False,1000,209.05013950199987,-5108.81103515625,-4.116688988844682,1,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0182.cif,未在 1000 步内收敛
+104,candidates/candidate_0104.cif,-5106.4990234375,-4.114825965703062,8,True,False,1000,209.10380315700013,-5108.7646484375,-4.11665161034448,7,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0104.cif,未在 1000 步内收敛
+94,candidates/candidate_0094.cif,-5106.47412109375,-4.114805899350323,9,True,False,1000,209.4847830399999,-5108.78125,-4.116664987912974,4,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0094.cif,未在 1000 步内收敛
+140,candidates/candidate_0140.cif,-5106.4716796875,-4.114803932060838,10,True,False,1000,209.72289997899998,-5108.8046875,-4.116683873892023,3,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0140.cif,未在 1000 步内收敛
+170,candidates/candidate_0170.cif,-5106.46142578125,-4.114795669445004,11,True,False,1000,208.6458530619998,-5108.72900390625,-4.11662288791801,12,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0170.cif,未在 1000 步内收敛
+98,candidates/candidate_0098.cif,-5106.4580078125,-4.114792915239726,12,True,False,1000,209.83323855599974,-5108.6533203125,-4.116561901943997,20,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0098.cif,未在 1000 步内收敛
+68,candidates/candidate_0068.cif,-5106.4560546875,-4.1147913414081385,13,True,False,1000,209.3787367240002,-5108.68994140625,-4.116591411286261,17,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0068.cif,未在 1000 步内收敛
+130,candidates/candidate_0130.cif,-5106.4541015625,-4.114789767576551,14,True,False,1000,208.9285817609998,-5108.72216796875,-4.116617379507454,15,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0130.cif,未在 1000 步内收敛
+13,candidates/candidate_0013.cif,-5106.43603515625,-4.1147752096343675,15,True,False,1000,209.13375407000012,-5108.75244140625,-4.116641773897059,10,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0013.cif,未在 1000 步内收敛
+41,candidates/candidate_0041.cif,-5106.41162109375,-4.1147555367395245,16,True,False,1000,207.8340469650002,-5108.7421875,-4.116633511281225,11,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0041.cif,未在 1000 步内收敛
+84,candidates/candidate_0084.cif,-5106.4072265625,-4.114751995618453,17,True,False,1000,206.74896549599998,-5108.6455078125,-4.116555606617647,24,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0084.cif,未在 1000 步内收敛
+114,candidates/candidate_0114.cif,-5106.388671875,-4.114737044218372,18,True,False,1000,207.55026124799952,-5108.6455078125,-4.116555606617647,25,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0114.cif,未在 1000 步内收敛
+119,candidates/candidate_0119.cif,-5106.38720703125,-4.114735863844682,19,True,False,1000,207.49721157799922,-5108.6396484375,-4.1165508851228845,26,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0119.cif,未在 1000 步内收敛
+166,candidates/candidate_0166.cif,-5106.38525390625,-4.114734290013094,20,True,False,1000,208.739055475,-5108.677734375,-4.11658157483884,19,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0166.cif,未在 1000 步内收敛
+113,candidates/candidate_0113.cif,-5106.3828125,-4.11473232272361,21,True,False,1000,208.6779682610004,-5108.72412109375,-4.116618953339041,13,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0113.cif,未在 1000 步内收敛
+38,candidates/candidate_0038.cif,-5106.3779296875,-4.114728388144641,22,True,False,1000,208.1788449629994,-5108.623046875,-4.1165375075543915,30,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0038.cif,未在 1000 步内收敛
+118,candidates/candidate_0118.cif,-5106.37744140625,-4.114727994686745,23,True,False,1000,208.91173499900015,-5108.64794921875,-4.116557573907131,22,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0118.cif,未在 1000 步内收敛
+154,candidates/candidate_0154.cif,-5106.3740234375,-4.114725240481467,24,True,False,1000,208.53568830900076,-5108.54541015625,-4.116474947748792,45,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0154.cif,未在 1000 步内收敛
+83,candidates/candidate_0083.cif,-5106.3671875,-4.114719732070911,25,True,False,1000,209.52128613099921,-5108.56982421875,-4.116494620643635,37,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0083.cif,未在 1000 步内收敛
+28,candidates/candidate_0028.cif,-5106.365234375,-4.114718158239323,26,True,False,1000,208.75214471599975,-5108.60791015625,-4.116525310359589,34,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0028.cif,未在 1000 步内收敛
+0,candidates/candidate_0000.cif,-5106.3544921875,-4.114709502165592,27,True,False,1000,209.29955824199988,-5108.68505859375,-4.116587476707292,18,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0000.cif,未在 1000 步内收敛
+129,candidates/candidate_0129.cif,-5106.3525390625,-4.1147079283340044,28,True,False,1000,208.6613492430006,-5108.70947265625,-4.116607149602135,16,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0129.cif,未在 1000 步内收敛
+50,candidates/candidate_0050.cif,-5106.3515625,-4.1147071414182115,29,True,False,1000,208.12515918699955,-5108.57763671875,-4.116500915969984,36,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0050.cif,未在 1000 步内收敛
+8,candidates/candidate_0008.cif,-5106.35009765625,-4.11470596104452,30,True,False,1000,208.4536444919995,-5108.6533203125,-4.116561901943997,21,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0008.cif,未在 1000 步内收敛
+117,candidates/candidate_0117.cif,-5106.33447265625,-4.114693370391821,31,True,False,1000,208.5191754890002,-5108.63671875,-4.116548524375504,27,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0117.cif,未在 1000 步内收敛
+133,candidates/candidate_0133.cif,-5106.3291015625,-4.114689042354955,32,True,False,1000,209.29349782699956,-5108.6298828125,-4.116543015964948,28,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0133.cif,未在 1000 步内收敛
+16,candidates/candidate_0016.cif,-5106.32861328125,-4.114688648897059,33,True,False,1000,208.1584555620002,-5108.5576171875,-4.116484784196213,40,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0016.cif,未在 1000 步内收敛
+164,candidates/candidate_0164.cif,-5106.32666015625,-4.114687075065471,34,True,False,1000,206.52763251100077,-5108.6015625,-4.11652019540693,35,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0164.cif,未在 1000 步内收敛
+178,candidates/candidate_0178.cif,-5106.3154296875,-4.114678025533844,35,True,False,1000,208.56743872100014,-5108.64794921875,-4.116557573907131,23,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0178.cif,未在 1000 步内收敛
+158,candidates/candidate_0158.cif,-5106.30810546875,-4.1146721236653905,36,True,False,1000,207.3940080579996,-5108.55859375,-4.1164855711120065,39,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0158.cif,未在 1000 步内收敛
+193,candidates/candidate_0193.cif,-5106.30712890625,-4.1146713367495975,37,True,False,1000,209.06307469899912,-5108.62353515625,-4.116537901012289,29,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0193.cif,未在 1000 步内收敛
+46,candidates/candidate_0046.cif,-5106.30322265625,-4.114668189086422,38,True,False,1000,208.65203927400034,-5108.55712890625,-4.116484390738316,41,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0046.cif,未在 1000 步内收敛
+107,candidates/candidate_0107.cif,-5106.298828125,-4.11466464796535,39,True,False,1000,209.05671291900035,-5108.515625,-4.116450946817083,50,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0107.cif,未在 1000 步内收敛
+146,candidates/candidate_0146.cif,-5106.2978515625,-4.114663861049557,40,True,False,1000,209.68910909999977,-5108.62158203125,-4.116536327180701,31,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0146.cif,未在 1000 步内收敛
+5,candidates/candidate_0005.cif,-5106.29443359375,-4.114661106844279,41,True,False,1000,209.40864568799952,-5108.55322265625,-4.116481243075141,42,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0005.cif,未在 1000 步内收敛
+20,candidates/candidate_0020.cif,-5106.2919921875,-4.114659139554795,42,True,False,1000,210.6642485479988,-5108.537109375,-4.116468258964545,47,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0020.cif,未在 1000 步内收敛
+145,candidates/candidate_0145.cif,-5106.291015625,-4.114658352639001,43,True,False,1000,207.56635635400016,-5108.61181640625,-4.1165284580227635,32,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0145.cif,未在 1000 步内收敛
+55,candidates/candidate_0055.cif,-5106.29052734375,-4.114657959181104,44,True,False,1000,209.39735068399932,-5108.5234375,-4.116457242143433,49,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0055.cif,未在 1000 步内收敛
+127,candidates/candidate_0127.cif,-5106.2841796875,-4.114652844228445,45,True,False,1000,208.31480973600083,-5108.53662109375,-4.116467865506648,48,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0127.cif,未在 1000 步内收敛
+30,candidates/candidate_0030.cif,-5106.28125,-4.114650483481063,46,True,False,1000,208.412274960001,-5108.609375,-4.116526490733279,33,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0030.cif,未在 1000 步内收敛
+53,candidates/candidate_0053.cif,-5106.28076171875,-4.114650090023167,47,True,False,1000,209.11403642199912,-5108.548828125,-4.11647770195407,44,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0053.cif,未在 1000 步内收敛
+90,candidates/candidate_0090.cif,-5106.27587890625,-4.114646155444198,48,True,False,1000,209.38977568500013,-5108.56982421875,-4.116494620643635,38,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0090.cif,未在 1000 步内收敛
+54,candidates/candidate_0054.cif,-5106.2744140625,-4.114644975070508,49,True,False,1000,208.4103851229993,-5108.55126953125,-4.116479669243554,43,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0054.cif,未在 1000 步内收敛
+62,candidates/candidate_0062.cif,-5106.26611328125,-4.114638286286261,50,True,False,1000,209.5212912859988,-5108.54443359375,-4.116474160832998,46,/home/ziyiguo/project/GenerateStru/main/output/Li5.41P0.99W0.01S4.4ClBr0.6/relaxed/candidate_0062.cif,未在 1000 步内收敛
+82,candidates/candidate_0082.cif,-5106.26416015625,-4.114636712454674,51,False,,,,,,,,
+27,candidates/candidate_0027.cif,-5106.2607421875,-4.114633958249396,52,False,,,,,,,,
+139,candidates/candidate_0139.cif,-5106.2578125,-4.114631597502014,53,False,,,,,,,,
+101,candidates/candidate_0101.cif,-5106.25390625,-4.11462844983884,54,False,,,,,,,,
+14,candidates/candidate_0014.cif,-5106.25146484375,-4.1146264825493555,55,False,,,,,,,,
+105,candidates/candidate_0105.cif,-5106.2490234375,-4.114624515259871,56,False,,,,,,,,
+70,candidates/candidate_0070.cif,-5106.24853515625,-4.114624121801974,57,False,,,,,,,,
+96,candidates/candidate_0096.cif,-5106.23974609375,-4.114617039559831,58,False,,,,,,,,
+123,candidates/candidate_0123.cif,-5106.23681640625,-4.114614678812449,59,False,,,,,,,,
+45,candidates/candidate_0045.cif,-5106.23486328125,-4.1146131049808625,60,False,,,,,,,,
+108,candidates/candidate_0108.cif,-5106.232421875,-4.114611137691378,61,False,,,,,,,,
+152,candidates/candidate_0152.cif,-5106.23193359375,-4.114610744233481,62,False,,,,,,,,
+19,candidates/candidate_0019.cif,-5106.23095703125,-4.114609957317687,63,False,,,,,,,,
+48,candidates/candidate_0048.cif,-5106.22998046875,-4.114609170401893,64,False,,,,,,,,
+122,candidates/candidate_0122.cif,-5106.228515625,-4.114607990028203,65,False,,,,,,,,
+128,candidates/candidate_0128.cif,-5106.228515625,-4.114607990028203,66,False,,,,,,,,
+197,candidates/candidate_0197.cif,-5106.22802734375,-4.114607596570306,67,False,,,,,,,,
+58,candidates/candidate_0058.cif,-5106.22509765625,-4.114605235822925,68,False,,,,,,,,
+106,candidates/candidate_0106.cif,-5106.22314453125,-4.114603661991338,69,False,,,,,,,,
+136,candidates/candidate_0136.cif,-5106.22314453125,-4.114603661991338,70,False,,,,,,,,
+95,candidates/candidate_0095.cif,-5106.22216796875,-4.114602875075544,71,False,,,,,,,,
+33,candidates/candidate_0033.cif,-5106.2177734375,-4.114599333954472,72,False,,,,,,,,
+43,candidates/candidate_0043.cif,-5106.20947265625,-4.114592645170226,73,False,,,,,,,,
+111,candidates/candidate_0111.cif,-5106.2041015625,-4.11458831713336,74,False,,,,,,,,
+176,candidates/candidate_0176.cif,-5106.20361328125,-4.114587923675463,75,False,,,,,,,,
+22,candidates/candidate_0022.cif,-5106.201171875,-4.114585956385979,76,False,,,,,,,,
+17,candidates/candidate_0017.cif,-5106.1962890625,-4.114582021807011,77,False,,,,,,,,
+159,candidates/candidate_0159.cif,-5106.19189453125,-4.114578480685939,78,False,,,,,,,,
+116,candidates/candidate_0116.cif,-5106.19091796875,-4.114577693770145,79,False,,,,,,,,
+12,candidates/candidate_0012.cif,-5106.18505859375,-4.114572972275383,80,False,,,,,,,,
+167,candidates/candidate_0167.cif,-5106.18310546875,-4.114571398443795,81,False,,,,,,,,
+163,candidates/candidate_0163.cif,-5106.1806640625,-4.114569431154311,82,False,,,,,,,,
+88,candidates/candidate_0088.cif,-5106.17626953125,-4.114565890033239,83,False,,,,,,,,
+169,candidates/candidate_0169.cif,-5106.17431640625,-4.114564316201652,84,False,,,,,,,,
+91,candidates/candidate_0091.cif,-5106.169921875,-4.11456077508058,85,False,,,,,,,,
+177,candidates/candidate_0177.cif,-5106.1640625,-4.114556053585818,86,False,,,,,,,,
+189,candidates/candidate_0189.cif,-5106.158203125,-4.114551332091056,87,False,,,,,,,,
+4,candidates/candidate_0004.cif,-5106.15625,-4.114549758259468,88,False,,,,,,,,
+39,candidates/candidate_0039.cif,-5106.15576171875,-4.114549364801571,89,False,,,,,,,,
+184,candidates/candidate_0184.cif,-5106.15478515625,-4.1145485778857775,90,False,,,,,,,,
+165,candidates/candidate_0165.cif,-5106.15380859375,-4.114547790969984,91,False,,,,,,,,
+171,candidates/candidate_0171.cif,-5106.1513671875,-4.1145458236804995,92,False,,,,,,,,
+112,candidates/candidate_0112.cif,-5106.14697265625,-4.1145422825594276,93,False,,,,,,,,
+174,candidates/candidate_0174.cif,-5106.146484375,-4.114541889101531,94,False,,,,,,,,
+35,candidates/candidate_0035.cif,-5106.14404296875,-4.114539921812047,95,False,,,,,,,,
+32,candidates/candidate_0032.cif,-5106.14111328125,-4.114537561064665,96,False,,,,,,,,
+72,candidates/candidate_0072.cif,-5106.14013671875,-4.114536774148872,97,False,,,,,,,,
+160,candidates/candidate_0160.cif,-5106.13671875,-4.114534019943594,98,False,,,,,,,,
+134,candidates/candidate_0134.cif,-5106.1357421875,-4.1145332330278,99,False,,,,,,,,
+65,candidates/candidate_0065.cif,-5106.1318359375,-4.114530085364625,100,False,,,,,,,,
+89,candidates/candidate_0089.cif,-5106.1318359375,-4.114530085364625,101,False,,,,,,,,
+2,candidates/candidate_0002.cif,-5106.13037109375,-4.114528904990935,102,False,,,,,,,,
+143,candidates/candidate_0143.cif,-5106.12890625,-4.114527724617244,103,False,,,,,,,,
+9,candidates/candidate_0009.cif,-5106.1220703125,-4.114522216206688,104,False,,,,,,,,
+3,candidates/candidate_0003.cif,-5106.1181640625,-4.114519068543514,105,False,,,,,,,,
+138,candidates/candidate_0138.cif,-5106.1162109375,-4.114517494711926,106,False,,,,,,,,
+52,candidates/candidate_0052.cif,-5106.11572265625,-4.114517101254029,107,False,,,,,,,,
+110,candidates/candidate_0110.cif,-5106.11572265625,-4.114517101254029,108,False,,,,,,,,
+42,candidates/candidate_0042.cif,-5106.1142578125,-4.114515920880338,109,False,,,,,,,,
+56,candidates/candidate_0056.cif,-5106.1123046875,-4.114514347048751,110,False,,,,,,,,
+151,candidates/candidate_0151.cif,-5106.11181640625,-4.114513953590854,111,False,,,,,,,,
+180,candidates/candidate_0180.cif,-5106.1103515625,-4.114512773217164,112,False,,,,,,,,
+1,candidates/candidate_0001.cif,-5106.10693359375,-4.1145100190118855,113,False,,,,,,,,
+78,candidates/candidate_0078.cif,-5106.103515625,-4.1145072648066074,114,False,,,,,,,,
+188,candidates/candidate_0188.cif,-5106.1015625,-4.11450569097502,115,False,,,,,,,,
+34,candidates/candidate_0034.cif,-5106.1005859375,-4.114504904059227,116,False,,,,,,,,
+109,candidates/candidate_0109.cif,-5106.09814453125,-4.1145029367697425,117,False,,,,,,,,
+24,candidates/candidate_0024.cif,-5106.09765625,-4.114502543311845,118,False,,,,,,,,
+18,candidates/candidate_0018.cif,-5106.09423828125,-4.114499789106567,119,False,,,,,,,,
+102,candidates/candidate_0102.cif,-5106.0927734375,-4.114498608732877,120,False,,,,,,,,
+80,candidates/candidate_0080.cif,-5106.09228515625,-4.11449821527498,121,False,,,,,,,,
+21,candidates/candidate_0021.cif,-5106.08935546875,-4.114495854527599,122,False,,,,,,,,
+86,candidates/candidate_0086.cif,-5106.08203125,-4.114489952659146,123,False,,,,,,,,
+51,candidates/candidate_0051.cif,-5106.0791015625,-4.1144875919117645,124,False,,,,,,,,
+69,candidates/candidate_0069.cif,-5106.06494140625,-4.114476181632756,125,False,,,,,,,,
+120,candidates/candidate_0120.cif,-5106.05712890625,-4.114469886306406,126,False,,,,,,,,
+168,candidates/candidate_0168.cif,-5106.0517578125,-4.114465558269541,127,False,,,,,,,,
+126,candidates/candidate_0126.cif,-5106.05126953125,-4.1144651648116435,128,False,,,,,,,,
+185,candidates/candidate_0185.cif,-5106.046875,-4.1144616236905724,129,False,,,,,,,,
+63,candidates/candidate_0063.cif,-5106.04541015625,-4.114460443316881,130,False,,,,,,,,
+10,candidates/candidate_0010.cif,-5106.04052734375,-4.114456508737913,131,False,,,,,,,,
+125,candidates/candidate_0125.cif,-5106.03955078125,-4.114455721822119,132,False,,,,,,,,
+76,candidates/candidate_0076.cif,-5106.03564453125,-4.114452574158944,133,False,,,,,,,,
+187,candidates/candidate_0187.cif,-5106.03515625,-4.114452180701048,134,False,,,,,,,,
+71,candidates/candidate_0071.cif,-5106.03369140625,-4.114451000327357,135,False,,,,,,,,
+135,candidates/candidate_0135.cif,-5106.0205078125,-4.114440376964142,136,False,,,,,,,,
+181,candidates/candidate_0181.cif,-5106.0205078125,-4.114440376964142,137,False,,,,,,,,
+74,candidates/candidate_0074.cif,-5106.02001953125,-4.114439983506245,138,False,,,,,,,,
+57,candidates/candidate_0057.cif,-5106.01953125,-4.114439590048348,139,False,,,,,,,,
+144,candidates/candidate_0144.cif,-5106.01953125,-4.114439590048348,140,False,,,,,,,,
+79,candidates/candidate_0079.cif,-5106.017578125,-4.114438016216761,141,False,,,,,,,,
+141,candidates/candidate_0141.cif,-5106.01416015625,-4.114435262011483,142,False,,,,,,,,
+195,candidates/candidate_0195.cif,-5106.01123046875,-4.114432901264101,143,False,,,,,,,,
+59,candidates/candidate_0059.cif,-5106.009765625,-4.114431720890411,144,False,,,,,,,,
+147,candidates/candidate_0147.cif,-5105.990234375,-4.114415982574537,145,False,,,,,,,,
+131,candidates/candidate_0131.cif,-5105.98974609375,-4.11441558911664,146,False,,,,,,,,
+115,candidates/candidate_0115.cif,-5105.98779296875,-4.114414015285052,147,False,,,,,,,,
+97,candidates/candidate_0097.cif,-5105.9853515625,-4.114412047995568,148,False,,,,,,,,
+153,candidates/candidate_0153.cif,-5105.984375,-4.114411261079774,149,False,,,,,,,,
+40,candidates/candidate_0040.cif,-5105.9814453125,-4.114408900332394,150,False,,,,,,,,
+60,candidates/candidate_0060.cif,-5105.9814453125,-4.114408900332394,151,False,,,,,,,,
+142,candidates/candidate_0142.cif,-5105.978515625,-4.114406539585012,152,False,,,,,,,,
+25,candidates/candidate_0025.cif,-5105.97705078125,-4.114405359211322,153,False,,,,,,,,
+175,candidates/candidate_0175.cif,-5105.97607421875,-4.114404572295528,154,False,,,,,,,,
+156,candidates/candidate_0156.cif,-5105.966796875,-4.1143970965954875,155,False,,,,,,,,
+73,candidates/candidate_0073.cif,-5105.96630859375,-4.114396703137591,156,False,,,,,,,,
+66,candidates/candidate_0066.cif,-5105.95556640625,-4.114388047063859,157,False,,,,,,,,
+198,candidates/candidate_0198.cif,-5105.95556640625,-4.114388047063859,158,False,,,,,,,,
+155,candidates/candidate_0155.cif,-5105.9541015625,-4.114386866690169,159,False,,,,,,,,
+85,candidates/candidate_0085.cif,-5105.95263671875,-4.114385686316479,160,False,,,,,,,,
+29,candidates/candidate_0029.cif,-5105.93994140625,-4.11437545641116,161,False,,,,,,,,
+100,candidates/candidate_0100.cif,-5105.93994140625,-4.11437545641116,162,False,,,,,,,,
+87,candidates/candidate_0087.cif,-5105.93798828125,-4.114373882579573,163,False,,,,,,,,
+37,candidates/candidate_0037.cif,-5105.935546875,-4.114371915290088,164,False,,,,,,,,
+132,candidates/candidate_0132.cif,-5105.92626953125,-4.114364439590048,165,False,,,,,,,,
+137,candidates/candidate_0137.cif,-5105.9111328125,-4.114352242395245,166,False,,,,,,,,
+186,candidates/candidate_0186.cif,-5105.9052734375,-4.114347520900483,167,False,,,,,,,,
+75,candidates/candidate_0075.cif,-5105.904296875,-4.11434673398469,168,False,,,,,,,,
+172,candidates/candidate_0172.cif,-5105.904296875,-4.11434673398469,169,False,,,,,,,,
+6,candidates/candidate_0006.cif,-5105.89794921875,-4.1143416190320306,170,False,,,,,,,,
+191,candidates/candidate_0191.cif,-5105.89794921875,-4.1143416190320306,171,False,,,,,,,,
+77,candidates/candidate_0077.cif,-5105.888671875,-4.11433414333199,172,False,,,,,,,,
+199,candidates/candidate_0199.cif,-5105.88720703125,-4.1143329629583,173,False,,,,,,,,
+93,candidates/candidate_0093.cif,-5105.8828125,-4.114329421837228,174,False,,,,,,,,
+148,candidates/candidate_0148.cif,-5105.87451171875,-4.1143227330529815,175,False,,,,,,,,
+92,candidates/candidate_0092.cif,-5105.87060546875,-4.114319585389807,176,False,,,,,,,,
+150,candidates/candidate_0150.cif,-5105.86767578125,-4.114317224642425,177,False,,,,,,,,
+192,candidates/candidate_0192.cif,-5105.8662109375,-4.114316044268735,178,False,,,,,,,,
+49,candidates/candidate_0049.cif,-5105.865234375,-4.114315257352941,179,False,,,,,,,,
+99,candidates/candidate_0099.cif,-5105.8583984375,-4.114309748942385,180,False,,,,,,,,
+15,candidates/candidate_0015.cif,-5105.85595703125,-4.114307781652901,181,False,,,,,,,,
+124,candidates/candidate_0124.cif,-5105.85400390625,-4.114306207821313,182,False,,,,,,,,
+121,candidates/candidate_0121.cif,-5105.845703125,-4.114299519037067,183,False,,,,,,,,
+44,candidates/candidate_0044.cif,-5105.84423828125,-4.114298338663376,184,False,,,,,,,,
+161,candidates/candidate_0161.cif,-5105.84033203125,-4.114295191000202,185,False,,,,,,,,
+81,candidates/candidate_0081.cif,-5105.8369140625,-4.114292436794924,186,False,,,,,,,,
+179,candidates/candidate_0179.cif,-5105.83349609375,-4.114289682589646,187,False,,,,,,,,
+11,candidates/candidate_0011.cif,-5105.82763671875,-4.114284961094883,188,False,,,,,,,,
+162,candidates/candidate_0162.cif,-5105.82763671875,-4.114284961094883,189,False,,,,,,,,
+26,candidates/candidate_0026.cif,-5105.82373046875,-4.114281813431709,190,False,,,,,,,,
+196,candidates/candidate_0196.cif,-5105.8203125,-4.114279059226431,191,False,,,,,,,,
+7,candidates/candidate_0007.cif,-5105.8173828125,-4.114276698479049,192,False,,,,,,,,
+47,candidates/candidate_0047.cif,-5105.81591796875,-4.114275518105359,193,False,,,,,,,,
+64,candidates/candidate_0064.cif,-5105.8046875,-4.114266468573731,194,False,,,,,,,,
+61,candidates/candidate_0061.cif,-5105.76708984375,-4.114236172315673,195,False,,,,,,,,
+103,candidates/candidate_0103.cif,-5105.75927734375,-4.114229876989323,196,False,,,,,,,,
+31,candidates/candidate_0031.cif,-5105.7109375,-4.114190924657534,197,False,,,,,,,,
+157,candidates/candidate_0157.cif,-5105.69140625,-4.11417518634166,198,False,,,,,,,,
+183,candidates/candidate_0183.cif,-5105.66796875,-4.114156300362611,199,False,,,,,,,,
+36,candidates/candidate_0036.cif,-5105.64306640625,-4.114136234009871,200,False,,,,,,,,

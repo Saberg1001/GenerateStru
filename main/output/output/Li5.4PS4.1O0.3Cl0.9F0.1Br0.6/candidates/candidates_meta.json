@@ -1,0 +1,95 @@
+{
+  "fingerprint": "105ceba551bf04a3",
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        13
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        12
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        14
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        8
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        6
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 5,
+      "file": "candidate_0005.cif",
+      "substitution_indices": [
+        7
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 6,
+      "file": "candidate_0006.cif",
+      "substitution_indices": [
+        9
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 7,
+      "file": "candidate_0007.cif",
+      "substitution_indices": [
+        15
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 8,
+      "file": "candidate_0008.cif",
+      "substitution_indices": [
+        11
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 9,
+      "file": "candidate_0009.cif",
+      "substitution_indices": [
+        10
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    }
+  ]
+}

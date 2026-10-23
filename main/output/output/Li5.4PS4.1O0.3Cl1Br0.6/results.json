@@ -1,0 +1,1707 @@
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+  "base_formula": "Li5.4PS4.4Cl1Br0.6",
+  "target_formula": "Li5.4PS4.1O0.3Cl1Br0.6",
+  "host": "S",
+  "dopant": "O",
+  "compensating_element": "Li",
+  "scaling": [
+    2,
+    1,
+    2
+  ],
+  "candidate_fingerprint": "6a8abc3320840b00",
+  "ml_fingerprint": "d6f0aca7e2a83379",
+  "composition_calculation": {
+    "formula_units": 20,
+    "dopant_count": 6,
+    "host_remove_count": 6,
+    "extra_compensating_atoms": 0,
+    "base_counts": {
+      "Li": 5.4,
+      "P": 1.0,
+      "S": 4.4,
+      "Cl": 1.0,
+      "Br": 0.6
+    },
+    "target_counts": {
+      "Li": 5.4,
+      "P": 1.0,
+      "S": 4.1,
+      "O": 0.3,
+      "Cl": 1.0,
+      "Br": 0.6
+    },
+    "achieved_counts": {
+      "Br": 12.0,
+      "Cl": 20.0,
+      "Li": 108.0,
+      "O": 6.0,
+      "P": 20.0,
+      "S": 82.0
+    },
+    "deviation": {
+      "rows": [
+        {
+          "element": "Br",
+          "target_per_fu": 0.6,
+          "actual_per_fu": 0.6,
+          "target_fraction": 0.04838709677419355,
+          "actual_fraction": 0.04838709677419355,
+          "deviation": 0.0
+        },
+        {
+          "element": "Cl",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08064516129032258,
+          "actual_fraction": 0.08064516129032258,
+          "deviation": 0.0
+        },
+        {
+          "element": "Li",
+          "target_per_fu": 5.4,
+          "actual_per_fu": 5.4,
+          "target_fraction": 0.43548387096774194,
+          "actual_fraction": 0.43548387096774194,
+          "deviation": 0.0
+        },
+        {
+          "element": "O",
+          "target_per_fu": 0.3,
+          "actual_per_fu": 0.3,
+          "target_fraction": 0.024193548387096774,
+          "actual_fraction": 0.024193548387096774,
+          "deviation": 0.0
+        },
+        {
+          "element": "P",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08064516129032258,
+          "actual_fraction": 0.08064516129032258,
+          "deviation": 0.0
+        },
+        {
+          "element": "S",
+          "target_per_fu": 4.1,
+          "actual_per_fu": 4.1,
+          "target_fraction": 0.33064516129032256,
+          "actual_fraction": 0.33064516129032256,
+          "deviation": 0.0
+        }
+      ],
+      "max_deviation": 0.0,
+      "max_deviation_percent": 0.0,
+      "target_per_fu": {
+        "Li": 5.4,
+        "P": 1.0,
+        "S": 4.1,
+        "O": 0.3,
+        "Cl": 1.0,
+        "Br": 0.6
+      },
+      "actual_per_fu": {
+        "Br": 0.6,
+        "Cl": 1.0,
+        "Li": 5.4,
+        "O": 0.3,
+        "P": 1.0,
+        "S": 4.1
+      }
+    },
+    "doping_ratio": {
+      "requested": 0.06818181818181818,
+      "actual": 0.06818181818181818,
+      "deviation": 0.0,
+      "deviation_percent": 0.0
+    },
+    "max_deviation": 0.0,
+    "max_deviation_percent": 0.0,
+    "approx_volume_multiplier": 4
+  },
+  "wyckoff_report": {
+    "spacegroup": "P1",
+    "spacegroup_number": 1,
+    "sites": [
+      {
+        "index": 0,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.918376,
+          0.210137,
+          0.606572
+        ]
+      },
+      {
+        "index": 1,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.953112,
+          0.400653,
+          0.61347
+        ]
+      },
+      {
+        "index": 2,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.000302,
+          0.597095,
+          0.429872
+        ]
+      },
+      {
+        "index": 3,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.999786,
+          0.791883,
+          0.41656
+        ]
+      },
+      {
+        "index": 4,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.957449,
+          0.99555,
+          0.634172
+        ]
+      },
+      {
+        "index": 5,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.412168,
+          0.210093,
+          0.608045
+        ]
+      },
+      {
+        "index": 6,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.426471,
+          0.400205,
+          0.611823
+        ]
+      },
+      {
+        "index": 7,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.585215,
+          0.595976,
+          0.436979
+        ]
+      },
+      {
+        "index": 8,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.538092,
+          0.800589,
+          0.483466
+        ]
+      },
+      {
+        "index": 9,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.383008,
+          0.9958,
+          0.705649
+        ]
+      },
+      {
+        "index": 10,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371175,
+          0.128619,
+          0.090294
+        ]
+      },
+      {
+        "index": 11,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.625179,
+          0.280884,
+          0.919202
+        ]
+      },
+      {
+        "index": 12,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.662475,
+          0.478459,
+          0.885014
+        ]
+      },
+      {
+        "index": 13,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.598904,
+          0.681166,
+          0.993006
+        ]
+      },
+      {
+        "index": 14,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.539453,
+          0.893732,
+          0.04038
+        ]
+      },
+      {
+        "index": 15,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.907965,
+          0.128345,
+          0.074785
+        ]
+      },
+      {
+        "index": 16,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.040326,
+          0.280793,
+          0.921096
+        ]
+      },
+      {
+        "index": 17,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.062455,
+          0.478007,
+          0.884525
+        ]
+      },
+      {
+        "index": 18,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.026643,
+          0.678088,
+          0.973415
+        ]
+      },
+      {
+        "index": 19,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.954022,
+          0.888145,
+          0.021491
+        ]
+      },
+      {
+        "index": 20,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.919274,
+          0.083002,
+          0.715136
+        ]
+      },
+      {
+        "index": 21,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.003731,
+          0.341696,
+          0.279889
+        ]
+      },
+      {
+        "index": 22,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.024382,
+          0.524316,
+          0.332097
+        ]
+      },
+      {
+        "index": 23,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.909094,
+          0.929365,
+          0.480269
+        ]
+      },
+      {
+        "index": 24,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.591384,
+          0.584631,
+          0.920208
+        ]
+      },
+      {
+        "index": 25,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.641749,
+          0.796083,
+          0.018956
+        ]
+      },
+      {
+        "index": 26,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.571423,
+          0.998783,
+          0.040103
+        ]
+      },
+      {
+        "index": 27,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.43604,
+          0.107024,
+          0.582204
+        ]
+      },
+      {
+        "index": 28,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.518463,
+          0.305451,
+          0.426621
+        ]
+      },
+      {
+        "index": 29,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.560076,
+          0.494374,
+          0.407733
+        ]
+      },
+      {
+        "index": 30,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.519394,
+          0.697875,
+          0.481653
+        ]
+      },
+      {
+        "index": 31,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.473609,
+          0.899665,
+          0.554086
+        ]
+      },
+      {
+        "index": 32,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.315353,
+          0.079996,
+          0.483983
+        ]
+      },
+      {
+        "index": 33,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.395615,
+          0.28509,
+          0.296003
+        ]
+      },
+      {
+        "index": 34,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.433402,
+          0.474714,
+          0.281243
+        ]
+      },
+      {
+        "index": 35,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.370384,
+          0.678693,
+          0.378682
+        ]
+      },
+      {
+        "index": 36,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.323762,
+          0.881763,
+          0.442826
+        ]
+      },
+      {
+        "index": 37,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.326682,
+          0.08515,
+          0.931376
+        ]
+      },
+      {
+        "index": 38,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.450505,
+          0.264272,
+          0.765875
+        ]
+      },
+      {
+        "index": 39,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.48205,
+          0.457739,
+          0.747745
+        ]
+      },
+      {
+        "index": 40,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.421552,
+          0.668721,
+          0.832304
+        ]
+      },
+      {
+        "index": 41,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.361812,
+          0.873529,
+          0.901987
+        ]
+      },
+      {
+        "index": 42,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.790358,
+          0.081419,
+          0.465548
+        ]
+      },
+      {
+        "index": 43,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.872788,
+          0.285342,
+          0.296976
+        ]
+      },
+      {
+        "index": 44,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.910472,
+          0.475068,
+          0.280143
+        ]
+      },
+      {
+        "index": 45,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.865813,
+          0.680583,
+          0.358776
+        ]
+      },
+      {
+        "index": 46,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.824728,
+          0.873724,
+          0.439168
+        ]
+      },
+      {
+        "index": 47,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.337666,
+          0.17727,
+          0.42298
+        ]
+      },
+      {
+        "index": 48,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.374959,
+          0.374213,
+          0.371035
+        ]
+      },
+      {
+        "index": 49,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.421954,
+          0.565567,
+          0.329443
+        ]
+      },
+      {
+        "index": 50,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.378608,
+          0.769726,
+          0.393889
+        ]
+      },
+      {
+        "index": 51,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371897,
+          0.97103,
+          0.445294
+        ]
+      },
+      {
+        "index": 52,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.809384,
+          0.541639,
+          0.678783
+        ]
+      },
+      {
+        "index": 53,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.714143,
+          0.951888,
+          0.809545
+        ]
+      },
+      {
+        "index": 54,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.961278,
+          0.000142,
+          0.997347
+        ]
+      },
+      {
+        "index": 55,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.003272,
+          0.206383,
+          0.949798
+        ]
+      },
+      {
+        "index": 56,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.742214,
+          0.750637,
+          0.779705
+        ]
+      },
+      {
+        "index": 57,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.032245,
+          0.406006,
+          0.902944
+        ]
+      },
+      {
+        "index": 58,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.930687,
+          0.612017,
+          0.074287
+        ]
+      },
+      {
+        "index": 59,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.853406,
+          0.816362,
+          0.122604
+        ]
+      },
+      {
+        "index": 60,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.714412,
+          0.148019,
+          0.826449
+        ]
+      },
+      {
+        "index": 61,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.804291,
+          0.341435,
+          0.677608
+        ]
+      }
+    ]
+  },
+  "run_config": {
+    "base_formula": "Li5.4PS4.4Cl1Br0.6",
+    "target_formula": "Li5.4PS4.1O0.3Cl1Br0.6",
+    "host": "S",
+    "dopant": "O",
+    "compensating_element": "Li",
+    "host_wyckoff": null,
+    "host_site_filter": "free-anion",
+    "host_framework_element": "P",
+    "host_framework_cutoff": 3.0,
+    "substitution_sampler": "random",
+    "min_formula_units": 20,
+    "base_structure": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+    "basestru_dir": "/home/ziyiguo/project/GenerateStru/main/basestru",
+    "use_basestru": true,
+    "scaling": [
+      2,
+      1,
+      2
+    ],
+    "max_supercell_atoms": 500,
+    "allow_stoichiometry_approximation": true,
+    "stoichiometry_tolerance": 0.03,
+    "n_candidates": 200,
+    "n_samples": 30000,
+    "min_distance": 1.8,
+    "min_site_site_distance": 2.0,
+    "candidate_pool_size": 200,
+    "seed": 1234,
+    "output": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6",
+    "relax": true,
+    "relax_cell": true,
+    "fmax": 0.05,
+    "relax_steps": 1000,
+    "relax_optimizer": "FIRE",
+    "n_relax": 50,
+    "screen_batch_size": 8,
+    "relax_natoms_per_batch": 128,
+    "relax_chunk_size": 4,
+    "relax_timeout": 0.0,
+    "model": "/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth",
+    "device": "auto",
+    "MP_API": "DUMMY"
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        208,
+        210,
+        212,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        208,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        209,
+        210,
+        211,
+        212,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 5,
+      "file": "candidate_0005.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 6,
+      "file": "candidate_0006.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        212,
+        213,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 7,
+      "file": "candidate_0007.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        212,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 8,
+      "file": "candidate_0008.cif",
+      "substitution_indices": [
+        208,
+        210,
+        211,
+        212,
+        213,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 9,
+      "file": "candidate_0009.cif",
+      "substitution_indices": [
+        208,
+        209,
+        211,
+        212,
+        213,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 10,
+      "file": "candidate_0010.cif",
+      "substitution_indices": [
+        208,
+        210,
+        211,
+        212,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 11,
+      "file": "candidate_0011.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        211,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 12,
+      "file": "candidate_0012.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        212,
+        213,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 13,
+      "file": "candidate_0013.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 14,
+      "file": "candidate_0014.cif",
+      "substitution_indices": [
+        209,
+        210,
+        211,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 15,
+      "file": "candidate_0015.cif",
+      "substitution_indices": [
+        209,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 16,
+      "file": "candidate_0016.cif",
+      "substitution_indices": [
+        209,
+        210,
+        211,
+        212,
+        213,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 17,
+      "file": "candidate_0017.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        211,
+        213,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 18,
+      "file": "candidate_0018.cif",
+      "substitution_indices": [
+        208,
+        209,
+        212,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 19,
+      "file": "candidate_0019.cif",
+      "substitution_indices": [
+        208,
+        209,
+        211,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 20,
+      "file": "candidate_0020.cif",
+      "substitution_indices": [
+        209,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 21,
+      "file": "candidate_0021.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        211,
+        213,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 22,
+      "file": "candidate_0022.cif",
+      "substitution_indices": [
+        208,
+        209,
+        211,
+        212,
+        213,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 23,
+      "file": "candidate_0023.cif",
+      "substitution_indices": [
+        208,
+        210,
+        211,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 24,
+      "file": "candidate_0024.cif",
+      "substitution_indices": [
+        208,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 25,
+      "file": "candidate_0025.cif",
+      "substitution_indices": [
+        208,
+        209,
+        211,
+        212,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 26,
+      "file": "candidate_0026.cif",
+      "substitution_indices": [
+        208,
+        209,
+        210,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    },
+    {
+      "candidate_id": 27,
+      "file": "candidate_0027.cif",
+      "substitution_indices": [
+        209,
+        210,
+        212,
+        213,
+        214,
+        215
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li108 P20 S82 Br12 Cl20 O6"
+    }
+  ],
+  "screening": [
+    {
+      "candidate_id": 0,
+      "energy": -1024.304931640625,
+      "energy_per_atom": -4.130261821131552
+    },
+    {
+      "candidate_id": 1,
+      "energy": -1024.3056640625,
+      "energy_per_atom": -4.130264774445565
+    },
+    {
+      "candidate_id": 2,
+      "energy": -1024.304931640625,
+      "energy_per_atom": -4.130261821131552
+    },
+    {
+      "candidate_id": 3,
+      "energy": -1024.2998046875,
+      "energy_per_atom": -4.130241147933468
+    },
+    {
+      "candidate_id": 4,
+      "energy": -1024.2978515625,
+      "energy_per_atom": -4.130233272429435
+    },
+    {
+      "candidate_id": 5,
+      "energy": -1024.2979736328125,
+      "energy_per_atom": -4.1302337646484375
+    },
+    {
+      "candidate_id": 6,
+      "energy": -1024.299560546875,
+      "energy_per_atom": -4.130240163495464
+    },
+    {
+      "candidate_id": 7,
+      "energy": -1024.299560546875,
+      "energy_per_atom": -4.130240163495464
+    },
+    {
+      "candidate_id": 8,
+      "energy": -1024.2996826171875,
+      "energy_per_atom": -4.1302406557144655
+    },
+    {
+      "candidate_id": 9,
+      "energy": -1024.2996826171875,
+      "energy_per_atom": -4.1302406557144655
+    },
+    {
+      "candidate_id": 10,
+      "energy": -1024.29931640625,
+      "energy_per_atom": -4.13023917905746
+    },
+    {
+      "candidate_id": 11,
+      "energy": -1024.298095703125,
+      "energy_per_atom": -4.13023425686744
+    },
+    {
+      "candidate_id": 12,
+      "energy": -1024.2991943359375,
+      "energy_per_atom": -4.1302386868384575
+    },
+    {
+      "candidate_id": 13,
+      "energy": -1024.29931640625,
+      "energy_per_atom": -4.13023917905746
+    },
+    {
+      "candidate_id": 14,
+      "energy": -1024.2994384765625,
+      "energy_per_atom": -4.1302396712764615
+    },
+    {
+      "candidate_id": 15,
+      "energy": -1024.3050537109375,
+      "energy_per_atom": -4.1302623133505545
+    },
+    {
+      "candidate_id": 16,
+      "energy": -1024.2994384765625,
+      "energy_per_atom": -4.1302396712764615
+    },
+    {
+      "candidate_id": 17,
+      "energy": -1024.29931640625,
+      "energy_per_atom": -4.13023917905746
+    },
+    {
+      "candidate_id": 18,
+      "energy": -1024.3048095703125,
+      "energy_per_atom": -4.1302613289125505
+    },
+    {
+      "candidate_id": 19,
+      "energy": -1024.2994384765625,
+      "energy_per_atom": -4.1302396712764615
+    },
+    {
+      "candidate_id": 20,
+      "energy": -1024.2994384765625,
+      "energy_per_atom": -4.1302396712764615
+    },
+    {
+      "candidate_id": 21,
+      "energy": -1024.2977294921875,
+      "energy_per_atom": -4.1302327802104335
+    },
+    {
+      "candidate_id": 22,
+      "energy": -1024.2991943359375,
+      "energy_per_atom": -4.1302386868384575
+    },
+    {
+      "candidate_id": 23,
+      "energy": -1024.299560546875,
+      "energy_per_atom": -4.130240163495464
+    },
+    {
+      "candidate_id": 24,
+      "energy": -1024.29931640625,
+      "energy_per_atom": -4.13023917905746
+    },
+    {
+      "candidate_id": 25,
+      "energy": -1024.299560546875,
+      "energy_per_atom": -4.130240163495464
+    },
+    {
+      "candidate_id": 26,
+      "energy": -1024.2996826171875,
+      "energy_per_atom": -4.1302406557144655
+    },
+    {
+      "candidate_id": 27,
+      "energy": -1024.3056640625,
+      "energy_per_atom": -4.130264774445565
+    }
+  ],
+  "relaxation": [
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.713623046875,
+      "energy_per_atom": -4.168200092930948,
+      "steps": 1000,
+      "seconds": 153.4111304310063,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0000.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.7054443359375,
+      "energy_per_atom": -4.1681671142578125,
+      "steps": 1000,
+      "seconds": 154.2926333249925,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0001.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.7056884765625,
+      "energy_per_atom": -4.1681680986958165,
+      "steps": 1000,
+      "seconds": 152.2790737309988,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0002.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.83544921875,
+      "energy_per_atom": -4.16869132749496,
+      "steps": 1000,
+      "seconds": 151.64175235200673,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0003.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.919189453125,
+      "energy_per_atom": -4.169028989730343,
+      "steps": 1000,
+      "seconds": 153.5659104380029,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0004.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.895263671875,
+      "energy_per_atom": -4.168932514805948,
+      "steps": 1000,
+      "seconds": 153.1771843660099,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0005.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8267822265625,
+      "energy_per_atom": -4.1686563799458165,
+      "steps": 1000,
+      "seconds": 152.78938005300006,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0006.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8465576171875,
+      "energy_per_atom": -4.1687361194241435,
+      "steps": 1000,
+      "seconds": 152.93117953000183,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0007.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8375244140625,
+      "energy_per_atom": -4.1686996952179936,
+      "steps": 1000,
+      "seconds": 152.1311685959954,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0008.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8348388671875,
+      "energy_per_atom": -4.1686888663999495,
+      "steps": 1000,
+      "seconds": 152.2268190439936,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0009.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8280029296875,
+      "energy_per_atom": -4.1686613021358365,
+      "steps": 1000,
+      "seconds": 152.733186974001,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0010.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8978271484375,
+      "energy_per_atom": -4.1689428514049895,
+      "steps": 1000,
+      "seconds": 153.56232580299547,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0011.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.824951171875,
+      "energy_per_atom": -4.168648996660786,
+      "steps": 1000,
+      "seconds": 152.24639809200016,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0012.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.852294921875,
+      "energy_per_atom": -4.168759253717238,
+      "steps": 1000,
+      "seconds": 152.99995544100238,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0013.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.833740234375,
+      "energy_per_atom": -4.168684436428931,
+      "steps": 1000,
+      "seconds": 153.73955249598657,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0014.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.7177734375,
+      "energy_per_atom": -4.168216828377016,
+      "steps": 1000,
+      "seconds": 152.0111953470041,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0015.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8409423828125,
+      "energy_per_atom": -4.1687134773500505,
+      "steps": 1000,
+      "seconds": 153.22779752399947,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0016.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8572998046875,
+      "energy_per_atom": -4.1687794346963205,
+      "steps": 1000,
+      "seconds": 152.9031509260094,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0017.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.70166015625,
+      "energy_per_atom": -4.16815185546875,
+      "steps": 1000,
+      "seconds": 151.80735778000962,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0018.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8409423828125,
+      "energy_per_atom": -4.1687134773500505,
+      "steps": 1000,
+      "seconds": 151.54967481399945,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0019.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8358154296875,
+      "energy_per_atom": -4.1686928041519655,
+      "steps": 1000,
+      "seconds": 153.01199939301296,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0020.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.91796875,
+      "energy_per_atom": -4.169024067540323,
+      "steps": 1000,
+      "seconds": 152.49740177899366,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0021.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8319091796875,
+      "energy_per_atom": -4.1686770531439015,
+      "steps": 1000,
+      "seconds": 154.3047101530101,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0022.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8355712890625,
+      "energy_per_atom": -4.1686918197139615,
+      "steps": 1000,
+      "seconds": 152.39565278199734,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0023.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.838623046875,
+      "energy_per_atom": -4.168704125189012,
+      "steps": 1000,
+      "seconds": 153.94468817001325,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0024.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8382568359375,
+      "energy_per_atom": -4.1687026485320064,
+      "steps": 1000,
+      "seconds": 152.89132937398972,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0025.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.8482666015625,
+      "energy_per_atom": -4.1687430104901715,
+      "steps": 1000,
+      "seconds": 153.1802309909981,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0026.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1033.709228515625,
+      "energy_per_atom": -4.168182373046875,
+      "steps": 1000,
+      "seconds": 152.04969379999966,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0027.cif"
+    }
+  ],
+  "ranking": [
+    4,
+    21,
+    11,
+    5,
+    17,
+    13,
+    26,
+    7,
+    16,
+    19,
+    24,
+    25,
+    8,
+    20,
+    23,
+    3,
+    9,
+    14,
+    22,
+    10,
+    6,
+    12,
+    15,
+    0,
+    27,
+    2,
+    1,
+    18
+  ],
+  "best_candidate": {
+    "base_source": "file",
+    "base_material_id": null,
+    "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+    "base_formula": "Li5.4PS4.4Cl1Br0.6",
+    "target_formula": "Li5.4PS4.1O0.3Cl1Br0.6",
+    "scaling": [
+      2,
+      1,
+      2
+    ],
+    "candidate_fingerprint": "6a8abc3320840b00",
+    "ml_fingerprint": "d6f0aca7e2a83379",
+    "candidate_count": 28,
+    "screened_count": 28,
+    "mattersim_enabled": true,
+    "selected_for_relaxation": 28,
+    "relaxed_count": 28,
+    "converged_count": 0,
+    "fmax_ev_per_angstrom": 0.05,
+    "max_steps": 1000,
+    "relax_cell": true,
+    "relax_optimizer": "FIRE",
+    "screen_batch_size": 8,
+    "relax_chunk_size": 4,
+    "relax_natoms_per_batch": 128,
+    "best_candidate_id": 4,
+    "best_initial_rank": 27,
+    "best_relaxed_rank": 1,
+    "best_energy_ev": -1033.919189453125,
+    "best_energy_per_atom_ev": -4.169028989730343,
+    "best_converged": false,
+    "formula": "Li108 P20 S82 Br12 Cl20 O6",
+    "num_atoms": 248,
+    "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/best_structure.cif"
+  }
+}

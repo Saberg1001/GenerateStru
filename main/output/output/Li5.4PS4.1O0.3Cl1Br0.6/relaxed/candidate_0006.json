@@ -1,0 +1,11 @@
+{
+  "candidate_id": 6,
+  "converged": false,
+  "energy": -1033.8267822265625,
+  "energy_per_atom": -4.1686563799458165,
+  "steps": 1000,
+  "seconds": 152.78938005300006,
+  "error": "未在 1000 步内收敛",
+  "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4.1O0.3Cl1Br0.6/relaxed/candidate_0006.cif",
+  "fingerprint": "d6f0aca7e2a83379"
+}

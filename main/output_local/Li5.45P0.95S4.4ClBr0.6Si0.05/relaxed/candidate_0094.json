@@ -1,0 +1,11 @@
+{
+  "candidate_id": 94,
+  "converged": false,
+  "energy": -1024.3690185546875,
+  "energy_per_atom": -4.113931801424448,
+  "steps": 300,
+  "seconds": 147.69451111904345,
+  "error": "未在 300 步内收敛",
+  "relaxed_file": "output/Li5.45P0.95S4.4ClBr0.6Si0.05/relaxed/candidate_0094.cif",
+  "fingerprint": "e44b440aa437af62"
+}
