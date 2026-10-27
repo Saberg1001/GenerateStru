@@ -71,6 +71,7 @@ import itertools
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -139,6 +140,11 @@ PARENT_LIBRARY: Dict[str, List[str]] = {
         "Li3YBr6",
     ],
 }
+
+# When True, a task may only start from a base that already has a local CIF, or
+# from another task in the same CSV that will be generated first.  Used by the
+# LPSC-only wrapper to keep everything derivable from the local LPSC bases.
+REQUIRE_LOCAL_BASE = False
 
 # Stable parents that may be used as a "target == parent" task even when they
 # are not another row in experiment.csv.
@@ -508,11 +514,12 @@ def plan_task(task: Task, known_targets: set) -> Tuple[Optional[str], List[Stage
             for element in set(parent_counts) | set(target_counts)
         )
         if same_composition:
-            allowed = (
-                find_base_path(parent) is not None
-                or formula_key(parent) in known_targets
-                or is_known_base(parent)
-            )
+            allowed = find_base_path(parent) is not None
+            if not allowed and not REQUIRE_LOCAL_BASE:
+                allowed = (
+                    formula_key(parent) in known_targets
+                    or is_known_base(parent)
+                )
             if not allowed:
                 reasons.append(f"{parent}: target 与 parent 相同但无本地/CIF 来源")
                 continue
@@ -571,11 +578,20 @@ def plan_task(task: Task, known_targets: set) -> Tuple[Optional[str], List[Stage
             base_formula = stage_target
 
         local = 2 if find_base_path(parent) is not None else 0
-        score = (
-            len(stages),
-            -local,
-            sum(abs(stage.stage_charge) for stage in stages),
-        )
+        if REQUIRE_LOCAL_BASE:
+            available = 0 if (local or formula_key(parent) in known_targets) else 1
+            score = (
+                available,
+                len(stages),
+                -local,
+                sum(abs(stage.stage_charge) for stage in stages),
+            )
+        else:
+            score = (
+                len(stages),
+                -local,
+                sum(abs(stage.stage_charge) for stage in stages),
+            )
         if best_score is None or score < best_score:
             best_score = score
             best_parent = parent
@@ -852,6 +868,43 @@ def read_json(path: Path) -> Dict:
         return json.load(handle)
 
 
+def run_base_only_stage(
+    task: Task,
+    stage: Stage,
+    output_dir: Path,
+    base_path: Optional[Path],
+    logger: RunLogger,
+) -> Dict:
+    """A base-only task just publishes the existing base structure.
+
+    generate_stru.py cannot express "zero substitutions", so calling it with
+    amount=0 fails.  The base CIF is already the requested composition, so copy
+    it into the task output directory and write the summary expected by the
+    rest of the pipeline.
+    """
+    if base_path is None:
+        raise RuntimeError(f"base-only 任务缺少 base 结构: {stage.base_formula}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(base_path, output_dir / "base_input.cif")
+    shutil.copy2(base_path, output_dir / "best_structure.cif")
+    summary = {
+        "base_only": True,
+        "base_formula": stage.base_formula,
+        "base_structure": str(base_path),
+        "candidate_count": 1,
+        "screened_count": 0,
+        "selected_for_relaxation": 0,
+        "relaxed_count": 0,
+        "converged_count": 0,
+        "best_energy_per_atom_ev": None,
+        "best_converged": None,
+    }
+    with open(output_dir / "summary.json", "w", encoding="utf-8") as handle:
+        json.dump(summary, handle, indent=2, ensure_ascii=False)
+    logger.log(f"  base-only: copied {base_path} -> {output_dir / 'best_structure.cif'}")
+    return summary
+
+
 def run_stage(
     task: Task,
     stage: Stage,
@@ -861,6 +914,9 @@ def run_stage(
     args: argparse.Namespace,
     logger: RunLogger,
 ) -> Dict:
+    if stage.base_only:
+        return run_base_only_stage(task, stage, output_dir, base_path, logger)
+
     output_dir.mkdir(parents=True, exist_ok=True)
     raw_path = logger.raw_dir / f"{task.task_id}_stage{stage_index + 1:02d}.log"
     command = build_command(task, stage, stage_index, output_dir, base_path, args)
