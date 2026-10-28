@@ -1,0 +1,175 @@
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/__version__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_017/01_Li5.5Br1.5PS4.5/best_structure.cif
+[BaseStru] source=file formula=Li11P2(S3Br)3 nsites=25 formula_units=2
+
+[Symmetry] file base structure
+  symprec=0.01: Cm (8)
+  symprec=0.001: Cm (8)
+  symprec=0.0001: Cm (8)
+  atom    0:  Li Wyckoff=  2b frac=[0.988107, 0.486955, 0.567985]
+  atom    1:  Li Wyckoff=  2b frac=[0.99561, 0.997957, 0.572639]
+  atom    2:  Li Wyckoff=  2b frac=[0.469999, 0.486955, 0.567985]
+  atom    3:  Li Wyckoff=  2b frac=[0.435836, 0.997957, 0.572639]
+  atom    4:  Li Wyckoff=  2b frac=[0.47968, 0.281261, 0.956895]
+  atom    5:  Li Wyckoff=  2b frac=[0.41017, 0.800816, 0.016724]
+  atom    6:  Li Wyckoff=  2b frac=[0.000903, 0.281261, 0.956895]
+  atom    7:  Li Wyckoff=  2b frac=[0.971474, 0.800816, 0.016724]
+  atom    8:  Li Wyckoff=  1a frac=[0.974361, 0.280387, 0.490503]
+  atom    9:  Li Wyckoff=  1a frac=[0.990646, 0.688439, 0.641831]
+  atom   10:  Li Wyckoff=  1a frac=[0.52679, 0.489529, 0.967359]
+  atom   11:   P Wyckoff=  1a frac=[0.511312, 0.248756, 0.479864]
+  atom   12:   P Wyckoff=  1a frac=[0.495034, 0.750415, 0.509102]
+  atom   13:   S Wyckoff=  2b frac=[0.387885, 0.194326, 0.358501]
+  atom   14:   S Wyckoff=  2b frac=[0.3752, 0.688837, 0.398008]
+  atom   15:   S Wyckoff=  1a frac=[0.41007, 0.183035, 0.813792]
+  atom   16:   S Wyckoff=  1a frac=[0.382183, 0.692736, 0.850162]
+  atom   17:   S Wyckoff=  2b frac=[0.864962, 0.194326, 0.358501]
+  atom   18:   S Wyckoff=  2b frac=[0.84912, 0.688836, 0.398008]
+  atom   19:   S Wyckoff=  1a frac=[0.396434, 0.421675, 0.363783]
+  atom   20:   S Wyckoff=  1a frac=[0.396523, 0.91913, 0.368695]
+  atom   21:   S Wyckoff=  1a frac=[0.752725, 0.375281, 0.743988]
+  atom   22:  Br Wyckoff=  1a frac=[0.073662, 0.97185, 0.908976]
+  atom   23:  Br Wyckoff=  1a frac=[0.075027, 0.47692, 0.896106]
+  atom   24:  Br Wyckoff=  1a frac=[0.763177, 0.863099, 0.747448]
+
+[Primitive] nsites=25
+[Primitive] composition=Li11P2(S3Br)3
+
+[Symmetry] primitive structure
+  symprec=0.01: Cm (8)
+  symprec=0.001: Cm (8)
+  symprec=0.0001: Cm (8)
+  atom    0:  Li Wyckoff=  2b frac=[0.988107, 0.486955, 0.567985]
+  atom    1:  Li Wyckoff=  2b frac=[0.99561, 0.997957, 0.572639]
+  atom    2:  Li Wyckoff=  2b frac=[0.469999, 0.486955, 0.567985]
+  atom    3:  Li Wyckoff=  2b frac=[0.435836, 0.997957, 0.572639]
+  atom    4:  Li Wyckoff=  2b frac=[0.47968, 0.281261, 0.956895]
+  atom    5:  Li Wyckoff=  2b frac=[0.41017, 0.800816, 0.016724]
+  atom    6:  Li Wyckoff=  2b frac=[0.000903, 0.281261, 0.956895]
+  atom    7:  Li Wyckoff=  2b frac=[0.971474, 0.800816, 0.016724]
+  atom    8:  Li Wyckoff=  1a frac=[0.974361, 0.280387, 0.490503]
+  atom    9:  Li Wyckoff=  1a frac=[0.990646, 0.688439, 0.641831]
+  atom   10:  Li Wyckoff=  1a frac=[0.52679, 0.489529, 0.967359]
+  atom   11:   P Wyckoff=  1a frac=[0.511312, 0.248756, 0.479864]
+  atom   12:   P Wyckoff=  1a frac=[0.495034, 0.750415, 0.509102]
+  atom   13:   S Wyckoff=  2b frac=[0.387885, 0.194326, 0.358501]
+  atom   14:   S Wyckoff=  2b frac=[0.3752, 0.688837, 0.398008]
+  atom   15:   S Wyckoff=  1a frac=[0.41007, 0.183035, 0.813792]
+  atom   16:   S Wyckoff=  1a frac=[0.382183, 0.692736, 0.850162]
+  atom   17:   S Wyckoff=  2b frac=[0.864962, 0.194326, 0.358501]
+  atom   18:   S Wyckoff=  2b frac=[0.84912, 0.688836, 0.398008]
+  atom   19:   S Wyckoff=  1a frac=[0.396434, 0.421675, 0.363783]
+  atom   20:   S Wyckoff=  1a frac=[0.396523, 0.91913, 0.368695]
+  atom   21:   S Wyckoff=  1a frac=[0.752725, 0.375281, 0.743988]
+  atom   22:  Br Wyckoff=  1a frac=[0.073662, 0.97185, 0.908976]
+  atom   23:  Br Wyckoff=  1a frac=[0.075027, 0.47692, 0.896106]
+  atom   24:  Br Wyckoff=  1a frac=[0.763177, 0.863099, 0.747448]
+
+[Supercell] mode=manual matrix=1x1x1 体积倍数=1 （用户指定矩阵 1x1x1）
+[Supercell] 基胞 f.u.=2 -> 超胞 f.u.=2 nsites=25
+[Supercell] composition=Li11P2(S3Br)3
+
+[Stoichiometry] 超胞 f.u.=2 host(P) 移除 2 个，As 替换 2 个，补偿元素 Li 插入 0 个
+[Stoichiometry] 目标 vs 实际可达组成（原子分数）
+    元素       目标/f.u.     实际/f.u.        目标分数        实际分数        偏差
+    As        1.0000      1.0000      0.0800      0.0800     0.00%
+    Br        1.5000      1.5000      0.1200      0.1200     0.00%
+    Li        5.5000      5.5000      0.4400      0.4400     0.00%
+    P         0.0000      0.0000      0.0000      0.0000     0.00%
+    S         4.5000      4.5000      0.3600      0.3600     0.00%
+[Stoichiometry] 取代比例 P->As: 目标 100.00% -> 实际 100.00%（+0.00%）
+[Stoichiometry] 最大偏差 0.000% （组成 0.000% + 取代比例 0.000%，容差 3.00%）
+
+[Composition]
+{
+  "formula_units": 2,
+  "dopant_count": 2,
+  "host_remove_count": 2,
+  "extra_compensating_atoms": 0,
+  "base_counts": {
+    "Li": 5.5,
+    "Br": 1.5,
+    "P": 1.0,
+    "S": 4.5
+  },
+  "target_counts": {
+    "Li": 5.5,
+    "As": 1.0,
+    "S": 4.5,
+    "Br": 1.5
+  },
+  "achieved_counts": {
+    "As": 2.0,
+    "Br": 3.0,
+    "Li": 11.0,
+    "S": 9.0
+  },
+  "doping_ratio": {
+    "requested": 1.0,
+    "actual": 1.0,
+    "deviation": 0.0,
+    "deviation_percent": 0.0
+  },
+  "max_deviation": 0.0,
+  "max_deviation_percent": 0.0,
+  "approx_volume_multiplier": 1
+}
+[Interstitial] 目标化学式不需要额外插入原子，跳过搜索
+[Candidates] 无法再生成新的不同候选（位点组合已枚举完，或该槽位反复生成失败），提前结束：去重后共 1 个不同候选，少于 --n-candidates 200。candidates/ 里可能残留旧指纹的 candidate_*.cif，以下游使用的 candidates_meta.json 为准
+[Candidates] 新生成 1 个候选结构（复用 0 个，去重后共 1 个）
+[MatterSim] device=cuda, load_path=/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth
+[32m2026-10-27 19:07:30.137[0m | [1mINFO    [0m | [36mmattersim.forcefield.potential[0m:[36mfrom_checkpoint[0m:[36m893[0m - [1mLoading the model from /home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth[0m
+[Screen] 1/1 elapsed=0.0 min ETA=0.0 min
+[Relax] 筛选前 1 名候选 = ['0']
+
+  0%|          | 0/1 [00:00<?, ?it/s]/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/applications/batch_relax.py:80: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(DummyBatchCalculator())
+[MatterSim chunk-0] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-0] batch=50 active=1 done=0 max_steps=50
+
+100%|██████████| 1/1 [00:09<00:00,  9.20s/it]
+[Relax] candidate=0000 converged=True steps=68 energy_per_atom=-3.915906982421875 error=-
+[Relax] 1/1 batch_seconds=9.2
+
+==============================
+Summary
+==============================
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_017/01_Li5.5Br1.5PS4.5/best_structure.cif",
+  "base_formula": "Li5.5Br1.5PS4.5",
+  "target_formula": "Li5.5AsS4.5Br1.5",
+  "scaling": [
+    1,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "20f4ac258bfee9cc",
+  "ml_fingerprint": "6c275f2afd92e061",
+  "candidate_count": 1,
+  "screened_count": 1,
+  "mattersim_enabled": true,
+  "selected_for_relaxation": 1,
+  "relaxed_count": 1,
+  "converged_count": 1,
+  "fmax_ev_per_angstrom": 0.05,
+  "max_steps": 1000,
+  "relax_cell": true,
+  "relax_optimizer": "FIRE",
+  "screen_batch_size": 8,
+  "relax_chunk_size": 4,
+  "relax_natoms_per_batch": 128,
+  "best_candidate_id": 0,
+  "best_initial_rank": 1,
+  "best_relaxed_rank": 1,
+  "best_energy_ev": -97.89767456054688,
+  "best_energy_per_atom_ev": -3.915906982421875,
+  "best_converged": true,
+  "formula": "Li11 As2 S9 Br3",
+  "num_atoms": 25,
+  "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5/best_structure.cif"
+}
+
+输出目录: /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5

@@ -1,0 +1,534 @@
+[BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1.6.cif
+[BaseStru] source=file formula=Li27P5(S11Cl4)2 nsites=62 formula_units=5
+
+[Symmetry] file base structure
+  symprec=0.01: P1 (1)
+  symprec=0.001: P1 (1)
+  symprec=0.0001: P1 (1)
+  atom    0:  Li Wyckoff=  1a frac=[0.91932, 0.210419, 0.612848]
+  atom    1:  Li Wyckoff=  1a frac=[0.952489, 0.400352, 0.615254]
+  atom    2:  Li Wyckoff=  1a frac=[0.00042, 0.597511, 0.428009]
+  atom    3:  Li Wyckoff=  1a frac=[0.994114, 0.790033, 0.429328]
+  atom    4:  Li Wyckoff=  1a frac=[0.959002, 0.995584, 0.641737]
+  atom    5:  Li Wyckoff=  1a frac=[0.404039, 0.210298, 0.614647]
+  atom    6:  Li Wyckoff=  1a frac=[0.426872, 0.399943, 0.613291]
+  atom    7:  Li Wyckoff=  1a frac=[0.585212, 0.59634, 0.435293]
+  atom    8:  Li Wyckoff=  1a frac=[0.542875, 0.798809, 0.492978]
+  atom    9:  Li Wyckoff=  1a frac=[0.37296, 0.995697, 0.714876]
+  atom   10:  Li Wyckoff=  1a frac=[0.368457, 0.129443, 0.090545]
+  atom   11:  Li Wyckoff=  1a frac=[0.635281, 0.278408, 0.920821]
+  atom   12:  Li Wyckoff=  1a frac=[0.662375, 0.478436, 0.884936]
+  atom   13:  Li Wyckoff=  1a frac=[0.600867, 0.683785, 0.985133]
+  atom   14:  Li Wyckoff=  1a frac=[0.540787, 0.893262, 0.041736]
+  atom   15:  Li Wyckoff=  1a frac=[0.907249, 0.129826, 0.074601]
+  atom   16:  Li Wyckoff=  1a frac=[0.041509, 0.277843, 0.923578]
+  atom   17:  Li Wyckoff=  1a frac=[0.062704, 0.478019, 0.884013]
+  atom   18:  Li Wyckoff=  1a frac=[0.020992, 0.68047, 0.966066]
+  atom   19:  Li Wyckoff=  1a frac=[0.953377, 0.88763, 0.022707]
+  atom   20:  Li Wyckoff=  1a frac=[0.919065, 0.08072, 0.724678]
+  atom   21:  Li Wyckoff=  1a frac=[0.003962, 0.341723, 0.280224]
+  atom   22:  Li Wyckoff=  1a frac=[0.024385, 0.524538, 0.331316]
+  atom   23:  Li Wyckoff=  1a frac=[0.908479, 0.929277, 0.482431]
+  atom   24:  Li Wyckoff=  1a frac=[0.590229, 0.58492, 0.920461]
+  atom   25:  Li Wyckoff=  1a frac=[0.644305, 0.794538, 0.011496]
+  atom   26:  Li Wyckoff=  1a frac=[0.581838, 0.999094, 0.038733]
+  atom   27:   P Wyckoff=  1a frac=[0.435475, 0.107114, 0.582566]
+  atom   28:   P Wyckoff=  1a frac=[0.518978, 0.305257, 0.426396]
+  atom   29:   P Wyckoff=  1a frac=[0.560045, 0.494333, 0.407872]
+  atom   30:   P Wyckoff=  1a frac=[0.518217, 0.698259, 0.481619]
+  atom   31:   P Wyckoff=  1a frac=[0.473757, 0.899666, 0.553744]
+  atom   32:   S Wyckoff=  1a frac=[0.313672, 0.079969, 0.484677]
+  atom   33:   S Wyckoff=  1a frac=[0.395992, 0.284866, 0.294832]
+  atom   34:   S Wyckoff=  1a frac=[0.432624, 0.474716, 0.280668]
+  atom   35:   S Wyckoff=  1a frac=[0.369607, 0.679134, 0.376364]
+  atom   36:   S Wyckoff=  1a frac=[0.323476, 0.88125, 0.443819]
+  atom   37:   S Wyckoff=  1a frac=[0.325523, 0.08535, 0.933359]
+  atom   38:   S Wyckoff=  1a frac=[0.450692, 0.263846, 0.767394]
+  atom   39:   S Wyckoff=  1a frac=[0.482174, 0.457399, 0.748964]
+  atom   40:   S Wyckoff=  1a frac=[0.420054, 0.669187, 0.8335]
+  atom   41:   S Wyckoff=  1a frac=[0.361699, 0.873279, 0.90281]
+  atom   42:   S Wyckoff=  1a frac=[0.790327, 0.08175, 0.464345]
+  atom   43:   S Wyckoff=  1a frac=[0.874046, 0.285115, 0.296225]
+  atom   44:   S Wyckoff=  1a frac=[0.911066, 0.475079, 0.279845]
+  atom   45:   S Wyckoff=  1a frac=[0.865563, 0.681276, 0.356214]
+  atom   46:   S Wyckoff=  1a frac=[0.825939, 0.873321, 0.440132]
+  atom   47:   S Wyckoff=  1a frac=[0.336939, 0.177674, 0.421212]
+  atom   48:   S Wyckoff=  1a frac=[0.375414, 0.374324, 0.370236]
+  atom   49:   S Wyckoff=  1a frac=[0.421417, 0.565787, 0.32976]
+  atom   50:   S Wyckoff=  1a frac=[0.376793, 0.770326, 0.394024]
+  atom   51:   S Wyckoff=  1a frac=[0.373348, 0.971342, 0.443168]
+  atom   52:   S Wyckoff=  1a frac=[0.809052, 0.541858, 0.678566]
+  atom   53:   S Wyckoff=  1a frac=[0.712431, 0.952059, 0.810638]
+  atom   54:  Cl Wyckoff=  1a frac=[0.961973, 0.001971, 0.971505]
+  atom   55:  Cl Wyckoff=  1a frac=[0.004617, 0.208505, 0.933342]
+  atom   56:  Cl Wyckoff=  1a frac=[0.031979, 0.406083, 0.903594]
+  atom   57:  Cl Wyckoff=  1a frac=[0.930281, 0.612955, 0.06985]
+  atom   58:  Cl Wyckoff=  1a frac=[0.853908, 0.815639, 0.126079]
+  atom   59:  Cl Wyckoff=  1a frac=[0.71535, 0.147663, 0.827318]
+  atom   60:  Cl Wyckoff=  1a frac=[0.805482, 0.340799, 0.679183]
+  atom   61:  Cl Wyckoff=  1a frac=[0.745813, 0.750554, 0.777556]
+
+[Primitive] nsites=62
+[Primitive] composition=Li27P5(S11Cl4)2
+
+[Symmetry] primitive structure
+  symprec=0.01: P1 (1)
+  symprec=0.001: P1 (1)
+  symprec=0.0001: P1 (1)
+  atom    0:  Li Wyckoff=  1a frac=[0.91932, 0.210419, 0.612848]
+  atom    1:  Li Wyckoff=  1a frac=[0.952489, 0.400352, 0.615254]
+  atom    2:  Li Wyckoff=  1a frac=[0.00042, 0.597511, 0.428009]
+  atom    3:  Li Wyckoff=  1a frac=[0.994114, 0.790033, 0.429328]
+  atom    4:  Li Wyckoff=  1a frac=[0.959002, 0.995584, 0.641737]
+  atom    5:  Li Wyckoff=  1a frac=[0.404039, 0.210298, 0.614647]
+  atom    6:  Li Wyckoff=  1a frac=[0.426872, 0.399943, 0.613291]
+  atom    7:  Li Wyckoff=  1a frac=[0.585212, 0.59634, 0.435293]
+  atom    8:  Li Wyckoff=  1a frac=[0.542875, 0.798809, 0.492978]
+  atom    9:  Li Wyckoff=  1a frac=[0.37296, 0.995697, 0.714876]
+  atom   10:  Li Wyckoff=  1a frac=[0.368457, 0.129443, 0.090545]
+  atom   11:  Li Wyckoff=  1a frac=[0.635281, 0.278408, 0.920821]
+  atom   12:  Li Wyckoff=  1a frac=[0.662375, 0.478436, 0.884936]
+  atom   13:  Li Wyckoff=  1a frac=[0.600867, 0.683785, 0.985133]
+  atom   14:  Li Wyckoff=  1a frac=[0.540787, 0.893262, 0.041736]
+  atom   15:  Li Wyckoff=  1a frac=[0.907249, 0.129826, 0.074601]
+  atom   16:  Li Wyckoff=  1a frac=[0.041509, 0.277843, 0.923578]
+  atom   17:  Li Wyckoff=  1a frac=[0.062704, 0.478019, 0.884013]
+  atom   18:  Li Wyckoff=  1a frac=[0.020992, 0.68047, 0.966066]
+  atom   19:  Li Wyckoff=  1a frac=[0.953377, 0.88763, 0.022707]
+  atom   20:  Li Wyckoff=  1a frac=[0.919065, 0.08072, 0.724678]
+  atom   21:  Li Wyckoff=  1a frac=[0.003962, 0.341723, 0.280224]
+  atom   22:  Li Wyckoff=  1a frac=[0.024385, 0.524538, 0.331316]
+  atom   23:  Li Wyckoff=  1a frac=[0.908479, 0.929277, 0.482431]
+  atom   24:  Li Wyckoff=  1a frac=[0.590229, 0.58492, 0.920461]
+  atom   25:  Li Wyckoff=  1a frac=[0.644305, 0.794538, 0.011496]
+  atom   26:  Li Wyckoff=  1a frac=[0.581838, 0.999094, 0.038733]
+  atom   27:   P Wyckoff=  1a frac=[0.435475, 0.107114, 0.582566]
+  atom   28:   P Wyckoff=  1a frac=[0.518978, 0.305257, 0.426396]
+  atom   29:   P Wyckoff=  1a frac=[0.560045, 0.494333, 0.407872]
+  atom   30:   P Wyckoff=  1a frac=[0.518217, 0.698259, 0.481619]
+  atom   31:   P Wyckoff=  1a frac=[0.473757, 0.899666, 0.553744]
+  atom   32:   S Wyckoff=  1a frac=[0.313672, 0.079969, 0.484677]
+  atom   33:   S Wyckoff=  1a frac=[0.395992, 0.284866, 0.294832]
+  atom   34:   S Wyckoff=  1a frac=[0.432624, 0.474716, 0.280668]
+  atom   35:   S Wyckoff=  1a frac=[0.369607, 0.679134, 0.376364]
+  atom   36:   S Wyckoff=  1a frac=[0.323476, 0.88125, 0.443819]
+  atom   37:   S Wyckoff=  1a frac=[0.325523, 0.08535, 0.933359]
+  atom   38:   S Wyckoff=  1a frac=[0.450692, 0.263846, 0.767394]
+  atom   39:   S Wyckoff=  1a frac=[0.482174, 0.457399, 0.748964]
+  atom   40:   S Wyckoff=  1a frac=[0.420054, 0.669187, 0.8335]
+  atom   41:   S Wyckoff=  1a frac=[0.361699, 0.873279, 0.90281]
+  atom   42:   S Wyckoff=  1a frac=[0.790327, 0.08175, 0.464345]
+  atom   43:   S Wyckoff=  1a frac=[0.874046, 0.285115, 0.296225]
+  atom   44:   S Wyckoff=  1a frac=[0.911066, 0.475079, 0.279845]
+  atom   45:   S Wyckoff=  1a frac=[0.865563, 0.681276, 0.356214]
+  atom   46:   S Wyckoff=  1a frac=[0.825939, 0.873321, 0.440132]
+  atom   47:   S Wyckoff=  1a frac=[0.336939, 0.177674, 0.421212]
+  atom   48:   S Wyckoff=  1a frac=[0.375414, 0.374324, 0.370236]
+  atom   49:   S Wyckoff=  1a frac=[0.421417, 0.565787, 0.32976]
+  atom   50:   S Wyckoff=  1a frac=[0.376793, 0.770326, 0.394024]
+  atom   51:   S Wyckoff=  1a frac=[0.373348, 0.971342, 0.443168]
+  atom   52:   S Wyckoff=  1a frac=[0.809052, 0.541858, 0.678566]
+  atom   53:   S Wyckoff=  1a frac=[0.712431, 0.952059, 0.810638]
+  atom   54:  Cl Wyckoff=  1a frac=[0.961973, 0.001971, 0.971505]
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li5', 'Li5', 'Li6', 'Li6', 'Li7', 'Li7', 'Li8', 'Li8', 'Li9', 'Li9', 'Li10', 'Li10', 'Li11', 'Li11', 'Li12', 'Li12', 'Li13', 'Li13', 'Li14', 'Li14', 'Li15', 'Li15', 'Li16', 'Li16', 'Li17', 'Li17', 'Li18', 'Li18', 'Li19', 'Li19', 'Li20', 'Li20', 'Li21', 'Li21', 'Li22', 'Li22', 'Li23', 'Li23', 'Li24', 'Li25', 'Li25', 'Li26', 'Li26', 'Li27', 'Li27', 'Li28', 'Li28', 'Li29', 'Li29', 'Li30', 'Li30', 'Li31', 'Li31', 'P32', 'P32', 'P33', 'P33', 'P34', 'P34', 'P35', 'P35', 'P36', 'P36', 'S37', 'S37', 'S38', 'S38', 'S39', 'S39', 'S40', 'S40', 'S41', 'S41', 'S42', 'S42', 'S43', 'S43', 'S44', 'S44', 'S45', 'S45', 'S46', 'S46', 'S47', 'S47', 'S48', 'S48', 'S49', 'S49', 'S50', 'S50', 'S51', 'S51', 'S52', 'S52', 'S53', 'S53', 'S54', 'S54', 'S55', 'S55', 'S56', 'S56', 'S59', 'S59', 'S61', 'S61', 'Cl0', 'Cl0', 'Cl1', 'Cl1', 'Cl2', 'Cl2', 'Cl3', 'Cl3', 'Cl4', 'Cl4', 'Cl57', 'Cl57', 'Cl58', 'Cl58', 'Cl60', 'Cl60']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/__version__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+  atom   55:  Cl Wyckoff=  1a frac=[0.004617, 0.208505, 0.933342]
+  atom   56:  Cl Wyckoff=  1a frac=[0.031979, 0.406083, 0.903594]
+  atom   57:  Cl Wyckoff=  1a frac=[0.930281, 0.612955, 0.06985]
+  atom   58:  Cl Wyckoff=  1a frac=[0.853908, 0.815639, 0.126079]
+  atom   59:  Cl Wyckoff=  1a frac=[0.71535, 0.147663, 0.827318]
+  atom   60:  Cl Wyckoff=  1a frac=[0.805482, 0.340799, 0.679183]
+  atom   61:  Cl Wyckoff=  1a frac=[0.745813, 0.750554, 0.777556]
+
+[Supercell] mode=auto matrix=2x1x1 体积倍数=2 （按下标分母 LCM 定体积倍数，矩阵 2x1x1）
+[Supercell] 基胞 f.u.=5 -> 超胞 f.u.=10 nsites=124
+[Supercell] composition=Li27P5(S11Cl4)2
+
+[Stoichiometry] 超胞 f.u.=10 host(S) 移除 1 个，Cl 替换 1 个，补偿元素 Li 移除 1 个
+[Stoichiometry] 目标 vs 实际可达组成（原子分数）
+    元素       目标/f.u.     实际/f.u.        目标分数        实际分数        偏差
+    Cl        1.7000      1.7000      0.1382      0.1382    -0.00%
+    Li        5.3000      5.3000      0.4309      0.4309    -0.00%
+    P         1.0000      1.0000      0.0813      0.0813    -0.00%
+    S         4.3000      4.3000      0.3496      0.3496    -0.00%
+[Stoichiometry] 取代比例 S->Cl: 目标 2.27% -> 实际 2.27%（+0.00%）
+[Stoichiometry] 最大偏差 0.000% （组成 0.000% + 取代比例 0.000%，容差 3.00%）
+
+[Composition]
+{
+  "formula_units": 10,
+  "dopant_count": 1,
+  "host_remove_count": 1,
+  "extra_compensating_atoms": -1,
+  "base_counts": {
+    "Li": 5.4,
+    "P": 1.0,
+    "S": 4.4,
+    "Cl": 1.6
+  },
+  "target_counts": {
+    "Li": 5.3,
+    "P": 1.0,
+    "S": 4.3,
+    "Cl": 1.7
+  },
+  "achieved_counts": {
+    "Cl": 17.0,
+    "Li": 53.0,
+    "P": 10.0,
+    "S": 43.0
+  },
+  "doping_ratio": {
+    "requested": 0.022727272727272697,
+    "actual": 0.022727272727272728,
+    "deviation": 3.122502256758253e-17,
+    "deviation_percent": 3.1225022567582528e-15
+  },
+  "max_deviation": 5.551115123125783e-17,
+  "max_deviation_percent": 5.551115123125783e-15,
+  "approx_volume_multiplier": 2
+}
+[Interstitial] 目标化学式不需要额外插入原子，跳过搜索
+[Substitution] --host-site-filter=free-anion：可选 4/44 个 S 位点（最近 P,Si,Ge,Sn,As,Sb > 3.0 Å）
+[Substitution] ⚠ 限定位点后最多只有 C(4,1)=4 种取代组合，少于 --n-candidates 200，候选会大量重复。可用 --min-formula-units 或更大的 --scaling 增加可取代位点
+[Candidates] 新生成 200 个候选结构（复用 0 个，去重后共 200 个）
+[MatterSim] device=cuda, load_path=/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth
+[32m2026-10-27 17:18:53.009[0m | [1mINFO    [0m | [36mmattersim.forcefield.potential[0m:[36mfrom_checkpoint[0m:[36m893[0m - [1mLoading the model from /home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth[0m
+[Screen] 8/200 elapsed=0.0 min ETA=0.4 min
+[Screen] 16/200 elapsed=0.0 min ETA=0.4 min
+[Screen] 24/200 elapsed=0.0 min ETA=0.4 min
+[Screen] 32/200 elapsed=0.1 min ETA=0.3 min
+[Screen] 40/200 elapsed=0.1 min ETA=0.3 min
+[Screen] 48/200 elapsed=0.1 min ETA=0.3 min
+[Screen] 56/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 64/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 72/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 80/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 88/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 96/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 104/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 112/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 120/200 elapsed=0.2 min ETA=0.1 min
+[Screen] 128/200 elapsed=0.2 min ETA=0.1 min
+[Screen] 136/200 elapsed=0.2 min ETA=0.1 min
+[Screen] 144/200 elapsed=0.2 min ETA=0.1 min
+[Screen] 152/200 elapsed=0.2 min ETA=0.1 min
+[Screen] 160/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 168/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 176/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 184/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 192/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 200/200 elapsed=0.2 min ETA=0.0 min
+[Relax] 筛选前 10 名候选 = ['198', '76', '166', '120', '78', '72', '190', '21', '86', '77']
+
+  0%|          | 0/4 [00:00<?, ?it/s]/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/applications/batch_relax.py:80: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(DummyBatchCalculator())
+[MatterSim chunk-0] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-0] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-0] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-0] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-0] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-0] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-0] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-0] batch=200 active=1 done=0 max_steps=200
+[MatterSim chunk-0] batch=225 active=1 done=0 max_steps=225
+[MatterSim chunk-0] batch=250 active=1 done=0 max_steps=250
+[MatterSim chunk-0] batch=275 active=1 done=0 max_steps=275
+[MatterSim chunk-0] batch=300 active=1 done=0 max_steps=300
+[MatterSim chunk-0] batch=325 active=1 done=0 max_steps=325
+[MatterSim chunk-0] batch=350 active=1 done=0 max_steps=350
+[MatterSim chunk-0] batch=375 active=1 done=0 max_steps=375
+
+ 50%|█████     | 2/4 [00:56<00:56, 28.21s/it][MatterSim chunk-0] batch=400 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=425 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=450 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=475 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=500 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=525 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=550 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=575 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=600 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=625 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=650 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=675 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=700 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=725 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=750 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=775 active=1 done=1 max_steps=390
+[MatterSim chunk-0] batch=800 active=1 done=1 max_steps=410
+[MatterSim chunk-0] batch=825 active=1 done=1 max_steps=435
+
+ 75%|███████▌  | 3/4 [01:59<00:42, 42.70s/it][MatterSim chunk-0] batch=850 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=875 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=900 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=925 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=950 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=975 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1000 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1025 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1050 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1075 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1100 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1125 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1150 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1175 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1200 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1225 active=1 done=2 max_steps=446
+[MatterSim chunk-0] batch=1250 active=1 done=2 max_steps=446
+
+100%|██████████| 4/4 [02:59<00:00, 49.06s/it][MatterSim chunk-0] batch=1275 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1300 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1325 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1350 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1375 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1400 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1425 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1450 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1475 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1500 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1525 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1550 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1575 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1600 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1625 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1650 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1675 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1700 active=1 done=3 max_steps=446
+[MatterSim chunk-0] batch=1725 active=1 done=3 max_steps=467
+
+100%|██████████| 4/4 [04:05<00:00, 61.44s/it]
+[Relax] candidate=0198 converged=True steps=390 energy_per_atom=-4.137837231643801 error=-
+[Relax] candidate=0076 converged=True steps=446 energy_per_atom=-4.137989075203252 error=-
+[Relax] candidate=0166 converged=True steps=422 energy_per_atom=-4.137979895118775 error=-
+[Relax] candidate=0120 converged=True steps=473 energy_per_atom=-4.1379573170731705 error=-
+[Relax] 4/10 batch_seconds=245.8
+
+  0%|          | 0/4 [00:00<?, ?it/s][MatterSim chunk-4] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-4] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-4] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-4] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-4] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-4] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-4] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-4] batch=200 active=1 done=0 max_steps=200
+[MatterSim chunk-4] batch=225 active=1 done=0 max_steps=225
+[MatterSim chunk-4] batch=250 active=1 done=0 max_steps=250
+[MatterSim chunk-4] batch=275 active=1 done=0 max_steps=275
+[MatterSim chunk-4] batch=300 active=1 done=0 max_steps=300
+[MatterSim chunk-4] batch=325 active=1 done=0 max_steps=325
+[MatterSim chunk-4] batch=350 active=1 done=0 max_steps=350
+[MatterSim chunk-4] batch=375 active=1 done=0 max_steps=375
+[MatterSim chunk-4] batch=400 active=1 done=0 max_steps=400
+[MatterSim chunk-4] batch=425 active=1 done=0 max_steps=425
+[MatterSim chunk-4] batch=450 active=1 done=0 max_steps=450
+
+ 50%|█████     | 2/4 [01:06<01:06, 33.10s/it][MatterSim chunk-4] batch=475 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=500 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=525 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=550 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=575 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=600 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=625 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=650 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=675 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=700 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=725 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=750 active=1 done=1 max_steps=474
+[MatterSim chunk-4] batch=775 active=0 done=2 max_steps=474
+
+ 75%|███████▌  | 3/4 [01:48<00:36, 36.85s/it][MatterSim chunk-4] batch=800 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=825 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=850 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=875 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=900 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=925 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=950 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=975 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=1000 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=1025 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=1050 active=1 done=2 max_steps=474
+[MatterSim chunk-4] batch=1075 active=1 done=2 max_steps=474
+
+100%|██████████| 4/4 [02:29<00:00, 38.39s/it][MatterSim chunk-4] batch=1100 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1125 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1150 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1175 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1200 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1225 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1250 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1275 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1300 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1325 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1350 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1375 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1400 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1425 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1450 active=1 done=3 max_steps=474
+[MatterSim chunk-4] batch=1475 active=1 done=3 max_steps=474
+
+100%|██████████| 4/4 [03:24<00:00, 51.24s/it]
+[Relax] candidate=0078 converged=True steps=474 energy_per_atom=-4.1379573170731705 error=-
+[Relax] candidate=0072 converged=True steps=301 energy_per_atom=-4.137059901787983 error=-
+[Relax] candidate=0190 converged=True steps=301 energy_per_atom=-4.1370594055672 error=-
+[Relax] candidate=0021 converged=True steps=400 energy_per_atom=-4.137759076870553 error=-
+[Relax] 8/10 batch_seconds=205.0
+
+  0%|          | 0/2 [00:00<?, ?it/s][MatterSim chunk-8] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-8] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-8] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-8] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-8] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-8] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-8] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-8] batch=200 active=1 done=0 max_steps=200
+[MatterSim chunk-8] batch=225 active=1 done=0 max_steps=225
+[MatterSim chunk-8] batch=250 active=1 done=0 max_steps=250
+[MatterSim chunk-8] batch=275 active=1 done=0 max_steps=275
+[MatterSim chunk-8] batch=300 active=1 done=0 max_steps=300
+[MatterSim chunk-8] batch=325 active=1 done=0 max_steps=325
+[MatterSim chunk-8] batch=350 active=1 done=0 max_steps=350
+[MatterSim chunk-8] batch=375 active=1 done=0 max_steps=375
+
+100%|██████████| 2/2 [00:56<00:00, 28.08s/it][MatterSim chunk-8] batch=400 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=425 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=450 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=475 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=500 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=525 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=550 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=575 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=600 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=625 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=650 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=675 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=700 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=725 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=750 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=775 active=1 done=1 max_steps=399
+[MatterSim chunk-8] batch=800 active=1 done=1 max_steps=401
+[MatterSim chunk-8] batch=825 active=1 done=1 max_steps=426
+[MatterSim chunk-8] batch=850 active=1 done=1 max_steps=451
+[MatterSim chunk-8] batch=875 active=1 done=1 max_steps=476
+[MatterSim chunk-8] batch=900 active=1 done=1 max_steps=501
+[MatterSim chunk-8] batch=925 active=1 done=1 max_steps=526
+[MatterSim chunk-8] batch=950 active=1 done=1 max_steps=551
+[MatterSim chunk-8] batch=975 active=1 done=1 max_steps=576
+[MatterSim chunk-8] batch=1000 active=1 done=1 max_steps=601
+[MatterSim chunk-8] batch=1025 active=1 done=1 max_steps=626
+[MatterSim chunk-8] batch=1050 active=1 done=1 max_steps=651
+[MatterSim chunk-8] batch=1075 active=1 done=1 max_steps=676
+[MatterSim chunk-8] batch=1100 active=1 done=1 max_steps=701
+[MatterSim chunk-8] batch=1125 active=1 done=1 max_steps=726
+[MatterSim chunk-8] batch=1150 active=1 done=1 max_steps=751
+[MatterSim chunk-8] batch=1175 active=1 done=1 max_steps=776
+[MatterSim chunk-8] batch=1200 active=1 done=1 max_steps=801
+[MatterSim chunk-8] batch=1225 active=1 done=1 max_steps=826
+[MatterSim chunk-8] batch=1250 active=1 done=1 max_steps=851
+[MatterSim chunk-8] batch=1275 active=1 done=1 max_steps=876
+[MatterSim chunk-8] batch=1300 active=1 done=1 max_steps=901
+[MatterSim chunk-8] batch=1325 active=1 done=1 max_steps=926
+[MatterSim chunk-8] batch=1350 active=1 done=1 max_steps=951
+[MatterSim chunk-8] batch=1375 active=1 done=1 max_steps=976
+
+100%|██████████| 2/2 [03:16<00:00, 98.41s/it]
+[Relax] candidate=0086 converged=True steps=399 energy_per_atom=-4.137759076870553 error=-
+[Relax] candidate=0077 converged=False steps=1000 energy_per_atom=-4.138490010083206 error=未在 1000 步内收敛
+[Relax] 10/10 batch_seconds=196.8
+
+==============================
+Summary
+==============================
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1.6.cif",
+  "base_formula": "Li5.4PS4.4Cl1.6",
+  "target_formula": "Li5.3PS4.3Cl1.7",
+  "scaling": [
+    2,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "695314e087d099bb",
+  "ml_fingerprint": "dcf25bbfaf3af4dc",
+  "candidate_count": 200,
+  "screened_count": 200,
+  "mattersim_enabled": true,
+  "selected_for_relaxation": 10,
+  "relaxed_count": 10,
+  "converged_count": 9,
+  "fmax_ev_per_angstrom": 0.05,
+  "max_steps": 1000,
+  "relax_cell": true,
+  "relax_optimizer": "FIRE",
+  "screen_batch_size": 8,
+  "relax_chunk_size": 4,
+  "relax_natoms_per_batch": 128,
+  "best_candidate_id": 76,
+  "best_initial_rank": 2,
+  "best_relaxed_rank": 1,
+  "best_energy_ev": -508.97265625,
+  "best_energy_per_atom_ev": -4.137989075203252,
+  "best_converged": true,
+  "formula": "Li53 P10 S43 Cl17",
+  "num_atoms": 123,
+  "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.3PS4.3Cl1.7/best_structure.cif"
+}
+
+输出目录: /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.3PS4.3Cl1.7

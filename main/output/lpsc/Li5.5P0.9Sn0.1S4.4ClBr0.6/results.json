@@ -1,0 +1,5742 @@
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+  "base_formula": "Li5.4PS4.4Cl1Br0.6",
+  "target_formula": "Li5.5P0.9Sn0.1S4.4ClBr0.6",
+  "host": "P",
+  "dopant": "Sn",
+  "compensating_element": "Li",
+  "scaling": [
+    2,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "da3baa4a644229b3",
+  "ml_fingerprint": "6d2e09d5eea448ac",
+  "composition_calculation": {
+    "formula_units": 10,
+    "dopant_count": 1,
+    "host_remove_count": 1,
+    "extra_compensating_atoms": 1,
+    "base_counts": {
+      "Li": 5.4,
+      "P": 1.0,
+      "S": 4.4,
+      "Cl": 1.0,
+      "Br": 0.6
+    },
+    "target_counts": {
+      "Li": 5.5,
+      "P": 0.9,
+      "Sn": 0.1,
+      "S": 4.4,
+      "Cl": 1.0,
+      "Br": 0.6
+    },
+    "achieved_counts": {
+      "Br": 6.0,
+      "Cl": 10.0,
+      "Li": 55.0,
+      "P": 9.0,
+      "S": 44.0,
+      "Sn": 1.0
+    },
+    "deviation": {
+      "rows": [
+        {
+          "element": "Br",
+          "target_per_fu": 0.6,
+          "actual_per_fu": 0.6,
+          "target_fraction": 0.048,
+          "actual_fraction": 0.048,
+          "deviation": 0.0
+        },
+        {
+          "element": "Cl",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08,
+          "actual_fraction": 0.08,
+          "deviation": 0.0
+        },
+        {
+          "element": "Li",
+          "target_per_fu": 5.5,
+          "actual_per_fu": 5.5,
+          "target_fraction": 0.44,
+          "actual_fraction": 0.44,
+          "deviation": 0.0
+        },
+        {
+          "element": "P",
+          "target_per_fu": 0.9,
+          "actual_per_fu": 0.9,
+          "target_fraction": 0.07200000000000001,
+          "actual_fraction": 0.07200000000000001,
+          "deviation": 0.0
+        },
+        {
+          "element": "S",
+          "target_per_fu": 4.4,
+          "actual_per_fu": 4.4,
+          "target_fraction": 0.35200000000000004,
+          "actual_fraction": 0.35200000000000004,
+          "deviation": 0.0
+        },
+        {
+          "element": "Sn",
+          "target_per_fu": 0.1,
+          "actual_per_fu": 0.1,
+          "target_fraction": 0.008,
+          "actual_fraction": 0.008,
+          "deviation": 0.0
+        }
+      ],
+      "max_deviation": 0.0,
+      "max_deviation_percent": 0.0,
+      "target_per_fu": {
+        "Li": 5.5,
+        "P": 0.9,
+        "Sn": 0.1,
+        "S": 4.4,
+        "Cl": 1.0,
+        "Br": 0.6
+      },
+      "actual_per_fu": {
+        "Br": 0.6,
+        "Cl": 1.0,
+        "Li": 5.5,
+        "P": 0.9,
+        "S": 4.4,
+        "Sn": 0.1
+      }
+    },
+    "doping_ratio": {
+      "requested": 0.1,
+      "actual": 0.1,
+      "deviation": 0.0,
+      "deviation_percent": 0.0
+    },
+    "max_deviation": 0.0,
+    "max_deviation_percent": 0.0,
+    "approx_volume_multiplier": 2
+  },
+  "wyckoff_report": {
+    "spacegroup": "P1",
+    "spacegroup_number": 1,
+    "sites": [
+      {
+        "index": 0,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.918376,
+          0.210137,
+          0.606572
+        ]
+      },
+      {
+        "index": 1,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.953112,
+          0.400653,
+          0.61347
+        ]
+      },
+      {
+        "index": 2,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.000302,
+          0.597095,
+          0.429872
+        ]
+      },
+      {
+        "index": 3,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.999786,
+          0.791883,
+          0.41656
+        ]
+      },
+      {
+        "index": 4,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.957449,
+          0.99555,
+          0.634172
+        ]
+      },
+      {
+        "index": 5,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.412168,
+          0.210093,
+          0.608045
+        ]
+      },
+      {
+        "index": 6,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.426471,
+          0.400205,
+          0.611823
+        ]
+      },
+      {
+        "index": 7,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.585215,
+          0.595976,
+          0.436979
+        ]
+      },
+      {
+        "index": 8,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.538092,
+          0.800589,
+          0.483466
+        ]
+      },
+      {
+        "index": 9,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.383008,
+          0.9958,
+          0.705649
+        ]
+      },
+      {
+        "index": 10,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371175,
+          0.128619,
+          0.090294
+        ]
+      },
+      {
+        "index": 11,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.625179,
+          0.280884,
+          0.919202
+        ]
+      },
+      {
+        "index": 12,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.662475,
+          0.478459,
+          0.885014
+        ]
+      },
+      {
+        "index": 13,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.598904,
+          0.681166,
+          0.993006
+        ]
+      },
+      {
+        "index": 14,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.539453,
+          0.893732,
+          0.04038
+        ]
+      },
+      {
+        "index": 15,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.907965,
+          0.128345,
+          0.074785
+        ]
+      },
+      {
+        "index": 16,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.040326,
+          0.280793,
+          0.921096
+        ]
+      },
+      {
+        "index": 17,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.062455,
+          0.478007,
+          0.884525
+        ]
+      },
+      {
+        "index": 18,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.026643,
+          0.678088,
+          0.973415
+        ]
+      },
+      {
+        "index": 19,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.954022,
+          0.888145,
+          0.021491
+        ]
+      },
+      {
+        "index": 20,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.919274,
+          0.083002,
+          0.715136
+        ]
+      },
+      {
+        "index": 21,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.003731,
+          0.341696,
+          0.279889
+        ]
+      },
+      {
+        "index": 22,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.024382,
+          0.524316,
+          0.332097
+        ]
+      },
+      {
+        "index": 23,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.909094,
+          0.929365,
+          0.480269
+        ]
+      },
+      {
+        "index": 24,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.591384,
+          0.584631,
+          0.920208
+        ]
+      },
+      {
+        "index": 25,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.641749,
+          0.796083,
+          0.018956
+        ]
+      },
+      {
+        "index": 26,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.571423,
+          0.998783,
+          0.040103
+        ]
+      },
+      {
+        "index": 27,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.43604,
+          0.107024,
+          0.582204
+        ]
+      },
+      {
+        "index": 28,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.518463,
+          0.305451,
+          0.426621
+        ]
+      },
+      {
+        "index": 29,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.560076,
+          0.494374,
+          0.407733
+        ]
+      },
+      {
+        "index": 30,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.519394,
+          0.697875,
+          0.481653
+        ]
+      },
+      {
+        "index": 31,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.473609,
+          0.899665,
+          0.554086
+        ]
+      },
+      {
+        "index": 32,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.315353,
+          0.079996,
+          0.483983
+        ]
+      },
+      {
+        "index": 33,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.395615,
+          0.28509,
+          0.296003
+        ]
+      },
+      {
+        "index": 34,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.433402,
+          0.474714,
+          0.281243
+        ]
+      },
+      {
+        "index": 35,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.370384,
+          0.678693,
+          0.378682
+        ]
+      },
+      {
+        "index": 36,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.323762,
+          0.881763,
+          0.442826
+        ]
+      },
+      {
+        "index": 37,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.326682,
+          0.08515,
+          0.931376
+        ]
+      },
+      {
+        "index": 38,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.450505,
+          0.264272,
+          0.765875
+        ]
+      },
+      {
+        "index": 39,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.48205,
+          0.457739,
+          0.747745
+        ]
+      },
+      {
+        "index": 40,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.421552,
+          0.668721,
+          0.832304
+        ]
+      },
+      {
+        "index": 41,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.361812,
+          0.873529,
+          0.901987
+        ]
+      },
+      {
+        "index": 42,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.790358,
+          0.081419,
+          0.465548
+        ]
+      },
+      {
+        "index": 43,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.872788,
+          0.285342,
+          0.296976
+        ]
+      },
+      {
+        "index": 44,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.910472,
+          0.475068,
+          0.280143
+        ]
+      },
+      {
+        "index": 45,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.865813,
+          0.680583,
+          0.358776
+        ]
+      },
+      {
+        "index": 46,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.824728,
+          0.873724,
+          0.439168
+        ]
+      },
+      {
+        "index": 47,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.337666,
+          0.17727,
+          0.42298
+        ]
+      },
+      {
+        "index": 48,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.374959,
+          0.374213,
+          0.371035
+        ]
+      },
+      {
+        "index": 49,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.421954,
+          0.565567,
+          0.329443
+        ]
+      },
+      {
+        "index": 50,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.378608,
+          0.769726,
+          0.393889
+        ]
+      },
+      {
+        "index": 51,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371897,
+          0.97103,
+          0.445294
+        ]
+      },
+      {
+        "index": 52,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.809384,
+          0.541639,
+          0.678783
+        ]
+      },
+      {
+        "index": 53,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.714143,
+          0.951888,
+          0.809545
+        ]
+      },
+      {
+        "index": 54,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.961278,
+          0.000142,
+          0.997347
+        ]
+      },
+      {
+        "index": 55,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.003272,
+          0.206383,
+          0.949798
+        ]
+      },
+      {
+        "index": 56,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.742214,
+          0.750637,
+          0.779705
+        ]
+      },
+      {
+        "index": 57,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.032245,
+          0.406006,
+          0.902944
+        ]
+      },
+      {
+        "index": 58,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.930687,
+          0.612017,
+          0.074287
+        ]
+      },
+      {
+        "index": 59,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.853406,
+          0.816362,
+          0.122604
+        ]
+      },
+      {
+        "index": 60,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.714412,
+          0.148019,
+          0.826449
+        ]
+      },
+      {
+        "index": 61,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.804291,
+          0.341435,
+          0.677608
+        ]
+      }
+    ]
+  },
+  "run_config": {
+    "base_formula": "Li5.4PS4.4Cl1Br0.6",
+    "target_formula": "Li5.5P0.9Sn0.1S4.4ClBr0.6",
+    "host": "P",
+    "dopant": "Sn",
+    "compensating_element": "Li",
+    "host_wyckoff": null,
+    "host_site_filter": "all",
+    "host_framework_element": "P",
+    "host_framework_cutoff": 3.0,
+    "substitution_sampler": "random",
+    "min_formula_units": 0,
+    "base_structure": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+    "basestru_dir": "/home/ziyiguo/project/GenerateStru/main/basestru",
+    "use_basestru": true,
+    "scaling": [
+      2,
+      1,
+      1
+    ],
+    "max_supercell_atoms": 500,
+    "allow_stoichiometry_approximation": true,
+    "stoichiometry_tolerance": 0.03,
+    "n_candidates": 200,
+    "n_samples": 30000,
+    "min_distance": 1.8,
+    "min_site_site_distance": 2.0,
+    "candidate_pool_size": 200,
+    "seed": 1234,
+    "output": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6",
+    "relax": true,
+    "relax_cell": true,
+    "fmax": 0.05,
+    "relax_steps": 1000,
+    "relax_optimizer": "FIRE",
+    "n_relax": 10,
+    "screen_batch_size": 8,
+    "relax_natoms_per_batch": 128,
+    "relax_chunk_size": 4,
+    "relax_timeout": 0.0,
+    "model": "/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth",
+    "device": "auto",
+    "MP_API": "DUMMY"
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.596724482783197,
+            0.7516621510940156,
+            0.8007472040046588
+          ],
+          "clearance": 2.4331682589600523
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1116068327958365,
+            0.7690884068678713,
+            0.8525805724255001
+          ],
+          "clearance": 2.644602915976848
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.14998750465407806,
+            0.7682336509168346,
+            0.9397573845770398
+          ],
+          "clearance": 2.615964201147295
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06255087759314781,
+            0.7911451769391095,
+            0.7844021986490762
+          ],
+          "clearance": 2.5160849533075007
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6344347295707109,
+            0.7817653032010584,
+            0.05139214222049859
+          ],
+          "clearance": 2.4596232875144484
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 5,
+      "file": "candidate_0005.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.12672108417819716,
+            0.8151879718428083,
+            0.8437678452613074
+          ],
+          "clearance": 2.5040389619597927
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 6,
+      "file": "candidate_0006.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.07140779601921343,
+            0.610040176216979,
+            0.6315192355810089
+          ],
+          "clearance": 2.4430919471588215
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 7,
+      "file": "candidate_0007.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.975422441144816,
+            0.14656897609941844,
+            0.3523774932003073
+          ],
+          "clearance": 2.437592433305898
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 8,
+      "file": "candidate_0008.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8770701425222728,
+            0.04074093127602585,
+            0.29991667911339204
+          ],
+          "clearance": 2.4456126021466957
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 9,
+      "file": "candidate_0009.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06478064707500009,
+            0.7324349398773083,
+            0.04455595669813173
+          ],
+          "clearance": 2.6612656905595022
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 10,
+      "file": "candidate_0010.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06408046438518589,
+            0.753997093320756,
+            0.8715059324634773
+          ],
+          "clearance": 2.7392434198611038
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 11,
+      "file": "candidate_0011.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6068884991509482,
+            0.762162983111061,
+            0.8106787452892155
+          ],
+          "clearance": 2.5577705945721285
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 12,
+      "file": "candidate_0012.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5625844403491376,
+            0.7470389859896802,
+            0.9636828158314089
+          ],
+          "clearance": 2.640454089328038
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 13,
+      "file": "candidate_0013.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6229596245581469,
+            0.7998573771452697,
+            0.8514681013190223
+          ],
+          "clearance": 2.437376300728737
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 14,
+      "file": "candidate_0014.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06667757043855915,
+            0.6084398762389095,
+            0.6852051563444596
+          ],
+          "clearance": 2.487293661896052
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 15,
+      "file": "candidate_0015.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.038541314666658555,
+            0.7933093350153332,
+            0.7285574103116568
+          ],
+          "clearance": 2.5077052813606686
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 16,
+      "file": "candidate_0016.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.12672108417819716,
+            0.8151879718428083,
+            0.8437678452613074
+          ],
+          "clearance": 2.5040389619597927
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 17,
+      "file": "candidate_0017.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.03545722011423469,
+            0.7715616995899071,
+            0.7783301047145709
+          ],
+          "clearance": 2.5636771972570305
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 18,
+      "file": "candidate_0018.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6312102941271126,
+            0.7700429798392026,
+            0.9880115387210597
+          ],
+          "clearance": 2.4840044441641482
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 19,
+      "file": "candidate_0019.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5857366357652181,
+            0.7372385233942733,
+            0.9420620173176028
+          ],
+          "clearance": 2.42791863897679
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 20,
+      "file": "candidate_0020.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06408046438518589,
+            0.753997093320756,
+            0.8715059324634773
+          ],
+          "clearance": 2.7392434198611038
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 21,
+      "file": "candidate_0021.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.024403602535849278,
+            0.7561649945909475,
+            0.8788786225688671
+          ],
+          "clearance": 2.4275165041283415
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 22,
+      "file": "candidate_0022.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06255087759314781,
+            0.7911451769391095,
+            0.7844021986490762
+          ],
+          "clearance": 2.5160849533075007
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 23,
+      "file": "candidate_0023.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6243957203195069,
+            0.5601273678962778,
+            0.8704520593721303
+          ],
+          "clearance": 2.439692755635575
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 24,
+      "file": "candidate_0024.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1116068327958365,
+            0.7690884068678713,
+            0.8525805724255001
+          ],
+          "clearance": 2.644602915976848
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 25,
+      "file": "candidate_0025.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.05929101864686637,
+            0.8161823421056307,
+            0.6986895602596915
+          ],
+          "clearance": 2.5111673605570983
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 26,
+      "file": "candidate_0026.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1319778254688626,
+            0.7732032550638107,
+            0.04996714145315306
+          ],
+          "clearance": 2.449996579744979
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 27,
+      "file": "candidate_0027.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5799748838774599,
+            0.5527381727472908,
+            0.8092000735154418
+          ],
+          "clearance": 2.785205517411734
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 28,
+      "file": "candidate_0028.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.04571487609125657,
+            0.7780317174865188,
+            0.8168890533434036
+          ],
+          "clearance": 2.5741582372327083
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 29,
+      "file": "candidate_0029.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.07125063083754857,
+            0.7804086872498638,
+            0.7581849510108284
+          ],
+          "clearance": 2.4313819053210355
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 30,
+      "file": "candidate_0030.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06478064707500009,
+            0.7324349398773083,
+            0.04455595669813173
+          ],
+          "clearance": 2.6612656905595022
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 31,
+      "file": "candidate_0031.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8748256897562682,
+            0.04876053849765505,
+            0.25499602908475305
+          ],
+          "clearance": 2.5057338637870052
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 32,
+      "file": "candidate_0032.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06255087759314781,
+            0.7911451769391095,
+            0.7844021986490762
+          ],
+          "clearance": 2.5160849533075007
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 33,
+      "file": "candidate_0033.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.08983099406924111,
+            0.7615678485962367,
+            0.8417593671063133
+          ],
+          "clearance": 2.7419245864463537
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 34,
+      "file": "candidate_0034.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5289434265080886,
+            0.766757989413224,
+            0.8101591209137815
+          ],
+          "clearance": 2.4999053086055714
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 35,
+      "file": "candidate_0035.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.04571487609125657,
+            0.7780317174865188,
+            0.8168890533434036
+          ],
+          "clearance": 2.5741582372327083
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 36,
+      "file": "candidate_0036.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1319778254688626,
+            0.7732032550638107,
+            0.04996714145315306
+          ],
+          "clearance": 2.449996579744979
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 37,
+      "file": "candidate_0037.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5878063737602234,
+            0.5372208377481144,
+            0.8732435713287788
+          ],
+          "clearance": 2.5463895564540957
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 38,
+      "file": "candidate_0038.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.12672108417819716,
+            0.8151879718428083,
+            0.8437678452613074
+          ],
+          "clearance": 2.5040389619597927
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 39,
+      "file": "candidate_0039.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.593977454881477,
+            0.5964963908149188,
+            0.6690088645582314
+          ],
+          "clearance": 2.4772690280813254
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 40,
+      "file": "candidate_0040.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6186981542528853,
+            0.5294949412408101,
+            0.856176959420878
+          ],
+          "clearance": 2.513499236937983
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 41,
+      "file": "candidate_0041.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.052286601555634915,
+            0.6337750418507049,
+            0.6110628844812958
+          ],
+          "clearance": 2.471706729942205
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 42,
+      "file": "candidate_0042.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.0760767035009362,
+            0.593880518698702,
+            0.7073136604011234
+          ],
+          "clearance": 2.5532272419788256
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 43,
+      "file": "candidate_0043.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.605775889252024,
+            0.7699176501178953,
+            0.8651830906191246
+          ],
+          "clearance": 2.6242813809235788
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 44,
+      "file": "candidate_0044.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06462233918778015,
+            0.7655607284337869,
+            0.8738553928286868
+          ],
+          "clearance": 2.5624714683544347
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 45,
+      "file": "candidate_0045.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6167214554128171,
+            0.5387809491378653,
+            0.8848869125055948
+          ],
+          "clearance": 2.697847044392096
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 46,
+      "file": "candidate_0046.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6312102941271126,
+            0.7700429798392026,
+            0.9880115387210597
+          ],
+          "clearance": 2.4840044441641482
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 47,
+      "file": "candidate_0047.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.16548778801481023,
+            0.7791324731522934,
+            0.05244255861430969
+          ],
+          "clearance": 2.446188760597386
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 48,
+      "file": "candidate_0048.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.009751056933933855,
+            0.5527160501028892,
+            0.8661140969334109
+          ],
+          "clearance": 2.4394062209275584
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 49,
+      "file": "candidate_0049.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.10929901869603975,
+            0.7440898803008875,
+            0.044537195423622444
+          ],
+          "clearance": 2.499181183621772
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 50,
+      "file": "candidate_0050.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5073038947639122,
+            0.5626429557934106,
+            0.8398446615632633
+          ],
+          "clearance": 2.5369361698301467
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 51,
+      "file": "candidate_0051.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1116068327958365,
+            0.7690884068678713,
+            0.8525805724255001
+          ],
+          "clearance": 2.644602915976848
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 52,
+      "file": "candidate_0052.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.15491113442693905,
+            0.764636716217538,
+            0.9324423643582938
+          ],
+          "clearance": 2.5765437476263746
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 53,
+      "file": "candidate_0053.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5593760760693753,
+            0.8129327648208393,
+            0.7392641214110541
+          ],
+          "clearance": 2.493361665252522
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 54,
+      "file": "candidate_0054.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6229596245581469,
+            0.7998573771452697,
+            0.8514681013190223
+          ],
+          "clearance": 2.437376300728737
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 55,
+      "file": "candidate_0055.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.026710722654474495,
+            0.8377566358755473,
+            0.6861021090459771
+          ],
+          "clearance": 2.4431063910405375
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 56,
+      "file": "candidate_0056.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6553969547745094,
+            0.5505300834216758,
+            0.9479462992465626
+          ],
+          "clearance": 2.5385068159917283
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 57,
+      "file": "candidate_0057.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.10923835677706972,
+            0.7555750586659088,
+            0.9400104248152008
+          ],
+          "clearance": 2.648683010913974
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 58,
+      "file": "candidate_0058.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.009751056933933855,
+            0.5527160501028892,
+            0.8661140969334109
+          ],
+          "clearance": 2.4394062209275584
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 59,
+      "file": "candidate_0059.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.08285820570270253,
+            0.7487982132388434,
+            0.9889140785833787
+          ],
+          "clearance": 2.5458706149393096
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 60,
+      "file": "candidate_0060.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5443957192728962,
+            0.7505421913196753,
+            0.9778459086570495
+          ],
+          "clearance": 2.478005480987312
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 61,
+      "file": "candidate_0061.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5670467794520431,
+            0.7678543322025725,
+            0.8851290401024371
+          ],
+          "clearance": 2.4584938898218516
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 62,
+      "file": "candidate_0062.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.593977454881477,
+            0.5964963908149188,
+            0.6690088645582314
+          ],
+          "clearance": 2.4772690280813254
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 63,
+      "file": "candidate_0063.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.09019642509930792,
+            0.5415826748039754,
+            0.8186304866181551
+          ],
+          "clearance": 2.527946338099393
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 64,
+      "file": "candidate_0064.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.11052857031955299,
+            0.784542873670696,
+            0.8278381942700783
+          ],
+          "clearance": 2.4370568807201636
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 65,
+      "file": "candidate_0065.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.13842946480376062,
+            0.5645076274357882,
+            0.8130192073542114
+          ],
+          "clearance": 2.634601080414791
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 66,
+      "file": "candidate_0066.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8456715300505043,
+            0.38910897074264617,
+            0.019874668574576315
+          ],
+          "clearance": 2.4288739405545714
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 67,
+      "file": "candidate_0067.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5955874564732152,
+            0.6121689433789214,
+            0.6839206196627886
+          ],
+          "clearance": 2.42719767458745
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 68,
+      "file": "candidate_0068.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.026710722654474495,
+            0.8377566358755473,
+            0.6861021090459771
+          ],
+          "clearance": 2.4431063910405375
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 69,
+      "file": "candidate_0069.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1428611889011947,
+            0.7801893716250492,
+            0.9764833144864199
+          ],
+          "clearance": 2.543376463338446
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 70,
+      "file": "candidate_0070.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.024518573995766624,
+            0.7445471030070889,
+            0.03886082274369951
+          ],
+          "clearance": 2.4342570180470866
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 71,
+      "file": "candidate_0071.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5957483857530158,
+            0.548972693719931,
+            0.8521502822932316
+          ],
+          "clearance": 2.742854938871274
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 72,
+      "file": "candidate_0072.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.10415584110959641,
+            0.7512909321522394,
+            0.06703175408246298
+          ],
+          "clearance": 2.441710581553626
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 73,
+      "file": "candidate_0073.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6186981542528853,
+            0.5294949412408101,
+            0.856176959420878
+          ],
+          "clearance": 2.513499236937983
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 74,
+      "file": "candidate_0074.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.07858165189237132,
+            0.7639899725982451,
+            0.8985786566168116
+          ],
+          "clearance": 2.509646748307294
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 75,
+      "file": "candidate_0075.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4033520493314936,
+            0.035615827843126224,
+            0.2870080961326673
+          ],
+          "clearance": 2.463979518367324
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 76,
+      "file": "candidate_0076.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.08738384979319835,
+            0.7880786019396797,
+            0.7753789605081081
+          ],
+          "clearance": 2.4852785626090133
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 77,
+      "file": "candidate_0077.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1428611889011947,
+            0.7801893716250492,
+            0.9764833144864199
+          ],
+          "clearance": 2.543376463338446
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 78,
+      "file": "candidate_0078.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9500188614224737,
+            0.1696659878709742,
+            0.38872596342743904
+          ],
+          "clearance": 2.6051579093208628
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 79,
+      "file": "candidate_0079.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9744514519487134,
+            0.1696680156723952,
+            0.35842696531994
+          ],
+          "clearance": 2.4620907205197007
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 80,
+      "file": "candidate_0080.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.08735652415051098,
+            0.7655674304584752,
+            0.9152673272358938
+          ],
+          "clearance": 2.4363787132525903
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 81,
+      "file": "candidate_0081.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.09019642509930792,
+            0.5415826748039754,
+            0.8186304866181551
+          ],
+          "clearance": 2.527946338099393
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 82,
+      "file": "candidate_0082.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6229596245581469,
+            0.7998573771452697,
+            0.8514681013190223
+          ],
+          "clearance": 2.437376300728737
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 83,
+      "file": "candidate_0083.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6662734204309381,
+            0.8041727710318822,
+            0.8692540050793629
+          ],
+          "clearance": 2.466825872636757
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 84,
+      "file": "candidate_0084.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5073038947639122,
+            0.5626429557934106,
+            0.8398446615632633
+          ],
+          "clearance": 2.5369361698301467
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 85,
+      "file": "candidate_0085.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5716414581757495,
+            0.7419782813924705,
+            0.09428007409840988
+          ],
+          "clearance": 2.431244429186422
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 86,
+      "file": "candidate_0086.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.3617994449718803,
+            0.040522333325255566,
+            0.3254492440622684
+          ],
+          "clearance": 2.4459022829813772
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 87,
+      "file": "candidate_0087.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8456715300505043,
+            0.38910897074264617,
+            0.019874668574576315
+          ],
+          "clearance": 2.4288739405545714
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 88,
+      "file": "candidate_0088.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6717025513743229,
+            0.555806005089291,
+            0.8047040960626095
+          ],
+          "clearance": 2.4841344159154732
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 89,
+      "file": "candidate_0089.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6662734204309381,
+            0.8041727710318822,
+            0.8692540050793629
+          ],
+          "clearance": 2.466825872636757
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 90,
+      "file": "candidate_0090.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06629287479125567,
+            0.7241956760655865,
+            0.07432791582168286
+          ],
+          "clearance": 2.4689095794439955
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 91,
+      "file": "candidate_0091.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.11096028269058844,
+            0.7745002296167839,
+            0.8219549493438852
+          ],
+          "clearance": 2.5065414615513983
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 92,
+      "file": "candidate_0092.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.11715367629441831,
+            0.7712097828569495,
+            0.8001088449687233
+          ],
+          "clearance": 2.443535091988252
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 93,
+      "file": "candidate_0093.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5645587264027107,
+            0.8203466904226292,
+            0.6920220284848928
+          ],
+          "clearance": 2.4415522409718764
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 94,
+      "file": "candidate_0094.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06125535167346119,
+            0.023709079642010744,
+            0.13527330918540204
+          ],
+          "clearance": 2.436842877290923
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 95,
+      "file": "candidate_0095.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.07188042933490957,
+            0.7570224591380733,
+            0.9116729190459855
+          ],
+          "clearance": 2.6041786245723535
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 96,
+      "file": "candidate_0096.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.024518573995766624,
+            0.7445471030070889,
+            0.03886082274369951
+          ],
+          "clearance": 2.4342570180470866
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 97,
+      "file": "candidate_0097.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.14619271195636374,
+            0.5459552200305778,
+            0.7515237908874466
+          ],
+          "clearance": 2.523925566308859
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 98,
+      "file": "candidate_0098.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6388485117583838,
+            0.5556903389282382,
+            0.8862884868385652
+          ],
+          "clearance": 2.5341288622222016
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 99,
+      "file": "candidate_0099.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5076710526563014,
+            0.5671232950455923,
+            0.8322112359219712
+          ],
+          "clearance": 2.561808828239437
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 100,
+      "file": "candidate_0100.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5878063737602234,
+            0.5372208377481144,
+            0.8732435713287788
+          ],
+          "clearance": 2.5463895564540957
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 101,
+      "file": "candidate_0101.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.026710722654474495,
+            0.8377566358755473,
+            0.6861021090459771
+          ],
+          "clearance": 2.4431063910405375
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 102,
+      "file": "candidate_0102.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.05869363626828972,
+            0.605742340298426,
+            0.6776561516259686
+          ],
+          "clearance": 2.5068799640708597
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 103,
+      "file": "candidate_0103.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8456715300505043,
+            0.38910897074264617,
+            0.019874668574576315
+          ],
+          "clearance": 2.4288739405545714
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 104,
+      "file": "candidate_0104.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.558474037292398,
+            0.6185679437051855,
+            0.6347888137886604
+          ],
+          "clearance": 2.538839406511683
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 105,
+      "file": "candidate_0105.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.009751056933933855,
+            0.5527160501028892,
+            0.8661140969334109
+          ],
+          "clearance": 2.4394062209275584
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 106,
+      "file": "candidate_0106.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.009751056933933855,
+            0.5527160501028892,
+            0.8661140969334109
+          ],
+          "clearance": 2.4394062209275584
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 107,
+      "file": "candidate_0107.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.051055075048772824,
+            0.7451573818473892,
+            0.9416690949117172
+          ],
+          "clearance": 2.5609853968950476
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 108,
+      "file": "candidate_0108.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6437574195142363,
+            0.7578268279647145,
+            0.8735397471139128
+          ],
+          "clearance": 2.5537596930333573
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 109,
+      "file": "candidate_0109.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5885741774090901,
+            0.7528474338463278,
+            0.9630174857185337
+          ],
+          "clearance": 2.550080306475669
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 110,
+      "file": "candidate_0110.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.10961768310834807,
+            0.5627672417757905,
+            0.7535363125206677
+          ],
+          "clearance": 2.6396974003043363
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 111,
+      "file": "candidate_0111.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.16467059105888282,
+            0.7731780346722027,
+            0.06065210754813255
+          ],
+          "clearance": 2.5375194044184375
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 112,
+      "file": "candidate_0112.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.13264031635553075,
+            0.7949646236365626,
+            0.9047551597453413
+          ],
+          "clearance": 2.470453652856
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 113,
+      "file": "candidate_0113.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5776330416306582,
+            0.5567366795020067,
+            0.7422500952574789
+          ],
+          "clearance": 2.446653362921064
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 114,
+      "file": "candidate_0114.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6052508018302194,
+            0.7618523457602755,
+            0.831980765623592
+          ],
+          "clearance": 2.691997324604774
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 115,
+      "file": "candidate_0115.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6186849260496297,
+            0.5660731315985453,
+            0.8243664926922427
+          ],
+          "clearance": 2.4897703664326865
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 116,
+      "file": "candidate_0116.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6460642561420006,
+            0.7576547366906119,
+            0.9225197069956534
+          ],
+          "clearance": 2.4778994700404104
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 117,
+      "file": "candidate_0117.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6312102941271126,
+            0.7700429798392026,
+            0.9880115387210597
+          ],
+          "clearance": 2.4840044441641482
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 118,
+      "file": "candidate_0118.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.12672108417819716,
+            0.8151879718428083,
+            0.8437678452613074
+          ],
+          "clearance": 2.5040389619597927
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 119,
+      "file": "candidate_0119.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.14395102368711576,
+            0.7790148980324868,
+            0.9180864141985456
+          ],
+          "clearance": 2.625889569615208
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 120,
+      "file": "candidate_0120.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.09201087040256639,
+            0.602814099849243,
+            0.6260854111184978
+          ],
+          "clearance": 2.4294434970974406
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 121,
+      "file": "candidate_0121.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06974416264301309,
+            0.6079574150946427,
+            0.6596422321350112
+          ],
+          "clearance": 2.5582992847619592
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 122,
+      "file": "candidate_0122.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5510705700252437,
+            0.7948006726201082,
+            0.771983270705486
+          ],
+          "clearance": 2.5138589410086802
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 123,
+      "file": "candidate_0123.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.558474037292398,
+            0.6185679437051855,
+            0.6347888137886604
+          ],
+          "clearance": 2.538839406511683
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 124,
+      "file": "candidate_0124.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1379207005311951,
+            0.5441267286667397,
+            0.8895588053235495
+          ],
+          "clearance": 2.5641383802238167
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 125,
+      "file": "candidate_0125.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.009751056933933855,
+            0.5527160501028892,
+            0.8661140969334109
+          ],
+          "clearance": 2.4394062209275584
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 126,
+      "file": "candidate_0126.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1379207005311951,
+            0.5441267286667397,
+            0.8895588053235495
+          ],
+          "clearance": 2.5641383802238167
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 127,
+      "file": "candidate_0127.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.09679513974085763,
+            0.5664800369570346,
+            0.7572810582327839
+          ],
+          "clearance": 2.7025397936583637
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 128,
+      "file": "candidate_0128.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.558474037292398,
+            0.6185679437051855,
+            0.6347888137886604
+          ],
+          "clearance": 2.538839406511683
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 129,
+      "file": "candidate_0129.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6460642561420006,
+            0.7576547366906119,
+            0.9225197069956534
+          ],
+          "clearance": 2.4778994700404104
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 130,
+      "file": "candidate_0130.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5955874564732152,
+            0.6121689433789214,
+            0.6839206196627886
+          ],
+          "clearance": 2.42719767458745
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 131,
+      "file": "candidate_0131.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5575085728578096,
+            0.7708320320113523,
+            0.7917302392452281
+          ],
+          "clearance": 2.553162410072872
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 132,
+      "file": "candidate_0132.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.05193204679778529,
+            0.8090294508239867,
+            0.748735545799767
+          ],
+          "clearance": 2.459511479669618
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 133,
+      "file": "candidate_0133.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5378901989915816,
+            0.5568240949126739,
+            0.8112916577348355
+          ],
+          "clearance": 2.5790245438459602
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 134,
+      "file": "candidate_0134.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1668690950983478,
+            0.5380606439526555,
+            0.7428627291254012
+          ],
+          "clearance": 2.469128850234971
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 135,
+      "file": "candidate_0135.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06462233918778015,
+            0.7655607284337869,
+            0.8738553928286868
+          ],
+          "clearance": 2.5624714683544347
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 136,
+      "file": "candidate_0136.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06920695908982522,
+            0.5463525666486958,
+            0.8526055648507465
+          ],
+          "clearance": 2.6069814758085275
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 137,
+      "file": "candidate_0137.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5823660991225482,
+            0.6116111315889319,
+            0.6794537718694593
+          ],
+          "clearance": 2.501084118042827
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 138,
+      "file": "candidate_0138.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9639609498648928,
+            0.16600790819526634,
+            0.36312613402942695
+          ],
+          "clearance": 2.4756630866113
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 139,
+      "file": "candidate_0139.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.04545821971916553,
+            0.5554334345632429,
+            0.8812490896053509
+          ],
+          "clearance": 2.4919535767509804
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 140,
+      "file": "candidate_0140.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06125535167346119,
+            0.023709079642010744,
+            0.13527330918540204
+          ],
+          "clearance": 2.436842877290923
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 141,
+      "file": "candidate_0141.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.532350021313186,
+            0.028353406815028293,
+            0.21097736426694236
+          ],
+          "clearance": 2.507097620614763
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 142,
+      "file": "candidate_0142.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6186981542528853,
+            0.5294949412408101,
+            0.856176959420878
+          ],
+          "clearance": 2.513499236937983
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 143,
+      "file": "candidate_0143.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.024403602535849278,
+            0.7561649945909475,
+            0.8788786225688671
+          ],
+          "clearance": 2.4275165041283415
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 144,
+      "file": "candidate_0144.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5814178636044839,
+            0.7373412991220941,
+            0.9738903251019423
+          ],
+          "clearance": 2.549131309089117
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 145,
+      "file": "candidate_0145.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06125535167346119,
+            0.023709079642010744,
+            0.13527330918540204
+          ],
+          "clearance": 2.436842877290923
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 146,
+      "file": "candidate_0146.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.009751056933933855,
+            0.5527160501028892,
+            0.8661140969334109
+          ],
+          "clearance": 2.4394062209275584
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 147,
+      "file": "candidate_0147.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.12818728199147433,
+            0.5300972804988702,
+            0.9333261544928885
+          ],
+          "clearance": 2.4762695797478913
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 148,
+      "file": "candidate_0148.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.09201087040256639,
+            0.602814099849243,
+            0.6260854111184978
+          ],
+          "clearance": 2.4294434970974406
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 149,
+      "file": "candidate_0149.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.0035903126525365092,
+            0.15363342542050784,
+            0.4145957127972332
+          ],
+          "clearance": 2.42833117049867
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 150,
+      "file": "candidate_0150.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5645587264027107,
+            0.8203466904226292,
+            0.6920220284848928
+          ],
+          "clearance": 2.4415522409718764
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 151,
+      "file": "candidate_0151.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8751020536705626,
+            0.04620438990636433,
+            0.2772721558976252
+          ],
+          "clearance": 2.4361318739373443
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 152,
+      "file": "candidate_0152.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.10646467851194186,
+            0.7381448784466105,
+            0.02909898150521828
+          ],
+          "clearance": 2.444898906005377
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 153,
+      "file": "candidate_0153.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5510705700252437,
+            0.7948006726201082,
+            0.771983270705486
+          ],
+          "clearance": 2.5138589410086802
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 154,
+      "file": "candidate_0154.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.11040718314494147,
+            0.5599890227597881,
+            0.8431775996394767
+          ],
+          "clearance": 2.5182004612560918
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 155,
+      "file": "candidate_0155.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8456715300505043,
+            0.38910897074264617,
+            0.019874668574576315
+          ],
+          "clearance": 2.4288739405545714
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 156,
+      "file": "candidate_0156.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.15308347254799948,
+            0.7823013743666375,
+            0.9841585389047005
+          ],
+          "clearance": 2.60157888933086
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 157,
+      "file": "candidate_0157.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8748256897562682,
+            0.04876053849765505,
+            0.25499602908475305
+          ],
+          "clearance": 2.5057338637870052
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 158,
+      "file": "candidate_0158.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.07576956141620328,
+            0.7640248050241902,
+            0.8874058450972208
+          ],
+          "clearance": 2.5515165036663774
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 159,
+      "file": "candidate_0159.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.596724482783197,
+            0.7516621510940156,
+            0.8007472040046588
+          ],
+          "clearance": 2.4331682589600523
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 160,
+      "file": "candidate_0160.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.532350021313186,
+            0.028353406815028293,
+            0.21097736426694236
+          ],
+          "clearance": 2.507097620614763
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 161,
+      "file": "candidate_0161.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.07483646322306292,
+            0.5919148200848957,
+            0.7152802086064842
+          ],
+          "clearance": 2.5372234979844177
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 162,
+      "file": "candidate_0162.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.975422441144816,
+            0.14656897609941844,
+            0.3523774932003073
+          ],
+          "clearance": 2.437592433305898
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 163,
+      "file": "candidate_0163.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5873128499990872,
+            0.7187589332212662,
+            0.06195262461919682
+          ],
+          "clearance": 2.439492854218239
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 164,
+      "file": "candidate_0164.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5140406781582706,
+            0.8054906057789156,
+            0.7542713927729238
+          ],
+          "clearance": 2.4648862405448426
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 165,
+      "file": "candidate_0165.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4415904394560456,
+            0.16494885318785546,
+            0.36753232079153453
+          ],
+          "clearance": 2.4966563868271523
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 166,
+      "file": "candidate_0166.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.551757946547089,
+            0.6336419578858585,
+            0.6238698109062959
+          ],
+          "clearance": 2.4799934132444905
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 167,
+      "file": "candidate_0167.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5609290265187806,
+            0.5640495537472073,
+            0.7725403932402062
+          ],
+          "clearance": 2.536823296453105
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 168,
+      "file": "candidate_0168.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6460642561420006,
+            0.7576547366906119,
+            0.9225197069956534
+          ],
+          "clearance": 2.4778994700404104
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 169,
+      "file": "candidate_0169.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.14998750465407806,
+            0.7682336509168346,
+            0.9397573845770398
+          ],
+          "clearance": 2.615964201147295
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 170,
+      "file": "candidate_0170.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5063614077568779,
+            0.6579641272551916,
+            0.66976927879528
+          ],
+          "clearance": 2.448522162398717
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 171,
+      "file": "candidate_0171.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.15728291239294967,
+            0.7561109509556055,
+            0.8469269528791031
+          ],
+          "clearance": 2.4734445206450326
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 172,
+      "file": "candidate_0172.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.601473361572127,
+            0.7323019413274171,
+            0.038443961400878024
+          ],
+          "clearance": 2.434904263140648
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 173,
+      "file": "candidate_0173.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5955874564732152,
+            0.6121689433789214,
+            0.6839206196627886
+          ],
+          "clearance": 2.42719767458745
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 174,
+      "file": "candidate_0174.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.11994416131005436,
+            0.7622234346611937,
+            0.027376287750118022
+          ],
+          "clearance": 2.432264203176962
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 175,
+      "file": "candidate_0175.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.593582841790037,
+            0.5824126063713366,
+            0.6979561399409288
+          ],
+          "clearance": 2.5424513487421594
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 176,
+      "file": "candidate_0176.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.11575391484222186,
+            0.5519615338275488,
+            0.7532799950300042
+          ],
+          "clearance": 2.554883488392119
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 177,
+      "file": "candidate_0177.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.06478064707500009,
+            0.7324349398773083,
+            0.04455595669813173
+          ],
+          "clearance": 2.6612656905595022
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 178,
+      "file": "candidate_0178.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9827978275499061,
+            0.6802087653814318,
+            0.6653661126128123
+          ],
+          "clearance": 2.431325254183927
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 179,
+      "file": "candidate_0179.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6512043888807639,
+            0.5583266913512823,
+            0.8976981498109204
+          ],
+          "clearance": 2.517103052736958
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 180,
+      "file": "candidate_0180.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.8770701425222728,
+            0.04074093127602585,
+            0.29991667911339204
+          ],
+          "clearance": 2.4456126021466957
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 181,
+      "file": "candidate_0181.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5662703132028644,
+            0.772332782643424,
+            0.848272596605314
+          ],
+          "clearance": 2.5383381921345323
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 182,
+      "file": "candidate_0182.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5645587264027107,
+            0.8203466904226292,
+            0.6920220284848928
+          ],
+          "clearance": 2.4415522409718764
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 183,
+      "file": "candidate_0183.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5206424069402856,
+            0.5521133148044091,
+            0.8685580205576805
+          ],
+          "clearance": 2.4906589754038704
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 184,
+      "file": "candidate_0184.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.1428611889011947,
+            0.7801893716250492,
+            0.9764833144864199
+          ],
+          "clearance": 2.543376463338446
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 185,
+      "file": "candidate_0185.cif",
+      "substitution_indices": [
+        63
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.10512364310888178,
+            0.581214941907376,
+            0.722302032801121
+          ],
+          "clearance": 2.5591987616260075
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 186,
+      "file": "candidate_0186.cif",
+      "substitution_indices": [
+        60
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5686818922506003,
+            0.734602036636712,
+            0.07006454311830868
+          ],
+          "clearance": 2.6616012063396477
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 187,
+      "file": "candidate_0187.cif",
+      "substitution_indices": [
+        56
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.08735652415051098,
+            0.7655674304584752,
+            0.9152673272358938
+          ],
+          "clearance": 2.4363787132525903
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 188,
+      "file": "candidate_0188.cif",
+      "substitution_indices": [
+        57
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9500188614224737,
+            0.1696659878709742,
+            0.38872596342743904
+          ],
+          "clearance": 2.6051579093208628
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 189,
+      "file": "candidate_0189.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5622126304712345,
+            0.8171065015676957,
+            0.7165109308060092
+          ],
+          "clearance": 2.5011721102630533
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 190,
+      "file": "candidate_0190.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.0035903126525365092,
+            0.15363342542050784,
+            0.4145957127972332
+          ],
+          "clearance": 2.42833117049867
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 191,
+      "file": "candidate_0191.cif",
+      "substitution_indices": [
+        59
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.05193204679778529,
+            0.8090294508239867,
+            0.748735545799767
+          ],
+          "clearance": 2.459511479669618
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 192,
+      "file": "candidate_0192.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6512043888807639,
+            0.5583266913512823,
+            0.8976981498109204
+          ],
+          "clearance": 2.517103052736958
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 193,
+      "file": "candidate_0193.cif",
+      "substitution_indices": [
+        54
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5799748838774599,
+            0.5527381727472908,
+            0.8092000735154418
+          ],
+          "clearance": 2.785205517411734
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 194,
+      "file": "candidate_0194.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6388485117583838,
+            0.5556903389282382,
+            0.8862884868385652
+          ],
+          "clearance": 2.5341288622222016
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 195,
+      "file": "candidate_0195.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.4145648736874614,
+            0.17776767098260493,
+            0.4047810556310052
+          ],
+          "clearance": 2.4962242515177384
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 196,
+      "file": "candidate_0196.cif",
+      "substitution_indices": [
+        58
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.9744514519487134,
+            0.1696680156723952,
+            0.35842696531994
+          ],
+          "clearance": 2.4620907205197007
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 197,
+      "file": "candidate_0197.cif",
+      "substitution_indices": [
+        62
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.6167214554128171,
+            0.5387809491378653,
+            0.8848869125055948
+          ],
+          "clearance": 2.697847044392096
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 198,
+      "file": "candidate_0198.cif",
+      "substitution_indices": [
+        61
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.04491651429267485,
+            0.03069431623134078,
+            0.21432991473016738
+          ],
+          "clearance": 2.48695857803732
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    },
+    {
+      "candidate_id": 199,
+      "file": "candidate_0199.cif",
+      "substitution_indices": [
+        55
+      ],
+      "interstitial_sites": [
+        {
+          "frac_coords": [
+            0.5602740805675159,
+            0.8206949405987972,
+            0.6465818854070481
+          ],
+          "clearance": 2.4563313908157443
+        }
+      ],
+      "removed_indices": [],
+      "formula": "Li55 Sn1 P9 S44 Br6 Cl10"
+    }
+  ],
+  "screening": [
+    {
+      "candidate_id": 0,
+      "energy": -505.5018615722656,
+      "energy_per_atom": -4.044014892578125
+    },
+    {
+      "candidate_id": 1,
+      "energy": -505.193603515625,
+      "energy_per_atom": -4.041548828125
+    },
+    {
+      "candidate_id": 2,
+      "energy": -504.91400146484375,
+      "energy_per_atom": -4.03931201171875
+    },
+    {
+      "candidate_id": 3,
+      "energy": -504.7254638671875,
+      "energy_per_atom": -4.0378037109375
+    },
+    {
+      "candidate_id": 4,
+      "energy": -505.0113525390625,
+      "energy_per_atom": -4.0400908203125
+    },
+    {
+      "candidate_id": 5,
+      "energy": -504.9676208496094,
+      "energy_per_atom": -4.039740966796875
+    },
+    {
+      "candidate_id": 6,
+      "energy": -505.23492431640625,
+      "energy_per_atom": -4.04187939453125
+    },
+    {
+      "candidate_id": 7,
+      "energy": -504.39141845703125,
+      "energy_per_atom": -4.03513134765625
+    },
+    {
+      "candidate_id": 8,
+      "energy": -506.1577453613281,
+      "energy_per_atom": -4.049261962890625
+    },
+    {
+      "candidate_id": 9,
+      "energy": -505.1011657714844,
+      "energy_per_atom": -4.040809326171875
+    },
+    {
+      "candidate_id": 10,
+      "energy": -504.5755615234375,
+      "energy_per_atom": -4.0366044921875
+    },
+    {
+      "candidate_id": 11,
+      "energy": -505.04229736328125,
+      "energy_per_atom": -4.04033837890625
+    },
+    {
+      "candidate_id": 12,
+      "energy": -504.81036376953125,
+      "energy_per_atom": -4.03848291015625
+    },
+    {
+      "candidate_id": 13,
+      "energy": -504.79217529296875,
+      "energy_per_atom": -4.03833740234375
+    },
+    {
+      "candidate_id": 14,
+      "energy": -504.9943542480469,
+      "energy_per_atom": -4.039954833984375
+    },
+    {
+      "candidate_id": 15,
+      "energy": -505.0338439941406,
+      "energy_per_atom": -4.040270751953125
+    },
+    {
+      "candidate_id": 16,
+      "energy": -504.7354431152344,
+      "energy_per_atom": -4.037883544921875
+    },
+    {
+      "candidate_id": 17,
+      "energy": -504.9978942871094,
+      "energy_per_atom": -4.039983154296875
+    },
+    {
+      "candidate_id": 18,
+      "energy": -504.5015869140625,
+      "energy_per_atom": -4.0360126953125
+    },
+    {
+      "candidate_id": 19,
+      "energy": -504.7651672363281,
+      "energy_per_atom": -4.038121337890625
+    },
+    {
+      "candidate_id": 20,
+      "energy": -505.31524658203125,
+      "energy_per_atom": -4.04252197265625
+    },
+    {
+      "candidate_id": 21,
+      "energy": -504.8681335449219,
+      "energy_per_atom": -4.038945068359375
+    },
+    {
+      "candidate_id": 22,
+      "energy": -505.138671875,
+      "energy_per_atom": -4.041109375
+    },
+    {
+      "candidate_id": 23,
+      "energy": -504.7192077636719,
+      "energy_per_atom": -4.037753662109375
+    },
+    {
+      "candidate_id": 24,
+      "energy": -504.6175537109375,
+      "energy_per_atom": -4.0369404296875
+    },
+    {
+      "candidate_id": 25,
+      "energy": -505.2181701660156,
+      "energy_per_atom": -4.041745361328125
+    },
+    {
+      "candidate_id": 26,
+      "energy": -505.0284118652344,
+      "energy_per_atom": -4.040227294921875
+    },
+    {
+      "candidate_id": 27,
+      "energy": -504.950439453125,
+      "energy_per_atom": -4.039603515625
+    },
+    {
+      "candidate_id": 28,
+      "energy": -504.6637268066406,
+      "energy_per_atom": -4.037309814453125
+    },
+    {
+      "candidate_id": 29,
+      "energy": -504.523681640625,
+      "energy_per_atom": -4.036189453125
+    },
+    {
+      "candidate_id": 30,
+      "energy": -504.7690734863281,
+      "energy_per_atom": -4.038152587890625
+    },
+    {
+      "candidate_id": 31,
+      "energy": -505.5135498046875,
+      "energy_per_atom": -4.0441083984375
+    },
+    {
+      "candidate_id": 32,
+      "energy": -504.7254943847656,
+      "energy_per_atom": -4.037803955078125
+    },
+    {
+      "candidate_id": 33,
+      "energy": -504.9795227050781,
+      "energy_per_atom": -4.039836181640625
+    },
+    {
+      "candidate_id": 34,
+      "energy": -504.68499755859375,
+      "energy_per_atom": -4.03747998046875
+    },
+    {
+      "candidate_id": 35,
+      "energy": -504.47808837890625,
+      "energy_per_atom": -4.03582470703125
+    },
+    {
+      "candidate_id": 36,
+      "energy": -505.1091003417969,
+      "energy_per_atom": -4.040872802734375
+    },
+    {
+      "candidate_id": 37,
+      "energy": -505.2143249511719,
+      "energy_per_atom": -4.041714599609375
+    },
+    {
+      "candidate_id": 38,
+      "energy": -504.7354736328125,
+      "energy_per_atom": -4.0378837890625
+    },
+    {
+      "candidate_id": 39,
+      "energy": -504.7986145019531,
+      "energy_per_atom": -4.038388916015625
+    },
+    {
+      "candidate_id": 40,
+      "energy": -504.8534240722656,
+      "energy_per_atom": -4.038827392578125
+    },
+    {
+      "candidate_id": 41,
+      "energy": -505.2430419921875,
+      "energy_per_atom": -4.0419443359375
+    },
+    {
+      "candidate_id": 42,
+      "energy": -504.7642517089844,
+      "energy_per_atom": -4.038114013671875
+    },
+    {
+      "candidate_id": 43,
+      "energy": -504.63385009765625,
+      "energy_per_atom": -4.03707080078125
+    },
+    {
+      "candidate_id": 44,
+      "energy": -504.94024658203125,
+      "energy_per_atom": -4.03952197265625
+    },
+    {
+      "candidate_id": 45,
+      "energy": -504.6038818359375,
+      "energy_per_atom": -4.0368310546875
+    },
+    {
+      "candidate_id": 46,
+      "energy": -504.5204162597656,
+      "energy_per_atom": -4.036163330078125
+    },
+    {
+      "candidate_id": 47,
+      "energy": -504.73760986328125,
+      "energy_per_atom": -4.03790087890625
+    },
+    {
+      "candidate_id": 48,
+      "energy": -504.7301940917969,
+      "energy_per_atom": -4.037841552734375
+    },
+    {
+      "candidate_id": 49,
+      "energy": -504.662109375,
+      "energy_per_atom": -4.037296875
+    },
+    {
+      "candidate_id": 50,
+      "energy": -504.5076904296875,
+      "energy_per_atom": -4.0360615234375
+    },
+    {
+      "candidate_id": 51,
+      "energy": -504.4550476074219,
+      "energy_per_atom": -4.035640380859375
+    },
+    {
+      "candidate_id": 52,
+      "energy": -504.24700927734375,
+      "energy_per_atom": -4.03397607421875
+    },
+    {
+      "candidate_id": 53,
+      "energy": -505.1579284667969,
+      "energy_per_atom": -4.041263427734375
+    },
+    {
+      "candidate_id": 54,
+      "energy": -504.7939453125,
+      "energy_per_atom": -4.0383515625
+    },
+    {
+      "candidate_id": 55,
+      "energy": -505.7894592285156,
+      "energy_per_atom": -4.046315673828125
+    },
+    {
+      "candidate_id": 56,
+      "energy": -505.11492919921875,
+      "energy_per_atom": -4.04091943359375
+    },
+    {
+      "candidate_id": 57,
+      "energy": -504.9814147949219,
+      "energy_per_atom": -4.039851318359375
+    },
+    {
+      "candidate_id": 58,
+      "energy": -504.48345947265625,
+      "energy_per_atom": -4.03586767578125
+    },
+    {
+      "candidate_id": 59,
+      "energy": -504.69775390625,
+      "energy_per_atom": -4.03758203125
+    },
+    {
+      "candidate_id": 60,
+      "energy": -504.6117858886719,
+      "energy_per_atom": -4.036894287109375
+    },
+    {
+      "candidate_id": 61,
+      "energy": -504.9302978515625,
+      "energy_per_atom": -4.0394423828125
+    },
+    {
+      "candidate_id": 62,
+      "energy": -505.01568603515625,
+      "energy_per_atom": -4.04012548828125
+    },
+    {
+      "candidate_id": 63,
+      "energy": -504.7597961425781,
+      "energy_per_atom": -4.038078369140625
+    },
+    {
+      "candidate_id": 64,
+      "energy": -504.5016174316406,
+      "energy_per_atom": -4.036012939453125
+    },
+    {
+      "candidate_id": 65,
+      "energy": -504.6515197753906,
+      "energy_per_atom": -4.037212158203125
+    },
+    {
+      "candidate_id": 66,
+      "energy": -505.62530517578125,
+      "energy_per_atom": -4.04500244140625
+    },
+    {
+      "candidate_id": 67,
+      "energy": -505.1700134277344,
+      "energy_per_atom": -4.041360107421875
+    },
+    {
+      "candidate_id": 68,
+      "energy": -504.9915466308594,
+      "energy_per_atom": -4.039932373046875
+    },
+    {
+      "candidate_id": 69,
+      "energy": -504.5263366699219,
+      "energy_per_atom": -4.036210693359375
+    },
+    {
+      "candidate_id": 70,
+      "energy": -505.2751159667969,
+      "energy_per_atom": -4.042200927734375
+    },
+    {
+      "candidate_id": 71,
+      "energy": -504.7208557128906,
+      "energy_per_atom": -4.037766845703125
+    },
+    {
+      "candidate_id": 72,
+      "energy": -505.0865478515625,
+      "energy_per_atom": -4.0406923828125
+    },
+    {
+      "candidate_id": 73,
+      "energy": -504.72955322265625,
+      "energy_per_atom": -4.03783642578125
+    },
+    {
+      "candidate_id": 74,
+      "energy": -504.9200744628906,
+      "energy_per_atom": -4.039360595703125
+    },
+    {
+      "candidate_id": 75,
+      "energy": -504.94110107421875,
+      "energy_per_atom": -4.03952880859375
+    },
+    {
+      "candidate_id": 76,
+      "energy": -504.6521301269531,
+      "energy_per_atom": -4.037217041015625
+    },
+    {
+      "candidate_id": 77,
+      "energy": -504.7123718261719,
+      "energy_per_atom": -4.037698974609375
+    },
+    {
+      "candidate_id": 78,
+      "energy": -504.4891052246094,
+      "energy_per_atom": -4.035912841796875
+    },
+    {
+      "candidate_id": 79,
+      "energy": -504.47271728515625,
+      "energy_per_atom": -4.03578173828125
+    },
+    {
+      "candidate_id": 80,
+      "energy": -505.2548522949219,
+      "energy_per_atom": -4.042038818359375
+    },
+    {
+      "candidate_id": 81,
+      "energy": -504.6966857910156,
+      "energy_per_atom": -4.037573486328125
+    },
+    {
+      "candidate_id": 82,
+      "energy": -504.5669860839844,
+      "energy_per_atom": -4.036535888671875
+    },
+    {
+      "candidate_id": 83,
+      "energy": -505.3543701171875,
+      "energy_per_atom": -4.0428349609375
+    },
+    {
+      "candidate_id": 84,
+      "energy": -504.78759765625,
+      "energy_per_atom": -4.03830078125
+    },
+    {
+      "candidate_id": 85,
+      "energy": -505.42913818359375,
+      "energy_per_atom": -4.04343310546875
+    },
+    {
+      "candidate_id": 86,
+      "energy": -505.1702575683594,
+      "energy_per_atom": -4.041362060546875
+    },
+    {
+      "candidate_id": 87,
+      "energy": -505.0924072265625,
+      "energy_per_atom": -4.0407392578125
+    },
+    {
+      "candidate_id": 88,
+      "energy": -504.58770751953125,
+      "energy_per_atom": -4.03670166015625
+    },
+    {
+      "candidate_id": 89,
+      "energy": -504.9220886230469,
+      "energy_per_atom": -4.039376708984375
+    },
+    {
+      "candidate_id": 90,
+      "energy": -505.5212707519531,
+      "energy_per_atom": -4.044170166015625
+    },
+    {
+      "candidate_id": 91,
+      "energy": -504.9295654296875,
+      "energy_per_atom": -4.0394365234375
+    },
+    {
+      "candidate_id": 92,
+      "energy": -504.66070556640625,
+      "energy_per_atom": -4.03728564453125
+    },
+    {
+      "candidate_id": 93,
+      "energy": -504.8689270019531,
+      "energy_per_atom": -4.038951416015625
+    },
+    {
+      "candidate_id": 94,
+      "energy": -504.93902587890625,
+      "energy_per_atom": -4.03951220703125
+    },
+    {
+      "candidate_id": 95,
+      "energy": -505.3386535644531,
+      "energy_per_atom": -4.042709228515625
+    },
+    {
+      "candidate_id": 96,
+      "energy": -504.6164245605469,
+      "energy_per_atom": -4.036931396484375
+    },
+    {
+      "candidate_id": 97,
+      "energy": -504.8787841796875,
+      "energy_per_atom": -4.0390302734375
+    },
+    {
+      "candidate_id": 98,
+      "energy": -504.8017578125,
+      "energy_per_atom": -4.0384140625
+    },
+    {
+      "candidate_id": 99,
+      "energy": -504.5230407714844,
+      "energy_per_atom": -4.036184326171875
+    },
+    {
+      "candidate_id": 100,
+      "energy": -504.6043395996094,
+      "energy_per_atom": -4.036834716796875
+    },
+    {
+      "candidate_id": 101,
+      "energy": -505.71295166015625,
+      "energy_per_atom": -4.04570361328125
+    },
+    {
+      "candidate_id": 102,
+      "energy": -504.9158935546875,
+      "energy_per_atom": -4.0393271484375
+    },
+    {
+      "candidate_id": 103,
+      "energy": -505.0923156738281,
+      "energy_per_atom": -4.040738525390625
+    },
+    {
+      "candidate_id": 104,
+      "energy": -505.1537780761719,
+      "energy_per_atom": -4.041230224609375
+    },
+    {
+      "candidate_id": 105,
+      "energy": -504.53851318359375,
+      "energy_per_atom": -4.03630810546875
+    },
+    {
+      "candidate_id": 106,
+      "energy": -504.8458557128906,
+      "energy_per_atom": -4.038766845703125
+    },
+    {
+      "candidate_id": 107,
+      "energy": -504.5223083496094,
+      "energy_per_atom": -4.036178466796875
+    },
+    {
+      "candidate_id": 108,
+      "energy": -504.69683837890625,
+      "energy_per_atom": -4.03757470703125
+    },
+    {
+      "candidate_id": 109,
+      "energy": -504.64764404296875,
+      "energy_per_atom": -4.03718115234375
+    },
+    {
+      "candidate_id": 110,
+      "energy": -504.8648681640625,
+      "energy_per_atom": -4.0389189453125
+    },
+    {
+      "candidate_id": 111,
+      "energy": -504.9985656738281,
+      "energy_per_atom": -4.039988525390625
+    },
+    {
+      "candidate_id": 112,
+      "energy": -504.47247314453125,
+      "energy_per_atom": -4.03577978515625
+    },
+    {
+      "candidate_id": 113,
+      "energy": -504.7256164550781,
+      "energy_per_atom": -4.037804931640625
+    },
+    {
+      "candidate_id": 114,
+      "energy": -504.85675048828125,
+      "energy_per_atom": -4.03885400390625
+    },
+    {
+      "candidate_id": 115,
+      "energy": -504.89862060546875,
+      "energy_per_atom": -4.03918896484375
+    },
+    {
+      "candidate_id": 116,
+      "energy": -505.15655517578125,
+      "energy_per_atom": -4.04125244140625
+    },
+    {
+      "candidate_id": 117,
+      "energy": -504.6861267089844,
+      "energy_per_atom": -4.037489013671875
+    },
+    {
+      "candidate_id": 118,
+      "energy": -504.5474853515625,
+      "energy_per_atom": -4.0363798828125
+    },
+    {
+      "candidate_id": 119,
+      "energy": -504.794921875,
+      "energy_per_atom": -4.038359375
+    },
+    {
+      "candidate_id": 120,
+      "energy": -504.74005126953125,
+      "energy_per_atom": -4.03792041015625
+    },
+    {
+      "candidate_id": 121,
+      "energy": -504.75665283203125,
+      "energy_per_atom": -4.03805322265625
+    },
+    {
+      "candidate_id": 122,
+      "energy": -504.74407958984375,
+      "energy_per_atom": -4.03795263671875
+    },
+    {
+      "candidate_id": 123,
+      "energy": -505.0497131347656,
+      "energy_per_atom": -4.040397705078125
+    },
+    {
+      "candidate_id": 124,
+      "energy": -504.7834167480469,
+      "energy_per_atom": -4.038267333984375
+    },
+    {
+      "candidate_id": 125,
+      "energy": -504.6844177246094,
+      "energy_per_atom": -4.037475341796875
+    },
+    {
+      "candidate_id": 126,
+      "energy": -504.5935974121094,
+      "energy_per_atom": -4.036748779296875
+    },
+    {
+      "candidate_id": 127,
+      "energy": -504.9691162109375,
+      "energy_per_atom": -4.0397529296875
+    },
+    {
+      "candidate_id": 128,
+      "energy": -505.16265869140625,
+      "energy_per_atom": -4.04130126953125
+    },
+    {
+      "candidate_id": 129,
+      "energy": -504.4634094238281,
+      "energy_per_atom": -4.035707275390625
+    },
+    {
+      "candidate_id": 130,
+      "energy": -504.86944580078125,
+      "energy_per_atom": -4.03895556640625
+    },
+    {
+      "candidate_id": 131,
+      "energy": -505.21453857421875,
+      "energy_per_atom": -4.04171630859375
+    },
+    {
+      "candidate_id": 132,
+      "energy": -505.07958984375,
+      "energy_per_atom": -4.04063671875
+    },
+    {
+      "candidate_id": 133,
+      "energy": -504.7972412109375,
+      "energy_per_atom": -4.0383779296875
+    },
+    {
+      "candidate_id": 134,
+      "energy": -504.73382568359375,
+      "energy_per_atom": -4.03787060546875
+    },
+    {
+      "candidate_id": 135,
+      "energy": -505.09820556640625,
+      "energy_per_atom": -4.04078564453125
+    },
+    {
+      "candidate_id": 136,
+      "energy": -504.7603454589844,
+      "energy_per_atom": -4.038082763671875
+    },
+    {
+      "candidate_id": 137,
+      "energy": -505.2638854980469,
+      "energy_per_atom": -4.042111083984375
+    },
+    {
+      "candidate_id": 138,
+      "energy": -504.99322509765625,
+      "energy_per_atom": -4.03994580078125
+    },
+    {
+      "candidate_id": 139,
+      "energy": -504.6025695800781,
+      "energy_per_atom": -4.036820556640625
+    },
+    {
+      "candidate_id": 140,
+      "energy": -505.7107849121094,
+      "energy_per_atom": -4.045686279296875
+    },
+    {
+      "candidate_id": 141,
+      "energy": -505.6611022949219,
+      "energy_per_atom": -4.045288818359375
+    },
+    {
+      "candidate_id": 142,
+      "energy": -504.6124572753906,
+      "energy_per_atom": -4.036899658203125
+    },
+    {
+      "candidate_id": 143,
+      "energy": -504.2466125488281,
+      "energy_per_atom": -4.033972900390625
+    },
+    {
+      "candidate_id": 144,
+      "energy": -505.0411376953125,
+      "energy_per_atom": -4.0403291015625
+    },
+    {
+      "candidate_id": 145,
+      "energy": -504.7278137207031,
+      "energy_per_atom": -4.037822509765625
+    },
+    {
+      "candidate_id": 146,
+      "energy": -504.61175537109375,
+      "energy_per_atom": -4.03689404296875
+    },
+    {
+      "candidate_id": 147,
+      "energy": -504.5236511230469,
+      "energy_per_atom": -4.036189208984375
+    },
+    {
+      "candidate_id": 148,
+      "energy": -505.0198974609375,
+      "energy_per_atom": -4.0401591796875
+    },
+    {
+      "candidate_id": 149,
+      "energy": -504.9277038574219,
+      "energy_per_atom": -4.039421630859375
+    },
+    {
+      "candidate_id": 150,
+      "energy": -504.67694091796875,
+      "energy_per_atom": -4.03741552734375
+    },
+    {
+      "candidate_id": 151,
+      "energy": -505.1316833496094,
+      "energy_per_atom": -4.041053466796875
+    },
+    {
+      "candidate_id": 152,
+      "energy": -505.0707092285156,
+      "energy_per_atom": -4.040565673828125
+    },
+    {
+      "candidate_id": 153,
+      "energy": -504.9664001464844,
+      "energy_per_atom": -4.039731201171875
+    },
+    {
+      "candidate_id": 154,
+      "energy": -504.7884826660156,
+      "energy_per_atom": -4.038307861328125
+    },
+    {
+      "candidate_id": 155,
+      "energy": -505.2424621582031,
+      "energy_per_atom": -4.041939697265625
+    },
+    {
+      "candidate_id": 156,
+      "energy": -504.9595031738281,
+      "energy_per_atom": -4.039676025390625
+    },
+    {
+      "candidate_id": 157,
+      "energy": -505.107421875,
+      "energy_per_atom": -4.040859375
+    },
+    {
+      "candidate_id": 158,
+      "energy": -504.55267333984375,
+      "energy_per_atom": -4.03642138671875
+    },
+    {
+      "candidate_id": 159,
+      "energy": -504.9095764160156,
+      "energy_per_atom": -4.039276611328125
+    },
+    {
+      "candidate_id": 160,
+      "energy": -504.8182373046875,
+      "energy_per_atom": -4.0385458984375
+    },
+    {
+      "candidate_id": 161,
+      "energy": -504.9623107910156,
+      "energy_per_atom": -4.039698486328125
+    },
+    {
+      "candidate_id": 162,
+      "energy": -505.0350036621094,
+      "energy_per_atom": -4.040280029296875
+    },
+    {
+      "candidate_id": 163,
+      "energy": -505.0589599609375,
+      "energy_per_atom": -4.0404716796875
+    },
+    {
+      "candidate_id": 164,
+      "energy": -504.5328369140625,
+      "energy_per_atom": -4.0362626953125
+    },
+    {
+      "candidate_id": 165,
+      "energy": -504.4881286621094,
+      "energy_per_atom": -4.035905029296875
+    },
+    {
+      "candidate_id": 166,
+      "energy": -505.149169921875,
+      "energy_per_atom": -4.041193359375
+    },
+    {
+      "candidate_id": 167,
+      "energy": -504.86956787109375,
+      "energy_per_atom": -4.03895654296875
+    },
+    {
+      "candidate_id": 168,
+      "energy": -504.281494140625,
+      "energy_per_atom": -4.034251953125
+    },
+    {
+      "candidate_id": 169,
+      "energy": -504.3110656738281,
+      "energy_per_atom": -4.034488525390625
+    },
+    {
+      "candidate_id": 170,
+      "energy": -505.4342041015625,
+      "energy_per_atom": -4.0434736328125
+    },
+    {
+      "candidate_id": 171,
+      "energy": -505.1026306152344,
+      "energy_per_atom": -4.040821044921875
+    },
+    {
+      "candidate_id": 172,
+      "energy": -504.85919189453125,
+      "energy_per_atom": -4.03887353515625
+    },
+    {
+      "candidate_id": 173,
+      "energy": -505.07769775390625,
+      "energy_per_atom": -4.04062158203125
+    },
+    {
+      "candidate_id": 174,
+      "energy": -504.7764892578125,
+      "energy_per_atom": -4.0382119140625
+    },
+    {
+      "candidate_id": 175,
+      "energy": -504.886474609375,
+      "energy_per_atom": -4.039091796875
+    },
+    {
+      "candidate_id": 176,
+      "energy": -505.41900634765625,
+      "energy_per_atom": -4.04335205078125
+    },
+    {
+      "candidate_id": 177,
+      "energy": -505.1611633300781,
+      "energy_per_atom": -4.041289306640625
+    },
+    {
+      "candidate_id": 178,
+      "energy": -505.5184020996094,
+      "energy_per_atom": -4.044147216796875
+    },
+    {
+      "candidate_id": 179,
+      "energy": -504.6915588378906,
+      "energy_per_atom": -4.037532470703125
+    },
+    {
+      "candidate_id": 180,
+      "energy": -505.1510925292969,
+      "energy_per_atom": -4.041208740234375
+    },
+    {
+      "candidate_id": 181,
+      "energy": -505.1172180175781,
+      "energy_per_atom": -4.040937744140625
+    },
+    {
+      "candidate_id": 182,
+      "energy": -505.57525634765625,
+      "energy_per_atom": -4.04460205078125
+    },
+    {
+      "candidate_id": 183,
+      "energy": -504.8714294433594,
+      "energy_per_atom": -4.038971435546875
+    },
+    {
+      "candidate_id": 184,
+      "energy": -504.9349060058594,
+      "energy_per_atom": -4.039479248046875
+    },
+    {
+      "candidate_id": 185,
+      "energy": -504.80023193359375,
+      "energy_per_atom": -4.03840185546875
+    },
+    {
+      "candidate_id": 186,
+      "energy": -505.4891357421875,
+      "energy_per_atom": -4.0439130859375
+    },
+    {
+      "candidate_id": 187,
+      "energy": -504.7084045410156,
+      "energy_per_atom": -4.037667236328125
+    },
+    {
+      "candidate_id": 188,
+      "energy": -504.7162170410156,
+      "energy_per_atom": -4.037729736328125
+    },
+    {
+      "candidate_id": 189,
+      "energy": -505.17645263671875,
+      "energy_per_atom": -4.04141162109375
+    },
+    {
+      "candidate_id": 190,
+      "energy": -505.39678955078125,
+      "energy_per_atom": -4.04317431640625
+    },
+    {
+      "candidate_id": 191,
+      "energy": -504.65606689453125,
+      "energy_per_atom": -4.03724853515625
+    },
+    {
+      "candidate_id": 192,
+      "energy": -504.775634765625,
+      "energy_per_atom": -4.038205078125
+    },
+    {
+      "candidate_id": 193,
+      "energy": -504.95025634765625,
+      "energy_per_atom": -4.03960205078125
+    },
+    {
+      "candidate_id": 194,
+      "energy": -504.6826477050781,
+      "energy_per_atom": -4.037461181640625
+    },
+    {
+      "candidate_id": 195,
+      "energy": -504.92120361328125,
+      "energy_per_atom": -4.03936962890625
+    },
+    {
+      "candidate_id": 196,
+      "energy": -504.1784362792969,
+      "energy_per_atom": -4.033427490234375
+    },
+    {
+      "candidate_id": 197,
+      "energy": -504.7068176269531,
+      "energy_per_atom": -4.037654541015625
+    },
+    {
+      "candidate_id": 198,
+      "energy": -504.7550964355469,
+      "energy_per_atom": -4.038040771484375
+    },
+    {
+      "candidate_id": 199,
+      "energy": -505.068359375,
+      "energy_per_atom": -4.040546875
+    }
+  ],
+  "relaxation": [
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -511.7203369140625,
+      "energy_per_atom": -4.0937626953125,
+      "steps": 1000,
+      "seconds": 142.89645283299978,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0008.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -511.4072570800781,
+      "energy_per_atom": -4.091258056640625,
+      "steps": 1000,
+      "seconds": 140.97924824999973,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0031.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -511.51080322265625,
+      "energy_per_atom": -4.09208642578125,
+      "steps": 428,
+      "seconds": 59.72440630899837,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0055.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -511.6296081542969,
+      "energy_per_atom": -4.093036865234375,
+      "steps": 1000,
+      "seconds": 139.505232128,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0066.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -511.37872314453125,
+      "energy_per_atom": -4.09102978515625,
+      "steps": 1000,
+      "seconds": 139.3277468360011,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0090.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -511.57501220703125,
+      "energy_per_atom": -4.09260009765625,
+      "steps": 1000,
+      "seconds": 140.0426758149988,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0101.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -511.4447326660156,
+      "energy_per_atom": -4.091557861328125,
+      "steps": 803,
+      "seconds": 112.43883818200084,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0140.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -511.4724426269531,
+      "energy_per_atom": -4.091779541015625,
+      "steps": 622,
+      "seconds": 87.9410435560003,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0141.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -511.49072265625,
+      "energy_per_atom": -4.09192578125,
+      "steps": 1000,
+      "seconds": 140.56281440399835,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0178.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -511.58294677734375,
+      "energy_per_atom": -4.09266357421875,
+      "steps": 1000,
+      "seconds": 142.08139547800056,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/relaxed/candidate_0182.cif"
+    }
+  ],
+  "ranking": [
+    55,
+    141,
+    140
+  ],
+  "best_candidate": {
+    "base_source": "file",
+    "base_material_id": null,
+    "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+    "base_formula": "Li5.4PS4.4Cl1Br0.6",
+    "target_formula": "Li5.5P0.9Sn0.1S4.4ClBr0.6",
+    "scaling": [
+      2,
+      1,
+      1
+    ],
+    "candidate_fingerprint": "da3baa4a644229b3",
+    "ml_fingerprint": "6d2e09d5eea448ac",
+    "candidate_count": 200,
+    "screened_count": 200,
+    "mattersim_enabled": true,
+    "selected_for_relaxation": 10,
+    "relaxed_count": 10,
+    "converged_count": 3,
+    "fmax_ev_per_angstrom": 0.05,
+    "max_steps": 1000,
+    "relax_cell": true,
+    "relax_optimizer": "FIRE",
+    "screen_batch_size": 8,
+    "relax_chunk_size": 4,
+    "relax_natoms_per_batch": 128,
+    "best_candidate_id": 55,
+    "best_initial_rank": 2,
+    "best_relaxed_rank": 1,
+    "best_energy_ev": -511.51080322265625,
+    "best_energy_per_atom_ev": -4.09208642578125,
+    "best_converged": true,
+    "formula": "Li55 Sn1 P9 S44 Br6 Cl10",
+    "num_atoms": 125,
+    "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5P0.9Sn0.1S4.4ClBr0.6/best_structure.cif"
+  }
+}

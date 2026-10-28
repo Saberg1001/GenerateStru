@@ -1,0 +1,12 @@
+{
+  "base_only": true,
+  "base_formula": "Li5.4PS4.4Cl1Br0.6",
+  "base_structure": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+  "candidate_count": 1,
+  "screened_count": 0,
+  "selected_for_relaxation": 0,
+  "relaxed_count": 0,
+  "converged_count": 0,
+  "best_energy_per_atom_ev": null,
+  "best_converged": null
+}

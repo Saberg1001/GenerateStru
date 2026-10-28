@@ -1,0 +1,2 @@
+candidate_id,candidate_file,initial_energy_ev,initial_energy_per_atom_ev,initial_rank,selected_for_relaxation,converged,relaxation_steps,relaxation_seconds,relaxed_energy_ev,relaxed_energy_per_atom_ev,relaxed_rank,relaxed_file,error
+0,candidates/candidate_0000.cif,-101.23297119140625,-4.04931884765625,1,True,True,185,20.15302068500023,-101.63768005371094,-4.065507202148438,1,/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_017/01_Li5.5Br1.5PS4.5/relaxed/candidate_0000.cif,

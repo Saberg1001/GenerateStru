@@ -1,0 +1,11 @@
+{
+  "candidate_id": 2,
+  "converged": true,
+  "energy": -488.6701354980469,
+  "energy_per_atom": -3.909361083984375,
+  "steps": 215,
+  "seconds": 19.50764038899979,
+  "error": "",
+  "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5As0.8Sb0.2S4.5Br1.5/relaxed/candidate_0002.cif",
+  "fingerprint": "49d823798b5473c5"
+}

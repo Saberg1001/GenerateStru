@@ -1,0 +1,53 @@
+[BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_035/01_Li6IPS5/best_structure.cif
+[BaseStru] source=file formula=Li6PS5I nsites=13 formula_units=1
+
+[Symmetry] file base structure
+  symprec=0.01: F-43m (216)
+  symprec=0.001: F-43m (216)
+  symprec=0.0001: F-43m (216)
+  atom    0:  Li Wyckoff=  6g frac=[0.976958, 0.976958, 0.523042]
+  atom    1:  Li Wyckoff=  6g frac=[0.523042, 0.976958, 0.523042]
+  atom    2:  Li Wyckoff=  6g frac=[0.523042, 0.523042, 0.976958]
+  atom    3:  Li Wyckoff=  6g frac=[0.976958, 0.523042, 0.976958]
+  atom    4:  Li Wyckoff=  6g frac=[0.976958, 0.523042, 0.523042]
+  atom    5:  Li Wyckoff=  6g frac=[0.523042, 0.976958, 0.976958]
+  atom    6:   P Wyckoff=  1b frac=[0.5, 0.5, 0.5]
+  atom    7:   S Wyckoff=  4e frac=[0.38469, 0.38469, 0.38469]
+  atom    8:   S Wyckoff=  4e frac=[0.38469, 0.38469, 0.84593]
+  atom    9:   S Wyckoff=  4e frac=[0.84593, 0.38469, 0.38469]
+  atom   10:   S Wyckoff=  4e frac=[0.38469, 0.84593, 0.38469]
+  atom   11:   S Wyckoff=  1c frac=[0.75, 0.75, 0.75]
+  atom   12:   I Wyckoff=  1a frac=[0.0, 0.0, 0.0]
+
+[Primitive] nsites=13
+[Primitive] composition=Li6PS5I
+
+[Symmetry] primitive structure
+  symprec=0.01: F-43m (216)
+  symprec=0.001: F-43m (216)
+  symprec=0.0001: F-43m (216)
+  atom    0:  Li Wyckoff=  6g frac=[0.976958, 0.976958, 0.523042]
+  atom    1:  Li Wyckoff=  6g frac=[0.523042, 0.976958, 0.523042]
+  atom    2:  Li Wyckoff=  6g frac=[0.523042, 0.523042, 0.976958]
+  atom    3:  Li Wyckoff=  6g frac=[0.976958, 0.523042, 0.976958]
+  atom    4:  Li Wyckoff=  6g frac=[0.976958, 0.523042, 0.523042]
+  atom    5:  Li Wyckoff=  6g frac=[0.523042, 0.976958, 0.976958]
+  atom    6:   P Wyckoff=  1b frac=[0.5, 0.5, 0.5]
+  atom    7:   S Wyckoff=  4e frac=[0.38469, 0.38469, 0.38469]
+  atom    8:   S Wyckoff=  4e frac=[0.38469, 0.38469, 0.84593]
+  atom    9:   S Wyckoff=  4e frac=[0.84593, 0.38469, 0.38469]
+  atom   10:   S Wyckoff=  4e frac=[0.38469, 0.84593, 0.38469]
+  atom   11:   S Wyckoff=  1c frac=[0.75, 0.75, 0.75]
+  atom   12:   I Wyckoff=  1a frac=[0.0, 0.0, 0.0]
+
+[Supercell] mode=manual matrix=1x1x1 体积倍数=1 （用户指定矩阵 1x1x1）
+[Supercell] 基胞 f.u.=1 -> 超胞 f.u.=1 nsites=13
+[Supercell] composition=Li6PS5I
+Traceback (most recent call last):
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 3308, in <module>
+    main()
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 2704, in main
+    numbers = calculate_doping_numbers(
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 885, in calculate_doping_numbers
+    raise ValueError(
+ValueError: 整数化偏差过大：取代比例 0.7000 -> 1.0000（+30.00%），组成最大偏差 2.190%，超过容差 3.00%；可用更大的 --scaling（分母 LCM）换取精度，或放宽 --stoichiometry-tolerance

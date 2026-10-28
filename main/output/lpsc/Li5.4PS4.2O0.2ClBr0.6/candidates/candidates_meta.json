@@ -1,0 +1,23 @@
+{
+  "fingerprint": "4b12a61372a8724f",
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        53
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        52
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    }
+  ]
+}

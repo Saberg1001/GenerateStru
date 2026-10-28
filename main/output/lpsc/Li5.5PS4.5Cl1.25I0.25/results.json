@@ -1,0 +1,610 @@
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.5/best_structure.cif",
+  "base_formula": "Li5.5PS4.5Cl1.5",
+  "target_formula": "Li5.5PS4.5Cl1.25I0.25",
+  "host": "Cl",
+  "dopant": "I",
+  "compensating_element": "Li",
+  "scaling": [
+    2,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "488309c1ead6db82",
+  "ml_fingerprint": "59caa16b2cfc4422",
+  "composition_calculation": {
+    "formula_units": 4,
+    "dopant_count": 1,
+    "host_remove_count": 1,
+    "extra_compensating_atoms": 0,
+    "base_counts": {
+      "Li": 5.5,
+      "P": 1.0,
+      "S": 4.5,
+      "Cl": 1.5
+    },
+    "target_counts": {
+      "Li": 5.5,
+      "P": 1.0,
+      "S": 4.5,
+      "Cl": 1.25,
+      "I": 0.25
+    },
+    "achieved_counts": {
+      "Cl": 5.0,
+      "I": 1.0,
+      "Li": 22.0,
+      "P": 4.0,
+      "S": 18.0
+    },
+    "deviation": {
+      "rows": [
+        {
+          "element": "Cl",
+          "target_per_fu": 1.25,
+          "actual_per_fu": 1.25,
+          "target_fraction": 0.1,
+          "actual_fraction": 0.1,
+          "deviation": 0.0
+        },
+        {
+          "element": "I",
+          "target_per_fu": 0.25,
+          "actual_per_fu": 0.25,
+          "target_fraction": 0.02,
+          "actual_fraction": 0.02,
+          "deviation": 0.0
+        },
+        {
+          "element": "Li",
+          "target_per_fu": 5.5,
+          "actual_per_fu": 5.5,
+          "target_fraction": 0.44,
+          "actual_fraction": 0.44,
+          "deviation": 0.0
+        },
+        {
+          "element": "P",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08,
+          "actual_fraction": 0.08,
+          "deviation": 0.0
+        },
+        {
+          "element": "S",
+          "target_per_fu": 4.5,
+          "actual_per_fu": 4.5,
+          "target_fraction": 0.36,
+          "actual_fraction": 0.36,
+          "deviation": 0.0
+        }
+      ],
+      "max_deviation": 0.0,
+      "max_deviation_percent": 0.0,
+      "target_per_fu": {
+        "Li": 5.5,
+        "P": 1.0,
+        "S": 4.5,
+        "Cl": 1.25,
+        "I": 0.25
+      },
+      "actual_per_fu": {
+        "Cl": 1.25,
+        "I": 0.25,
+        "Li": 5.5,
+        "P": 1.0,
+        "S": 4.5
+      }
+    },
+    "doping_ratio": {
+      "requested": 0.16666666666666666,
+      "actual": 0.16666666666666666,
+      "deviation": 0.0,
+      "deviation_percent": 0.0
+    },
+    "max_deviation": 0.0,
+    "max_deviation_percent": 0.0,
+    "approx_volume_multiplier": 2
+  },
+  "wyckoff_report": {
+    "spacegroup": "Cm",
+    "spacegroup_number": 8,
+    "sites": [
+      {
+        "index": 0,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.993913,
+          0.486057,
+          0.582247
+        ]
+      },
+      {
+        "index": 1,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.994584,
+          0.994762,
+          0.581437
+        ]
+      },
+      {
+        "index": 2,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.451726,
+          0.486057,
+          0.582247
+        ]
+      },
+      {
+        "index": 3,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.434455,
+          0.994762,
+          0.581437
+        ]
+      },
+      {
+        "index": 4,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.459827,
+          0.28758,
+          0.961325
+        ]
+      },
+      {
+        "index": 5,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.417265,
+          0.802877,
+          0.004027
+        ]
+      },
+      {
+        "index": 6,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.003689,
+          0.28758,
+          0.961325
+        ]
+      },
+      {
+        "index": 7,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.972953,
+          0.802877,
+          0.004027
+        ]
+      },
+      {
+        "index": 8,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.968802,
+          0.290159,
+          0.482078
+        ]
+      },
+      {
+        "index": 9,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.97383,
+          0.723159,
+          0.606022
+        ]
+      },
+      {
+        "index": 10,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.527229,
+          0.487633,
+          0.970274
+        ]
+      },
+      {
+        "index": 11,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.510284,
+          0.245002,
+          0.489427
+        ]
+      },
+      {
+        "index": 12,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.496534,
+          0.75089,
+          0.505152
+        ]
+      },
+      {
+        "index": 13,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.381914,
+          0.191853,
+          0.367941
+        ]
+      },
+      {
+        "index": 14,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.373118,
+          0.689651,
+          0.394007
+        ]
+      },
+      {
+        "index": 15,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.410076,
+          0.17751,
+          0.824829
+        ]
+      },
+      {
+        "index": 16,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.385285,
+          0.690661,
+          0.848109
+        ]
+      },
+      {
+        "index": 17,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.866439,
+          0.191853,
+          0.367942
+        ]
+      },
+      {
+        "index": 18,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.853573,
+          0.689651,
+          0.394007
+        ]
+      },
+      {
+        "index": 19,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.398643,
+          0.417721,
+          0.367271
+        ]
+      },
+      {
+        "index": 20,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.398452,
+          0.9193,
+          0.364495
+        ]
+      },
+      {
+        "index": 21,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.74975,
+          0.37721,
+          0.74608
+        ]
+      },
+      {
+        "index": 22,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.097246,
+          0.955743,
+          0.894021
+        ]
+      },
+      {
+        "index": 23,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.100225,
+          0.453251,
+          0.893049
+        ]
+      },
+      {
+        "index": 24,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.757074,
+          0.867757,
+          0.750338
+        ]
+      }
+    ]
+  },
+  "run_config": {
+    "base_formula": "Li5.5PS4.5Cl1.5",
+    "target_formula": "Li5.5PS4.5Cl1.25I0.25",
+    "host": "Cl",
+    "dopant": "I",
+    "compensating_element": "Li",
+    "host_wyckoff": null,
+    "host_site_filter": "all",
+    "host_framework_element": "P",
+    "host_framework_cutoff": 3.0,
+    "substitution_sampler": "random",
+    "min_formula_units": 0,
+    "base_structure": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.5/best_structure.cif",
+    "basestru_dir": "/home/ziyiguo/project/GenerateStru/main/basestru",
+    "use_basestru": true,
+    "scaling": [
+      2,
+      1,
+      1
+    ],
+    "max_supercell_atoms": 500,
+    "allow_stoichiometry_approximation": true,
+    "stoichiometry_tolerance": 0.03,
+    "n_candidates": 200,
+    "n_samples": 30000,
+    "min_distance": 1.8,
+    "min_site_site_distance": 2.0,
+    "candidate_pool_size": 200,
+    "seed": 1234,
+    "output": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25",
+    "relax": true,
+    "relax_cell": true,
+    "fmax": 0.05,
+    "relax_steps": 1000,
+    "relax_optimizer": "FIRE",
+    "n_relax": 10,
+    "screen_batch_size": 8,
+    "relax_natoms_per_batch": 128,
+    "relax_chunk_size": 4,
+    "relax_timeout": 0.0,
+    "model": "/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth",
+    "device": "auto",
+    "MP_API": "DUMMY"
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        47
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li22 P4 S18 I1 Cl5"
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        49
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li22 P4 S18 I1 Cl5"
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        48
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li22 P4 S18 I1 Cl5"
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        45
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li22 P4 S18 I1 Cl5"
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        44
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li22 P4 S18 I1 Cl5"
+    },
+    {
+      "candidate_id": 5,
+      "file": "candidate_0005.cif",
+      "substitution_indices": [
+        46
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li22 P4 S18 I1 Cl5"
+    }
+  ],
+  "screening": [
+    {
+      "candidate_id": 0,
+      "energy": -205.16046142578125,
+      "energy_per_atom": -4.103209228515625
+    },
+    {
+      "candidate_id": 1,
+      "energy": -204.6761016845703,
+      "energy_per_atom": -4.093522033691406
+    },
+    {
+      "candidate_id": 2,
+      "energy": -204.67611694335938,
+      "energy_per_atom": -4.093522338867188
+    },
+    {
+      "candidate_id": 3,
+      "energy": -204.75051879882812,
+      "energy_per_atom": -4.095010375976562
+    },
+    {
+      "candidate_id": 4,
+      "energy": -204.75050354003906,
+      "energy_per_atom": -4.0950100708007815
+    },
+    {
+      "candidate_id": 5,
+      "energy": -205.1604461669922,
+      "energy_per_atom": -4.103208923339844
+    }
+  ],
+  "relaxation": [
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -205.8973846435547,
+      "energy_per_atom": -4.117947692871094,
+      "steps": 301,
+      "seconds": 41.30543506499998,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25/relaxed/candidate_0000.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -205.47256469726562,
+      "energy_per_atom": -4.1094512939453125,
+      "steps": 354,
+      "seconds": 40.18095261099916,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25/relaxed/candidate_0001.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -205.47337341308594,
+      "energy_per_atom": -4.109467468261719,
+      "steps": 380,
+      "seconds": 42.75258538399976,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25/relaxed/candidate_0002.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -205.74649047851562,
+      "energy_per_atom": -4.114929809570312,
+      "steps": 1000,
+      "seconds": 120.50272247800058,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25/relaxed/candidate_0003.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -205.7533721923828,
+      "energy_per_atom": -4.115067443847656,
+      "steps": 1000,
+      "seconds": 120.50230173100135,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25/relaxed/candidate_0004.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -205.89739990234375,
+      "energy_per_atom": -4.117947998046875,
+      "steps": 301,
+      "seconds": 41.30531641599919,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25/relaxed/candidate_0005.cif"
+    }
+  ],
+  "ranking": [
+    5,
+    0,
+    2,
+    1
+  ],
+  "best_candidate": {
+    "base_source": "file",
+    "base_material_id": null,
+    "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.5/best_structure.cif",
+    "base_formula": "Li5.5PS4.5Cl1.5",
+    "target_formula": "Li5.5PS4.5Cl1.25I0.25",
+    "scaling": [
+      2,
+      1,
+      1
+    ],
+    "candidate_fingerprint": "488309c1ead6db82",
+    "ml_fingerprint": "59caa16b2cfc4422",
+    "candidate_count": 6,
+    "screened_count": 6,
+    "mattersim_enabled": true,
+    "selected_for_relaxation": 6,
+    "relaxed_count": 6,
+    "converged_count": 4,
+    "fmax_ev_per_angstrom": 0.05,
+    "max_steps": 1000,
+    "relax_cell": true,
+    "relax_optimizer": "FIRE",
+    "screen_batch_size": 8,
+    "relax_chunk_size": 4,
+    "relax_natoms_per_batch": 128,
+    "best_candidate_id": 5,
+    "best_initial_rank": 2,
+    "best_relaxed_rank": 1,
+    "best_energy_ev": -205.89739990234375,
+    "best_energy_per_atom_ev": -4.117947998046875,
+    "best_converged": true,
+    "formula": "Li22 P4 S18 I1 Cl5",
+    "num_atoms": 50,
+    "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5PS4.5Cl1.25I0.25/best_structure.cif"
+  }
+}

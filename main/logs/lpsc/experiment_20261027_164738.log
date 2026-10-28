@@ -1,0 +1,52 @@
+[16:47:38] ==============================================================================
+[16:47:38] Batch experiment generation
+[16:47:38] csv:         /home/ziyiguo/project/GenerateStru/main/LPSC-exp.csv
+[16:47:38] tasks:       67 (planned=67, skipped=0)
+[16:47:38] output root: /home/ziyiguo/project/GenerateStru/main/output/lpsc
+[16:47:38] settings:    n_candidates=200 n_relax=10 fmax=0.05 relax_steps=1000 optimizer=FIRE device=auto
+[16:47:38] log:         /home/ziyiguo/project/GenerateStru/main/logs/lpsc/experiment_20261027_164738.log
+[16:47:38] ==============================================================================
+[16:47:38] 
+[16:47:38] [001/67] exp_003 Li5.4PS4.4Cl1.6 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1
+[16:47:38]   plan: base-only
+[16:47:38]   base-only: copied /home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1.6.cif -> /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.4PS4.4Cl1.6/best_structure.cif
+[16:47:38]   TASK DONE exp_003 Li5.4PS4.4Cl1.6: candidates=1 screened=0 relaxed=0 converged=0 best_E/atom=None output=/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.4PS4.4Cl1.6
+[16:47:38] 
+[16:47:38] [002/67] exp_001 Li5.7PS4.7Cl1.3 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1
+[16:47:38]   plan: Cl->S 0.3 (Li5.4PS4.4Cl1.6 -> Li5.7PS4.7Cl1.3)
+[16:47:38]   stage 1/1: Cl->S 0.3 base=Li5.4PS4.4Cl1.6 -> target=Li5.7PS4.7Cl1.3
+[16:47:38]   output: /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.7PS4.7Cl1.3
+[16:47:38]   command: /home/ziyiguo/project/mattergen/.venv/bin/python /home/ziyiguo/project/GenerateStru/main/generate_stru.py --base-formula Li5.4PS4.4Cl1.6 --target-formula Li5.7PS4.7Cl1.3 --host Cl --dopant S --compensating-element Li --output /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.7PS4.7Cl1.3 --n-candidates 200 --n-relax 10 --fmax 0.05 --relax-steps 1000 --relax-optimizer FIRE --device auto --base-structure /home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1.6.cif --model /home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth --substitution-sampler random DUMMY
+[16:47:42]   base: [BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1.6.cif
+[16:47:42]   base: [BaseStru] source=file formula=Li27P5(S11Cl4)2 nsites=62 formula_units=5
+[16:47:49]   stoich: [Stoichiometry] 超胞 f.u.=10 host(Cl) 移除 3 个，S 替换 3 个，补偿元素 Li 插入 3 个
+[16:47:49]   stoich: [Stoichiometry] 目标 vs 实际可达组成（原子分数）
+[16:47:49]   stoich: [Stoichiometry] 取代比例 Cl->S: 目标 18.75% -> 实际 18.75%（+0.00%）
+[16:47:49]   stoich: [Stoichiometry] 最大偏差 0.000% （组成 0.000% + 取代比例 0.000%，容差 3.00%）
+[16:47:49]   gen: [Candidates] 新生成 200 个候选结构（复用 0 个，去重后共 200 个）
+[16:47:51]   screen: 8/200 elapsed=0.0 min ETA=0.6 min
+[16:47:52]   screen: 16/200 elapsed=0.0 min ETA=0.5 min
+[16:47:53]   screen: 24/200 elapsed=0.1 min ETA=0.5 min
+[16:47:55]   screen: 32/200 elapsed=0.1 min ETA=0.4 min
+[16:47:55]   screen: 40/200 elapsed=0.1 min ETA=0.4 min
+[16:47:56]   screen: 48/200 elapsed=0.1 min ETA=0.3 min
+[16:47:56]   screen: 56/200 elapsed=0.1 min ETA=0.3 min
+[16:47:56]   screen: 64/200 elapsed=0.1 min ETA=0.2 min
+[16:47:57]   screen: 72/200 elapsed=0.1 min ETA=0.2 min
+[16:47:57]   screen: 80/200 elapsed=0.1 min ETA=0.2 min
+[16:47:58]   screen: 88/200 elapsed=0.1 min ETA=0.2 min
+[16:47:59]   screen: 96/200 elapsed=0.1 min ETA=0.2 min
+[16:47:59]   screen: 104/200 elapsed=0.2 min ETA=0.1 min
+[16:48:00]   screen: 112/200 elapsed=0.2 min ETA=0.1 min
+[16:48:00]   screen: 120/200 elapsed=0.2 min ETA=0.1 min
+[16:48:00]   screen: 128/200 elapsed=0.2 min ETA=0.1 min
+[16:48:01]   screen: 136/200 elapsed=0.2 min ETA=0.1 min
+[16:48:01]   screen: 144/200 elapsed=0.2 min ETA=0.1 min
+[16:48:02]   screen: 152/200 elapsed=0.2 min ETA=0.1 min
+[16:48:02]   screen: 160/200 elapsed=0.2 min ETA=0.1 min
+[16:48:03]   screen: 168/200 elapsed=0.2 min ETA=0.0 min
+[16:48:03]   screen: 176/200 elapsed=0.2 min ETA=0.0 min
+[16:48:04]   screen: 184/200 elapsed=0.2 min ETA=0.0 min
+[16:48:04]   screen: 192/200 elapsed=0.2 min ETA=0.0 min
+[16:48:05]   screen: 200/200 elapsed=0.3 min ETA=0.0 min
+[16:48:05]   relax select: 前 10 名候选

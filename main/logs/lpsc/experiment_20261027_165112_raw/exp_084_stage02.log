@@ -1,0 +1,668 @@
+[BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_084/01_Li5.4Br0.6ClO0.4PS4/best_structure.cif
+[BaseStru] source=file formula=Li27P5S20Br3Cl5O2 nsites=62 formula_units=5
+
+[Symmetry] file base structure
+  symprec=0.01: P1 (1)
+  symprec=0.001: P1 (1)
+  symprec=0.0001: P1 (1)
+  atom    0:  Li Wyckoff=  1a frac=[0.918903, 0.209277, 0.607999]
+  atom    1:  Li Wyckoff=  1a frac=[0.950554, 0.402634, 0.611846]
+  atom    2:  Li Wyckoff=  1a frac=[0.982155, 0.589174, 0.472603]
+  atom    3:  Li Wyckoff=  1a frac=[0.000313, 0.793849, 0.405049]
+  atom    4:  Li Wyckoff=  1a frac=[0.925282, 0.989277, 0.646904]
+  atom    5:  Li Wyckoff=  1a frac=[0.415709, 0.209269, 0.610074]
+  atom    6:  Li Wyckoff=  1a frac=[0.420584, 0.402184, 0.610842]
+  atom    7:  Li Wyckoff=  1a frac=[0.602974, 0.58809, 0.478379]
+  atom    8:  Li Wyckoff=  1a frac=[0.537464, 0.802485, 0.47752]
+  atom    9:  Li Wyckoff=  1a frac=[0.450764, 0.991335, 0.700033]
+  atom   10:  Li Wyckoff=  1a frac=[0.372117, 0.127264, 0.086841]
+  atom   11:  Li Wyckoff=  1a frac=[0.626752, 0.281543, 0.917046]
+  atom   12:  Li Wyckoff=  1a frac=[0.663982, 0.493332, 0.839666]
+  atom   13:  Li Wyckoff=  1a frac=[0.607095, 0.676742, 0.999931]
+  atom   14:  Li Wyckoff=  1a frac=[0.547238, 0.904551, 0.010051]
+  atom   15:  Li Wyckoff=  1a frac=[0.911484, 0.12634, 0.0756]
+  atom   16:  Li Wyckoff=  1a frac=[0.038581, 0.281974, 0.917321]
+  atom   17:  Li Wyckoff=  1a frac=[0.034161, 0.493274, 0.837296]
+  atom   18:  Li Wyckoff=  1a frac=[0.032167, 0.674206, 0.982137]
+  atom   19:  Li Wyckoff=  1a frac=[0.931045, 0.90047, 0.987159]
+  atom   20:  Li Wyckoff=  1a frac=[0.927843, 0.077997, 0.724787]
+  atom   21:  Li Wyckoff=  1a frac=[0.001167, 0.344827, 0.269641]
+  atom   22:  Li Wyckoff=  1a frac=[0.001123, 0.522409, 0.38768]
+  atom   23:  Li Wyckoff=  1a frac=[0.879641, 0.929196, 0.540376]
+  atom   24:  Li Wyckoff=  1a frac=[0.623266, 0.574751, 0.896183]
+  atom   25:  Li Wyckoff=  1a frac=[0.644333, 0.796818, 0.015821]
+  atom   26:  Li Wyckoff=  1a frac=[0.580376, 0.988208, 0.028789]
+  atom   27:   P Wyckoff=  1a frac=[0.440213, 0.104953, 0.584153]
+  atom   28:   P Wyckoff=  1a frac=[0.516718, 0.306874, 0.423162]
+  atom   29:   P Wyckoff=  1a frac=[0.555747, 0.496198, 0.407136]
+  atom   30:   P Wyckoff=  1a frac=[0.52284, 0.695413, 0.487137]
+  atom   31:   P Wyckoff=  1a frac=[0.467841, 0.901781, 0.554195]
+  atom   32:   S Wyckoff=  1a frac=[0.321781, 0.07715, 0.483791]
+  atom   33:   S Wyckoff=  1a frac=[0.391291, 0.285825, 0.294326]
+  atom   34:   S Wyckoff=  1a frac=[0.429828, 0.478605, 0.266019]
+  atom   35:   S Wyckoff=  1a frac=[0.37448, 0.674836, 0.386452]
+  atom   36:   S Wyckoff=  1a frac=[0.314734, 0.885031, 0.436588]
+  atom   37:   S Wyckoff=  1a frac=[0.329983, 0.081301, 0.938764]
+  atom   38:   S Wyckoff=  1a frac=[0.447357, 0.264946, 0.76929]
+  atom   39:   S Wyckoff=  1a frac=[0.476591, 0.459045, 0.752428]
+  atom   40:   S Wyckoff=  1a frac=[0.431596, 0.662921, 0.841042]
+  atom   41:   S Wyckoff=  1a frac=[0.355692, 0.875165, 0.907698]
+  atom   42:   S Wyckoff=  1a frac=[0.796851, 0.077583, 0.469532]
+  atom   43:   S Wyckoff=  1a frac=[0.874211, 0.286112, 0.295389]
+  atom   44:   S Wyckoff=  1a frac=[0.908695, 0.479021, 0.264648]
+  atom   45:   S Wyckoff=  1a frac=[0.872196, 0.677177, 0.367114]
+  atom   46:   S Wyckoff=  1a frac=[0.821883, 0.876676, 0.431104]
+  atom   47:   S Wyckoff=  1a frac=[0.342627, 0.176434, 0.420648]
+  atom   48:   S Wyckoff=  1a frac=[0.374251, 0.376951, 0.359006]
+  atom   49:   S Wyckoff=  1a frac=[0.413534, 0.56784, 0.336079]
+  atom   50:   S Wyckoff=  1a frac=[0.379652, 0.768502, 0.398628]
+  atom   51:   S Wyckoff=  1a frac=[0.363399, 0.974043, 0.447921]
+  atom   52:  Br Wyckoff=  1a frac=[0.962233, 0.996315, 0.013469]
+  atom   53:  Br Wyckoff=  1a frac=[0.002954, 0.204995, 0.95897]
+  atom   54:  Br Wyckoff=  1a frac=[0.745355, 0.749812, 0.777665]
+  atom   55:  Cl Wyckoff=  1a frac=[0.027371, 0.41044, 0.89067]
+  atom   56:  Cl Wyckoff=  1a frac=[0.934625, 0.606716, 0.094804]
+  atom   57:  Cl Wyckoff=  1a frac=[0.853732, 0.820257, 0.105456]
+  atom   58:  Cl Wyckoff=  1a frac=[0.719469, 0.147276, 0.817532]
+  atom   59:  Cl Wyckoff=  1a frac=[0.801606, 0.343237, 0.673843]
+  atom   60:   O Wyckoff=  1a frac=[0.812606, 0.542537, 0.667874]
+  atom   61:   O Wyckoff=  1a frac=[0.715871, 0.951178, 0.813006]
+
+[Primitive] nsites=62
+[Primitive] composition=Li27P5S20Br3Cl5O2
+
+[Symmetry] primitive structure
+  symprec=0.01: P1 (1)
+  symprec=0.001: P1 (1)
+  symprec=0.0001: P1 (1)
+  atom    0:  Li Wyckoff=  1a frac=[0.918903, 0.209277, 0.607999]
+  atom    1:  Li Wyckoff=  1a frac=[0.950554, 0.402634, 0.611846]
+  atom    2:  Li Wyckoff=  1a frac=[0.982155, 0.589174, 0.472603]
+  atom    3:  Li Wyckoff=  1a frac=[0.000313, 0.793849, 0.405049]
+  atom    4:  Li Wyckoff=  1a frac=[0.925282, 0.989277, 0.646904]
+  atom    5:  Li Wyckoff=  1a frac=[0.415709, 0.209269, 0.610074]
+  atom    6:  Li Wyckoff=  1a frac=[0.420584, 0.402184, 0.610842]
+  atom    7:  Li Wyckoff=  1a frac=[0.602974, 0.58809, 0.478379]
+  atom    8:  Li Wyckoff=  1a frac=[0.537464, 0.802485, 0.47752]
+  atom    9:  Li Wyckoff=  1a frac=[0.450764, 0.991335, 0.700033]
+  atom   10:  Li Wyckoff=  1a frac=[0.372117, 0.127264, 0.086841]
+  atom   11:  Li Wyckoff=  1a frac=[0.626752, 0.281543, 0.917046]
+  atom   12:  Li Wyckoff=  1a frac=[0.663982, 0.493332, 0.839666]
+  atom   13:  Li Wyckoff=  1a frac=[0.607095, 0.676742, 0.999931]
+  atom   14:  Li Wyckoff=  1a frac=[0.547238, 0.904551, 0.010051]
+  atom   15:  Li Wyckoff=  1a frac=[0.911484, 0.12634, 0.0756]
+  atom   16:  Li Wyckoff=  1a frac=[0.038581, 0.281974, 0.917321]
+  atom   17:  Li Wyckoff=  1a frac=[0.034161, 0.493274, 0.837296]
+  atom   18:  Li Wyckoff=  1a frac=[0.032167, 0.674206, 0.982137]
+  atom   19:  Li Wyckoff=  1a frac=[0.931045, 0.90047, 0.987159]
+  atom   20:  Li Wyckoff=  1a frac=[0.927843, 0.077997, 0.724787]
+  atom   21:  Li Wyckoff=  1a frac=[0.001167, 0.344827, 0.269641]
+  atom   22:  Li Wyckoff=  1a frac=[0.001123, 0.522409, 0.38768]
+  atom   23:  Li Wyckoff=  1a frac=[0.879641, 0.929196, 0.540376]
+  atom   24:  Li Wyckoff=  1a frac=[0.623266, 0.574751, 0.896183]
+  atom   25:  Li Wyckoff=  1a frac=[0.644333, 0.796818, 0.015821]
+  atom   26:  Li Wyckoff=  1a frac=[0.580376, 0.988208, 0.028789]
+  atom   27:   P Wyckoff=  1a frac=[0.440213, 0.104953, 0.584153]
+  atom   28:   P Wyckoff=  1a frac=[0.516718, 0.306874, 0.423162]
+  atom   29:   P Wyckoff=  1a frac=[0.555747, 0.496198, 0.407136]
+  atom   30:   P Wyckoff=  1a frac=[0.52284, 0.695413, 0.487137]
+  atom   31:   P Wyckoff=  1a frac=[0.467841, 0.901781, 0.554195]
+  atom   32:   S Wyckoff=  1a frac=[0.321781, 0.07715, 0.483791]
+  atom   33:   S Wyckoff=  1a frac=[0.391291, 0.285825, 0.294326]
+  atom   34:   S Wyckoff=  1a frac=[0.429828, 0.478605, 0.266019]
+  atom   35:   S Wyckoff=  1a frac=[0.37448, 0.674836, 0.386452]
+  atom   36:   S Wyckoff=  1a frac=[0.314734, 0.885031, 0.436588]
+  atom   37:   S Wyckoff=  1a frac=[0.329983, 0.081301, 0.938764]
+  atom   38:   S Wyckoff=  1a frac=[0.447357, 0.264946, 0.76929]
+  atom   39:   S Wyckoff=  1a frac=[0.476591, 0.459045, 0.752428]
+  atom   40:   S Wyckoff=  1a frac=[0.431596, 0.662921, 0.841042]
+  atom   41:   S Wyckoff=  1a frac=[0.355692, 0.875165, 0.907698]
+  atom   42:   S Wyckoff=  1a frac=[0.796851, 0.077583, 0.469532]
+  atom   43:   S Wyckoff=  1a frac=[0.874211, 0.286112, 0.295389]
+  atom   44:   S Wyckoff=  1a frac=[0.908695, 0.479021, 0.264648]
+  atom   45:   S Wyckoff=  1a frac=[0.872196, 0.677177, 0.367114]
+  atom   46:   S Wyckoff=  1a frac=[0.821883, 0.876676, 0.431104]
+  atom   47:   S Wyckoff=  1a frac=[0.342627, 0.176434, 0.420648]
+  atom   48:   S Wyckoff=  1a frac=[0.374251, 0.376951, 0.359006]
+  atom   49:   S Wyckoff=  1a frac=[0.413534, 0.56784, 0.336079]
+  atom   50:   S Wyckoff=  1a frac=[0.379652, 0.768502, 0.398628]
+  atom   51:   S Wyckoff=  1a frac=[0.363399, 0.974043, 0.447921]
+  atom   52:  Br Wyckoff=  1a frac=[0.962233, 0.996315, 0.013469]
+  atom   53:  Br Wyckoff=  1a frac=[0.002954, 0.204995, 0.95897]
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/__version__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+  atom   54:  Br Wyckoff=  1a frac=[0.745355, 0.749812, 0.777665]
+  atom   55:  Cl Wyckoff=  1a frac=[0.027371, 0.41044, 0.89067]
+  atom   56:  Cl Wyckoff=  1a frac=[0.934625, 0.606716, 0.094804]
+  atom   57:  Cl Wyckoff=  1a frac=[0.853732, 0.820257, 0.105456]
+  atom   58:  Cl Wyckoff=  1a frac=[0.719469, 0.147276, 0.817532]
+  atom   59:  Cl Wyckoff=  1a frac=[0.801606, 0.343237, 0.673843]
+  atom   60:   O Wyckoff=  1a frac=[0.812606, 0.542537, 0.667874]
+  atom   61:   O Wyckoff=  1a frac=[0.715871, 0.951178, 0.813006]
+
+[Supercell] mode=manual matrix=1x1x1 体积倍数=1 （用户指定矩阵 1x1x1）
+[Supercell] 基胞 f.u.=5 -> 超胞 f.u.=5 nsites=62
+[Supercell] composition=Li27P5S20Br3Cl5O2
+
+[Stoichiometry] 超胞 f.u.=5 host(P) 移除 1 个，Zr 替换 1 个，补偿元素 Li 插入 1 个
+[Stoichiometry] 目标 vs 实际可达组成（原子分数）
+    元素       目标/f.u.     实际/f.u.        目标分数        实际分数        偏差
+    Br        0.6000      0.6000      0.0476      0.0476     0.00%
+    Cl        1.0000      1.0000      0.0794      0.0794     0.00%
+    Li        5.6000      5.6000      0.4444      0.4444     0.00%
+    O         0.4000      0.4000      0.0317      0.0317     0.00%
+    P         0.8000      0.8000      0.0635      0.0635     0.00%
+    S         4.0000      4.0000      0.3175      0.3175     0.00%
+    Zr        0.2000      0.2000      0.0159      0.0159     0.00%
+[Stoichiometry] 取代比例 P->Zr: 目标 20.00% -> 实际 20.00%（+0.00%）
+[Stoichiometry] 最大偏差 0.000% （组成 0.000% + 取代比例 0.000%，容差 3.00%）
+
+[Composition]
+{
+  "formula_units": 5,
+  "dopant_count": 1,
+  "host_remove_count": 1,
+  "extra_compensating_atoms": 1,
+  "base_counts": {
+    "Li": 5.4,
+    "Br": 0.6,
+    "Cl": 1.0,
+    "O": 0.4,
+    "P": 1.0,
+    "S": 4.0
+  },
+  "target_counts": {
+    "Li": 5.6,
+    "P": 0.8,
+    "Zr": 0.2,
+    "S": 4.0,
+    "O": 0.4,
+    "Cl": 1.0,
+    "Br": 0.6
+  },
+  "achieved_counts": {
+    "Br": 3.0,
+    "Cl": 5.0,
+    "Li": 28.0,
+    "O": 2.0,
+    "P": 4.0,
+    "S": 20.0,
+    "Zr": 1.0
+  },
+  "doping_ratio": {
+    "requested": 0.2,
+    "actual": 0.2,
+    "deviation": 0.0,
+    "deviation_percent": 0.0
+  },
+  "max_deviation": 0.0,
+  "max_deviation_percent": 0.0,
+  "approx_volume_multiplier": 1
+}
+[Interstitial] 从 30000 个采样点中找到 4918 个候选，阈值=1.80 Å
+[Interstitial] 最大 clearance=2.760 Å
+[Candidates] 新生成 200 个候选结构（复用 0 个，去重后共 200 个）
+[MatterSim] device=cuda, load_path=/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth
+[32m2026-10-27 22:09:52.529[0m | [1mINFO    [0m | [36mmattersim.forcefield.potential[0m:[36mfrom_checkpoint[0m:[36m893[0m - [1mLoading the model from /home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth[0m
+[Screen] 8/200 elapsed=0.0 min ETA=0.3 min
+[Screen] 16/200 elapsed=0.0 min ETA=0.3 min
+[Screen] 24/200 elapsed=0.0 min ETA=0.3 min
+[Screen] 32/200 elapsed=0.1 min ETA=0.3 min
+[Screen] 40/200 elapsed=0.1 min ETA=0.3 min
+[Screen] 48/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 56/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 64/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 72/200 elapsed=0.1 min ETA=0.2 min
+[Screen] 80/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 88/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 96/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 104/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 112/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 120/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 128/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 136/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 144/200 elapsed=0.1 min ETA=0.1 min
+[Screen] 152/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 160/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 168/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 176/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 184/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 192/200 elapsed=0.2 min ETA=0.0 min
+[Screen] 200/200 elapsed=0.2 min ETA=0.0 min
+[Relax] 筛选前 10 名候选 = ['138', '123', '15', '194', '64', '67', '2', '66', '58', '114']
+
+  0%|          | 0/4 [00:00<?, ?it/s]/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/applications/batch_relax.py:80: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(DummyBatchCalculator())
+[MatterSim chunk-0] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-0] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-0] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-0] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-0] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-0] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-0] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-0] batch=200 active=1 done=0 max_steps=200
+[MatterSim chunk-0] batch=225 active=1 done=0 max_steps=225
+[MatterSim chunk-0] batch=250 active=1 done=0 max_steps=250
+[MatterSim chunk-0] batch=275 active=1 done=0 max_steps=275
+[MatterSim chunk-0] batch=300 active=1 done=0 max_steps=300
+[MatterSim chunk-0] batch=325 active=1 done=0 max_steps=325
+[MatterSim chunk-0] batch=350 active=1 done=0 max_steps=350
+[MatterSim chunk-0] batch=375 active=1 done=0 max_steps=375
+[MatterSim chunk-0] batch=400 active=1 done=0 max_steps=400
+[MatterSim chunk-0] batch=425 active=1 done=0 max_steps=425
+[MatterSim chunk-0] batch=450 active=1 done=0 max_steps=450
+[MatterSim chunk-0] batch=475 active=1 done=0 max_steps=475
+[MatterSim chunk-0] batch=500 active=1 done=0 max_steps=500
+[MatterSim chunk-0] batch=525 active=1 done=0 max_steps=525
+[MatterSim chunk-0] batch=550 active=1 done=0 max_steps=550
+
+ 50%|█████     | 2/4 [00:58<00:58, 29.09s/it][MatterSim chunk-0] batch=575 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=600 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=625 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=650 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=675 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=700 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=725 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=750 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=775 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=800 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=825 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=850 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=875 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=900 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=925 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=950 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=975 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=1000 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=1025 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=1050 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=1075 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=1100 active=1 done=1 max_steps=561
+[MatterSim chunk-0] batch=1125 active=1 done=1 max_steps=564
+[MatterSim chunk-0] batch=1150 active=1 done=1 max_steps=589
+[MatterSim chunk-0] batch=1175 active=1 done=1 max_steps=614
+[MatterSim chunk-0] batch=1200 active=1 done=1 max_steps=639
+[MatterSim chunk-0] batch=1225 active=1 done=1 max_steps=664
+[MatterSim chunk-0] batch=1250 active=1 done=1 max_steps=689
+[MatterSim chunk-0] batch=1275 active=1 done=1 max_steps=714
+[MatterSim chunk-0] batch=1300 active=1 done=1 max_steps=739
+[MatterSim chunk-0] batch=1325 active=1 done=1 max_steps=764
+[MatterSim chunk-0] batch=1350 active=1 done=1 max_steps=789
+[MatterSim chunk-0] batch=1375 active=1 done=1 max_steps=814
+[MatterSim chunk-0] batch=1400 active=1 done=1 max_steps=839
+[MatterSim chunk-0] batch=1425 active=1 done=1 max_steps=864
+[MatterSim chunk-0] batch=1450 active=1 done=1 max_steps=889
+[MatterSim chunk-0] batch=1475 active=1 done=1 max_steps=914
+[MatterSim chunk-0] batch=1500 active=1 done=1 max_steps=939
+[MatterSim chunk-0] batch=1525 active=1 done=1 max_steps=964
+[MatterSim chunk-0] batch=1550 active=1 done=1 max_steps=989
+
+ 75%|███████▌  | 3/4 [02:36<00:57, 57.77s/it][MatterSim chunk-0] batch=1575 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1600 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1625 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1650 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1675 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1700 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1725 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1750 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1775 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1800 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1825 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1850 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1875 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1900 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1925 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1950 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=1975 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2000 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2025 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2050 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2075 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2100 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2125 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2150 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2175 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2200 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2225 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2250 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2275 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2300 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2325 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2350 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2375 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2400 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2425 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2450 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2475 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2500 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2525 active=1 done=2 max_steps=1000
+[MatterSim chunk-0] batch=2550 active=1 done=2 max_steps=1000
+
+100%|██████████| 4/4 [04:12<00:00, 72.01s/it][MatterSim chunk-0] batch=2575 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2600 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2625 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2650 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2675 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2700 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2725 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2750 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2775 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2800 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2825 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2850 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2875 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2900 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2925 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2950 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=2975 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3000 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3025 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3050 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3075 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3100 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3125 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3150 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3175 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3200 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3225 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3250 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3275 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3300 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3325 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3350 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3375 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3400 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3425 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3450 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3475 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3500 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3525 active=1 done=3 max_steps=1000
+[MatterSim chunk-0] batch=3550 active=1 done=3 max_steps=1000
+
+100%|██████████| 4/4 [05:50<00:00, 87.67s/it]
+[Relax] candidate=0138 converged=True steps=561 energy_per_atom=-4.262535942925347 error=-
+[Relax] candidate=0123 converged=False steps=1000 energy_per_atom=-4.262203156001984 error=未在 1000 步内收敛
+[Relax] candidate=0015 converged=False steps=1000 energy_per_atom=-4.262273394872272 error=未在 1000 步内收敛
+[Relax] candidate=0194 converged=False steps=1000 energy_per_atom=-4.262231735956101 error=未在 1000 步内收敛
+[Relax] 4/10 batch_seconds=350.7
+
+  0%|          | 0/4 [00:00<?, ?it/s][MatterSim chunk-4] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-4] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-4] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-4] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-4] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-4] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-4] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-4] batch=200 active=1 done=0 max_steps=200
+[MatterSim chunk-4] batch=225 active=1 done=0 max_steps=225
+[MatterSim chunk-4] batch=250 active=1 done=0 max_steps=250
+[MatterSim chunk-4] batch=275 active=1 done=0 max_steps=275
+[MatterSim chunk-4] batch=300 active=1 done=0 max_steps=300
+[MatterSim chunk-4] batch=325 active=1 done=0 max_steps=325
+[MatterSim chunk-4] batch=350 active=1 done=0 max_steps=350
+[MatterSim chunk-4] batch=375 active=1 done=0 max_steps=375
+[MatterSim chunk-4] batch=400 active=1 done=0 max_steps=400
+[MatterSim chunk-4] batch=425 active=1 done=0 max_steps=425
+[MatterSim chunk-4] batch=450 active=1 done=0 max_steps=450
+[MatterSim chunk-4] batch=475 active=1 done=0 max_steps=475
+[MatterSim chunk-4] batch=500 active=1 done=0 max_steps=500
+[MatterSim chunk-4] batch=525 active=1 done=0 max_steps=525
+[MatterSim chunk-4] batch=550 active=1 done=0 max_steps=550
+[MatterSim chunk-4] batch=575 active=1 done=0 max_steps=575
+[MatterSim chunk-4] batch=600 active=1 done=0 max_steps=600
+[MatterSim chunk-4] batch=625 active=1 done=0 max_steps=625
+[MatterSim chunk-4] batch=650 active=1 done=0 max_steps=650
+[MatterSim chunk-4] batch=675 active=1 done=0 max_steps=675
+[MatterSim chunk-4] batch=700 active=1 done=0 max_steps=700
+[MatterSim chunk-4] batch=725 active=1 done=0 max_steps=725
+[MatterSim chunk-4] batch=750 active=1 done=0 max_steps=750
+[MatterSim chunk-4] batch=775 active=1 done=0 max_steps=775
+[MatterSim chunk-4] batch=800 active=1 done=0 max_steps=800
+[MatterSim chunk-4] batch=825 active=1 done=0 max_steps=825
+[MatterSim chunk-4] batch=850 active=1 done=0 max_steps=850
+[MatterSim chunk-4] batch=875 active=1 done=0 max_steps=875
+[MatterSim chunk-4] batch=900 active=1 done=0 max_steps=900
+[MatterSim chunk-4] batch=925 active=1 done=0 max_steps=925
+[MatterSim chunk-4] batch=950 active=1 done=0 max_steps=950
+[MatterSim chunk-4] batch=975 active=1 done=0 max_steps=975
+[MatterSim chunk-4] batch=1000 active=0 done=1 max_steps=1000
+
+ 50%|█████     | 2/4 [01:38<01:38, 49.26s/it][MatterSim chunk-4] batch=1025 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1050 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1075 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1100 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1125 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1150 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1175 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1200 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1225 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1250 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1275 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1300 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1325 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1350 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1375 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1400 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1425 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1450 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1475 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1500 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1525 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1550 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1575 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1600 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1625 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1650 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1675 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1700 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1725 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1750 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1775 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1800 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1825 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1850 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1875 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1900 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1925 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1950 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=1975 active=1 done=1 max_steps=1000
+[MatterSim chunk-4] batch=2000 active=0 done=2 max_steps=1000
+
+ 75%|███████▌  | 3/4 [03:17<01:10, 70.18s/it][MatterSim chunk-4] batch=2025 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2050 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2075 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2100 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2125 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2150 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2175 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2200 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2225 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2250 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2275 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2300 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2325 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2350 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2375 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2400 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2425 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2450 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2475 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2500 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2525 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2550 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2575 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2600 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2625 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2650 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2675 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2700 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2725 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2750 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2775 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2800 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2825 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2850 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2875 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2900 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2925 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2950 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=2975 active=1 done=2 max_steps=1000
+[MatterSim chunk-4] batch=3000 active=0 done=3 max_steps=1000
+
+100%|██████████| 4/4 [04:52<00:00, 79.43s/it][MatterSim chunk-4] batch=3025 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3050 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3075 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3100 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3125 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3150 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3175 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3200 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3225 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3250 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3275 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3300 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3325 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3350 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3375 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3400 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3425 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3450 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3475 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3500 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3525 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3550 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3575 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3600 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3625 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3650 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3675 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3700 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3725 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3750 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3775 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3800 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3825 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3850 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3875 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3900 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3925 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3950 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=3975 active=1 done=3 max_steps=1000
+[MatterSim chunk-4] batch=4000 active=0 done=4 max_steps=1000
+
+100%|██████████| 4/4 [06:30<00:00, 97.67s/it]
+[Relax] candidate=0064 converged=False steps=1000 energy_per_atom=-4.263993036179316 error=未在 1000 步内收敛
+[Relax] candidate=0067 converged=False steps=1000 energy_per_atom=-4.265578981429812 error=未在 1000 步内收敛
+[Relax] candidate=0002 converged=False steps=1000 energy_per_atom=-4.262201218377976 error=未在 1000 步内收敛
+[Relax] candidate=0066 converged=False steps=1000 energy_per_atom=-4.266361297123016 error=未在 1000 步内收敛
+[Relax] 8/10 batch_seconds=390.7
+
+  0%|          | 0/2 [00:00<?, ?it/s][MatterSim chunk-8] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-8] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-8] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-8] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-8] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-8] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-8] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-8] batch=200 active=1 done=0 max_steps=200
+[MatterSim chunk-8] batch=225 active=1 done=0 max_steps=225
+[MatterSim chunk-8] batch=250 active=1 done=0 max_steps=250
+[MatterSim chunk-8] batch=275 active=1 done=0 max_steps=275
+[MatterSim chunk-8] batch=300 active=1 done=0 max_steps=300
+[MatterSim chunk-8] batch=325 active=1 done=0 max_steps=325
+[MatterSim chunk-8] batch=350 active=1 done=0 max_steps=350
+[MatterSim chunk-8] batch=375 active=1 done=0 max_steps=375
+[MatterSim chunk-8] batch=400 active=1 done=0 max_steps=400
+[MatterSim chunk-8] batch=425 active=1 done=0 max_steps=425
+[MatterSim chunk-8] batch=450 active=1 done=0 max_steps=450
+[MatterSim chunk-8] batch=475 active=1 done=0 max_steps=475
+[MatterSim chunk-8] batch=500 active=1 done=0 max_steps=500
+[MatterSim chunk-8] batch=525 active=1 done=0 max_steps=525
+
+100%|██████████| 2/2 [00:49<00:00, 24.79s/it][MatterSim chunk-8] batch=550 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=575 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=600 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=625 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=650 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=675 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=700 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=725 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=750 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=775 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=800 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=825 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=850 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=875 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=900 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=925 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=950 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=975 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=1000 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=1025 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=1050 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=1075 active=1 done=1 max_steps=538
+[MatterSim chunk-8] batch=1100 active=1 done=1 max_steps=562
+[MatterSim chunk-8] batch=1125 active=1 done=1 max_steps=587
+[MatterSim chunk-8] batch=1150 active=1 done=1 max_steps=612
+[MatterSim chunk-8] batch=1175 active=1 done=1 max_steps=637
+[MatterSim chunk-8] batch=1200 active=1 done=1 max_steps=662
+[MatterSim chunk-8] batch=1225 active=1 done=1 max_steps=687
+[MatterSim chunk-8] batch=1250 active=1 done=1 max_steps=712
+[MatterSim chunk-8] batch=1275 active=1 done=1 max_steps=737
+[MatterSim chunk-8] batch=1300 active=1 done=1 max_steps=762
+[MatterSim chunk-8] batch=1325 active=1 done=1 max_steps=787
+[MatterSim chunk-8] batch=1350 active=1 done=1 max_steps=812
+[MatterSim chunk-8] batch=1375 active=1 done=1 max_steps=837
+[MatterSim chunk-8] batch=1400 active=1 done=1 max_steps=862
+[MatterSim chunk-8] batch=1425 active=1 done=1 max_steps=887
+[MatterSim chunk-8] batch=1450 active=1 done=1 max_steps=912
+[MatterSim chunk-8] batch=1475 active=1 done=1 max_steps=937
+[MatterSim chunk-8] batch=1500 active=1 done=1 max_steps=962
+[MatterSim chunk-8] batch=1525 active=1 done=1 max_steps=987
+
+100%|██████████| 2/2 [02:27<00:00, 73.92s/it]
+[Relax] candidate=0058 converged=True steps=538 energy_per_atom=-4.261580694289434 error=-
+[Relax] candidate=0114 converged=False steps=1000 energy_per_atom=-4.265954880487351 error=未在 1000 步内收敛
+[Relax] 10/10 batch_seconds=147.9
+
+==============================
+Summary
+==============================
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_084/01_Li5.4Br0.6ClO0.4PS4/best_structure.cif",
+  "base_formula": "Li5.4Br0.6ClO0.4PS4",
+  "target_formula": "Li5.6P0.8Zr0.2S4O0.4ClBr0.6",
+  "scaling": [
+    1,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "d3bc301e93317a7c",
+  "ml_fingerprint": "3831f4ac0a243ef1",
+  "candidate_count": 200,
+  "screened_count": 200,
+  "mattersim_enabled": true,
+  "selected_for_relaxation": 10,
+  "relaxed_count": 10,
+  "converged_count": 2,
+  "fmax_ev_per_angstrom": 0.05,
+  "max_steps": 1000,
+  "relax_cell": true,
+  "relax_optimizer": "FIRE",
+  "screen_batch_size": 8,
+  "relax_chunk_size": 4,
+  "relax_natoms_per_batch": 128,
+  "best_candidate_id": 138,
+  "best_initial_rank": 1,
+  "best_relaxed_rank": 1,
+  "best_energy_ev": -268.5397644042969,
+  "best_energy_per_atom_ev": -4.262535942925347,
+  "best_converged": true,
+  "formula": "Li28 Zr1 P4 S20 Br3 Cl5 O2",
+  "num_atoms": 63,
+  "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.6P0.8Zr0.2S4O0.4ClBr0.6/best_structure.cif"
+}
+
+输出目录: /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.6P0.8Zr0.2S4O0.4ClBr0.6

@@ -1,0 +1,65 @@
+{
+  "fingerprint": "cec62ccfb4482501",
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        105,
+        107,
+        108,
+        109
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        105,
+        106,
+        108,
+        109
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        106,
+        107,
+        108,
+        109
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        105,
+        106,
+        107,
+        109
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        105,
+        106,
+        107,
+        108
+      ],
+      "interstitial_sites": [],
+      "removed_indices": []
+    }
+  ]
+}

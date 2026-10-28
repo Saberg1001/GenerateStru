@@ -1,0 +1,9 @@
+[BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_082/01_Li5.4Br0.6ClO0.14PS4.26/best_structure.cif
+Traceback (most recent call last):
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 3308, in <module>
+    main()
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 2556, in main
+    formula_units = get_formula_units(base_structure, args.base_formula)
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 314, in get_formula_units
+    raise ValueError(
+ValueError: 结构组成与 Li5.4Br0.6ClO0.14PS4.26 不匹配: {'Li': 189.0, 'P': 35.0, 'S': 149.0, 'Br': 21.0, 'Cl': 35.0, 'O': 5.0}, ratios=[35.0, 35.0, 35.0, 35.71428571428571, 35.0, 34.97652582159625]

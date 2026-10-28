@@ -1,0 +1,125 @@
+[BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5/best_structure.cif
+[BaseStru] source=file formula=Li11As2(S3Br)3 nsites=25 formula_units=2
+
+[Symmetry] file base structure
+  symprec=0.01: Cm (8)
+  symprec=0.001: Cm (8)
+  symprec=0.0001: Cm (8)
+  atom    0:  Li Wyckoff=  2b frac=[0.987632, 0.486754, 0.568676]
+  atom    1:  Li Wyckoff=  2b frac=[0.996328, 0.997837, 0.573539]
+  atom    2:  Li Wyckoff=  2b frac=[0.470184, 0.486754, 0.568675]
+  atom    3:  Li Wyckoff=  2b frac=[0.43446, 0.997837, 0.573539]
+  atom    4:  Li Wyckoff=  2b frac=[0.480954, 0.281712, 0.956086]
+  atom    5:  Li Wyckoff=  2b frac=[0.408854, 0.800866, 0.016873]
+  atom    6:  Li Wyckoff=  2b frac=[0.999537, 0.281712, 0.956086]
+  atom    7:  Li Wyckoff=  2b frac=[0.972542, 0.800866, 0.016873]
+  atom    8:  Li Wyckoff=  1a frac=[0.973153, 0.279973, 0.493747]
+  atom    9:  Li Wyckoff=  1a frac=[0.991084, 0.687674, 0.642484]
+  atom   10:  Li Wyckoff=  1a frac=[0.527386, 0.489457, 0.966312]
+  atom   11:  As Wyckoff=  1a frac=[0.51123, 0.248503, 0.480535]
+  atom   12:  As Wyckoff=  1a frac=[0.494044, 0.751061, 0.509791]
+  atom   13:   S Wyckoff=  2b frac=[0.382146, 0.192064, 0.353506]
+  atom   14:   S Wyckoff=  2b frac=[0.369955, 0.686543, 0.393655]
+  atom   15:   S Wyckoff=  1a frac=[0.404558, 0.181342, 0.8282]
+  atom   16:   S Wyckoff=  1a frac=[0.376911, 0.690364, 0.86545]
+  atom   17:   S Wyckoff=  2b frac=[0.88022, 0.192064, 0.353506]
+  atom   18:   S Wyckoff=  2b frac=[0.863304, 0.686543, 0.393655]
+  atom   19:   S Wyckoff=  1a frac=[0.391764, 0.429153, 0.358166]
+  atom   20:   S Wyckoff=  1a frac=[0.390918, 0.92713, 0.363903]
+  atom   21:   S Wyckoff=  1a frac=[0.752488, 0.375538, 0.743947]
+  atom   22:  Br Wyckoff=  1a frac=[0.077111, 0.970266, 0.905246]
+  atom   23:  Br Wyckoff=  1a frac=[0.076715, 0.477299, 0.891973]
+  atom   24:  Br Wyckoff=  1a frac=[0.763411, 0.862245, 0.748689]
+
+[Primitive] nsites=25
+[Primitive] composition=Li11As2(S3Br)3
+
+[Symmetry] primitive structure
+  symprec=0.01: Cm (8)
+  symprec=0.001: Cm (8)
+  symprec=0.0001: Cm (8)
+  atom    0:  Li Wyckoff=  2b frac=[0.987632, 0.486754, 0.568676]
+  atom    1:  Li Wyckoff=  2b frac=[0.996328, 0.997837, 0.573539]
+  atom    2:  Li Wyckoff=  2b frac=[0.470184, 0.486754, 0.568675]
+  atom    3:  Li Wyckoff=  2b frac=[0.43446, 0.997837, 0.573539]
+  atom    4:  Li Wyckoff=  2b frac=[0.480954, 0.281712, 0.956086]
+  atom    5:  Li Wyckoff=  2b frac=[0.408854, 0.800866, 0.016873]
+  atom    6:  Li Wyckoff=  2b frac=[0.999537, 0.281712, 0.956086]
+  atom    7:  Li Wyckoff=  2b frac=[0.972542, 0.800866, 0.016873]
+  atom    8:  Li Wyckoff=  1a frac=[0.973153, 0.279973, 0.493747]
+  atom    9:  Li Wyckoff=  1a frac=[0.991084, 0.687674, 0.642484]
+  atom   10:  Li Wyckoff=  1a frac=[0.527386, 0.489457, 0.966312]
+  atom   11:  As Wyckoff=  1a frac=[0.51123, 0.248503, 0.480535]
+  atom   12:  As Wyckoff=  1a frac=[0.494044, 0.751061, 0.509791]
+  atom   13:   S Wyckoff=  2b frac=[0.382146, 0.192064, 0.353506]
+  atom   14:   S Wyckoff=  2b frac=[0.369955, 0.686543, 0.393655]
+  atom   15:   S Wyckoff=  1a frac=[0.404558, 0.181342, 0.8282]
+  atom   16:   S Wyckoff=  1a frac=[0.376911, 0.690364, 0.86545]
+  atom   17:   S Wyckoff=  2b frac=[0.88022, 0.192064, 0.353506]
+  atom   18:   S Wyckoff=  2b frac=[0.863304, 0.686543, 0.393655]
+  atom   19:   S Wyckoff=  1a frac=[0.391764, 0.429153, 0.358166]
+  atom   20:   S Wyckoff=  1a frac=[0.390918, 0.92713, 0.363903]
+  atom   21:   S Wyckoff=  1a frac=[0.752488, 0.375538, 0.743947]
+  atom   22:  Br Wyckoff=  1a frac=[0.077111, 0.970266, 0.905246]
+  atom   23:  Br Wyckoff=  1a frac=[0.076715, 0.477299, 0.891973]
+  atom   24:  Br Wyckoff=  1a frac=[0.763411, 0.862245, 0.748689]
+
+[Supercell] mode=auto matrix=1x1x1 体积倍数=1 （按下标分母 LCM 定体积倍数，矩阵 1x1x1）
+[Supercell] 基胞 f.u.=2 -> 超胞 f.u.=2 nsites=25
+[Supercell] composition=Li11As2(S3Br)3
+
+[Stoichiometry] 超胞 f.u.=2 host(S) 移除 4 个，O 替换 4 个，补偿元素 Li 插入 0 个
+[Stoichiometry] 目标 vs 实际可达组成（原子分数）
+    元素       目标/f.u.     实际/f.u.        目标分数        实际分数        偏差
+    As        1.0000      1.0000      0.0800      0.0800     0.00%
+    Br        1.5000      1.5000      0.1200      0.1200     0.00%
+    Li        5.5000      5.5000      0.4400      0.4400     0.00%
+    O         2.0000      2.0000      0.1600      0.1600     0.00%
+    S         2.5000      2.5000      0.2000      0.2000     0.00%
+[Stoichiometry] 取代比例 S->O: 目标 44.44% -> 实际 44.44%（+0.00%）
+[Stoichiometry] 最大偏差 0.000% （组成 0.000% + 取代比例 0.000%，容差 3.00%）
+
+[Composition]
+{
+  "formula_units": 2,
+  "dopant_count": 4,
+  "host_remove_count": 4,
+  "extra_compensating_atoms": 0,
+  "base_counts": {
+    "Li": 5.5,
+    "As": 1.0,
+    "S": 4.5,
+    "Br": 1.5
+  },
+  "target_counts": {
+    "Li": 5.5,
+    "As": 1.0,
+    "S": 2.5,
+    "O": 2.0,
+    "Br": 1.5
+  },
+  "achieved_counts": {
+    "As": 2.0,
+    "Br": 3.0,
+    "Li": 11.0,
+    "O": 4.0,
+    "S": 5.0
+  },
+  "doping_ratio": {
+    "requested": 0.4444444444444444,
+    "actual": 0.4444444444444444,
+    "deviation": 0.0,
+    "deviation_percent": 0.0
+  },
+  "max_deviation": 0.0,
+  "max_deviation_percent": 0.0,
+  "approx_volume_multiplier": 1
+}
+[Interstitial] 目标化学式不需要额外插入原子，跳过搜索
+[Substitution] --host-site-filter=free-anion：可选 1/9 个 S 位点（最近 P,Si,Ge,Sn,As,Sb > 3.0 Å）
+Traceback (most recent call last):
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 3308, in <module>
+    main()
+  File "/home/ziyiguo/project/GenerateStru/main/generate_stru.py", line 2916, in main
+    raise ValueError(
+ValueError: 位点限定后只剩 1 个可取代位点，少于需要的 4 个

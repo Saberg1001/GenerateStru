@@ -1,0 +1,480 @@
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_017/01_Li5.5Br1.5PS4.5/best_structure.cif",
+  "base_formula": "Li5.5Br1.5PS4.5",
+  "target_formula": "Li5.5AsS4.5Br1.5",
+  "host": "P",
+  "dopant": "As",
+  "compensating_element": "Li",
+  "scaling": [
+    1,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "20f4ac258bfee9cc",
+  "ml_fingerprint": "6c275f2afd92e061",
+  "composition_calculation": {
+    "formula_units": 2,
+    "dopant_count": 2,
+    "host_remove_count": 2,
+    "extra_compensating_atoms": 0,
+    "base_counts": {
+      "Li": 5.5,
+      "Br": 1.5,
+      "P": 1.0,
+      "S": 4.5
+    },
+    "target_counts": {
+      "Li": 5.5,
+      "As": 1.0,
+      "S": 4.5,
+      "Br": 1.5
+    },
+    "achieved_counts": {
+      "As": 2.0,
+      "Br": 3.0,
+      "Li": 11.0,
+      "S": 9.0
+    },
+    "deviation": {
+      "rows": [
+        {
+          "element": "As",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08,
+          "actual_fraction": 0.08,
+          "deviation": 0.0
+        },
+        {
+          "element": "Br",
+          "target_per_fu": 1.5,
+          "actual_per_fu": 1.5,
+          "target_fraction": 0.12,
+          "actual_fraction": 0.12,
+          "deviation": 0.0
+        },
+        {
+          "element": "Li",
+          "target_per_fu": 5.5,
+          "actual_per_fu": 5.5,
+          "target_fraction": 0.44,
+          "actual_fraction": 0.44,
+          "deviation": 0.0
+        },
+        {
+          "element": "P",
+          "target_per_fu": 0.0,
+          "actual_per_fu": 0.0,
+          "target_fraction": 0.0,
+          "actual_fraction": 0.0,
+          "deviation": 0.0
+        },
+        {
+          "element": "S",
+          "target_per_fu": 4.5,
+          "actual_per_fu": 4.5,
+          "target_fraction": 0.36,
+          "actual_fraction": 0.36,
+          "deviation": 0.0
+        }
+      ],
+      "max_deviation": 0.0,
+      "max_deviation_percent": 0.0,
+      "target_per_fu": {
+        "Li": 5.5,
+        "As": 1.0,
+        "S": 4.5,
+        "Br": 1.5
+      },
+      "actual_per_fu": {
+        "As": 1.0,
+        "Br": 1.5,
+        "Li": 5.5,
+        "P": 0.0,
+        "S": 4.5
+      }
+    },
+    "doping_ratio": {
+      "requested": 1.0,
+      "actual": 1.0,
+      "deviation": 0.0,
+      "deviation_percent": 0.0
+    },
+    "max_deviation": 0.0,
+    "max_deviation_percent": 0.0,
+    "approx_volume_multiplier": 1
+  },
+  "wyckoff_report": {
+    "spacegroup": "Cm",
+    "spacegroup_number": 8,
+    "sites": [
+      {
+        "index": 0,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.988107,
+          0.486955,
+          0.567985
+        ]
+      },
+      {
+        "index": 1,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.99561,
+          0.997957,
+          0.572639
+        ]
+      },
+      {
+        "index": 2,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.469999,
+          0.486955,
+          0.567985
+        ]
+      },
+      {
+        "index": 3,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.435836,
+          0.997957,
+          0.572639
+        ]
+      },
+      {
+        "index": 4,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.47968,
+          0.281261,
+          0.956895
+        ]
+      },
+      {
+        "index": 5,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.41017,
+          0.800816,
+          0.016724
+        ]
+      },
+      {
+        "index": 6,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.000903,
+          0.281261,
+          0.956895
+        ]
+      },
+      {
+        "index": 7,
+        "element": "Li",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.971474,
+          0.800816,
+          0.016724
+        ]
+      },
+      {
+        "index": 8,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.974361,
+          0.280387,
+          0.490503
+        ]
+      },
+      {
+        "index": 9,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.990646,
+          0.688439,
+          0.641831
+        ]
+      },
+      {
+        "index": 10,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.52679,
+          0.489529,
+          0.967359
+        ]
+      },
+      {
+        "index": 11,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.511312,
+          0.248756,
+          0.479864
+        ]
+      },
+      {
+        "index": 12,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.495034,
+          0.750415,
+          0.509102
+        ]
+      },
+      {
+        "index": 13,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.387885,
+          0.194326,
+          0.358501
+        ]
+      },
+      {
+        "index": 14,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.3752,
+          0.688837,
+          0.398008
+        ]
+      },
+      {
+        "index": 15,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.41007,
+          0.183035,
+          0.813792
+        ]
+      },
+      {
+        "index": 16,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.382183,
+          0.692736,
+          0.850162
+        ]
+      },
+      {
+        "index": 17,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.864962,
+          0.194326,
+          0.358501
+        ]
+      },
+      {
+        "index": 18,
+        "element": "S",
+        "wyckoff": "2b",
+        "frac_coords": [
+          0.84912,
+          0.688836,
+          0.398008
+        ]
+      },
+      {
+        "index": 19,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.396434,
+          0.421675,
+          0.363783
+        ]
+      },
+      {
+        "index": 20,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.396523,
+          0.91913,
+          0.368695
+        ]
+      },
+      {
+        "index": 21,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.752725,
+          0.375281,
+          0.743988
+        ]
+      },
+      {
+        "index": 22,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.073662,
+          0.97185,
+          0.908976
+        ]
+      },
+      {
+        "index": 23,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.075027,
+          0.47692,
+          0.896106
+        ]
+      },
+      {
+        "index": 24,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.763177,
+          0.863099,
+          0.747448
+        ]
+      }
+    ]
+  },
+  "run_config": {
+    "base_formula": "Li5.5Br1.5PS4.5",
+    "target_formula": "Li5.5AsS4.5Br1.5",
+    "host": "P",
+    "dopant": "As",
+    "compensating_element": "Li",
+    "host_wyckoff": null,
+    "host_site_filter": "all",
+    "host_framework_element": "P",
+    "host_framework_cutoff": 3.0,
+    "substitution_sampler": "random",
+    "min_formula_units": 0,
+    "base_structure": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_017/01_Li5.5Br1.5PS4.5/best_structure.cif",
+    "basestru_dir": "/home/ziyiguo/project/GenerateStru/main/basestru",
+    "use_basestru": true,
+    "scaling": [
+      1,
+      1,
+      1
+    ],
+    "max_supercell_atoms": 500,
+    "allow_stoichiometry_approximation": true,
+    "stoichiometry_tolerance": 0.03,
+    "n_candidates": 200,
+    "n_samples": 30000,
+    "min_distance": 1.8,
+    "min_site_site_distance": 2.0,
+    "candidate_pool_size": 200,
+    "seed": 1234,
+    "output": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5",
+    "relax": true,
+    "relax_cell": true,
+    "fmax": 0.05,
+    "relax_steps": 1000,
+    "relax_optimizer": "FIRE",
+    "n_relax": 10,
+    "screen_batch_size": 8,
+    "relax_natoms_per_batch": 128,
+    "relax_chunk_size": 4,
+    "relax_timeout": 0.0,
+    "model": "/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth",
+    "device": "auto",
+    "MP_API": "DUMMY"
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        11,
+        12
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li11 As2 S9 Br3"
+    }
+  ],
+  "screening": [
+    {
+      "candidate_id": 0,
+      "energy": -96.64701843261719,
+      "energy_per_atom": -3.8658807373046873
+    }
+  ],
+  "relaxation": [
+    {
+      "relaxed": true,
+      "converged": true,
+      "energy": -97.89767456054688,
+      "energy_per_atom": -3.915906982421875,
+      "steps": 68,
+      "seconds": 9.200186897000094,
+      "error": "",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5/relaxed/candidate_0000.cif"
+    }
+  ],
+  "ranking": [
+    0
+  ],
+  "best_candidate": {
+    "base_source": "file",
+    "base_material_id": null,
+    "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_017/01_Li5.5Br1.5PS4.5/best_structure.cif",
+    "base_formula": "Li5.5Br1.5PS4.5",
+    "target_formula": "Li5.5AsS4.5Br1.5",
+    "scaling": [
+      1,
+      1,
+      1
+    ],
+    "candidate_fingerprint": "20f4ac258bfee9cc",
+    "ml_fingerprint": "6c275f2afd92e061",
+    "candidate_count": 1,
+    "screened_count": 1,
+    "mattersim_enabled": true,
+    "selected_for_relaxation": 1,
+    "relaxed_count": 1,
+    "converged_count": 1,
+    "fmax_ev_per_angstrom": 0.05,
+    "max_steps": 1000,
+    "relax_cell": true,
+    "relax_optimizer": "FIRE",
+    "screen_batch_size": 8,
+    "relax_chunk_size": 4,
+    "relax_natoms_per_batch": 128,
+    "best_candidate_id": 0,
+    "best_initial_rank": 1,
+    "best_relaxed_rank": 1,
+    "best_energy_ev": -97.89767456054688,
+    "best_energy_per_atom_ev": -3.915906982421875,
+    "best_converged": true,
+    "formula": "Li11 As2 S9 Br3",
+    "num_atoms": 25,
+    "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5/best_structure.cif"
+  }
+}

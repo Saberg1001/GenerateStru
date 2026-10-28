@@ -1,0 +1,3 @@
+candidate_id,candidate_file,initial_energy_ev,initial_energy_per_atom_ev,initial_rank,selected_for_relaxation,converged,relaxation_steps,relaxation_seconds,relaxed_energy_ev,relaxed_energy_per_atom_ev,relaxed_rank,relaxed_file,error
+0,candidates/candidate_0000.cif,-255.69876098632812,-4.1241735642956145,1,True,True,333,49.32274205500107,-257.2392883300781,-4.1490207795173895,2,/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.4PS4.2O0.2ClBr0.6/relaxed/candidate_0000.cif,
+1,candidates/candidate_0001.cif,-255.69476318359375,-4.124109083606351,2,True,True,239,39.42315458600024,-257.2903747558594,-4.1498447541267645,1,/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.4PS4.2O0.2ClBr0.6/relaxed/candidate_0001.cif,

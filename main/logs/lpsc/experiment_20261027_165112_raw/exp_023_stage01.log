@@ -1,0 +1,287 @@
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/pymatgen/io/cif.py:1684: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Li0', 'Li0', 'Li0', 'Li0', 'Li0', 'Li1', 'Li1', 'Li1', 'Li1', 'Li1', 'Li2', 'Li2', 'Li2', 'Li2', 'Li2', 'Li3', 'Li3', 'Li3', 'Li3', 'Li3', 'Li4', 'Li4', 'Li4', 'Li4', 'Li4', 'Li5', 'Li5', 'Li5', 'Li5', 'Li5', 'Li6', 'Li6', 'Li6', 'Li6', 'Li6', 'Li7', 'Li7', 'Li7', 'Li7', 'Li7', 'Li8', 'Li8', 'Li8', 'Li8', 'Li8', 'Li9', 'Li9', 'Li9', 'Li9', 'Li9', 'Li10', 'Li10', 'Li10', 'Li10', 'Li10', 'As11', 'As11', 'As11', 'As11', 'As11', 'As12', 'As12', 'As12', 'As12', 'As12', 'S13', 'S13', 'S13', 'S13', 'S13', 'S14', 'S14', 'S14', 'S14', 'S14', 'S15', 'S15', 'S15', 'S15', 'S15', 'S16', 'S16', 'S16', 'S16', 'S16', 'S17', 'S17', 'S17', 'S17', 'S17', 'S18', 'S18', 'S18', 'S18', 'S18', 'S19', 'S19', 'S19', 'S19', 'S19', 'S20', 'S20', 'S20', 'S20', 'S20', 'S21', 'S21', 'S21', 'S21', 'S21', 'Br22', 'Br22', 'Br22', 'Br22', 'Br22', 'Br23', 'Br23', 'Br23', 'Br23', 'Br23', 'Br24', 'Br24', 'Br24', 'Br24', 'Br24']`.
+  warnings.warn(
+/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/__version__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[BaseStru] 使用 --base-structure 指定的结构: /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5/best_structure.cif
+[BaseStru] source=file formula=Li11As2(S3Br)3 nsites=25 formula_units=2
+
+[Symmetry] file base structure
+  symprec=0.01: Cm (8)
+  symprec=0.001: Cm (8)
+  symprec=0.0001: Cm (8)
+  atom    0:  Li Wyckoff=  2b frac=[0.987632, 0.486754, 0.568676]
+  atom    1:  Li Wyckoff=  2b frac=[0.996328, 0.997837, 0.573539]
+  atom    2:  Li Wyckoff=  2b frac=[0.470184, 0.486754, 0.568675]
+  atom    3:  Li Wyckoff=  2b frac=[0.43446, 0.997837, 0.573539]
+  atom    4:  Li Wyckoff=  2b frac=[0.480954, 0.281712, 0.956086]
+  atom    5:  Li Wyckoff=  2b frac=[0.408854, 0.800866, 0.016873]
+  atom    6:  Li Wyckoff=  2b frac=[0.999537, 0.281712, 0.956086]
+  atom    7:  Li Wyckoff=  2b frac=[0.972542, 0.800866, 0.016873]
+  atom    8:  Li Wyckoff=  1a frac=[0.973153, 0.279973, 0.493747]
+  atom    9:  Li Wyckoff=  1a frac=[0.991084, 0.687674, 0.642484]
+  atom   10:  Li Wyckoff=  1a frac=[0.527386, 0.489457, 0.966312]
+  atom   11:  As Wyckoff=  1a frac=[0.51123, 0.248503, 0.480535]
+  atom   12:  As Wyckoff=  1a frac=[0.494044, 0.751061, 0.509791]
+  atom   13:   S Wyckoff=  2b frac=[0.382146, 0.192064, 0.353506]
+  atom   14:   S Wyckoff=  2b frac=[0.369955, 0.686543, 0.393655]
+  atom   15:   S Wyckoff=  1a frac=[0.404558, 0.181342, 0.8282]
+  atom   16:   S Wyckoff=  1a frac=[0.376911, 0.690364, 0.86545]
+  atom   17:   S Wyckoff=  2b frac=[0.88022, 0.192064, 0.353506]
+  atom   18:   S Wyckoff=  2b frac=[0.863304, 0.686543, 0.393655]
+  atom   19:   S Wyckoff=  1a frac=[0.391764, 0.429153, 0.358166]
+  atom   20:   S Wyckoff=  1a frac=[0.390918, 0.92713, 0.363903]
+  atom   21:   S Wyckoff=  1a frac=[0.752488, 0.375538, 0.743947]
+  atom   22:  Br Wyckoff=  1a frac=[0.077111, 0.970266, 0.905246]
+  atom   23:  Br Wyckoff=  1a frac=[0.076715, 0.477299, 0.891973]
+  atom   24:  Br Wyckoff=  1a frac=[0.763411, 0.862245, 0.748689]
+
+[Primitive] nsites=25
+[Primitive] composition=Li11As2(S3Br)3
+
+[Symmetry] primitive structure
+  symprec=0.01: Cm (8)
+  symprec=0.001: Cm (8)
+  symprec=0.0001: Cm (8)
+  atom    0:  Li Wyckoff=  2b frac=[0.987632, 0.486754, 0.568676]
+  atom    1:  Li Wyckoff=  2b frac=[0.996328, 0.997837, 0.573539]
+  atom    2:  Li Wyckoff=  2b frac=[0.470184, 0.486754, 0.568675]
+  atom    3:  Li Wyckoff=  2b frac=[0.43446, 0.997837, 0.573539]
+  atom    4:  Li Wyckoff=  2b frac=[0.480954, 0.281712, 0.956086]
+  atom    5:  Li Wyckoff=  2b frac=[0.408854, 0.800866, 0.016873]
+  atom    6:  Li Wyckoff=  2b frac=[0.999537, 0.281712, 0.956086]
+  atom    7:  Li Wyckoff=  2b frac=[0.972542, 0.800866, 0.016873]
+  atom    8:  Li Wyckoff=  1a frac=[0.973153, 0.279973, 0.493747]
+  atom    9:  Li Wyckoff=  1a frac=[0.991084, 0.687674, 0.642484]
+  atom   10:  Li Wyckoff=  1a frac=[0.527386, 0.489457, 0.966312]
+  atom   11:  As Wyckoff=  1a frac=[0.51123, 0.248503, 0.480535]
+  atom   12:  As Wyckoff=  1a frac=[0.494044, 0.751061, 0.509791]
+  atom   13:   S Wyckoff=  2b frac=[0.382146, 0.192064, 0.353506]
+  atom   14:   S Wyckoff=  2b frac=[0.369955, 0.686543, 0.393655]
+  atom   15:   S Wyckoff=  1a frac=[0.404558, 0.181342, 0.8282]
+  atom   16:   S Wyckoff=  1a frac=[0.376911, 0.690364, 0.86545]
+  atom   17:   S Wyckoff=  2b frac=[0.88022, 0.192064, 0.353506]
+  atom   18:   S Wyckoff=  2b frac=[0.863304, 0.686543, 0.393655]
+  atom   19:   S Wyckoff=  1a frac=[0.391764, 0.429153, 0.358166]
+  atom   20:   S Wyckoff=  1a frac=[0.390918, 0.92713, 0.363903]
+  atom   21:   S Wyckoff=  1a frac=[0.752488, 0.375538, 0.743947]
+  atom   22:  Br Wyckoff=  1a frac=[0.077111, 0.970266, 0.905246]
+  atom   23:  Br Wyckoff=  1a frac=[0.076715, 0.477299, 0.891973]
+  atom   24:  Br Wyckoff=  1a frac=[0.763411, 0.862245, 0.748689]
+
+[Supercell] mode=auto matrix=5x1x1 体积倍数=5 （按下标分母 LCM 定体积倍数，矩阵 5x1x1）
+[Supercell] 基胞 f.u.=2 -> 超胞 f.u.=10 nsites=125
+[Supercell] composition=Li11As2(S3Br)3
+
+[Stoichiometry] 超胞 f.u.=10 host(As) 移除 2 个，Sb 替换 2 个，补偿元素 Li 插入 0 个
+[Stoichiometry] 目标 vs 实际可达组成（原子分数）
+    元素       目标/f.u.     实际/f.u.        目标分数        实际分数        偏差
+    As        0.8000      0.8000      0.0640      0.0640     0.00%
+    Br        1.5000      1.5000      0.1200      0.1200     0.00%
+    Li        5.5000      5.5000      0.4400      0.4400     0.00%
+    S         4.5000      4.5000      0.3600      0.3600     0.00%
+    Sb        0.2000      0.2000      0.0160      0.0160     0.00%
+[Stoichiometry] 取代比例 As->Sb: 目标 20.00% -> 实际 20.00%（+0.00%）
+[Stoichiometry] 最大偏差 0.000% （组成 0.000% + 取代比例 0.000%，容差 3.00%）
+
+[Composition]
+{
+  "formula_units": 10,
+  "dopant_count": 2,
+  "host_remove_count": 2,
+  "extra_compensating_atoms": 0,
+  "base_counts": {
+    "Li": 5.5,
+    "As": 1.0,
+    "S": 4.5,
+    "Br": 1.5
+  },
+  "target_counts": {
+    "Li": 5.5,
+    "As": 0.8,
+    "Sb": 0.2,
+    "S": 4.5,
+    "Br": 1.5
+  },
+  "achieved_counts": {
+    "As": 8.0,
+    "Br": 15.0,
+    "Li": 55.0,
+    "S": 45.0,
+    "Sb": 2.0
+  },
+  "doping_ratio": {
+    "requested": 0.2,
+    "actual": 0.2,
+    "deviation": 0.0,
+    "deviation_percent": 0.0
+  },
+  "max_deviation": 0.0,
+  "max_deviation_percent": 0.0,
+  "approx_volume_multiplier": 5
+}
+[Interstitial] 目标化学式不需要额外插入原子，跳过搜索
+[Candidates] 无法再生成新的不同候选（位点组合已枚举完，或该槽位反复生成失败），提前结束：去重后共 45 个不同候选，少于 --n-candidates 200。candidates/ 里可能残留旧指纹的 candidate_*.cif，以下游使用的 candidates_meta.json 为准
+[Candidates] 新生成 45 个候选结构（复用 0 个，去重后共 45 个）
+[MatterSim] device=cuda, load_path=/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth
+[32m2026-10-27 19:23:14.883[0m | [1mINFO    [0m | [36mmattersim.forcefield.potential[0m:[36mfrom_checkpoint[0m:[36m893[0m - [1mLoading the model from /home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth[0m
+[Screen] 8/45 elapsed=0.0 min ETA=0.1 min
+[Screen] 16/45 elapsed=0.0 min ETA=0.1 min
+[Screen] 24/45 elapsed=0.0 min ETA=0.0 min
+[Screen] 32/45 elapsed=0.0 min ETA=0.0 min
+[Screen] 40/45 elapsed=0.0 min ETA=0.0 min
+[Screen] 45/45 elapsed=0.1 min ETA=0.0 min
+[Relax] 筛选前 10 名候选 = ['7', '9', '1', '6', '40', '21', '2', '11', '33', '42']
+
+  0%|          | 0/4 [00:00<?, ?it/s]/home/ziyiguo/project/mattergen/.venv/lib/python3.10/site-packages/mattersim/applications/batch_relax.py:80: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(DummyBatchCalculator())
+[MatterSim chunk-0] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-0] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-0] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-0] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-0] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-0] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-0] batch=175 active=1 done=0 max_steps=175
+
+ 50%|█████     | 2/4 [00:19<00:19,  9.86s/it][MatterSim chunk-0] batch=200 active=1 done=1 max_steps=186
+[MatterSim chunk-0] batch=225 active=1 done=1 max_steps=186
+[MatterSim chunk-0] batch=250 active=1 done=1 max_steps=186
+[MatterSim chunk-0] batch=275 active=1 done=1 max_steps=186
+[MatterSim chunk-0] batch=300 active=1 done=1 max_steps=186
+[MatterSim chunk-0] batch=325 active=1 done=1 max_steps=186
+[MatterSim chunk-0] batch=350 active=1 done=1 max_steps=186
+[MatterSim chunk-0] batch=375 active=1 done=1 max_steps=189
+
+ 75%|███████▌  | 3/4 [00:37<00:13, 13.21s/it][MatterSim chunk-0] batch=400 active=1 done=2 max_steps=204
+[MatterSim chunk-0] batch=425 active=1 done=2 max_steps=204
+[MatterSim chunk-0] batch=450 active=1 done=2 max_steps=204
+[MatterSim chunk-0] batch=475 active=1 done=2 max_steps=204
+[MatterSim chunk-0] batch=500 active=1 done=2 max_steps=204
+[MatterSim chunk-0] batch=525 active=1 done=2 max_steps=204
+[MatterSim chunk-0] batch=550 active=1 done=2 max_steps=204
+[MatterSim chunk-0] batch=575 active=1 done=2 max_steps=204
+
+100%|██████████| 4/4 [00:59<00:00, 16.43s/it][MatterSim chunk-0] batch=600 active=1 done=3 max_steps=204
+[MatterSim chunk-0] batch=625 active=1 done=3 max_steps=204
+[MatterSim chunk-0] batch=650 active=1 done=3 max_steps=204
+[MatterSim chunk-0] batch=675 active=1 done=3 max_steps=204
+[MatterSim chunk-0] batch=700 active=1 done=3 max_steps=204
+[MatterSim chunk-0] batch=725 active=1 done=3 max_steps=204
+[MatterSim chunk-0] batch=750 active=1 done=3 max_steps=204
+[MatterSim chunk-0] batch=775 active=1 done=3 max_steps=204
+
+100%|██████████| 4/4 [01:23<00:00, 20.88s/it]
+[Relax] candidate=0007 converged=True steps=186 energy_per_atom=-3.909425048828125 error=-
+[Relax] candidate=0009 converged=True steps=204 energy_per_atom=-3.909442626953125 error=-
+[Relax] candidate=0001 converged=True steps=204 energy_per_atom=-3.90944287109375 error=-
+[Relax] candidate=0006 converged=True steps=204 energy_per_atom=-3.909442626953125 error=-
+[Relax] 4/10 batch_seconds=83.5
+
+  0%|          | 0/4 [00:00<?, ?it/s][MatterSim chunk-4] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-4] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-4] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-4] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-4] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-4] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-4] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-4] batch=200 active=1 done=0 max_steps=200
+
+ 50%|█████     | 2/4 [00:21<00:21, 10.84s/it][MatterSim chunk-4] batch=225 active=1 done=1 max_steps=204
+[MatterSim chunk-4] batch=250 active=1 done=1 max_steps=204
+[MatterSim chunk-4] batch=275 active=1 done=1 max_steps=204
+[MatterSim chunk-4] batch=300 active=1 done=1 max_steps=204
+[MatterSim chunk-4] batch=325 active=1 done=1 max_steps=204
+[MatterSim chunk-4] batch=350 active=1 done=1 max_steps=204
+[MatterSim chunk-4] batch=375 active=1 done=1 max_steps=204
+[MatterSim chunk-4] batch=400 active=1 done=1 max_steps=204
+
+ 75%|███████▌  | 3/4 [00:43<00:15, 15.52s/it][MatterSim chunk-4] batch=425 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=450 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=475 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=500 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=525 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=550 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=575 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=600 active=1 done=2 max_steps=215
+[MatterSim chunk-4] batch=625 active=1 done=2 max_steps=215
+
+100%|██████████| 4/4 [01:03<00:00, 17.01s/it][MatterSim chunk-4] batch=650 active=1 done=3 max_steps=215
+[MatterSim chunk-4] batch=675 active=1 done=3 max_steps=215
+[MatterSim chunk-4] batch=700 active=1 done=3 max_steps=215
+[MatterSim chunk-4] batch=725 active=1 done=3 max_steps=215
+[MatterSim chunk-4] batch=750 active=1 done=3 max_steps=215
+[MatterSim chunk-4] batch=775 active=1 done=3 max_steps=215
+[MatterSim chunk-4] batch=800 active=1 done=3 max_steps=215
+[MatterSim chunk-4] batch=825 active=1 done=3 max_steps=215
+
+100%|██████████| 4/4 [01:25<00:00, 21.40s/it]
+[Relax] candidate=0040 converged=True steps=204 energy_per_atom=-3.909442138671875 error=-
+[Relax] candidate=0021 converged=True steps=215 energy_per_atom=-3.909361083984375 error=-
+[Relax] candidate=0002 converged=True steps=215 energy_per_atom=-3.909361083984375 error=-
+[Relax] candidate=0011 converged=True steps=215 energy_per_atom=-3.90936083984375 error=-
+[Relax] 8/10 batch_seconds=85.6
+
+  0%|          | 0/2 [00:00<?, ?it/s][MatterSim chunk-8] batch=25 active=1 done=0 max_steps=25
+[MatterSim chunk-8] batch=50 active=1 done=0 max_steps=50
+[MatterSim chunk-8] batch=75 active=1 done=0 max_steps=75
+[MatterSim chunk-8] batch=100 active=1 done=0 max_steps=100
+[MatterSim chunk-8] batch=125 active=1 done=0 max_steps=125
+[MatterSim chunk-8] batch=150 active=1 done=0 max_steps=150
+[MatterSim chunk-8] batch=175 active=1 done=0 max_steps=175
+[MatterSim chunk-8] batch=200 active=1 done=0 max_steps=200
+
+100%|██████████| 2/2 [00:19<00:00,  9.78s/it][MatterSim chunk-8] batch=225 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=250 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=275 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=300 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=325 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=350 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=375 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=400 active=1 done=1 max_steps=215
+[MatterSim chunk-8] batch=425 active=1 done=1 max_steps=215
+
+100%|██████████| 2/2 [00:34<00:00, 17.37s/it]
+[Relax] candidate=0033 converged=True steps=215 energy_per_atom=-3.909361083984375 error=-
+[Relax] candidate=0042 converged=True steps=215 energy_per_atom=-3.90936083984375 error=-
+[Relax] 10/10 batch_seconds=34.7
+
+==============================
+Summary
+==============================
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5AsS4.5Br1.5/best_structure.cif",
+  "base_formula": "Li5.5AsS4.5Br1.5",
+  "target_formula": "Li5.5As0.8Sb0.2S4.5Br1.5",
+  "scaling": [
+    5,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "124de481f7541c1f",
+  "ml_fingerprint": "49d823798b5473c5",
+  "candidate_count": 45,
+  "screened_count": 45,
+  "mattersim_enabled": true,
+  "selected_for_relaxation": 10,
+  "relaxed_count": 10,
+  "converged_count": 10,
+  "fmax_ev_per_angstrom": 0.05,
+  "max_steps": 1000,
+  "relax_cell": true,
+  "relax_optimizer": "FIRE",
+  "screen_batch_size": 8,
+  "relax_chunk_size": 4,
+  "relax_natoms_per_batch": 128,
+  "best_candidate_id": 1,
+  "best_initial_rank": 3,
+  "best_relaxed_rank": 1,
+  "best_energy_ev": -488.68035888671875,
+  "best_energy_per_atom_ev": -3.90944287109375,
+  "best_converged": true,
+  "formula": "Li55 Sb2 As8 S45 Br15",
+  "num_atoms": 125,
+  "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5As0.8Sb0.2S4.5Br1.5/best_structure.cif"
+}
+
+输出目录: /home/ziyiguo/project/GenerateStru/main/output/lpsc/Li5.5As0.8Sb0.2S4.5Br1.5

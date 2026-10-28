@@ -1,0 +1,2389 @@
+{
+  "base_source": "file",
+  "base_material_id": null,
+  "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+  "base_formula": "Li5.4PS4.4Cl1Br0.6",
+  "target_formula": "Li5.4Br0.6ClO0.06PS4.34",
+  "host": "S",
+  "dopant": "O",
+  "compensating_element": "Li",
+  "scaling": [
+    7,
+    1,
+    1
+  ],
+  "candidate_fingerprint": "f3e8479643a7493b",
+  "ml_fingerprint": "4fb4f4f2b413da95",
+  "composition_calculation": {
+    "formula_units": 35,
+    "dopant_count": 2,
+    "host_remove_count": 2,
+    "extra_compensating_atoms": 0,
+    "base_counts": {
+      "Li": 5.4,
+      "P": 1.0,
+      "S": 4.4,
+      "Cl": 1.0,
+      "Br": 0.6
+    },
+    "target_counts": {
+      "Li": 5.4,
+      "Br": 0.6,
+      "Cl": 1.0,
+      "O": 0.06,
+      "P": 1.0,
+      "S": 4.34
+    },
+    "achieved_counts": {
+      "Br": 21.0,
+      "Cl": 35.0,
+      "Li": 189.0,
+      "O": 2.0,
+      "P": 35.0,
+      "S": 152.0
+    },
+    "deviation": {
+      "rows": [
+        {
+          "element": "Br",
+          "target_per_fu": 0.6,
+          "actual_per_fu": 0.6,
+          "target_fraction": 0.048387096774193554,
+          "actual_fraction": 0.048387096774193554,
+          "deviation": 0.0
+        },
+        {
+          "element": "Cl",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08064516129032259,
+          "actual_fraction": 0.08064516129032259,
+          "deviation": 0.0
+        },
+        {
+          "element": "Li",
+          "target_per_fu": 5.4,
+          "actual_per_fu": 5.4,
+          "target_fraction": 0.435483870967742,
+          "actual_fraction": 0.435483870967742,
+          "deviation": 0.0
+        },
+        {
+          "element": "O",
+          "target_per_fu": 0.06,
+          "actual_per_fu": 0.05714285714285714,
+          "target_fraction": 0.004838709677419355,
+          "actual_fraction": 0.004608294930875576,
+          "deviation": -0.00023041474654377902
+        },
+        {
+          "element": "P",
+          "target_per_fu": 1.0,
+          "actual_per_fu": 1.0,
+          "target_fraction": 0.08064516129032259,
+          "actual_fraction": 0.08064516129032259,
+          "deviation": 0.0
+        },
+        {
+          "element": "S",
+          "target_per_fu": 4.34,
+          "actual_per_fu": 4.3428571428571425,
+          "target_fraction": 0.35000000000000003,
+          "actual_fraction": 0.3502304147465438,
+          "deviation": 0.00023041474654378336
+        }
+      ],
+      "max_deviation": 0.00023041474654378336,
+      "max_deviation_percent": 0.023041474654378336,
+      "target_per_fu": {
+        "Li": 5.4,
+        "Br": 0.6,
+        "Cl": 1.0,
+        "O": 0.06,
+        "P": 1.0,
+        "S": 4.34
+      },
+      "actual_per_fu": {
+        "Br": 0.6,
+        "Cl": 1.0,
+        "Li": 5.4,
+        "O": 0.05714285714285714,
+        "P": 1.0,
+        "S": 4.3428571428571425
+      }
+    },
+    "doping_ratio": {
+      "requested": 0.013636363636363634,
+      "actual": 0.012987012987012988,
+      "deviation": -0.0006493506493506461,
+      "deviation_percent": -0.06493506493506461
+    },
+    "max_deviation": 0.0006493506493506461,
+    "max_deviation_percent": 0.06493506493506461,
+    "approx_volume_multiplier": 7
+  },
+  "wyckoff_report": {
+    "spacegroup": "P1",
+    "spacegroup_number": 1,
+    "sites": [
+      {
+        "index": 0,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.918376,
+          0.210137,
+          0.606572
+        ]
+      },
+      {
+        "index": 1,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.953112,
+          0.400653,
+          0.61347
+        ]
+      },
+      {
+        "index": 2,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.000302,
+          0.597095,
+          0.429872
+        ]
+      },
+      {
+        "index": 3,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.999786,
+          0.791883,
+          0.41656
+        ]
+      },
+      {
+        "index": 4,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.957449,
+          0.99555,
+          0.634172
+        ]
+      },
+      {
+        "index": 5,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.412168,
+          0.210093,
+          0.608045
+        ]
+      },
+      {
+        "index": 6,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.426471,
+          0.400205,
+          0.611823
+        ]
+      },
+      {
+        "index": 7,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.585215,
+          0.595976,
+          0.436979
+        ]
+      },
+      {
+        "index": 8,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.538092,
+          0.800589,
+          0.483466
+        ]
+      },
+      {
+        "index": 9,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.383008,
+          0.9958,
+          0.705649
+        ]
+      },
+      {
+        "index": 10,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371175,
+          0.128619,
+          0.090294
+        ]
+      },
+      {
+        "index": 11,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.625179,
+          0.280884,
+          0.919202
+        ]
+      },
+      {
+        "index": 12,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.662475,
+          0.478459,
+          0.885014
+        ]
+      },
+      {
+        "index": 13,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.598904,
+          0.681166,
+          0.993006
+        ]
+      },
+      {
+        "index": 14,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.539453,
+          0.893732,
+          0.04038
+        ]
+      },
+      {
+        "index": 15,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.907965,
+          0.128345,
+          0.074785
+        ]
+      },
+      {
+        "index": 16,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.040326,
+          0.280793,
+          0.921096
+        ]
+      },
+      {
+        "index": 17,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.062455,
+          0.478007,
+          0.884525
+        ]
+      },
+      {
+        "index": 18,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.026643,
+          0.678088,
+          0.973415
+        ]
+      },
+      {
+        "index": 19,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.954022,
+          0.888145,
+          0.021491
+        ]
+      },
+      {
+        "index": 20,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.919274,
+          0.083002,
+          0.715136
+        ]
+      },
+      {
+        "index": 21,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.003731,
+          0.341696,
+          0.279889
+        ]
+      },
+      {
+        "index": 22,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.024382,
+          0.524316,
+          0.332097
+        ]
+      },
+      {
+        "index": 23,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.909094,
+          0.929365,
+          0.480269
+        ]
+      },
+      {
+        "index": 24,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.591384,
+          0.584631,
+          0.920208
+        ]
+      },
+      {
+        "index": 25,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.641749,
+          0.796083,
+          0.018956
+        ]
+      },
+      {
+        "index": 26,
+        "element": "Li",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.571423,
+          0.998783,
+          0.040103
+        ]
+      },
+      {
+        "index": 27,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.43604,
+          0.107024,
+          0.582204
+        ]
+      },
+      {
+        "index": 28,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.518463,
+          0.305451,
+          0.426621
+        ]
+      },
+      {
+        "index": 29,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.560076,
+          0.494374,
+          0.407733
+        ]
+      },
+      {
+        "index": 30,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.519394,
+          0.697875,
+          0.481653
+        ]
+      },
+      {
+        "index": 31,
+        "element": "P",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.473609,
+          0.899665,
+          0.554086
+        ]
+      },
+      {
+        "index": 32,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.315353,
+          0.079996,
+          0.483983
+        ]
+      },
+      {
+        "index": 33,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.395615,
+          0.28509,
+          0.296003
+        ]
+      },
+      {
+        "index": 34,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.433402,
+          0.474714,
+          0.281243
+        ]
+      },
+      {
+        "index": 35,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.370384,
+          0.678693,
+          0.378682
+        ]
+      },
+      {
+        "index": 36,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.323762,
+          0.881763,
+          0.442826
+        ]
+      },
+      {
+        "index": 37,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.326682,
+          0.08515,
+          0.931376
+        ]
+      },
+      {
+        "index": 38,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.450505,
+          0.264272,
+          0.765875
+        ]
+      },
+      {
+        "index": 39,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.48205,
+          0.457739,
+          0.747745
+        ]
+      },
+      {
+        "index": 40,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.421552,
+          0.668721,
+          0.832304
+        ]
+      },
+      {
+        "index": 41,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.361812,
+          0.873529,
+          0.901987
+        ]
+      },
+      {
+        "index": 42,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.790358,
+          0.081419,
+          0.465548
+        ]
+      },
+      {
+        "index": 43,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.872788,
+          0.285342,
+          0.296976
+        ]
+      },
+      {
+        "index": 44,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.910472,
+          0.475068,
+          0.280143
+        ]
+      },
+      {
+        "index": 45,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.865813,
+          0.680583,
+          0.358776
+        ]
+      },
+      {
+        "index": 46,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.824728,
+          0.873724,
+          0.439168
+        ]
+      },
+      {
+        "index": 47,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.337666,
+          0.17727,
+          0.42298
+        ]
+      },
+      {
+        "index": 48,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.374959,
+          0.374213,
+          0.371035
+        ]
+      },
+      {
+        "index": 49,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.421954,
+          0.565567,
+          0.329443
+        ]
+      },
+      {
+        "index": 50,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.378608,
+          0.769726,
+          0.393889
+        ]
+      },
+      {
+        "index": 51,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.371897,
+          0.97103,
+          0.445294
+        ]
+      },
+      {
+        "index": 52,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.809384,
+          0.541639,
+          0.678783
+        ]
+      },
+      {
+        "index": 53,
+        "element": "S",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.714143,
+          0.951888,
+          0.809545
+        ]
+      },
+      {
+        "index": 54,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.961278,
+          0.000142,
+          0.997347
+        ]
+      },
+      {
+        "index": 55,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.003272,
+          0.206383,
+          0.949798
+        ]
+      },
+      {
+        "index": 56,
+        "element": "Br",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.742214,
+          0.750637,
+          0.779705
+        ]
+      },
+      {
+        "index": 57,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.032245,
+          0.406006,
+          0.902944
+        ]
+      },
+      {
+        "index": 58,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.930687,
+          0.612017,
+          0.074287
+        ]
+      },
+      {
+        "index": 59,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.853406,
+          0.816362,
+          0.122604
+        ]
+      },
+      {
+        "index": 60,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.714412,
+          0.148019,
+          0.826449
+        ]
+      },
+      {
+        "index": 61,
+        "element": "Cl",
+        "wyckoff": "1a",
+        "frac_coords": [
+          0.804291,
+          0.341435,
+          0.677608
+        ]
+      }
+    ]
+  },
+  "run_config": {
+    "base_formula": "Li5.4PS4.4Cl1Br0.6",
+    "target_formula": "Li5.4Br0.6ClO0.06PS4.34",
+    "host": "S",
+    "dopant": "O",
+    "compensating_element": "Li",
+    "host_wyckoff": null,
+    "host_site_filter": "free-anion",
+    "host_framework_element": "P,Si,Ge,Sn,As,Sb",
+    "host_framework_cutoff": 3.0,
+    "substitution_sampler": "random",
+    "min_formula_units": 0,
+    "base_structure": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+    "basestru_dir": "/home/ziyiguo/project/GenerateStru/main/basestru",
+    "use_basestru": true,
+    "scaling": [
+      7,
+      1,
+      1
+    ],
+    "max_supercell_atoms": 500,
+    "allow_stoichiometry_approximation": true,
+    "stoichiometry_tolerance": 0.03,
+    "n_candidates": 200,
+    "n_samples": 30000,
+    "min_distance": 1.8,
+    "min_site_site_distance": 2.0,
+    "candidate_pool_size": 200,
+    "seed": 1234,
+    "output": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34",
+    "relax": true,
+    "relax_cell": true,
+    "fmax": 0.05,
+    "relax_steps": 1000,
+    "relax_optimizer": "FIRE",
+    "n_relax": 10,
+    "screen_batch_size": 8,
+    "relax_natoms_per_batch": 128,
+    "relax_chunk_size": 4,
+    "relax_timeout": 0.0,
+    "model": "/home/ziyiguo/project/GenerateStru/main/models/mattersim-v1.0.0-1M.pth",
+    "device": "auto",
+    "MP_API": "DUMMY"
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "file": "candidate_0000.cif",
+      "substitution_indices": [
+        371,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 1,
+      "file": "candidate_0001.cif",
+      "substitution_indices": [
+        370,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 2,
+      "file": "candidate_0002.cif",
+      "substitution_indices": [
+        371,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 3,
+      "file": "candidate_0003.cif",
+      "substitution_indices": [
+        366,
+        370
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 4,
+      "file": "candidate_0004.cif",
+      "substitution_indices": [
+        364,
+        371
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 5,
+      "file": "candidate_0005.cif",
+      "substitution_indices": [
+        365,
+        368
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 6,
+      "file": "candidate_0006.cif",
+      "substitution_indices": [
+        371,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 7,
+      "file": "candidate_0007.cif",
+      "substitution_indices": [
+        373,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 8,
+      "file": "candidate_0008.cif",
+      "substitution_indices": [
+        365,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 9,
+      "file": "candidate_0009.cif",
+      "substitution_indices": [
+        372,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 10,
+      "file": "candidate_0010.cif",
+      "substitution_indices": [
+        368,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 11,
+      "file": "candidate_0011.cif",
+      "substitution_indices": [
+        372,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 12,
+      "file": "candidate_0012.cif",
+      "substitution_indices": [
+        364,
+        366
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 13,
+      "file": "candidate_0013.cif",
+      "substitution_indices": [
+        365,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 14,
+      "file": "candidate_0014.cif",
+      "substitution_indices": [
+        373,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 15,
+      "file": "candidate_0015.cif",
+      "substitution_indices": [
+        367,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 16,
+      "file": "candidate_0016.cif",
+      "substitution_indices": [
+        370,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 17,
+      "file": "candidate_0017.cif",
+      "substitution_indices": [
+        373,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 18,
+      "file": "candidate_0018.cif",
+      "substitution_indices": [
+        376,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 19,
+      "file": "candidate_0019.cif",
+      "substitution_indices": [
+        367,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 20,
+      "file": "candidate_0020.cif",
+      "substitution_indices": [
+        367,
+        370
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 21,
+      "file": "candidate_0021.cif",
+      "substitution_indices": [
+        369,
+        370
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 22,
+      "file": "candidate_0022.cif",
+      "substitution_indices": [
+        366,
+        371
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 23,
+      "file": "candidate_0023.cif",
+      "substitution_indices": [
+        364,
+        369
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 24,
+      "file": "candidate_0024.cif",
+      "substitution_indices": [
+        366,
+        369
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 25,
+      "file": "candidate_0025.cif",
+      "substitution_indices": [
+        365,
+        370
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 26,
+      "file": "candidate_0026.cif",
+      "substitution_indices": [
+        365,
+        366
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 27,
+      "file": "candidate_0027.cif",
+      "substitution_indices": [
+        365,
+        369
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 28,
+      "file": "candidate_0028.cif",
+      "substitution_indices": [
+        367,
+        369
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 29,
+      "file": "candidate_0029.cif",
+      "substitution_indices": [
+        366,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 30,
+      "file": "candidate_0030.cif",
+      "substitution_indices": [
+        365,
+        371
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 31,
+      "file": "candidate_0031.cif",
+      "substitution_indices": [
+        364,
+        365
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 32,
+      "file": "candidate_0032.cif",
+      "substitution_indices": [
+        369,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 33,
+      "file": "candidate_0033.cif",
+      "substitution_indices": [
+        369,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 34,
+      "file": "candidate_0034.cif",
+      "substitution_indices": [
+        365,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 35,
+      "file": "candidate_0035.cif",
+      "substitution_indices": [
+        367,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 36,
+      "file": "candidate_0036.cif",
+      "substitution_indices": [
+        367,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 37,
+      "file": "candidate_0037.cif",
+      "substitution_indices": [
+        366,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 38,
+      "file": "candidate_0038.cif",
+      "substitution_indices": [
+        365,
+        367
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 39,
+      "file": "candidate_0039.cif",
+      "substitution_indices": [
+        374,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 40,
+      "file": "candidate_0040.cif",
+      "substitution_indices": [
+        369,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 41,
+      "file": "candidate_0041.cif",
+      "substitution_indices": [
+        374,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 42,
+      "file": "candidate_0042.cif",
+      "substitution_indices": [
+        366,
+        367
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 43,
+      "file": "candidate_0043.cif",
+      "substitution_indices": [
+        367,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 44,
+      "file": "candidate_0044.cif",
+      "substitution_indices": [
+        364,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 45,
+      "file": "candidate_0045.cif",
+      "substitution_indices": [
+        371,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 46,
+      "file": "candidate_0046.cif",
+      "substitution_indices": [
+        367,
+        368
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 47,
+      "file": "candidate_0047.cif",
+      "substitution_indices": [
+        364,
+        370
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 48,
+      "file": "candidate_0048.cif",
+      "substitution_indices": [
+        365,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 49,
+      "file": "candidate_0049.cif",
+      "substitution_indices": [
+        366,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 50,
+      "file": "candidate_0050.cif",
+      "substitution_indices": [
+        371,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 51,
+      "file": "candidate_0051.cif",
+      "substitution_indices": [
+        368,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 52,
+      "file": "candidate_0052.cif",
+      "substitution_indices": [
+        370,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 53,
+      "file": "candidate_0053.cif",
+      "substitution_indices": [
+        370,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 54,
+      "file": "candidate_0054.cif",
+      "substitution_indices": [
+        368,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 55,
+      "file": "candidate_0055.cif",
+      "substitution_indices": [
+        370,
+        371
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 56,
+      "file": "candidate_0056.cif",
+      "substitution_indices": [
+        372,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 57,
+      "file": "candidate_0057.cif",
+      "substitution_indices": [
+        370,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 58,
+      "file": "candidate_0058.cif",
+      "substitution_indices": [
+        375,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 59,
+      "file": "candidate_0059.cif",
+      "substitution_indices": [
+        367,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 60,
+      "file": "candidate_0060.cif",
+      "substitution_indices": [
+        372,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 61,
+      "file": "candidate_0061.cif",
+      "substitution_indices": [
+        365,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 62,
+      "file": "candidate_0062.cif",
+      "substitution_indices": [
+        365,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 63,
+      "file": "candidate_0063.cif",
+      "substitution_indices": [
+        368,
+        371
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 64,
+      "file": "candidate_0064.cif",
+      "substitution_indices": [
+        366,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 65,
+      "file": "candidate_0065.cif",
+      "substitution_indices": [
+        369,
+        371
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 66,
+      "file": "candidate_0066.cif",
+      "substitution_indices": [
+        368,
+        369
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 67,
+      "file": "candidate_0067.cif",
+      "substitution_indices": [
+        375,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 68,
+      "file": "candidate_0068.cif",
+      "substitution_indices": [
+        371,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 69,
+      "file": "candidate_0069.cif",
+      "substitution_indices": [
+        369,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 70,
+      "file": "candidate_0070.cif",
+      "substitution_indices": [
+        368,
+        370
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 71,
+      "file": "candidate_0071.cif",
+      "substitution_indices": [
+        366,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 72,
+      "file": "candidate_0072.cif",
+      "substitution_indices": [
+        364,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 73,
+      "file": "candidate_0073.cif",
+      "substitution_indices": [
+        364,
+        375
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 74,
+      "file": "candidate_0074.cif",
+      "substitution_indices": [
+        368,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 75,
+      "file": "candidate_0075.cif",
+      "substitution_indices": [
+        366,
+        368
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 76,
+      "file": "candidate_0076.cif",
+      "substitution_indices": [
+        368,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 77,
+      "file": "candidate_0077.cif",
+      "substitution_indices": [
+        369,
+        374
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 78,
+      "file": "candidate_0078.cif",
+      "substitution_indices": [
+        368,
+        377
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 79,
+      "file": "candidate_0079.cif",
+      "substitution_indices": [
+        364,
+        368
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 80,
+      "file": "candidate_0080.cif",
+      "substitution_indices": [
+        364,
+        367
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 81,
+      "file": "candidate_0081.cif",
+      "substitution_indices": [
+        364,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 82,
+      "file": "candidate_0082.cif",
+      "substitution_indices": [
+        367,
+        371
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 83,
+      "file": "candidate_0083.cif",
+      "substitution_indices": [
+        374,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 84,
+      "file": "candidate_0084.cif",
+      "substitution_indices": [
+        370,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 85,
+      "file": "candidate_0085.cif",
+      "substitution_indices": [
+        366,
+        372
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 86,
+      "file": "candidate_0086.cif",
+      "substitution_indices": [
+        372,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 87,
+      "file": "candidate_0087.cif",
+      "substitution_indices": [
+        364,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 88,
+      "file": "candidate_0088.cif",
+      "substitution_indices": [
+        369,
+        376
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    },
+    {
+      "candidate_id": 89,
+      "file": "candidate_0089.cif",
+      "substitution_indices": [
+        364,
+        373
+      ],
+      "interstitial_sites": [],
+      "removed_indices": [],
+      "formula": "Li189 P35 S152 Br21 Cl35 O2"
+    }
+  ],
+  "screening": [
+    {
+      "candidate_id": 0,
+      "energy": -1786.0787353515625,
+      "energy_per_atom": -4.115388791132633
+    },
+    {
+      "candidate_id": 1,
+      "energy": -1786.0743408203125,
+      "energy_per_atom": -4.115378665484591
+    },
+    {
+      "candidate_id": 2,
+      "energy": -1786.079345703125,
+      "energy_per_atom": -4.115390197472638
+    },
+    {
+      "candidate_id": 3,
+      "energy": -1786.068359375,
+      "energy_per_atom": -4.115364883352535
+    },
+    {
+      "candidate_id": 4,
+      "energy": -1786.0736083984375,
+      "energy_per_atom": -4.1153769778765845
+    },
+    {
+      "candidate_id": 5,
+      "energy": -1786.0706787109375,
+      "energy_per_atom": -4.115370227444556
+    },
+    {
+      "candidate_id": 6,
+      "energy": -1786.0782470703125,
+      "energy_per_atom": -4.115387666060628
+    },
+    {
+      "candidate_id": 7,
+      "energy": -1786.07861328125,
+      "energy_per_atom": -4.115388509864632
+    },
+    {
+      "candidate_id": 8,
+      "energy": -1786.0743408203125,
+      "energy_per_atom": -4.115378665484591
+    },
+    {
+      "candidate_id": 9,
+      "energy": -1786.0784912109375,
+      "energy_per_atom": -4.11538822859663
+    },
+    {
+      "candidate_id": 10,
+      "energy": -1786.0732421875,
+      "energy_per_atom": -4.115376134072581
+    },
+    {
+      "candidate_id": 11,
+      "energy": -1786.076416015625,
+      "energy_per_atom": -4.11538344704061
+    },
+    {
+      "candidate_id": 12,
+      "energy": -1786.0697021484375,
+      "energy_per_atom": -4.115367977300547
+    },
+    {
+      "candidate_id": 13,
+      "energy": -1786.0748291015625,
+      "energy_per_atom": -4.115379790556595
+    },
+    {
+      "candidate_id": 14,
+      "energy": -1786.0814208984375,
+      "energy_per_atom": -4.1153949790286575
+    },
+    {
+      "candidate_id": 15,
+      "energy": -1786.074462890625,
+      "energy_per_atom": -4.1153789467525925
+    },
+    {
+      "candidate_id": 16,
+      "energy": -1786.07470703125,
+      "energy_per_atom": -4.115379509288594
+    },
+    {
+      "candidate_id": 17,
+      "energy": -1786.078369140625,
+      "energy_per_atom": -4.115387947328629
+    },
+    {
+      "candidate_id": 18,
+      "energy": -1786.079345703125,
+      "energy_per_atom": -4.115390197472638
+    },
+    {
+      "candidate_id": 19,
+      "energy": -1786.0726318359375,
+      "energy_per_atom": -4.115374727732575
+    },
+    {
+      "candidate_id": 20,
+      "energy": -1786.06982421875,
+      "energy_per_atom": -4.115368258568548
+    },
+    {
+      "candidate_id": 21,
+      "energy": -1786.0731201171875,
+      "energy_per_atom": -4.115375852804579
+    },
+    {
+      "candidate_id": 22,
+      "energy": -1786.07470703125,
+      "energy_per_atom": -4.115379509288594
+    },
+    {
+      "candidate_id": 23,
+      "energy": -1786.071044921875,
+      "energy_per_atom": -4.11537107124856
+    },
+    {
+      "candidate_id": 24,
+      "energy": -1786.071044921875,
+      "energy_per_atom": -4.11537107124856
+    },
+    {
+      "candidate_id": 25,
+      "energy": -1786.06982421875,
+      "energy_per_atom": -4.115368258568548
+    },
+    {
+      "candidate_id": 26,
+      "energy": -1786.0712890625,
+      "energy_per_atom": -4.115371633784562
+    },
+    {
+      "candidate_id": 27,
+      "energy": -1786.0682373046875,
+      "energy_per_atom": -4.115364602084534
+    },
+    {
+      "candidate_id": 28,
+      "energy": -1786.0697021484375,
+      "energy_per_atom": -4.115367977300547
+    },
+    {
+      "candidate_id": 29,
+      "energy": -1786.0750732421875,
+      "energy_per_atom": -4.115380353092598
+    },
+    {
+      "candidate_id": 30,
+      "energy": -1786.0740966796875,
+      "energy_per_atom": -4.115378102948589
+    },
+    {
+      "candidate_id": 31,
+      "energy": -1786.0728759765625,
+      "energy_per_atom": -4.115375290268577
+    },
+    {
+      "candidate_id": 32,
+      "energy": -1786.07470703125,
+      "energy_per_atom": -4.115379509288594
+    },
+    {
+      "candidate_id": 33,
+      "energy": -1786.07421875,
+      "energy_per_atom": -4.11537838421659
+    },
+    {
+      "candidate_id": 34,
+      "energy": -1786.072998046875,
+      "energy_per_atom": -4.115375571536578
+    },
+    {
+      "candidate_id": 35,
+      "energy": -1786.0726318359375,
+      "energy_per_atom": -4.115374727732575
+    },
+    {
+      "candidate_id": 36,
+      "energy": -1786.073486328125,
+      "energy_per_atom": -4.115376696608583
+    },
+    {
+      "candidate_id": 37,
+      "energy": -1786.0753173828125,
+      "energy_per_atom": -4.1153809156286005
+    },
+    {
+      "candidate_id": 38,
+      "energy": -1786.07080078125,
+      "energy_per_atom": -4.115370508712558
+    },
+    {
+      "candidate_id": 39,
+      "energy": -1786.078369140625,
+      "energy_per_atom": -4.115387947328629
+    },
+    {
+      "candidate_id": 40,
+      "energy": -1786.0750732421875,
+      "energy_per_atom": -4.115380353092598
+    },
+    {
+      "candidate_id": 41,
+      "energy": -1786.0809326171875,
+      "energy_per_atom": -4.115393853956653
+    },
+    {
+      "candidate_id": 42,
+      "energy": -1786.0712890625,
+      "energy_per_atom": -4.115371633784562
+    },
+    {
+      "candidate_id": 43,
+      "energy": -1786.0721435546875,
+      "energy_per_atom": -4.11537360266057
+    },
+    {
+      "candidate_id": 44,
+      "energy": -1786.073974609375,
+      "energy_per_atom": -4.115377821680587
+    },
+    {
+      "candidate_id": 45,
+      "energy": -1786.0791015625,
+      "energy_per_atom": -4.115389634936636
+    },
+    {
+      "candidate_id": 46,
+      "energy": -1786.0728759765625,
+      "energy_per_atom": -4.115375290268577
+    },
+    {
+      "candidate_id": 47,
+      "energy": -1786.0733642578125,
+      "energy_per_atom": -4.115376415340582
+    },
+    {
+      "candidate_id": 48,
+      "energy": -1786.0745849609375,
+      "energy_per_atom": -4.115379228020593
+    },
+    {
+      "candidate_id": 49,
+      "energy": -1786.07421875,
+      "energy_per_atom": -4.11537838421659
+    },
+    {
+      "candidate_id": 50,
+      "energy": -1786.076904296875,
+      "energy_per_atom": -4.115384572112615
+    },
+    {
+      "candidate_id": 51,
+      "energy": -1786.072265625,
+      "energy_per_atom": -4.115373883928571
+    },
+    {
+      "candidate_id": 52,
+      "energy": -1786.0736083984375,
+      "energy_per_atom": -4.1153769778765845
+    },
+    {
+      "candidate_id": 53,
+      "energy": -1786.0753173828125,
+      "energy_per_atom": -4.1153809156286005
+    },
+    {
+      "candidate_id": 54,
+      "energy": -1786.07421875,
+      "energy_per_atom": -4.11537838421659
+    },
+    {
+      "candidate_id": 55,
+      "energy": -1786.0743408203125,
+      "energy_per_atom": -4.115378665484591
+    },
+    {
+      "candidate_id": 56,
+      "energy": -1786.078857421875,
+      "energy_per_atom": -4.1153890724006335
+    },
+    {
+      "candidate_id": 57,
+      "energy": -1786.074462890625,
+      "energy_per_atom": -4.1153789467525925
+    },
+    {
+      "candidate_id": 58,
+      "energy": -1786.0794677734375,
+      "energy_per_atom": -4.11539047874064
+    },
+    {
+      "candidate_id": 59,
+      "energy": -1786.072509765625,
+      "energy_per_atom": -4.115374446464574
+    },
+    {
+      "candidate_id": 60,
+      "energy": -1786.078857421875,
+      "energy_per_atom": -4.1153890724006335
+    },
+    {
+      "candidate_id": 61,
+      "energy": -1786.07470703125,
+      "energy_per_atom": -4.115379509288594
+    },
+    {
+      "candidate_id": 62,
+      "energy": -1786.07470703125,
+      "energy_per_atom": -4.115379509288594
+    },
+    {
+      "candidate_id": 63,
+      "energy": -1786.074951171875,
+      "energy_per_atom": -4.115380071824597
+    },
+    {
+      "candidate_id": 64,
+      "energy": -1786.0750732421875,
+      "energy_per_atom": -4.115380353092598
+    },
+    {
+      "candidate_id": 65,
+      "energy": -1786.07421875,
+      "energy_per_atom": -4.11537838421659
+    },
+    {
+      "candidate_id": 66,
+      "energy": -1786.071533203125,
+      "energy_per_atom": -4.115372196320565
+    },
+    {
+      "candidate_id": 67,
+      "energy": -1786.076171875,
+      "energy_per_atom": -4.1153828845046085
+    },
+    {
+      "candidate_id": 68,
+      "energy": -1786.080322265625,
+      "energy_per_atom": -4.115392447616648
+    },
+    {
+      "candidate_id": 69,
+      "energy": -1786.0750732421875,
+      "energy_per_atom": -4.115380353092598
+    },
+    {
+      "candidate_id": 70,
+      "energy": -1786.0709228515625,
+      "energy_per_atom": -4.115370789980559
+    },
+    {
+      "candidate_id": 71,
+      "energy": -1786.074462890625,
+      "energy_per_atom": -4.1153789467525925
+    },
+    {
+      "candidate_id": 72,
+      "energy": -1786.0745849609375,
+      "energy_per_atom": -4.115379228020593
+    },
+    {
+      "candidate_id": 73,
+      "energy": -1786.0740966796875,
+      "energy_per_atom": -4.115378102948589
+    },
+    {
+      "candidate_id": 74,
+      "energy": -1786.0736083984375,
+      "energy_per_atom": -4.1153769778765845
+    },
+    {
+      "candidate_id": 75,
+      "energy": -1786.0679931640625,
+      "energy_per_atom": -4.115364039548531
+    },
+    {
+      "candidate_id": 76,
+      "energy": -1786.074462890625,
+      "energy_per_atom": -4.1153789467525925
+    },
+    {
+      "candidate_id": 77,
+      "energy": -1786.0751953125,
+      "energy_per_atom": -4.115380634360599
+    },
+    {
+      "candidate_id": 78,
+      "energy": -1786.07470703125,
+      "energy_per_atom": -4.115379509288594
+    },
+    {
+      "candidate_id": 79,
+      "energy": -1786.0709228515625,
+      "energy_per_atom": -4.115370789980559
+    },
+    {
+      "candidate_id": 80,
+      "energy": -1786.0709228515625,
+      "energy_per_atom": -4.115370789980559
+    },
+    {
+      "candidate_id": 81,
+      "energy": -1786.073974609375,
+      "energy_per_atom": -4.115377821680587
+    },
+    {
+      "candidate_id": 82,
+      "energy": -1786.0731201171875,
+      "energy_per_atom": -4.115375852804579
+    },
+    {
+      "candidate_id": 83,
+      "energy": -1786.076416015625,
+      "energy_per_atom": -4.11538344704061
+    },
+    {
+      "candidate_id": 84,
+      "energy": -1786.0736083984375,
+      "energy_per_atom": -4.1153769778765845
+    },
+    {
+      "candidate_id": 85,
+      "energy": -1786.0750732421875,
+      "energy_per_atom": -4.115380353092598
+    },
+    {
+      "candidate_id": 86,
+      "energy": -1786.0814208984375,
+      "energy_per_atom": -4.1153949790286575
+    },
+    {
+      "candidate_id": 87,
+      "energy": -1786.0751953125,
+      "energy_per_atom": -4.115380634360599
+    },
+    {
+      "candidate_id": 88,
+      "energy": -1786.07470703125,
+      "energy_per_atom": -4.115379509288594
+    },
+    {
+      "candidate_id": 89,
+      "energy": -1786.0745849609375,
+      "energy_per_atom": -4.115379228020593
+    }
+  ],
+  "relaxation": [
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.1187744140625,
+      "energy_per_atom": -4.122393489433324,
+      "steps": 1000,
+      "seconds": 161.3773029799995,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0002.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.121826171875,
+      "energy_per_atom": -4.122400521133352,
+      "steps": 1000,
+      "seconds": 163.2384693439999,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0014.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.126220703125,
+      "energy_per_atom": -4.122410646781394,
+      "steps": 1000,
+      "seconds": 161.2422326900014,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0018.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.12744140625,
+      "energy_per_atom": -4.122413459461406,
+      "steps": 1000,
+      "seconds": 162.13711817399962,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0041.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.177734375,
+      "energy_per_atom": -4.12252934187788,
+      "steps": 1000,
+      "seconds": 161.52866652900047,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0045.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.1749267578125,
+      "energy_per_atom": -4.122522872713854,
+      "steps": 1000,
+      "seconds": 161.95655868299946,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0056.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.1331787109375,
+      "energy_per_atom": -4.12242667905746,
+      "steps": 1000,
+      "seconds": 161.20557378299782,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0058.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.1787109375,
+      "energy_per_atom": -4.12253159202189,
+      "steps": 1000,
+      "seconds": 159.9294900929999,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0060.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.127197265625,
+      "energy_per_atom": -4.122412896925403,
+      "steps": 1000,
+      "seconds": 161.60048895400178,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0068.cif"
+    },
+    {
+      "relaxed": true,
+      "converged": false,
+      "energy": -1789.12890625,
+      "energy_per_atom": -4.122416834677419,
+      "steps": 1000,
+      "seconds": 161.69749397599844,
+      "error": "未在 1000 步内收敛",
+      "relaxed_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/relaxed/candidate_0086.cif"
+    }
+  ],
+  "ranking": [
+    60,
+    45,
+    56,
+    58,
+    86,
+    41,
+    68,
+    18,
+    14,
+    2
+  ],
+  "best_candidate": {
+    "base_source": "file",
+    "base_material_id": null,
+    "base_structure_file": "/home/ziyiguo/project/GenerateStru/main/basestru/Li5.4PS4.4Cl1Br0.6.cif",
+    "base_formula": "Li5.4PS4.4Cl1Br0.6",
+    "target_formula": "Li5.4Br0.6ClO0.06PS4.34",
+    "scaling": [
+      7,
+      1,
+      1
+    ],
+    "candidate_fingerprint": "f3e8479643a7493b",
+    "ml_fingerprint": "4fb4f4f2b413da95",
+    "candidate_count": 90,
+    "screened_count": 90,
+    "mattersim_enabled": true,
+    "selected_for_relaxation": 10,
+    "relaxed_count": 10,
+    "converged_count": 0,
+    "fmax_ev_per_angstrom": 0.05,
+    "max_steps": 1000,
+    "relax_cell": true,
+    "relax_optimizer": "FIRE",
+    "screen_batch_size": 8,
+    "relax_chunk_size": 4,
+    "relax_natoms_per_batch": 128,
+    "best_candidate_id": 60,
+    "best_initial_rank": 10,
+    "best_relaxed_rank": 1,
+    "best_energy_ev": -1789.1787109375,
+    "best_energy_per_atom_ev": -4.12253159202189,
+    "best_converged": false,
+    "formula": "Li189 P35 S152 Br21 Cl35 O2",
+    "num_atoms": 434,
+    "best_structure_file": "/home/ziyiguo/project/GenerateStru/main/output/lpsc/_stages/exp_080/01_Li5.4Br0.6ClO0.06PS4.34/best_structure.cif"
+  }
+}
