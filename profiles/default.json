@@ -1,0 +1,16 @@
+{
+  "csv": "formula/experiment.csv",
+  "output_root": "output/experiment",
+  "defaults": {
+    "no_mp": true,
+    "adaptive_budget": true,
+    "n_candidates": 200,
+    "n_relax": 10,
+    "fmax": 0.05,
+    "relax_steps": 1000,
+    "relax_optimizer": "FIRE",
+    "device": "auto",
+    "max_supercell_atoms": 2000,
+    "min_formula_units": 100
+  }
+}

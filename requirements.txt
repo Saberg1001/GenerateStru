@@ -1,0 +1,35 @@
+# Python 3.10（pymatgen 2024.10.29 要求 >=3.10,<3.13）
+#
+# 安装（二选一）：
+#   pip: python -m pip install -r requirements.txt
+#   uv:  uv pip install -r requirements.txt --index-strategy unsafe-best-match
+#
+# uv 必须加 --index-strategy unsafe-best-match：本文件同时使用 PyPI 和
+# PyTorch CUDA 索引，uv 默认只在“第一个包含该包的索引”里找版本，会把
+# requests 锁到 PyTorch 索引里的旧版本，导致 pymatgen 解析失败。
+#
+# 以下为当前可运行环境（mattergen/.venv）中的实际版本。
+# torch 使用 CUDA 11.8 轮子；如仅用 CPU，请删掉 +cu118 并改用
+# https://download.pytorch.org/whl/cpu 中的对应版本。
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# 结构生成主流程（generate_stru.py / batch_generate.py / order_stru.py）
+numpy==1.26.4
+pymatgen==2024.10.29
+ase==3.25.0
+
+# 结构来源与 Materials Project 回退
+mp-api==0.43.0
+
+# MatterSim 势函数、单点筛选与批量弛豫
+torch==2.2.1+cu118
+torchvision==0.17.1+cu118
+torchaudio==2.2.1+cu118
+torch-geometric==2.8.0.post1
+mattersim==1.1.2
+
+# 读取项目根目录 .env（MP_API_KEY）
+python-dotenv>=1.0,<2
+
+# 仅 PPT/ 下的幻灯片脚本需要（主流程不需要）
+python-pptx>=0.6.23

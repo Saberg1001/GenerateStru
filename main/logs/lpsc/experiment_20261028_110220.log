@@ -1,0 +1,11 @@
+[11:02:20] ==============================================================================
+[11:02:20] Batch experiment generation
+[11:02:20] csv:         /tmp/kilo/subset.csv
+[11:02:20] tasks:       2 (planned=2, skipped=0)
+[11:02:20] output root: /tmp/kilo/csvout
+[11:02:20] settings:    n_candidates=200 n_relax=10 fmax=0.05 relax_steps=1000 optimizer=FIRE device=auto
+[11:02:20] log:         /home/ziyiguo/project/GenerateStru/main/logs/lpsc/experiment_20261028_110220.log
+[11:02:20] ==============================================================================
+[11:02:20] [001/2] exp_001 Li5.7PS4.7Cl1.3 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1 :: Cl->S 0.3 (Li5.4PS4.4Cl1.6 -> Li5.7PS4.7Cl1.3)
+[11:02:20] [002/2] exp_002 Li5.5PS4.5Cl1.5 base=LPSC parent=Li6PS5Cl stages=1 :: S->Cl 0.5 (Li6PS5Cl -> Li5.5PS4.5Cl1.5)
+[11:02:20] plan written to /tmp/kilo/csvout/plan.csv

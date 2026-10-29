@@ -17,6 +17,11 @@ import numpy as np
 from pymatgen.core import Composition, Structure
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 
+try:
+    from generation_params import add_engine_arguments
+except ImportError:  # imported as main.generate_stru
+    from main.generation_params import add_engine_arguments
+
 
 # ------------------------------------------------------------
 # 工具函数
@@ -193,6 +198,7 @@ def plan_scaling_for_target(
     max_multiplier,
     explicit=None,
     min_formula_units=0,
+    forced_multiplier=None,
 ):
     """
     决定超胞矩阵（对应「策略 1：扩胞放大到最小公倍数」）。
@@ -203,10 +209,51 @@ def plan_scaling_for_target(
     min_formula_units > 0 时，把自动算出的体积倍数再乘一个整数因子，
     使超胞至少包含这么多 f.u.（计数仍是整数）。用于掺杂位点很少、
     小胞里可取代的位点数目不足以产生构型多样性的情况。
+
+    forced_multiplier 指定精确的体积倍数（--supercell-multiplier）。
+    多阶段掺杂时由外部按整条替换路径一次算好，阶段 1 用它扩胞、后续
+    阶段固定 1,1,1，避免体积倍数按阶段相乘。此时会校验该倍数确实是
+    目标整数化所需最小倍数的整数倍，否则直接报错而不是静默取整。
     """
     formula_units = get_formula_units(structure, base_formula)
 
+    if explicit is not None and forced_multiplier is not None:
+        raise ValueError("--scaling 与 --supercell-multiplier 不能同时指定")
+
     if explicit is None:
+        if forced_multiplier is not None:
+            forced = int(forced_multiplier)
+            if forced < 1:
+                raise ValueError(
+                    f"--supercell-multiplier 必须是正整数，收到 {forced}"
+                )
+            minimal, denominators, exact_min = required_volume_multiplier(
+                base_formula,
+                target_formula,
+                formula_units,
+                max(max_multiplier, forced),
+            )
+            if minimal is None or not exact_min or forced % minimal != 0:
+                raise ValueError(
+                    f"--supercell-multiplier={forced} 无法精确整数化目标 "
+                    f"{target_formula}：至少需要 {minimal} 的整数倍"
+                    f"（各元素分母 {denominators}）；"
+                    "请改用更大的倍数，或去掉该参数走 auto"
+                )
+            scaling = best_diagonal_scaling(structure, forced)
+            return {
+                "mode": "forced",
+                "scaling": scaling,
+                "multiplier": forced,
+                "denominators": denominators,
+                "exact": True,
+                "note": (
+                    f"按替换路径指定的体积倍数 {forced}，"
+                    f"矩阵 {'x'.join(str(v) for v in scaling)}"
+                    f"（≈{len(structure) * forced} 原子）"
+                ),
+            }
+
         multiplier, denominators, exact = required_volume_multiplier(
             base_formula,
             target_formula,
@@ -355,7 +402,7 @@ DEFAULT_BASESTRU_DIR = Path(__file__).resolve().parent / "basestru"
 
 # 不指定 --output 时，所有结果统一放在脚本同级目录的 output/ 下，
 # 再按目标化学式分子目录，例如 main/output/Li5.4PS4.4Cl1.6。
-DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parent / "output"
+DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parent.parent / "output"
 
 
 def formula_dirname(formula):
@@ -381,6 +428,54 @@ def normalize_formula_key(text):
 # 由于原子分数差 ≈ 分数 × 比例相对差，且分数<=1、比例>=1，
 # 校验通过的文件必然也能通过匹配，不会出现「选中后又被拒」。
 COMPOSITION_MATCH_TOLERANCE = 1e-5
+
+
+# 纯取代（无间隙原子）时，位点组合数不超过该值时直接枚举全部构型。
+ENUMERATION_LIMIT = 2000
+
+
+def enumerate_substitution_subsets(
+    allowed, n_dopant, priority_indices, limit
+):
+    """
+    枚举全部取代位点组合；组合总数超过 limit 时返回 None。
+
+    纯取代时「所有可能的掺杂构型数」就是 C(N, k)（有优先层时是两个组合数
+    之积）。组合数不大时直接枚举，候选数天然被限制在可能构型数以内，
+    找齐即停，不会为了凑够 --n-candidates 反复抽到重复组合。
+    """
+    if n_dopant <= 0:
+        return [()]
+
+    allowed = sorted(set(int(i) for i in allowed))
+
+    if priority_indices:
+        priority_set = set(int(i) for i in priority_indices)
+        preferred = [i for i in allowed if i in priority_set]
+        rest = [i for i in allowed if i not in priority_set]
+        n_preferred = min(n_dopant, len(preferred))
+        n_rest = n_dopant - n_preferred
+        if n_rest > len(rest):
+            return None
+        total = math.comb(len(preferred), n_preferred)
+        if n_rest:
+            total *= math.comb(len(rest), n_rest)
+        if total > limit:
+            return None
+        subsets = []
+        for base in itertools.combinations(preferred, n_preferred):
+            if n_rest:
+                for extra in itertools.combinations(rest, n_rest):
+                    subsets.append(tuple(sorted(base + extra)))
+            else:
+                subsets.append(tuple(sorted(base)))
+        return subsets
+
+    if len(allowed) < n_dopant:
+        return None
+    if math.comb(len(allowed), n_dopant) > limit:
+        return None
+    return [tuple(c) for c in itertools.combinations(allowed, n_dopant)]
 
 
 def candidate_geometry_key(structure, ndigits=4):
@@ -537,6 +632,18 @@ def find_base_structure(basestru_dir, base_formula):
     return matched[0][1]
 
 
+def load_env_file():
+    """Load project-root .env without overriding existing environment vars."""
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if not env_path.is_file():
+        return
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        return
+    load_dotenv(env_path, override=False)
+
+
 def resolve_base_structure(args):
     """
     按优先级确定起始基体结构：
@@ -547,6 +654,8 @@ def resolve_base_structure(args):
 
     返回 (structure, source, base_file, mp_doc)。
     """
+    load_env_file()
+
     if args.base_structure:
         path = Path(args.base_structure).expanduser()
         if not path.is_file():
@@ -1072,6 +1181,52 @@ def select_interstitial_sites(
 # 替换位点选择
 # ------------------------------------------------------------
 
+def _pick_sites(structure, indices, n, seed, sampler):
+    """
+    在给定索引集合里选 n 个位点（greedy 或 random），见
+    choose_substitution_sites 的说明。
+    """
+    if n <= 0:
+        return []
+    if len(indices) < n:
+        raise ValueError(f"位点不足：{len(indices)} < {n}")
+
+    rng = random.Random(seed)
+    if sampler == "random":
+        return sorted(rng.sample(list(indices), n))
+
+    candidates = list(indices)
+    rng.shuffle(candidates)
+
+    position_of = {index: position for position, index in enumerate(candidates)}
+    host_fracs = np.array(
+        [structure[index].frac_coords for index in candidates]
+    )
+    lattice = structure.lattice
+
+    selected = [candidates[0]]
+    min_distance = lattice.get_all_distances(
+        host_fracs,
+        host_fracs[[position_of[selected[0]]]],
+    ).ravel()
+
+    remaining = candidates[1:]
+    while len(selected) < n:
+        best_index = max(
+            remaining,
+            key=lambda index: min_distance[position_of[index]],
+        )
+        selected.append(best_index)
+        remaining.remove(best_index)
+        new_distances = lattice.get_all_distances(
+            host_fracs,
+            host_fracs[[position_of[best_index]]],
+        ).ravel()
+        min_distance = np.minimum(min_distance, new_distances)
+
+    return selected
+
+
 def choose_substitution_sites(
     structure,
     host,
@@ -1079,6 +1234,7 @@ def choose_substitution_sites(
     seed=1234,
     allowed_indices=None,
     sampler="greedy",
+    priority_indices=None,
 ):
     """
     选择 host 原子作为 substitution 位点。
@@ -1092,6 +1248,11 @@ def choose_substitution_sites(
 
     allowed_indices 可选：只在给定的结构索引里选（例如用 --host-wyckoff
     或 --host-site-filter 限定可取代位点）。
+
+    priority_indices 可选：优先位点（例如银锗矿的游离 S²⁻）。先从 priority
+    里取 min(k, len(priority)) 个，剩下的再从其余 host 位点里取；priority
+    足够时行为与只用 priority 完全相同。这就是 --host-site-filter=
+    free-anion-prefer 的实现：游离硫先占满，多出来的才上 PS4 的结构硫。
 
     后续可替换为：
     - Ewald 最小化；
@@ -1120,48 +1281,30 @@ def choose_substitution_sites(
             f"{len(host_indices)} < {n_substitutions}"
         )
 
-    rng = random.Random(seed)
-    if sampler == "random":
-        return sorted(rng.sample(host_indices, n_substitutions))
+    if priority_indices:
+        priority_set = set(priority_indices)
+        preferred = [i for i in host_indices if i in priority_set]
+        rest = [i for i in host_indices if i not in priority_set]
 
-    rng.shuffle(host_indices)
+        n_preferred = min(n_substitutions, len(preferred))
+        n_rest = n_substitutions - n_preferred
+        if n_rest > len(rest):
+            raise ValueError(
+                f"优先位点只有 {len(preferred)} 个，剩余 {n_rest} 个无处可放"
+                f"（其它 host 位点仅 {len(rest)} 个）"
+            )
 
-    position_of = {
-        index: position for position, index in enumerate(host_indices)
-    }
-    host_fracs = np.array(
-        [structure[index].frac_coords for index in host_indices]
-    )
-    lattice = structure.lattice
-
-    # 第一个随机选择
-    selected = [host_indices[0]]
-
-    # min_distance[j] = 第 j 个 host 原子到「已选集合」的最小距离，
-    # 每选出一个新位点后用一次向量化距离计算增量更新，
-    # 避免每个候选都做 O(n_host × n_sub²) 次逐点距离调用。
-    min_distance = lattice.get_all_distances(
-        host_fracs,
-        host_fracs[[position_of[selected[0]]]],
-    ).ravel()
-
-    remaining = host_indices[1:]
-
-    while len(selected) < n_substitutions:
-        best_index = max(
-            remaining,
-            key=lambda index: min_distance[position_of[index]],
+        selected = _pick_sites(
+            structure, preferred, n_preferred, seed, sampler
         )
-        selected.append(best_index)
-        remaining.remove(best_index)
+        if n_rest:
+            # 用不同的种子，避免两段选出相关联的位点
+            selected += _pick_sites(
+                structure, rest, n_rest, seed + 7919, sampler
+            )
+        return sorted(selected)
 
-        new_distances = lattice.get_all_distances(
-            host_fracs,
-            host_fracs[[position_of[best_index]]],
-        ).ravel()
-        min_distance = np.minimum(min_distance, new_distances)
-
-    return selected
+    return _pick_sites(structure, host_indices, n_substitutions, seed, sampler)
 
 
 def apply_substitution(structure, indices, new_element):
@@ -1728,7 +1871,7 @@ def read_json(path):
 
 # 候选生成算法的版本号。生成逻辑本身变化时（即使参数没变）也必须
 # 让旧候选失效，因此把它并入候选指纹。
-CANDIDATE_FORMAT_VERSION = 3
+CANDIDATE_FORMAT_VERSION = 4
 
 # 筛选/弛豫记录的版本号，作用同上。
 ML_FORMAT_VERSION = 2
@@ -1769,6 +1912,8 @@ def run_fingerprint(args, scaling, numbers, base_identity=""):
         payload["host_framework_cutoff"] = args.host_framework_cutoff
     if args.substitution_sampler != "greedy":
         payload["substitution_sampler"] = args.substitution_sampler
+    if args.keep_cell:
+        payload["keep_cell"] = True
     digest = hashlib.sha256(
         json.dumps(payload, sort_keys=True).encode("utf-8")
     )
@@ -1831,6 +1976,7 @@ def generate_candidates(
     fingerprint,
     pool_distance_matrix=None,
     host_substitution_indices=None,
+    priority_substitution_indices=None,
 ):
     """
     生成 n_candidates 个掺杂候选结构并落盘。
@@ -1847,8 +1993,9 @@ def generate_candidates(
     不会因为个别文件缺失就丢弃全部候选；指纹变化时才整批重新生成。
     旧候选文件不会被删除，而是被新指纹的结果覆盖。
 
-    候选按「位点顺序无关」的结构指纹判重，同一组位点只保留一个；位点组合
-    枚举完后（连续多次抽到重复）自动提前结束，因此实际候选数可能少于
+    候选按「位点顺序无关」的结构指纹判重，同一组位点只保留一个。纯取代时
+    若可能构型数不超过 ENUMERATION_LIMIT（2000），直接枚举全部组合，试完
+    即停；否则抽样并在穷尽后自动提前结束。因此实际候选数可能少于
     --n-candidates（会打印提示）。
     """
     candidate_dir = Path(candidate_dir)
@@ -1884,6 +2031,32 @@ def generate_candidates(
             f"[Candidates] 候选指纹一致，复用 {len(existing)} 个已有结构，"
             "并补生成缺失的候选"
         )
+
+    # 纯取代时先看能否枚举全部位点组合：能枚举就只生成「所有可能构型」，
+    # 找齐即停，不会为了凑够 --n-candidates 一直重试重复组合。
+    enumerated_subsets = None
+    if n_extra == 0 and n_dopant > 0:
+        allowed = host_substitution_indices
+        if allowed is None:
+            allowed = [
+                i for i, site in enumerate(supercell.sites)
+                if str(site.specie) == args.host
+            ]
+        all_subsets = enumerate_substitution_subsets(
+            allowed,
+            n_dopant,
+            priority_substitution_indices,
+            ENUMERATION_LIMIT,
+        )
+        if all_subsets is not None:
+            total_subsets = len(all_subsets)
+            random.Random(args.seed).shuffle(all_subsets)
+            enumerated_subsets = all_subsets[: args.n_candidates]
+            print(
+                f"[Candidates] 位点组合共 {total_subsets} 种"
+                f"（<= {ENUMERATION_LIMIT}），直接枚举全部构型，"
+                f"最多生成 {len(enumerated_subsets)} 个候选"
+            )
 
     records = []
     generated = 0
@@ -1932,37 +2105,50 @@ def generate_candidates(
         accepted = False
         duplicate_streak = 0
 
-        for retry in range(max_duplicate_streak + 1):
+        tries = 1 if enumerated_subsets is not None else (max_duplicate_streak + 1)
+        for retry in range(tries):
             # retry=0 时与旧版一致：seed = args.seed + candidate_id
             seed = args.seed + candidate_id + retry * args.n_candidates
             try:
-                substitution_indices = choose_substitution_sites(
-                    structure=supercell,
-                    host=args.host,
-                    n_substitutions=n_dopant,
-                    seed=seed,
-                    allowed_indices=host_substitution_indices,
-                    sampler=args.substitution_sampler,
-                )
-                if n_extra > 0:
-                    selected_interstitials = select_interstitial_sites(
-                        structure=supercell,
-                        candidates=interstitial_pool,
-                        n_sites=n_extra,
-                        min_site_site_distance=args.min_site_site_distance,
-                        pool_size=args.candidate_pool_size,
-                        seed=seed,
-                        distance_matrix=pool_distance_matrix,
+                if enumerated_subsets is not None:
+                    # 枚举列表按 candidate_id 直接索引：同一种子下第 i 个槽位
+                    # 恒对应第 i 组位点，断点续跑时不会错位。
+                    if candidate_id >= len(enumerated_subsets):
+                        break
+                    substitution_indices = list(
+                        enumerated_subsets[candidate_id]
                     )
+                    selected_interstitials = []
                     removed_indices = []
                 else:
-                    selected_interstitials = []
-                    removed_indices = choose_removal_sites(
+                    substitution_indices = choose_substitution_sites(
                         structure=supercell,
-                        element=args.compensating_element,
-                        n_removals=-n_extra,
+                        host=args.host,
+                        n_substitutions=n_dopant,
                         seed=seed,
+                        allowed_indices=host_substitution_indices,
+                        sampler=args.substitution_sampler,
+                        priority_indices=priority_substitution_indices,
                     )
+                    if n_extra > 0:
+                        selected_interstitials = select_interstitial_sites(
+                            structure=supercell,
+                            candidates=interstitial_pool,
+                            n_sites=n_extra,
+                            min_site_site_distance=args.min_site_site_distance,
+                            pool_size=args.candidate_pool_size,
+                            seed=seed,
+                            distance_matrix=pool_distance_matrix,
+                        )
+                        removed_indices = []
+                    else:
+                        selected_interstitials = []
+                        removed_indices = choose_removal_sites(
+                            structure=supercell,
+                            element=args.compensating_element,
+                            n_removals=-n_extra,
+                            seed=seed,
+                        )
             except Exception as exc:
                 # 单个构型失败不应中断整个搜索
                 print(
@@ -2009,13 +2195,23 @@ def generate_candidates(
             break
 
         if not accepted:
-            print(
-                "[Candidates] 无法再生成新的不同候选（位点组合已枚举完，或该槽位"
-                "反复生成失败），提前结束："
-                f"去重后共 {len(records)} 个不同候选，少于 --n-candidates "
-                f"{args.n_candidates}。candidates/ 里可能残留旧指纹的 "
-                "candidate_*.cif，以下游使用的 candidates_meta.json 为准"
-            )
+            if (
+                enumerated_subsets is not None
+                and candidate_id >= len(enumerated_subsets)
+            ):
+                print(
+                    f"[Candidates] 所有 {len(enumerated_subsets)} 种位点组合"
+                    f"已全部尝试，共生成 {len(records)} 个不同候选"
+                    f"（少于 --n-candidates {args.n_candidates}），停止"
+                )
+            else:
+                print(
+                    "[Candidates] 无法再生成新的不同候选（该槽位反复生成失败），"
+                    f"提前结束：去重后共 {len(records)} 个不同候选，"
+                    f"少于 --n-candidates {args.n_candidates}。"
+                    "candidates/ 里可能残留旧指纹的 candidate_*.cif，"
+                    "以下游使用的 candidates_meta.json 为准"
+                )
             break
 
     if not records:
@@ -2197,311 +2393,25 @@ def build_parser():
         description="材料掺杂 + 间隙位点搜索 + MatterSim 弛豫",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
-
-    parser.add_argument(
-        "--base-formula",
-        required=True,
-        help="基础材料化学式，例如 Li6AsS5I",
+    # Parameter fields, types, choices, defaults and help come from the shared
+    # GenerationParams class.  Only standalone-CLI default overrides live here.
+    add_engine_arguments(
+        parser,
+        {
+            "n_candidates": 10,
+            "n_relax": None,
+            "relax_steps": 500,
+            "basestru_dir": str(DEFAULT_BASESTRU_DIR),
+        },
     )
-
-    parser.add_argument(
-        "--target-formula",
-        required=True,
-        help="目标化学式，例如 Li6.7As0.3Si0.7S5I",
-    )
-
-    parser.add_argument(
-        "--host",
-        required=True,
-        help="被替换元素，例如 As",
-    )
-
-    parser.add_argument(
-        "--dopant",
-        required=True,
-        help="掺杂元素，例如 Si",
-    )
-
-    parser.add_argument(
-        "--compensating-element",
-        default="Li",
-        help=(
-            "电荷补偿元素：目标化学式要求增加时插入，要求减少时移除"
-            "（例如掺 Cl 取代 S 时用 Li 减少来平衡电荷）"
-        ),
-    )
-
-    parser.add_argument(
-        "--host-wyckoff",
-        default=None,
-        help=(
-            "可选：把取代限制到基体原胞中这些 Wyckoff 轨道上的 host 位点，"
-            "逗号分隔，例如 '1c'。不指定则所有 host 原子都可被取代。"
-            "用于避免取代到化学上不该动的结构位点"
-            "（如 Li6PS5Cl 里 Cl 应取代自由 S²⁻ 而非 PS4 的结构硫）"
-        ),
-    )
-
-    parser.add_argument(
-        "--host-site-filter",
-        choices=["all", "free-anion"],
-        default="all",
-        help=(
-            "取代位点筛选：all = 所有 host 原子都可取代；"
-            "free-anion = 只允许「自由阴离子」host 位点"
-            "（到 --host-framework-element 最近距离 > --host-framework-cutoff），"
-            "用于把 O/Se 等取代限制到银锗矿的自由 S²⁻，避免破坏 PS4 四面体。"
-            "低对称（P1）有序胞里 Wyckoff 标签不可用，此时只能用该判据"
-        ),
-    )
-
-    parser.add_argument(
-        "--host-framework-element",
-        default="P",
-        help=(
-            "--host-site-filter=free-anion 时的骨架元素（判断 host 是否与之成键）。"
-            "可逗号分隔多个，例如 'P,Si'；以已掺杂结构为基体时必须把所有"
-            "四面体中心元素都列上"
-        ),
-    )
-
-    parser.add_argument(
-        "--host-framework-cutoff",
-        type=float,
-        default=3.0,
-        help=(
-            "--host-site-filter=free-anion 的距离阈值 Å："
-            "host 到骨架元素最小距离大于该值才算自由阴离子位点"
-        ),
-    )
-
-    parser.add_argument(
-        "--substitution-sampler",
-        choices=["greedy", "random"],
-        default="greedy",
-        help=(
-            "取代位点的抽样方式：greedy = 贪心让掺杂原子尽量分散（适合极稀掺杂，"
-            "如 k=1）；random = 均匀随机取 k 个（适合需要遍历不同构型的情况，"
-            "贪心在对称晶格上往往只能给出极少数组合）"
-        ),
-    )
-
-    parser.add_argument(
-        "--min-formula-units",
-        type=int,
-        default=0,
-        help=(
-            "auto 扩胞时的最小 f.u. 数（0 = 不限制）：把 LCM 体积倍数再乘一个"
-            "整数因子把胞放大到至少这么多 f.u.，用于可取代位点太少、"
-            "小胞产生不了构型多样性的情况。手动 --scaling 时忽略"
-        ),
-    )
-
-    parser.add_argument(
-        "--base-structure",
-        default=None,
-        help=(
-            "直接指定基体结构文件（CIF/POSCAR 等），"
-            "优先级高于 basestru 目录与 Materials Project"
-        ),
-    )
-
-    parser.add_argument(
-        "--basestru-dir",
-        default=str(DEFAULT_BASESTRU_DIR),
-        help="本地基体结构目录：里面有与 base-formula 匹配的文件时优先使用",
-    )
-
-    parser.add_argument(
-        "--use-basestru",
-        action=argparse.BooleanOptionalAction,
-        default=True,
-        help="是否优先使用 basestru 目录中的基体结构（--no-use-basestru 强制用 MP）",
-    )
-
-    parser.add_argument(
-        "--scaling",
-        default="auto",
-        help=(
-            "超胞矩阵对角元素，例如 1,2,5（体积倍数 = 三分量之积），"
-            "或 auto：按目标化学式下标分母的最小公倍数自动定体积倍数"
-        ),
-    )
-
-    parser.add_argument(
-        "--max-supercell-atoms",
-        type=int,
-        default=500,
-        help=(
-            "auto 模式下的原子数预算（硬上限）：精确整数化超过该值时"
-            "自动改用有理逼近；手工 --scaling 超过该值时仅警告"
-        ),
-    )
-
-    parser.add_argument(
-        "--allow-stoichiometry-approximation",
-        action=argparse.BooleanOptionalAction,
-        default=True,
-        help=(
-            "超出原子数预算时是否自动改用有理逼近"
-            "（默认允许；--no-allow-stoichiometry-approximation 则直接报错）"
-        ),
-    )
-
-    parser.add_argument(
-        "--stoichiometry-tolerance",
-        type=float,
-        default=0.03,
-        help="允许的最大原子分数偏差（0.03 = 3%%）",
-    )
-
-    parser.add_argument(
-        "--n-candidates",
-        type=int,
-        default=10,
-        help=(
-            "生成并做单点能筛选的候选结构数上限。候选会按结构判重，"
-            "位点组合枚举完后自动提前结束，因此实际数量可能更少"
-        ),
-    )
-
-    parser.add_argument(
-        "--n-samples",
-        type=int,
-        default=30000,
-        help="随机几何间隙采样点数",
-    )
-
-    parser.add_argument(
-        "--min-distance",
-        type=float,
-        default=1.8,
-        help="间隙点到现有原子的初筛最小距离 Å",
-    )
-
-    parser.add_argument(
-        "--min-site-site-distance",
-        type=float,
-        default=2.0,
-        help="额外插入原子之间的最小距离 Å",
-    )
-
-    parser.add_argument(
-        "--candidate-pool-size",
-        type=int,
-        default=200,
-        help="从 clearance 最大的前 N 个候选位点中贪心挑选",
-    )
-
-    parser.add_argument(
-        "--seed",
-        type=int,
-        default=1234,
-    )
-
-    parser.add_argument(
-        "--output",
-        default=None,
-        help=(
-            "输出目录。不指定时放在脚本同级目录的 output/ 下，"
-            "并按目标化学式分子目录，例如 main/output/Li5.4PS4.4Cl1.6"
-        ),
-    )
-
-    parser.add_argument(
-        "--relax",
-        action=argparse.BooleanOptionalAction,
-        default=True,
-        help="是否用 MatterSim 做筛选与弛豫（--no-relax 只生成结构）",
-    )
-
-    parser.add_argument(
-        "--relax-cell",
-        action=argparse.BooleanOptionalAction,
-        default=True,
-        help="弛豫时是否同时优化晶胞",
-    )
-
-    parser.add_argument(
-        "--fmax",
-        type=float,
-        default=0.05,
-        help="弛豫收敛力阈值 eV/Å",
-    )
-
-    parser.add_argument(
-        "--relax-steps",
-        type=int,
-        default=500,
-        help="弛豫最大步数",
-    )
-
-    parser.add_argument(
-        "--relax-optimizer",
-        default="FIRE",
-        choices=["FIRE", "BFGS"],
-        help="弛豫优化器",
-    )
-
-    parser.add_argument(
-        "--n-relax",
-        type=int,
-        default=None,
-        help=(
-            "筛选后实际做弛豫的候选数，"
-            "默认 min(n-candidates, 20)"
-        ),
-    )
-
-    parser.add_argument(
-        "--screen-batch-size",
-        type=int,
-        default=8,
-        help="单点能筛选的批大小",
-    )
-
-    parser.add_argument(
-        "--relax-natoms-per-batch",
-        type=int,
-        default=128,
-        help="批量弛豫时每个 batch 的最大原子数",
-    )
-
-    parser.add_argument(
-        "--relax-chunk-size",
-        type=int,
-        default=4,
-        help="每次批量弛豫的结构数（也是断点续跑的粒度）",
-    )
-
-    parser.add_argument(
-        "--relax-timeout",
-        type=float,
-        default=0.0,
-        help="单个结构弛豫的墙钟时间上限（秒），0 表示不限制",
-    )
-
-    parser.add_argument(
-        "--model",
-        default=None,
-        help=(
-            "MatterSim 模型：mattersim-v1.0.0-1M / "
-            "mattersim-v1.0.0-5M 或本地 .pth 文件路径，"
-            "默认使用 1M 预训练模型。注意 .pth 通过 pickle 加载，"
-            "必须来自可信来源"
-        ),
-    )
-
-    parser.add_argument(
-        "--device",
-        default="auto",
-        help="筛选/弛豫设备：auto / cpu / cuda / mps",
-    )
-
     parser.add_argument(
         "MP_API",
-        default="0G2LB7SliM9T6uvmmSX5iyAh1BB4LqxJ",
-        help="MP数据库API，六个月有效"
+        nargs="?",
+        default=None,
+        help=(
+            "已弃用的位置参数，保留仅为兼容旧命令；"
+            "Materials Project 凭据请用 MP_API_KEY 环境变量"
+        ),
     )
     return parser
 
@@ -2576,10 +2486,16 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Step 2: 转换到 primitive cell
+    # Step 2: 转换到 primitive cell（--keep-cell 时保留给定胞）
     # --------------------------------------------------------
 
-    primitive = base_structure.get_primitive_structure()
+    if args.keep_cell:
+        primitive = base_structure
+        print(
+            "\n[Primitive] --keep-cell：保留给定胞，不做 primitive 约化"
+        )
+    else:
+        primitive = base_structure.get_primitive_structure()
 
     print(
         f"\n[Primitive] nsites={len(primitive)}"
@@ -2619,6 +2535,7 @@ def main():
         max_multiplier=max_multiplier,
         explicit=explicit_scaling,
         min_formula_units=args.min_formula_units,
+        forced_multiplier=args.supercell_multiplier,
     )
 
     inexact = (
@@ -2880,7 +2797,8 @@ def main():
                 "（见输出 base_primitive.cif 的对称性分析）"
             )
 
-    if args.host_site_filter == "free-anion":
+    priority_substitution_indices = None
+    if args.host_site_filter in {"free-anion", "free-anion-prefer"}:
         free_indices = set(
             free_anion_site_indices(
                 structure=supercell,
@@ -2889,27 +2807,62 @@ def main():
                 cutoff=args.host_framework_cutoff,
             )
         )
-        if host_substitution_indices is None:
-            host_substitution_indices = [
+
+        if args.host_site_filter == "free-anion":
+            if host_substitution_indices is None:
+                host_substitution_indices = [
+                    i for i, site in enumerate(supercell.sites)
+                    if str(site.specie) == args.host and i in free_indices
+                ]
+            else:
+                host_substitution_indices = [
+                    i for i in host_substitution_indices if i in free_indices
+                ]
+            print(
+                f"[Substitution] --host-site-filter=free-anion："
+                f"可选 {len(host_substitution_indices)}/{total_host} 个 "
+                f"{args.host} 位点（最近 {args.host_framework_element} > "
+                f"{args.host_framework_cutoff} Å）"
+            )
+            if not host_substitution_indices:
+                raise ValueError(
+                    f"--host-site-filter=free-anion 在超胞里没有匹配的 "
+                    f"{args.host} 位点；请检查 --host-framework-element 与 "
+                    "--host-framework-cutoff"
+                )
+        else:
+            # prefer：全部 host 都可取代，但先占满自由阴离子位点，
+            # 数量超出时余下的才落到骨架硫上。
+            priority_substitution_indices = [
                 i for i, site in enumerate(supercell.sites)
                 if str(site.specie) == args.host and i in free_indices
             ]
-        else:
-            host_substitution_indices = [
-                i for i in host_substitution_indices if i in free_indices
-            ]
-        print(
-            f"[Substitution] --host-site-filter=free-anion："
-            f"可选 {len(host_substitution_indices)}/{total_host} 个 "
-            f"{args.host} 位点（最近 {args.host_framework_element} > "
-            f"{args.host_framework_cutoff} Å）"
-        )
-        if not host_substitution_indices:
-            raise ValueError(
-                f"--host-site-filter=free-anion 在超胞里没有匹配的 "
-                f"{args.host} 位点；请检查 --host-framework-element 与 "
-                "--host-framework-cutoff"
+            if host_substitution_indices is not None:
+                allowed = set(host_substitution_indices)
+                priority_substitution_indices = [
+                    i for i in priority_substitution_indices
+                    if i in allowed
+                ]
+            print(
+                f"[Substitution] --host-site-filter=free-anion-prefer："
+                f"自由 {args.host} 位点 "
+                f"{len(priority_substitution_indices)}/{total_host} 个"
+                f"（最近 {args.host_framework_element} > "
+                f"{args.host_framework_cutoff} Å），先占满再上骨架位点"
             )
+            need = abs(n_dopant)
+            if need > len(priority_substitution_indices):
+                print(
+                    f"[Substitution] 需要 {need} 个，自由位点只有 "
+                    f"{len(priority_substitution_indices)} 个，"
+                    f"其余 {need - len(priority_substitution_indices)} 个将取代"
+                    "骨架硫"
+                )
+            if not priority_substitution_indices:
+                print(
+                    f"[Substitution] ⚠ 没找到自由 {args.host} 位点，"
+                    "全部落到骨架位点"
+                )
 
     if host_substitution_indices is not None:
         if len(host_substitution_indices) < abs(n_dopant):
@@ -2940,6 +2893,7 @@ def main():
         fingerprint=candidate_fingerprint,
         pool_distance_matrix=pool_distance_matrix,
         host_substitution_indices=host_substitution_indices,
+        priority_substitution_indices=priority_substitution_indices,
     )
 
     # 说明：这里不再删除旧的 screening.csv / relaxed/。

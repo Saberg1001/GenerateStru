@@ -1,0 +1,10 @@
+[10:59:28] ==============================================================================
+[10:59:28] Batch experiment generation
+[10:59:28] csv:         /home/ziyiguo/project/GenerateStru/main/LPSC-exp.csv
+[10:59:28] tasks:       67 (planned=67, skipped=0)
+[10:59:28] output root: /home/ziyiguo/project/GenerateStru/main/output/lpsc
+[10:59:28] settings:    n_candidates=200 n_relax=10 fmax=0.05 relax_steps=1000 optimizer=FIRE device=auto
+[10:59:28] log:         /home/ziyiguo/project/GenerateStru/main/logs/lpsc/experiment_20261028_105928.log
+[10:59:28] ==============================================================================
+[10:59:28] [001/67] exp_003 Li5.4PS4.4Cl1.6 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1 :: base-only
+[10:59:28] [002/67] exp_001 Li5.7PS4.7Cl1.3 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1 :: Cl->S 0.3 (Li5.4PS4.4Cl1.6 -> Li5.7PS4.7Cl1.3)

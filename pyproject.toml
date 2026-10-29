@@ -1,0 +1,31 @@
+[project]
+name = "generate-stru"
+version = "0.1.0"
+description = "Li-ion solid electrolyte structure generation and MatterSim relaxation"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy==1.26.4",
+    "pymatgen==2024.10.29",
+    "ase==3.25.0",
+    "mp-api==0.43.0",
+    "torch==2.2.1+cu118",
+    "torchvision==0.17.1+cu118",
+    "torchaudio==2.2.1+cu118",
+    "torch-geometric==2.8.0.post1",
+    "mattersim==1.1.2",
+    "python-pptx>=0.6.23",
+    "python-dotenv>=1.0,<2",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pytorch-cu118"
+url = "https://download.pytorch.org/whl/cu118"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu118" }
+torchvision = { index = "pytorch-cu118" }
+torchaudio = { index = "pytorch-cu118" }

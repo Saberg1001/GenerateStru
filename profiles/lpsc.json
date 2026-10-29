@@ -1,0 +1,43 @@
+{
+  "csv": "formula/LPSC-exp.tsv",
+  "output_root": "output/lpsc",
+  "label": ["LPSC"],
+  "require_local_base": true,
+  "parent_library": {
+    "LPSC": [
+      "Li6PS5Cl",
+      "Li5.4PS4.4Cl1.6",
+      "Li5.4PS4.4Cl1Br0.6",
+      "Li5.5PS4.5Cl1.5",
+      "Li5.5AsS4.5Br1.5",
+      "Li6AsS5I",
+      "Li6SbS5I",
+      "Li6.7Sb0.3Si0.7S5I",
+      "Li6.7Si0.7Sb0.3S5I"
+    ]
+  },
+  "known_bases": [
+    "Li6PS5Cl",
+    "Li5.4PS4.4Cl1.6",
+    "Li5.4PS4.4Cl1Br0.6",
+    "Li5.5PS4.5Cl1.5",
+    "Li5.5AsS4.5Br1.5",
+    "Li6AsS5I",
+    "Li6SbS5I",
+    "Li6.7Sb0.3Si0.7S5I",
+    "Li6.7Si0.7Sb0.3S5I"
+  ],
+  "defaults": {
+    "no_mp": true,
+    "adaptive_budget": false,
+    "s_halogen_filter": "free-anion",
+    "n_candidates": 200,
+    "n_relax": 10,
+    "fmax": 0.05,
+    "relax_steps": 1000,
+    "relax_optimizer": "FIRE",
+    "device": "auto",
+    "max_supercell_atoms": 2000,
+    "min_formula_units": 0
+  }
+}

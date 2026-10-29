@@ -1,0 +1,27 @@
+[10:59:02] ==============================================================================
+[10:59:02] Batch experiment generation
+[10:59:02] csv:         /home/ziyiguo/project/GenerateStru/main/LPSC-exp.csv
+[10:59:02] tasks:       67 (planned=67, skipped=0)
+[10:59:02] output root: /home/ziyiguo/project/GenerateStru/main/output/lpsc
+[10:59:02] settings:    n_candidates=200 n_relax=10 fmax=0.05 relax_steps=1000 optimizer=FIRE device=auto
+[10:59:02] log:         /home/ziyiguo/project/GenerateStru/main/logs/lpsc/experiment_20261028_105902.log
+[10:59:02] ==============================================================================
+[10:59:02] [001/67] exp_003 Li5.4PS4.4Cl1.6 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1 :: base-only
+[10:59:02] [002/67] exp_001 Li5.7PS4.7Cl1.3 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1 :: Cl->S 0.3 (Li5.4PS4.4Cl1.6 -> Li5.7PS4.7Cl1.3)
+[10:59:02] [003/67] exp_002 Li5.5PS4.5Cl1.5 base=LPSC parent=Li5.5PS4.5Cl1.5 stages=1 :: base-only
+[10:59:02] [004/67] exp_004 Li5.3PS4.3Cl1.7 base=LPSC parent=Li5.4PS4.4Cl1.6 stages=1 :: S->Cl 0.1 (Li5.4PS4.4Cl1.6 -> Li5.3PS4.3Cl1.7)
+[10:59:02] [005/67] exp_005 Li5.5PS4.5Cl1.45I0.05 base=LPSC parent=Li5.5PS4.5Cl1.5 stages=1 :: Cl->I 0.05 (Li5.5PS4.5Cl1.5 -> Li5.5PS4.5Cl1.45I0.05)
+[10:59:02] [006/67] exp_006 Li5.5PS4.5Cl1.4I0.1 base=LPSC parent=Li5.5PS4.5Cl1.5 stages=1 :: Cl->I 0.1 (Li5.5PS4.5Cl1.5 -> Li5.5PS4.5Cl1.4I0.1)
+[10:59:02] [007/67] exp_007 Li5.5PS4.5Cl1.35I0.15 base=LPSC parent=Li5.5PS4.5Cl1.5 stages=1 :: Cl->I 0.15 (Li5.5PS4.5Cl1.5 -> Li5.5PS4.5Cl1.35I0.15)
+[10:59:02] [008/67] exp_008 Li5.5PS4.5Cl1.3I0.2 base=LPSC parent=Li5.5PS4.5Cl1.5 stages=1 :: Cl->I 0.2 (Li5.5PS4.5Cl1.5 -> Li5.5PS4.5Cl1.3I0.2)
+[10:59:02] [009/67] exp_009 Li5.5PS4.5Cl1.25I0.25 base=LPSC parent=Li5.5PS4.5Cl1.5 stages=1 :: Cl->I 0.25 (Li5.5PS4.5Cl1.5 -> Li5.5PS4.5Cl1.25I0.25)
+[10:59:02] [010/67] exp_017 Li5.5AsS4.5Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=1 :: base-only
+[10:59:02] [011/67] exp_018 Li5.5AsS4.3O0.2Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=1 :: S->O 0.2 (Li5.5AsS4.5Br1.5 -> Li5.5AsS4.3O0.2Br1.5)
+[10:59:02] [012/67] exp_019 Li5.5AsS4.1O0.4Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=1 :: S->O 0.4 (Li5.5AsS4.5Br1.5 -> Li5.5AsS4.1O0.4Br1.5)
+[10:59:02] [013/67] exp_020 Li5.5AsS3.8O0.7Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=1 :: S->O 0.7 (Li5.5AsS4.5Br1.5 -> Li5.5AsS3.8O0.7Br1.5)
+[10:59:02] [014/67] exp_021 Li5.5AsS2.5O2Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=1 :: S->O 2 (Li5.5AsS4.5Br1.5 -> Li5.5AsS2.5O2Br1.5)
+[10:59:02] [015/67] exp_022 Li5.5As0.9Sb0.1S4.5Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=1 :: As->Sb 0.1 (Li5.5AsS4.5Br1.5 -> Li5.5As0.9Sb0.1S4.5Br1.5)
+[10:59:02] [016/67] exp_023 Li5.5As0.8Sb0.2S4.5Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=1 :: As->Sb 0.2 (Li5.5AsS4.5Br1.5 -> Li5.5As0.8Sb0.2S4.5Br1.5)
+[10:59:02] [017/67] exp_024 Li5.5As0.9Sb0.1S4.3O0.2Br1.5 base=LPSC parent=Li5.5AsS4.5Br1.5 stages=2 :: S->O 0.2 (Li5.5AsS4.5Br1.5 -> Li5.5AsBr1.5O0.2S4.3); As->Sb 0.1 (Li5.5AsBr1.5O0.2S4.3 -> Li5.5As0.9Sb0.1S4.3O0.2Br1.5)
+[10:59:02] [018/67] exp_035 Li6.7Sb0.3Si0.7S5I base=LPSC parent=Li6PS5Cl stages=3 :: Cl->I 1 (Li6PS5Cl -> Li6IPS5); P->Si 0.7 (Li6IPS5 -> Li6.7IP0.3S5Si0.7); P->Sb 0.3 (Li6.7IP0.3S5Si0.7 -> Li6.7Sb0.3Si0.7S5I)
+[10:59:02] [019/67] exp_029 Li6.65As0.35Si0.65S5I base=LPSC parent=Li6.7Sb0.3Si0.7S5I stages=2 :: Sb->As 0.3 (Li6.7Sb0.3Si0.7S5I -> Li6.7As0.3IS5Si0.7); Si->As 0.05 (Li6.7As0.3IS5Si0.7 -> Li6.65As0.35Si0.65S5I)

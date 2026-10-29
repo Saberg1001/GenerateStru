@@ -1,2 +1,0 @@
-candidate_id,candidate_file,initial_energy_ev,initial_energy_per_atom_ev,initial_rank,selected_for_relaxation,converged,relaxation_steps,relaxation_seconds,relaxed_energy_ev,relaxed_energy_per_atom_ev,relaxed_rank,relaxed_file,error
-0,candidates/candidate_0000.cif,-256.4564208984375,-4.136393885458669,1,True,True,230,25.839712321999997,-259.623291015625,-4.187472435735887,1,/home/ziyiguo/project/GenerateStru/main/output/Li5.4PS4ClBr0.6O0.4/relaxed/candidate_0000.cif,

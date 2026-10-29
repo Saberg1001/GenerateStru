@@ -1,0 +1,9 @@
+PPT/
+models/
+.venv/
+__pycache__/
+*.pyc
+.kilo/
+test/
+.env
+output/
